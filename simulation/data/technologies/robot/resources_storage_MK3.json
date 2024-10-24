@@ -1,0 +1,18 @@
+{
+	"genericName": "Overproductivity MK3",
+	"description": "The Dimensional Network stands as a groundbreaking system enabling servers to connect to an adjacent dimension, offering space equivalent to several billion square kilometers once configured. In this dimension, the Confederation can vastly store resources, spare parts, waste, and various other storage items, thereby freeing up precious space on planets and orbiting stations. However, despite the utility of this dimension, technoresearchers have not delved deeper into studying this environment. To date, only an estimate of its size has been provided. Its exact subatomic-scale location and potential forms of life remain entirely unknown.",
+	"supersedes": "robot/resources_storage_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/resources_storage_3.png",
+	"requirementsTooltip": "Unlocked after Drilling Abundance MK2.",
+	"researchTime": 60,
+	"tooltip": "Gathering speed + 1.",
+	"modifications": [
+		{ "value": "ResourceGatherer/BaseSpeed", "add": 1 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

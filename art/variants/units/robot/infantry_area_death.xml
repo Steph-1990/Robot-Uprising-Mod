@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="death">
+  <animations>
+    <animation file="units/robot/death/infantry_area_death.dae" name="death" speed="200"/>
+  </animations>
+  <props>
+    <!-- <prop actor="particles/blowing_dust.xml" attachpoint="smoke"/> -->
+    <prop actor="particles/bigflame.xml" attachpoint="smoke"/>
+  </props>
+</variant>

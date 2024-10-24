@@ -1,0 +1,20 @@
+{
+	"genericName": "Hunter MK3",
+	"description": "Airborne Dopamine is an artificial sensory experience that provides Falcobots with sensations akin to satisfaction and happiness during their flight in the skies. This sensation is induced by the application of precise electrical discharges within the circuits of the Falcobot, thereby stimulating its system to amplify the perceived emotions. This stimulation significantly enhances the efficiency, perseverance, and outcomes of Falcobots on the battlefield.",
+	"supersedes": "robot/spaceship_hunter_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/spaceship_hunter_3.png",
+	"requirementsTooltip": "Unlocked after Hunter MK2.",
+	"researchTime": 60,
+	"tooltip": "Increases Falcobots health + 100, flying speed + 15% and damage + 10.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 100 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.15 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 10 }
+	],
+	"affects": ["SpaceshipHunter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

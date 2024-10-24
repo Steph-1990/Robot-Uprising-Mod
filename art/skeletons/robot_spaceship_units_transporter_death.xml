@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="robot spaceship units transporter death" id="robot_spaceship_units_transporter_death">
+    <bone name="helice_main" />
+    <bone name="helice_left" />
+    <bone name="helice_right" />
+    <bone name="door_left" />
+    <bone name="door_right" />
+    <bone name="body" />
+    <bone name="reactor" />
+    <bone name="cube" />
+  </standard_skeleton>
+  <skeleton title="robot spaceship units transporter death" target="robot_spaceship_units_transporter_death">
+    <identifier>
+      <root>helice_main</root>
+    </identifier>
+    <bone name="helice_main">
+      <target>helice_main</target>
+    </bone>
+    <bone name="helice_left">
+      <target>helice_left</target>
+    </bone>
+    <bone name="helice_right">
+      <target>helice_right</target>
+    </bone>
+    <bone name="door_left">
+      <target>door_left</target>
+    </bone>
+    <bone name="door_right">
+      <target>door_right</target>
+    </bone>
+    <bone name="body">
+      <target>body</target>
+    </bone>
+    <bone name="reactor">
+      <target>reactor</target>
+    </bone>
+    <bone name="cube">
+      <target>cube</target>
+    </bone>
+  </skeleton>
+</skeletons>

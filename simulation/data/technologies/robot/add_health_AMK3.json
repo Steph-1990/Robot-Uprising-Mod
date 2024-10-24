@@ -1,0 +1,23 @@
+{
+	"genericName": "Titanium Coating AMK3",
+	"description": "Thanks to this remarkable innovation known as self-regeneration, robots of the Confederation are capable of automatically restoring their damaged internal circuits, significantly increasing their ability to survive in hostile environments. This self-healing capability operates through interconnected wires and robust organic tissues integrated into the automaton's engines. This technology ensures that even in the face of severe damage, robots of the Confederation can swiftly recover, minimizing downtime and enhancing their operational resilience. Since the inception of this innovation, the Confederation has dominated the field of autonomous maintenance, providing an undeniable advantage on the battlefield and in all situations where robustness is paramount.",
+	"supersedes": "robot/add_health_AMK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/research_center_3.png",
+	"requirementsTooltip": "Unlocked after Titanium Coating AMK2.",
+	"researchTime": 80,
+	"tooltip": "Increases health + 200 of all structures.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 200 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

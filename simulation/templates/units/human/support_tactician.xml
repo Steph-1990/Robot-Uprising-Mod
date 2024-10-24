@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_tactician">
+
+	<Identity>
+		<Civ>human</Civ>
+		<Icon>units/human/tactician.png</Icon>
+		<GenericName></GenericName>
+		<SpecificName>Tacticien</SpecificName>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<VisualActor>
+		<Actor>units/human/support_tactician.xml</Actor>
+	</VisualActor>
+	
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="death">
+    <mesh>units/robot/spaceship_units_transporter.dae</mesh>
+    <animations>
+        <animation file="units/robot/spaceships/spaceship_units_transporter_death.dae" name="death" speed="100"/>
+    </animations>
+</variant>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+  <animations>
+    <animation file="units/human/walk/support_tactician_walk.dae" name="walk" speed="30"/>
+  </animations>
+</variant>

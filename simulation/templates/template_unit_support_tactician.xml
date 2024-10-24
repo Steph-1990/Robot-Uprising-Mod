@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+
+  <Attack disable= ""/>
+
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+        structures/human/landmine
+    </Entities>
+  </Builder>
+
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>25</food>
+      <stone>25</stone>
+    </Resources>
+  </Cost>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>150</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <RequiredTechnology>phase_village_robot</RequiredTechnology>
+    <Classes datatype="tokens">Tactician</Classes>
+  </Identity>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>6</Hack>
+        <Pierce>5</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <ResourceGatherer disable=""/>
+
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <Formations disable=""/>
+  </UnitAI>
+
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+
+</Entity>

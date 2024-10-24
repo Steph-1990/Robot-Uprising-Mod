@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_energy_supplier">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>50</food>
+	    <stone>50</stone>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="25" depth="40"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+    <Max>700</Max>
+  </Health>
+
+  <Identity>
+	  <Civ>robot</Civ>
+    <GenericName>Generator</GenericName>
+    <Icon>structures/robot/energy_supplier.png</Icon>
+	  <Tooltip>Building which give + 10 in Energy.</Tooltip>
+    <History>Generator make the civilisation able to expand, by increasing the energy quantity available.</History>
+	  <SpecificName>Generator</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="37.0" depth="18.0"/>
+  </Obstruction>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/energy_supplier_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <VisualActor>
+    <Actor>structures/robot/energy_supplier.xml</Actor>
+    <FoundationActor>structures/fndn_5x9.xml</FoundationActor>
+  </VisualActor>
+  
+</Entity>

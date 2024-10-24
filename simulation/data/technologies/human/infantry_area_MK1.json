@@ -1,0 +1,23 @@
+{
+	"genericName": "Bomber MK1",
+	"description": "Give an improve to Bomber.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/infantry_area_1.png",
+	"researchTime": 30,
+	"tooltip": "Damage + 10, Range + 5, Resistance + 2.",
+	"modifications": [
+		{ "value": "DeathDamage/Damage/Crush", "add": 10 },
+		{ "value": "DeathDamage/Range", "add": 5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 }
+	],
+	"affects": ["InfantryArea"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

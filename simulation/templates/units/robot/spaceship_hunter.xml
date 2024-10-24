@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship_hunter">
+
+	<Attack>
+		<Ranged>
+			<AttackName>Machine Guns</AttackName>
+			<Origin>
+				<X>0</X>
+				<Y>50.0</Y>
+				<Z>0</Z>
+			</Origin>
+			<Damage>
+				<Pierce>5</Pierce>
+			</Damage>
+			<MaxRange>120</MaxRange>
+			<MinRange>1</MinRange>
+			<PrepareTime>0</PrepareTime>
+			<Projectile>
+				<Speed>100</Speed>
+				<Spread>0.0</Spread>
+				<Gravity>0</Gravity>
+				<FriendlyFire>false</FriendlyFire>
+				<LaunchPoint y="0"/>
+				<ActorName>props/units/weapons/laser_ammo.xml</ActorName>
+			</Projectile>
+			<RepeatTime>100</RepeatTime>
+			<RestrictedClasses datatype="tokens">Human Structure Indestructible</RestrictedClasses>	
+      <PreferredClasses datatype="tokens">Hunter</PreferredClasses>
+		</Ranged>
+    <Capture disable =""/>
+	</Attack>
+
+	<Cost>
+		<BuildTime>15</BuildTime>
+		<Population>2</Population>
+		<Resources>
+		<food>80</food>
+		<wood>100</wood>
+		<stone>80</stone>
+		</Resources>
+  	</Cost>
+
+  	<Footprint>
+    	<Circle radius="12"/>
+  	</Footprint>
+
+	<Health>
+    	<Max>100</Max>
+    	<Unhealable>true</Unhealable>
+  	</Health>
+
+	<Identity>
+		<Civ>robot</Civ>
+        <GenericName>Falcobot</GenericName>
+		<Icon>units/robot/spaceship_hunter.png</Icon>
+		<SpecificName>Falcobot</SpecificName>
+		<Tooltip>Attack flying unit which can only shoot on enemy aircrafts.</Tooltip>
+    	<History>To diversify themselves, Robots created the Falcobot, a flying attack unit which is able to attack enemy aircrafts and defend ally spaceships.</History>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Pierce>10</Pierce>
+			</Damage>
+		</Entity>
+	</Resistance>
+
+	<Sound>
+    	<SoundGroups>
+      		<select>voice/robot/civ/spaceship_hunter_select.xml</select> 
+    	</SoundGroups>
+  	</Sound>
+
+	<VisualActor>
+		<Actor>units/robot/spaceship_hunter.xml</Actor>
+	</VisualActor>
+
+</Entity>

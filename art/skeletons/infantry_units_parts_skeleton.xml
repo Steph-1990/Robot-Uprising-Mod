@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="infantry units parts skeleton" id="infantry_units_parts_skeleton">
+    <bone name="infantry_units_parts_base" />
+    <bone name="infantry_units_parts" />
+  </standard_skeleton>
+  <skeleton title="infantry units parts skeleton" target="infantry_units_parts_skeleton">
+    <identifier>
+      <root>infantry_units_parts_base</root>
+    </identifier>
+    <bone name="infantry_units_parts_base">
+      <target>infantry_units_parts_base</target>
+    </bone>
+    <bone name="infantry_units_parts">
+      <target>infantry_units_parts</target>
+    </bone>
+  </skeleton>
+</skeletons>

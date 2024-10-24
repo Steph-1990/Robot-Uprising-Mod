@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia">
+
+    <Identity>
+        <GenericName>Stalagmite</GenericName>
+        <Icon>gaia/copper.png</Icon>
+        <SpecificName>Stalagmite</SpecificName>
+    </Identity>
+
+    <Obstruction>
+        <Active>true</Active>
+        <BlockMovement>true</BlockMovement>
+        <BlockPathfinding>true</BlockPathfinding>
+        <BlockFoundation>true</BlockFoundation>
+        <BlockConstruction>true</BlockConstruction>
+        <DisableBlockMovement>false</DisableBlockMovement>
+        <DisableBlockPathfinding>false</DisableBlockPathfinding>
+        <DeleteUponConstruction>false</DeleteUponConstruction>
+    </Obstruction>
+
+    <Obstruction>
+        <Static width="8.0" depth="8.0"/>
+    </Obstruction>
+
+    <Selectable>
+        <EditorOnly/>
+    </Selectable>
+
+    <VisualActor>
+        <Actor>props/special/stalagmite_mid_polar_ice.xml</Actor>
+    </VisualActor>
+
+    </Entity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive">
+
+  <!-- Obligé de garder cette balise, sinon jeu cassé -->
+  <Attack>
+    <Ranged>
+      <AttackName>Bow</AttackName>
+      <Damage>
+        <Pierce>10</Pierce>
+      </Damage>
+      <MaxRange>100</MaxRange>
+      <MinRange>10</MinRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>0</Spread>
+        <Gravity>0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+		  <ActorName>props/units/weapons/laser_ammo.xml</ActorName>
+      </Projectile>
+		<RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+			<RestrictedClasses datatype="tokens">Indestructible</RestrictedClasses>
+    </Ranged>
+  </Attack>
+
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+  </BuildingAI>
+
+  <BuildRestrictions>
+    <Territory>neutral</Territory>
+		<PlacementType>land</PlacementType>
+    <Category>Tower</Category>
+    <Distance>
+      <FromClass>Tower</FromClass>
+      <MinDistance>50</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+
+  <Identity>
+    <VisibleClasses datatype="tokens">Tower</VisibleClasses>
+  </Identity>
+
+  <StatusBars>
+    <HeightOffset>18.0</HeightOffset>
+  </StatusBars>
+
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry">
+
+<!-- La plupart des balises sont là car ce template n'est parent que d'un seul enfant, elles seront à déplacer si le nombre d'enfants augmente. -->
+
+  <Attack>
+		<Melee>
+      <AttackName>Explode</AttackName>
+			<Damage>
+				<Crush>1</Crush>
+			</Damage>
+			<MinRange>0</MinRange>
+			<MaxRange>1</MaxRange>
+			<PrepareTime>0</PrepareTime>
+			<RepeatTime>1200</RepeatTime>
+      		<RestrictedClasses datatype="tokens">Spaceship</RestrictedClasses>
+		</Melee>
+		<Capture disable =""/>
+		<Slaughter disable =""/>
+	</Attack>
+
+	<Cost>
+  		<BuildTime>10</BuildTime>
+		<Resources>
+			<food>50</food>
+			<stone>50</stone>
+		</Resources>
+	</Cost>
+
+  <Builder disable=""/>
+
+	<DeathDamage>
+		<Shape>Circular</Shape>
+		<Range>20</Range>
+		<FriendlyFire>false</FriendlyFire>
+		<Damage>
+			<Crush>300.0</Crush>
+		</Damage>
+	</DeathDamage>
+
+  <Footprint>
+    <Circle radius="5"/>
+  </Footprint>
+
+	<Health>
+		<Max>1</Max>
+	</Health>
+
+  	<Identity>
+		<Civ>robot</Civ>
+		<Tooltip>Bomber explodes at the slightest contact with enemy units by causing area damages around it. This unit is particularly effective against Predator.</Tooltip>
+		<Classes datatype="tokens">InfantryArea</Classes>
+		<VisibleClasses datatype="tokens">Melee</VisibleClasses>
+	</Identity>
+
+  <Loot disable =""/>
+
+  <Promotion disable=""/>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <ResourceGatherer disable=""/>
+
+  <UnitMotion>
+    <WalkSpeed op="mul">1.8</WalkSpeed>
+  </UnitMotion>
+
+</Entity>

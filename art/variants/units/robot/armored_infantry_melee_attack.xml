@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_melee">
+  <animations>
+    <animation file="units/robot/attack/armored_infantry_melee_attack.dae" name="attack_melee" id="attack_melee1"/>
+    <animation file="units/robot/attack/armored_infantry_melee_attack_2.dae" name="attack_melee" id="attack_melee2"/>
+  </animations>
+</variant>

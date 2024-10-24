@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+
+  <Attack>
+    <Melee>
+      <AttackName>Pike</AttackName>
+      <Damage>
+        <Hack>40</Hack>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Drill</RestrictedClasses>
+    </Melee>
+    <Capture disable =""/>
+    <Slaughter disable =""/>
+  </Attack>
+
+  <Footprint>
+    <Circle radius="4"/>
+  </Footprint>
+
+  <Health>
+    <Max>250</Max>
+  </Health>
+
+  <Identity>
+	  <Civ>human</Civ>
+	  <Icon>units/human/infantry_melee.png</Icon>
+	  <GenericName></GenericName>
+	  <SpecificName>NIV1</SpecificName>
+	  <Tooltip>Predator use their powerful jaw to crush their enemies. Their reinforced armor makes them particularly effective against Crossbots.</Tooltip>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Promotion>
+    <Entity>units/human/infantry_melee_b</Entity>
+    <RequiredXp>150</RequiredXp>
+    <TrickleRate>25</TrickleRate>
+  </Promotion>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+
+  <VisualActor>
+    <Actor>units/human/infantry_melee.xml</Actor>
+  </VisualActor>
+  
+</Entity>

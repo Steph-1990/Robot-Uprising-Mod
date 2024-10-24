@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_turret">
+
+	<Identity>
+		<RequiredTechnology>phase_town_robot</RequiredTechnology>
+		<SelectionGroupName>template_structure_defensive_tower_sentry</SelectionGroupName>
+		<Tooltip>Garrison Infantry for additional arrows. Needs the “Murder Holes” technology to protect its foot.</Tooltip>
+		<Classes datatype="tokens">AntiAirTurret</Classes>
+		<VisibleClasses datatype="tokens">SentryTower PhaseTwo</VisibleClasses>
+	</Identity>
+
+	<ProductionQueue/>
+
+	<!-- TODO : Différencier les technos de chaque civ avec {civ} -->
+	<Researcher>
+		<Technologies datatype="tokens">
+			{civ}/anti_aircraft_turret_MK1
+			{civ}/anti_aircraft_turret_MK2
+			{civ}/anti_aircraft_turret_MK3
+		</Technologies>
+	</Researcher>
+	
+</Entity>

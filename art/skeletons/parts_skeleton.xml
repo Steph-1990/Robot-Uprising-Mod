@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="parts skeleton" id="parts_skeleton">
+    <bone name="parts_base" />
+    <bone name="parts_mesh" />
+  </standard_skeleton>
+  <skeleton title="parts skeleton" target="parts_skeleton">
+    <identifier>
+      <root>parts_base</root>
+    </identifier>
+    <bone name="parts_base">
+      <target>parts_base</target>
+    </bone>
+    <bone name="parts_mesh">
+      <target>parts_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

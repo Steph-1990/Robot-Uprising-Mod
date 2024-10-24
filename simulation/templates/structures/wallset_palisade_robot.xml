@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+
+  <Identity>
+    <GenericName></GenericName>
+    <SpecificName>Energy Barrier</SpecificName>
+    <Tooltip>Allow ally units access through energy walls.</Tooltip>
+    <VisibleClasses datatype="tokens">-Wall Palisade</VisibleClasses>
+    <Icon>structures/robot/robot_wall.png</Icon>
+  </Identity>
+
+  <WallSet>
+    <Templates>
+      <Tower>structures/robot/palisades_tower</Tower>
+      <Gate>structures/robot/palisades_gate</Gate>
+      <Fort>structures/robot/palisades_fort</Fort>
+      <WallLong>structures/robot/palisades_gate_long</WallLong>
+      <WallMedium>structures/robot/palisades_gate_medium</WallMedium>
+      <WallShort>structures/robot/palisades_gate_short</WallShort>
+    </Templates>
+  </WallSet>
+  
+</Entity>

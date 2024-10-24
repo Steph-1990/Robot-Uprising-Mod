@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>1.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+
+  <Identity>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Soldier Cavalry Infantry ArmoredInfantry</VisibleClasses>
+  </Identity>
+  
+</Entity>

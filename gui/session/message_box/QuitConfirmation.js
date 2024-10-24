@@ -1,0 +1,30 @@
+class QuitConfirmation extends SessionMessageBox
+{
+}
+
+QuitConfirmation.prototype.Title =
+	translate("Confirmation");
+
+QuitConfirmation.prototype.Caption =
+	translate("The game has finished, what do you want to do?");
+
+QuitConfirmation.prototype.Buttons =
+[
+	{
+		// Translation: Shown in the Dialog that shows up when the game finishes
+		"caption": translate("Stay")
+	},
+	{
+		// Translation: Shown in the Dialog that shows up when the game finishes
+		"caption": translate("Quit and View Summary"),
+		"onPress": () => { endGame(true); }
+	},
+	{
+		// Translation: Shown in the Dialog that shows up when the game finishes
+		"caption": translate("Quit"),
+		"onPress": () => { endGame(false); }
+	}
+];
+
+QuitConfirmation.prototype.Width = 1000;
+QuitConfirmation.prototype.Height = 200;

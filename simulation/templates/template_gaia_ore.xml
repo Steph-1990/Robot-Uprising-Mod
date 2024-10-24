@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia">
+
+  <BuildRestrictions>
+    <Category>Resource</Category>
+    <Territory>own neutral ally</Territory>
+    <PlacementType>land</PlacementType>
+  </BuildRestrictions>
+
+  <Decay>
+    <Active>false</Active>
+    <SinkingAnim>false</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>9.8</SinkAccel>
+  </Decay>
+
+  <Footprint>
+    <Circle radius="15.0"/>
+    <Height>3.5</Height>
+  </Footprint>
+
+  <Obstruction>
+    <Static width="20" depth="20"/>
+    <!-- Delete as a workaround to facilitate wall placement. -->
+    <DeleteUponConstruction>false</DeleteUponConstruction>
+  </Obstruction>
+
+  <Position>
+    <Anchor>pitch-roll</Anchor>
+  </Position>
+
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>300</Max>
+    <Type>metal.ore</Type>
+    <MaxGatherers>12</MaxGatherers>
+  </ResourceSupply>
+
+</Entity>

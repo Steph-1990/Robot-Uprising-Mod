@@ -1,0 +1,23 @@
+{
+	"genericName": "Tactician MK1",
+	"description": "Give an improve to Tactician.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/support_tactician_1.png",
+	"researchTime": 1,
+	"tooltip": "Landmine damage + 10%, Landmine cost - 10%, Health + 50.",
+	"modifications": [
+		{ "value": "DeathDamage/Damage/Crush", "multiply": 1.1, "affects": "Landmine" },
+        { "value": "Cost/Resources/stone", "multiply": 0.9, "affects": "Landmine" },
+		{ "value": "Cost/Resources/food", "multiply": 0.9, "affects": "Landmine" },
+        { "value": "Health/Max", "add": 50, "affects": "Tactician" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

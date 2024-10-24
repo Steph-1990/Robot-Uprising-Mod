@@ -1,0 +1,32 @@
+{
+	"genericName": "Efficiency AMK2",
+	"supersedes": "human/reduce_cost_AMK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/research_center_2.png",
+	"requirementsTooltip": "Unlocked after Efficiency AMK1.",
+	"researchTime": 60,
+	"tooltip": "Decreases Cost of all structures.",
+	"modifications": [
+		{ "value": "Cost/Resources/wood", "add": -25, "affects": "Generator" },
+		{ "value": "Cost/Resources/stone", "add": -25, "affects": "Generator" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "InfantryFactory" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "InfantryFactory" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "ArmoredInfantryFactory" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "ArmoredInfantryFactory" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "Spacedock" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "Spacedock" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "AntiAirTurret" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "AntiAirTurret" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "Turret" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "Turret" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

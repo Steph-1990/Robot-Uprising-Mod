@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structures/robot/resources_storage.dae</mesh>
+      <textures>
+        <texture file="structures/robot/resources_storage_d.png" name="baseTex"/>
+        <texture file="structures/robot/resources_storage_d.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+      <material>playercolor_spec.xml</material>
+</actor>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structures/human/land_turret.dae</mesh>
+      <texture file="structures/human/land_turret.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

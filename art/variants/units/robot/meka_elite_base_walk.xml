@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+  <animations>
+    <animation file="units/robot/walk/meka_elite_walk.dae" name="walk" speed="7"/>
+    <animation file="units/robot/idle/meka_elite_idle.dae" name="idle" speed="80"/>
+  </animations>
+</variant>

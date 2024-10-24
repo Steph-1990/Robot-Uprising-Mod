@@ -1,0 +1,20 @@
+{
+	"genericName": "Hunter MK3",
+	"description": "Give an improve to hunter.",
+	"supersedes": "human/spaceship_hunter_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/spaceship_hunter_3.png",
+	"requirementsTooltip": "Unlocked after Hunter MK2.",
+	"researchTime": 60,
+	"tooltip": "Health + 100, Fkying speed + 15%, Damage + 10.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 100 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.15 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 10 }
+	],
+	"affects": ["SpaceshipHunter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

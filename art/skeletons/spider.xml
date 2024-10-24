@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="spider" id="spider">
+    <bone name="leg_a_right1">
+      <bone name="leg_a_right2">
+        <bone name="leg_a_right3">
+          <bone name="leg_a_right4">
+            <bone name="leg_a_right5" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_b_right1">
+      <bone name="leg_b_right2">
+        <bone name="leg_b_right3">
+          <bone name="leg_b_right4">
+            <bone name="leg_b_right5" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_c_right1">
+      <bone name="leg_c_right2">
+        <bone name="leg_c_right3">
+          <bone name="leg_c_right4">
+            <bone name="leg_c_right5" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_c_left1">
+      <bone name="leg_c_left2">
+        <bone name="leg_c_left3">
+          <bone name="leg_c_left4">
+            <bone name="leg_c_left5" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_b_left1">
+      <bone name="leg_b_left2">
+        <bone name="leg_b_left3">
+          <bone name="leg_b_left4">
+            <bone name="leg_b_left5" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_a_left1">
+      <bone name="leg_a_left2">
+        <bone name="leg_a_left3">
+          <bone name="leg_a_left4">
+            <bone name="leg_a_left5" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="body_spider1">
+      <bone name="body_spider2">
+        <bone name="body_spider3" />
+      </bone>
+    </bone>
+    <bone name="gun1">
+      <bone name="gun2">
+        <bone name="gun3" />
+      </bone>
+    </bone>
+    <bone name="spider.001" />
+  </standard_skeleton>
+  <skeleton title="spider" target="spider">
+    <identifier>
+      <root>leg_a_right1</root>
+    </identifier>
+    <bone name="leg_a_right1">
+      <target>leg_a_right1</target>
+      <bone name="leg_a_right2">
+        <target>leg_a_right2</target>
+        <bone name="leg_a_right3">
+          <target>leg_a_right3</target>
+          <bone name="leg_a_right4">
+            <target>leg_a_right4</target>
+            <bone name="leg_a_right5">
+              <target>leg_a_right5</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_b_right1">
+      <target>leg_b_right1</target>
+      <bone name="leg_b_right2">
+        <target>leg_b_right2</target>
+        <bone name="leg_b_right3">
+          <target>leg_b_right3</target>
+          <bone name="leg_b_right4">
+            <target>leg_b_right4</target>
+            <bone name="leg_b_right5">
+              <target>leg_b_right5</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_c_right1">
+      <target>leg_c_right1</target>
+      <bone name="leg_c_right2">
+        <target>leg_c_right2</target>
+        <bone name="leg_c_right3">
+          <target>leg_c_right3</target>
+          <bone name="leg_c_right4">
+            <target>leg_c_right4</target>
+            <bone name="leg_c_right5">
+              <target>leg_c_right5</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_c_left1">
+      <target>leg_c_left1</target>
+      <bone name="leg_c_left2">
+        <target>leg_c_left2</target>
+        <bone name="leg_c_left3">
+          <target>leg_c_left3</target>
+          <bone name="leg_c_left4">
+            <target>leg_c_left4</target>
+            <bone name="leg_c_left5">
+              <target>leg_c_left5</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_b_left1">
+      <target>leg_b_left1</target>
+      <bone name="leg_b_left2">
+        <target>leg_b_left2</target>
+        <bone name="leg_b_left3">
+          <target>leg_b_left3</target>
+          <bone name="leg_b_left4">
+            <target>leg_b_left4</target>
+            <bone name="leg_b_left5">
+              <target>leg_b_left5</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_a_left1">
+      <target>leg_a_left1</target>
+      <bone name="leg_a_left2">
+        <target>leg_a_left2</target>
+        <bone name="leg_a_left3">
+          <target>leg_a_left3</target>
+          <bone name="leg_a_left4">
+            <target>leg_a_left4</target>
+            <bone name="leg_a_left5">
+              <target>leg_a_left5</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="body_spider1">
+      <target>body_spider1</target>
+      <bone name="body_spider2">
+        <target>body_spider2</target>
+        <bone name="body_spider3">
+          <target>body_spider3</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="gun1">
+      <target>gun1</target>
+      <bone name="gun2">
+        <target>gun2</target>
+        <bone name="gun3">
+          <target>gun3</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="spider.001">
+      <target>spider.001</target>
+    </bone>
+  </skeleton>
+</skeletons>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_meka_elite_factory">
+
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <wood>250</wood>
+      <stone>500</stone>
+      <food>500</food>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="40"/>
+    <Height>0.0</Height>
+    <MaxSpawnDistance>8</MaxSpawnDistance>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <GenericName>Behebot Factory</GenericName>
+    <Icon>structures/robot/meka_elite_factory.png</Icon>
+    <SpecificName>Behebot Factory</SpecificName>
+    <Tooltip>Factory programmed to train Behebot only. This building and Behebot are codependent, if one dies so does the other.</Tooltip>
+		<History>By researching and hard working, Robots found a way to ressucitate Behebot, which is the Robots leader. The only way to do it was by gathering Starcilite and by making it melt. So they could easily use the power of the Starcilite.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="45.0" depth="45.0"/>
+  </Obstruction>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/meka_elite_factory_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>15</Pierce>
+        <Hack>13</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <VisualActor>
+    <Actor>structures/robot/meka_elite_factory.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+  
+</Entity>

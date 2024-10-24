@@ -1,0 +1,25 @@
+{
+	"genericName": "Worker MK1",
+	"description": "Give an improve to Worker.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/support_worker_1.png",
+	"researchTime": 1,
+	"tooltip": "Resistance + 2, Walkspeed + 1, Building speed + 0.1.",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": 1 },
+		{ "value": "Builder/Rate", "add": 0.1 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

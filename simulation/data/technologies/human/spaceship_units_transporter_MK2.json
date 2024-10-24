@@ -1,0 +1,20 @@
+{
+	"genericName": "Conveyor MK2",
+	"description": "Give an improve to unit transporter.",
+	"supersedes": "human/spaceship_units_transporter_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/spaceship_units_transporter_2.png",
+	"requirementsTooltip": "Unlocked after Conveyor MK1.",
+	"researchTime": 45,
+	"tooltip": "Health + 70, Flying speed + 15%, Garrison + 10.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 70 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.15 },
+		{ "value": "GarrisonHolder/Max", "add": 10 }
+	],
+	"affects": ["SpaceshipUnitsTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

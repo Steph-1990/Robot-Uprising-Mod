@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_turret_anti_aircraft">
+
+  <Attack>
+		<Ranged>
+			<Damage>
+				<Pierce>50</Pierce>
+			</Damage>
+			<MinRange>0</MinRange>
+			<MaxRange>150</MaxRange>
+			<PrepareTime>0</PrepareTime>
+			<Projectile>
+				<LaunchPoint y="30"/>
+			</Projectile>
+			<RepeatTime>200</RepeatTime>
+			<RestrictedClasses datatype="tokens">Human Structure</RestrictedClasses>
+			<PreferredClasses datatype="tokens">Hunter</PreferredClasses>
+		</Ranged>
+	</Attack>
+
+  <Cost>
+		<BuildTime>40</BuildTime>
+		<Population>1</Population>
+		<Resources>
+			<stone>300</stone>
+			<food>350</food>
+		</Resources>
+	</Cost>
+
+  <Footprint>
+    <Circle radius="22"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+		<DeathType>vanish</DeathType>
+		<Max>1200</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+  <Identity>
+		<Civ>robot</Civ>
+		<GenericName>Anti-air Turret</GenericName>
+		<Icon>structures/robot/anti_aircraft_turret.png</Icon>
+		<SpecificName>Anti-air Turret</SpecificName>
+		<Tooltip>Automatic Turret which is able to shoot on aircrafts only. This building can be improved by technologies directly researched by the Anti-air Turret.</Tooltip>
+		<History>This turret has been programmed to defend the field around his view at any cost, which make it quite useful when Robots have to defend themselves against flying enemies.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="22.0" depth="22.0"/>
+  </Obstruction>
+
+  <ParticlePlayerColor/>
+
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/anti_aircraft_turret_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <VisualActor>
+    <Actor>structures/robot/anti_aircraft_turret.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

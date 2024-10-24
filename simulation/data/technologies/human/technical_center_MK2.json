@@ -1,0 +1,19 @@
+{
+	"genericName": "Anti Air Turret MK2",
+	"description": "Give an improve of Technical Center.",
+	"supersedes": "human/technical_center_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/technical_center_2.png",
+	"requirementsTooltip": "Unlocked after Technical Cnter MK1.",
+	"researchTime": 45,
+	"tooltip": "Garrison Max+ 10, Heal/sec + 1",
+	"modifications": [
+		{ "value": "GarrisonHolder/Max", "add": 10 },
+		{ "value": "GarrisonHolder/BuffHeal", "add": 1 }
+	],
+	"affects": ["TechnicalCenter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

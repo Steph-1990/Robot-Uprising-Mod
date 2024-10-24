@@ -1,0 +1,33 @@
+{
+	"genericName": "Multiplicity AMK3",
+	"description": "The Multiplicity technology offers the ability to significantly increase the value of materials by multiplying their internal structure to create perfect, cellular-level copies. This revolutionary process enables the Confederation to drastically reduce its raw material costs by maximizing the utilization of each resource. However, despite its successes in replicating simple materials such as metals and electronic components, the technoresearchers of the Confederation have not yet managed to extend this capability to more complex artifacts, such as the automatons themselves.",
+	"supersedes": "robot/reduce_cost_AMK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/research_center_3.png",
+	"requirementsTooltip": "Unlocked after Multiplicity AMK2.",
+	"researchTime": 80,
+	"tooltip": "Decreases cost of all structures.",
+	"modifications": [
+		{ "value": "Cost/Resources/wood", "add": -25, "affects": "Generator" },
+		{ "value": "Cost/Resources/stone", "add": -25, "affects": "Generator" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "InfantryFactory" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "InfantryFactory" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "ArmoredInfantryFactory" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "ArmoredInfantryFactory" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "Spacedock" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "Spacedock" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "AntiAirTurret" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "AntiAirTurret" },
+		{ "value": "Cost/Resources/food", "add": -50, "affects": "Turret" },
+		{ "value": "Cost/Resources/stone", "add": -50, "affects": "Turret" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

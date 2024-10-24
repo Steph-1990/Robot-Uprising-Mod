@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship_hunter">
+
+	<Attack>
+		<Ranged>
+			<AttackName>Machine Guns</AttackName>
+			<Damage>
+				<Pierce>5</Pierce>
+			</Damage>
+			<MaxRange>100</MaxRange>
+			<MinRange>1</MinRange>
+			<PrepareTime>0</PrepareTime>
+			<Projectile>
+				<Speed>100</Speed>
+				<Spread>0.0</Spread>
+				<Gravity>0</Gravity>
+				<FriendlyFire>false</FriendlyFire>
+				<LaunchPoint y="0"/>
+			</Projectile>
+			<RepeatTime>100</RepeatTime>
+			<RestrictedClasses datatype="tokens">Human Structure Indestructible</RestrictedClasses>	
+      <PreferredClasses datatype="tokens">Hunter</PreferredClasses>
+		</Ranged>
+    <Capture disable =""/>
+	</Attack>
+
+	<Cost>
+		<BuildTime>15</BuildTime>
+		<Population>2</Population>
+		<Resources>
+		<food>80</food>
+		<wood>100</wood>
+		<stone>80</stone>
+		</Resources>
+ 	</Cost>
+
+	<Footprint>
+    	<Circle radius="12"/>
+  	</Footprint>
+
+	<Health>
+    	<Max>100</Max>
+    	<Unhealable>true</Unhealable>
+  	</Health>
+
+	<Identity>
+		<Civ>human</Civ>
+		<Icon>units/human/spaceship_hunter.png</Icon>
+		<GenericName></GenericName>
+		<SpecificName>NIV1</SpecificName>
+		<Tooltip>The Hunter, specifically suited for air combats, use its laser canon to destroy enemies spaceships</Tooltip>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Promotion>
+		<Entity>units/human/spaceship_hunter_b</Entity>
+		<RequiredXp>150</RequiredXp>
+		<TrickleRate>25</TrickleRate>
+	</Promotion>
+
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Pierce>10</Pierce>
+			</Damage>
+		</Entity>
+	</Resistance>
+
+	<VisualActor>
+		<Actor>units/human/spaceship_hunter.xml</Actor>
+	</VisualActor>
+	
+</Entity>

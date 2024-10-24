@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<particles>
+
+    <texture>art/textures/particles/arrow.png</texture>
+    <blend mode="over"/>
+
+    <start_full/>
+
+    <constant name="emissionrate" value="1"/>              
+    <uniform name="lifetime" min="1" max="1"/>  
+	
+	<uniform name="position.x" value="0"/>
+    <uniform name="position.z" value="0"/>
+
+    <constant name="position.y" value="10"/>
+
+    <uniform name="velocity.x" min="0" max="0"/>
+    <uniform name="velocity.angle" min="0" max="0"/>
+    <uniform name="size" min="20.0" max="20.0"/>
+
+    <force x="-0"/>
+    <force z="0"/>
+    
+</particles>

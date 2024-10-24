@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_energy_supplier">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>50</food>
+	    <stone>50</stone>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="37.0" depth="18.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+    <Max>700</Max>
+  </Health>
+
+  <Identity>
+	  <Civ>human</Civ>
+    <Icon>structures/human/energy_supplier.png</Icon>
+	  <Tooltip>Build to increase your population.</Tooltip>
+	  <SpecificName>maison</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="37.0" depth="18.0"/>
+  </Obstruction>
+
+  <VisualActor>
+    <Actor>structures/human/energy_supplier.xml</Actor>
+    <FoundationActor>structures/fndn_9x5.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

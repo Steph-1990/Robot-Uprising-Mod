@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="training">
+  <mesh>structures/robot/armored_infantry_factory.dae</mesh>
+  <props>
+    <prop actor="particles/bigflame.xml" attachpoint="smoke_1"/>
+    <prop actor="particles/bigflame.xml" attachpoint="smoke_2"/>
+    <prop actor="particles/bigflame.xml" attachpoint="smoke_3"/>
+    <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_1"/>
+    <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_2"/>
+    <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_3"/>
+    <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_4"/>
+    <prop actor="props/structures/robot/armored_infantry_units_parts.xml" attachpoint="unit"/>
+  </props>
+</variant>

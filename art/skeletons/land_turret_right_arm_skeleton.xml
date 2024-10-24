@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="land turret right arm skeleton" id="land_turret_right_arm_skeleton">
+    <bone name="land_turret_right_arm" />
+    <bone name="land_turret_right_weapon" />
+    <bone name="right_arm" />
+  </standard_skeleton>
+  <skeleton title="land turret right arm skeleton" target="land_turret_right_arm_skeleton">
+    <identifier>
+      <root>land_turret_right_arm</root>
+    </identifier>
+    <bone name="land_turret_right_arm">
+      <target>land_turret_right_arm</target>
+    </bone>
+    <bone name="land_turret_right_weapon">
+      <target>land_turret_right_weapon</target>
+    </bone>
+    <bone name="right_arm">
+      <target>right_arm</target>
+    </bone>
+  </skeleton>
+</skeletons>

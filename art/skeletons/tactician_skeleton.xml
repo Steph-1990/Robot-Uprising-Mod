@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="tactician skeleton" id="tactician_skeleton">
+    <bone name="body_tactician">
+      <bone name="leg_L1">
+        <bone name="leg_L2">
+          <bone name="leg_L3">
+            <bone name="leg_L4" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="leg_R1">
+        <bone name="leg_R2">
+          <bone name="leg_R3">
+            <bone name="leg_R4" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="FootBack_L" />
+    <bone name="FootBack_R" />
+    <bone name="tactician_mesh" />
+  </standard_skeleton>
+  <skeleton title="tactician skeleton" target="tactician_skeleton">
+    <identifier>
+      <root>body_tactician</root>
+    </identifier>
+    <bone name="body_tactician">
+      <target>body_tactician</target>
+      <bone name="leg_L1">
+        <target>leg_L1</target>
+        <bone name="leg_L2">
+          <target>leg_L2</target>
+          <bone name="leg_L3">
+            <target>leg_L3</target>
+            <bone name="leg_L4">
+              <target>leg_L4</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="leg_R1">
+        <target>leg_R1</target>
+        <bone name="leg_R2">
+          <target>leg_R2</target>
+          <bone name="leg_R3">
+            <target>leg_R3</target>
+            <bone name="leg_R4">
+              <target>leg_R4</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="FootBack_L">
+      <target>FootBack_L</target>
+    </bone>
+    <bone name="FootBack_R">
+      <target>FootBack_R</target>
+    </bone>
+    <bone name="tactician_mesh">
+      <target>tactician_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

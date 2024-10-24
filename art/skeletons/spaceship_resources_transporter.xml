@@ -1,0 +1,14 @@
+<skeletons>
+	<standard_skeleton title="spaceship_resources_transporter" id="spaceship_resources_transporter">
+		<bone name="Propeller">
+		</bone>
+	</standard_skeleton>
+
+	<skeleton title="spaceship_resources_transporter" target="spaceship_resources_transporter">
+		<identifier>
+			<root>spaceship_resources_transporter</root>
+		</identifier>
+		<bone name="Propeller"><target>Propeller</target>
+		</bone>
+	</skeleton>
+</skeletons>

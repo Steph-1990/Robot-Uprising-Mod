@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia">
+
+    <Identity>
+        <GenericName>Rock</GenericName>
+        <Icon>gaia/copper.png</Icon>
+        <SpecificName>Copper</SpecificName>
+    </Identity>
+
+    <Obstruction>
+        <Active>true</Active>
+        <BlockMovement>true</BlockMovement>
+        <BlockPathfinding>true</BlockPathfinding>
+        <BlockFoundation>true</BlockFoundation>
+        <BlockConstruction>true</BlockConstruction>
+        <DisableBlockMovement>false</DisableBlockMovement>
+        <DisableBlockPathfinding>false</DisableBlockPathfinding>
+        <DeleteUponConstruction>false</DeleteUponConstruction>
+    </Obstruction>
+
+    <Obstruction>
+        <Static width="70.0" depth="70.0"/>
+    </Obstruction>
+
+    <Selectable>
+        <EditorOnly/>
+    </Selectable>
+
+    <VisualActor>
+        <Actor>props/special/mid_mars_rock_01_cliff_2.xml</Actor>
+    </VisualActor>
+
+    </Entity>

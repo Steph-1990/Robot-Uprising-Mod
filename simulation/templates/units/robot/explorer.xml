@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_explorer">
+
+	<Cost>
+		<BuildTime>5</BuildTime>
+		<Population>1</Population>
+		<Resources>
+		<food>30</food>
+		<stone>30</stone>
+		<wood>25</wood>     
+		</Resources>
+	</Cost>
+
+    <Footprint>
+    	<Circle radius="4"/>
+    </Footprint>
+
+	<Health>
+		<Max>80</Max>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+	<Identity>
+		<Civ>robot</Civ>
+        <GenericName>Spybot</GenericName>
+		<Icon>units/robot/explorer.png</Icon>
+		<SpecificName>Spybot</SpecificName>
+		<Tooltip>Flying support unit which can be useful to spy enemies or to find new resources and new strategic positions.</Tooltip>
+    	<History>Robots knew that building something big like a radar was going to be very expensive and not that useful. That's why they created a little flying unit which is able to spy enemy positions discreetly.</History>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Sound>
+		<SoundGroups>
+			<select>voice/robot/civ/support_explorer_select.xml</select>		
+		</SoundGroups>
+	</Sound>
+
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Pierce>5</Pierce>
+			</Damage>
+		</Entity>
+	</Resistance>
+
+	<VisualActor>
+		<Actor>units/robot/explorer.xml</Actor>
+	</VisualActor>
+
+</Entity>

@@ -1,0 +1,22 @@
+{
+	"genericName": "Overproduction",
+	"description": "The Lightstream is designed to prevent electricity loss by accelerating the circulation of particles beyond the speed of light. Operating on advanced quantum principles, the generators utilize an ultra-powerful electromagnetic field to propel the particles through a special multi-reflective conduit. The electric particles, then moving at speeds exceeding that of light, are thus capable of maintaining their integrity and power over long distances without experiencing significant loss, thereby offering innovative electrical performance.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/energy_supplier_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases health + 100 and double the amount of energy produced by Generators.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 100 },
+        { "value": "Population/Bonus", "add": 10}
+	],
+	"affects": ["Generator"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

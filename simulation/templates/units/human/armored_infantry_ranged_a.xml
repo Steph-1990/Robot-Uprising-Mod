@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_armored_infantry_ranged">
+
+  <Attack>
+    <Ranged>
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Pierce>50</Pierce>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>80</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>200</RepeatTime>
+      <Projectile>
+        <Speed>70</Speed>
+        <Spread>1</Spread>
+        <Gravity>0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="5"/>
+		<ActorName>props/units/weapons/laser_ammo.xml</ActorName>
+	  </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Drill Indestructible</RestrictedClasses>
+    </Ranged>
+    <Capture disable =""/>
+  </Attack>
+
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <stone>300</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="10"/>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>300</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>human</Civ>
+    <GenericName></GenericName>
+    <Icon>units/human/armored_infantry_ranged.png</Icon>
+    <SpecificName>NIV1</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Promotion>
+    <Entity>units/human/armored_infantry_ranged_b</Entity>
+    <RequiredXp>150</RequiredXp>
+    <TrickleRate>25</TrickleRate>
+  </Promotion>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>10</Pierce>
+        <Hack>14</Hack>
+        <Crush>10</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+
+  <VisualActor>
+    <Actor>units/human/armored_infantry_ranged.xml</Actor>
+  </VisualActor>
+  
+</Entity>

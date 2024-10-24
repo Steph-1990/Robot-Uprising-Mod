@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_ranged">
+  <animations>
+    <animation file="units/robot/attack/infantry_ranged_attack.dae" name="attack_ranged"/>
+  </animations>
+  <props>
+    <prop actor="particles/tower_artillery_trail.xml" attachpoint="smoke"/>
+  </props>
+</variant>

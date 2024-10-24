@@ -1,0 +1,23 @@
+{
+	"genericName": "Sh00t3r MK2",
+	"description": "Provide an improve to Sh00t3r.",
+	"supersedes": "human/infantry_ranged_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/infantry_ranged_2.png",
+	"requirementsTooltip": "Unlocked after Sh00t3r MK1.",
+	"researchTime": 45,
+	"tooltip": "Damage + 5, Resistance + 3, Range + 10, Vision range + 10.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Hack", "add": 5 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 10},
+		{ "value": "Vision/Range", "add": 10 }
+	],
+	"affects": ["InfantryRanged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

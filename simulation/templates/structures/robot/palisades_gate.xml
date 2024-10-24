@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_palisade">
+
+  <Cost>
+    <BuildTime>5</BuildTime>
+  </Cost>
+
+  <Footprint>
+    <Square width="15.0" depth="3.0"/>
+    <Height>7.0</Height>
+  </Footprint>
+
+  <Gate>
+    <PassRange>2</PassRange>
+  </Gate>
+
+  <Health>
+    <Max op="mul">0.5</Max>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <GenericName>Energy Barrier</GenericName>
+    <Icon>structures/robot/robot_wall.png</Icon>
+    <SpecificName>Energy Barrier</SpecificName>
+    <SelectionGroupName>structures/palisades_gate</SelectionGroupName>
+    <Tooltip>Energetic barrier which allows ally units to go through just by walking into it.</Tooltip>
+		<History>Even if Robots are very agressive, they found useful to have some defensive buildings in case of an attack.</History>
+    <VisibleClasses datatype="tokens">Gate</VisibleClasses>
+  </Identity>
+
+  <Obstruction>
+    <Obstructions>
+      <Right width="2" depth="2" x="6" z="0"/>
+      <Left width="2" depth="2" x="-6" z="0"/>
+      <Door width="10" depth="2" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/palisades_gate_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x1.xml</FoundationActor>
+    <Actor>structures/robot/palisade_rocks_gate.xml</Actor>
+  </VisualActor>
+
+  <WallPiece>
+    <Length>50</Length>
+  </WallPiece>
+  
+</Entity>

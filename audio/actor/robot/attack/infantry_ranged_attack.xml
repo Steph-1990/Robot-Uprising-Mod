@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<SoundGroup>
+	<Gain>0.5</Gain>
+	<Priority>50</Priority>
+	<ConeGain>1</ConeGain>
+	<Looping>0</Looping>
+	<RandOrder>1</RandOrder>
+	<GainUpper>0.5</GainUpper>
+	<GainLower>0.3</GainLower>
+	<RandPitch>1</RandPitch>
+	<Threshold>5</Threshold>
+	<Path>audio/actor/robot/attack/</Path>
+	<Sound>infantry_ranged_attack.ogg</Sound>
+	
+</SoundGroup>

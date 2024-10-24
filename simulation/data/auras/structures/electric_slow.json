@@ -1,0 +1,12 @@
+{
+	"type": "range",
+    "radius": 40,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.8 },
+        { "value": "Attack/Damage/Crush", "multiply": 0.8 }
+	],
+	"auraName": "Electric Slow Down",
+	"auraDescription": "Enemies in the area are slow downed.",
+    "overlayIcon": "art/textures/ui/session/auras/heal.png"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="formation-01">
+      <mesh>gaia/titanium.dae</mesh>
+      <textures>
+        <texture file="texture_titanium.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="Idle"/>
+     <variant name="click">
+      <props>
+        <prop actor="particles/arrow.xml" attachpoint="arrow"/>
+      </props>
+    </variant>
+  </group>
+</actor>

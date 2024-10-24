@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_armored_infantry_factory">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>350</stone>
+      <food>350</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="70.0" depth="60.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+	  <Civ>robot</Civ>
+    <Icon>structures/robot/armored_infantry_factory.png</Icon>
+	  <SpecificName>Armored Infantry Factory</SpecificName>
+    <GenericName>Armored Infantry Factory</GenericName>
+    <Tooltip>Factory programmed to train armored infantry units only. These units can be imporved by technologies directly researched by the Armored Infantry Factory.</Tooltip>
+    <History>Robots needed to be more powerful, more agressive. So they created armored infantry units to make the civilisation able to fight big enemy camps.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="70.0" depth="60.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>16</Pierce>
+        <Hack>7</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+  
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/armored_infantry_factory_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+    <Armored_infantry_factory>
+      <Entity>structures/robot/improved_armored_infantry_factory</Entity>
+      <Tooltip>Switch to make the armored infantry factory able to move.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Icon>portraits/upgrades/robot/armored_infantry_factory.png</Icon>
+      <Time>8</Time>
+      <Cost>
+				<stone>400</stone>
+        <food>400</food>
+			</Cost>
+      <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    </Armored_infantry_factory>
+  </Upgrade>
+
+  <VisualActor>
+    <Actor>structures/robot/armored_infantry_factory.xml</Actor>
+    <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

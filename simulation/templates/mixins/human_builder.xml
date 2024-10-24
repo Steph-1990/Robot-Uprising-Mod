@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Entity>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/energy_supplier
+      structures/{civ}/infantry_factory     
+      structures/{civ}/spacedock
+      structures/{civ}/copper_storage
+      structures/{civ}/titanium_storage
+      structures/{civ}/quartz_storage
+      structures/{civ}/research_center
+      structures/{civ}/meka_elite_factory
+      structures/{civ}/anti_aircraft_turret
+      structures/{civ}/land_turret
+      structures/{civ}/area_defense_turret
+      structures/{civ}/technical_center
+      structures/{civ}/armored_infantry_factory
+      structures/wallset_palisade_human
+      <!-- structures/{civ}/defensive_palisade -->
+	  </Entities>
+  </Builder>
+
+  <Identity>
+    <VisibleClasses datatype="tokens">Builder</VisibleClasses>
+  </Identity>
+  
+</Entity>

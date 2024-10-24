@@ -1,0 +1,24 @@
+{
+	"genericName": "Healer MK1",
+	"description": "Give an improve to Healer.",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/support_worker_1.png",
+	"requirementsTooltip": "Unlocked after Healer MK1.",
+	"researchTime": 45,
+	"tooltip": "Heal Range + 20%, Heal per sec + 1.5, Health + 50.",
+	"modifications": [
+		{ "value": "Heal/Range", "multiply": 1.2 },
+        { "value": "Heal/Health", "add": 1.5 },
+        { "value": "Health/Max", "add": 50 }
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

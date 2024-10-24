@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+
+  <BuildRestrictions>
+    <Territory>neutral own</Territory>
+    <PlacementType>land</PlacementType>
+  </BuildRestrictions>
+
+  <Capturable disable= ""/>
+
+  <GarrisonHolder disable = ""/>
+
+  <Identity>
+    <GenericName>Military Structure</GenericName>
+    <Classes datatype="tokens">ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Military</VisibleClasses>
+  </Identity>
+  
+</Entity>

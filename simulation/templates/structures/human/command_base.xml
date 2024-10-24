@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_command_base">
+
+<Attack>
+    <Ranged>
+      <AttackName>Bow</AttackName>
+       <Damage>
+        <Pierce>40</Pierce>
+        <Crush>40</Crush>
+      </Damage>
+      <MaxRange>100</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>100</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>1.5</Spread>
+        <Gravity>0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+        <ActorName>props/units/weapons/laser_ammo.xml</ActorName>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Spaceship Structure</RestrictedClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+
+  <Footprint>
+    <Square width="120.0" depth="120.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>2500</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>human</Civ>
+    <Icon>structures/human/powerstation.png</Icon>
+    <Tooltip>The center of the civilisation. This bulding must be protected. If not, the civilisation will die.</Tooltip>
+    <SpecificName>Power Station</SpecificName>
+  </Identity>
+
+  <Obstruction>
+    <Static width="120.0" depth="120.0"/>
+  </Obstruction>
+
+  <Researcher>
+		<Technologies datatype="tokens">
+      phase_village_human
+      phase_town_human
+      phase_city_human
+		</Technologies>
+  </Researcher>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+      <Pierce>20</Pierce>
+      <Hack>12</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <VisualActor>
+    <Actor>structures/human/command_base.xml</Actor>
+    <FoundationActor>structures/fndn_20x20.xml</FoundationActor>
+  </VisualActor>
+  
+</Entity>

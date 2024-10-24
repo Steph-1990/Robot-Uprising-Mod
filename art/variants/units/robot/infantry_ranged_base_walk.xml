@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+  <animations>
+    <animation file="units/robot/walk/infantry_ranged_walk.dae" name="walk" speed="12"/>
+    <animation file="units/robot/idle/infantry_ranged_idle.dae" name="idle" speed="80"/>
+  </animations>
+  <props>
+    <prop attachpoint="smoke"/>
+  </props>
+</variant>

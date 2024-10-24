@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_technical_center">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>200</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="55" depth="65"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <GarrisonHolder>
+    <Max>25</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>4</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>1000</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <Icon>structures/robot/technical_center.png</Icon>
+    <SpecificName>Static Technical Center</SpecificName>
+    <GenericName>Static Technical Center</GenericName>
+    <Tooltip>This building allows you to heal your units by putting them in garrison inside the Technical Center. This building can be switched in a mobile mode, allowing you to move your Technical Center by the air.</Tooltip>
+    <History>Robots needed to be more resistant during long fights. That's why they decided to create the Technical Center, which is able to heal the rest of the civilisation easily.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="55.0" depth="65.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>14</Pierce>
+        <Hack>6</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/technical_center_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+    <Technical_Center>
+      <Entity>units/robot/mobile_technical_center</Entity>
+      <Tooltip>Switch to make the Technical Center able to move.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Icon>portraits/upgrades/robot/technical_center.png</Icon>
+      <Time>10</Time>
+      <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    </Technical_Center>
+  </Upgrade>
+
+  <VisualActor>
+    <Actor>units/robot/mobile_technical_center.xml</Actor>
+    <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

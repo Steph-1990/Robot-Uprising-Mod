@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structures/human/energy_supplier.dae</mesh>
+      <textures>
+        <texture file="structures/human/energy_supplier.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

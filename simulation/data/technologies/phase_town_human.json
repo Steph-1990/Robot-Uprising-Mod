@@ -1,0 +1,28 @@
+{
+	"genericName": "Technological Progress TMK2",
+	"description": "Allows humans to make more different buildings",
+	"cost": {
+		"stone": 500,
+		"food": 500,
+        "wood": 500
+	},
+	"requirements": {
+		"entity": {
+			"class": "PhaseOne",
+			"number": 5
+		}
+	},
+	"requirementsTooltip": "Requires three Phase One Structures.",
+	"supersedes": "phase_village_human",
+	"replaces": ["phase_town"],
+	"icon": "town_phase.png",
+	"researchTime": 60,
+	"tooltip": "Technological progress make workers build faster and resource transporters gather more resources.",
+	"modifications": [
+		{ "value": "Builder/Rate", "add": 0.1, "affects": "Support Worker" },
+        { "value": "ResourceGatherer/Capacities/wood", "add": 50, "affects": "Resource Transporter" },
+        { "value": "ResourceGatherer/Capacities/stone", "add": 50, "affects": "Resource Transporter" },
+        { "value": "ResourceGatherer/Capacities/food", "add": 50, "affects": "Resource Transporter" }
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

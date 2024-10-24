@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/structures/robot/anti_aircraft_turret_left_arm.dae</mesh>
+      <textures>
+        <texture file="props/robot/anti_aircraft_turret_arms.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="attack_ranged" file="structures/robot/anti_aircraft_turret_left_arm_shooting.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

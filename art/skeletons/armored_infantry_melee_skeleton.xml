@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="armored infantry melee skeleton" id="armored_infantry_melee_skeleton">
+    <bone name="armored_infantry_melee_body">
+      <bone name="armored_infantry_melee_main_body">
+        <bone name="armored_infantry_melee_neck">
+          <bone name="armored_infantry_melee_head" />
+        </bone>
+        <bone name="forward_arm_R1">
+          <bone name="forward_arm_R2">
+            <bone name="forward_arm_R3" />
+          </bone>
+        </bone>
+        <bone name="forward_arm_L1">
+          <bone name="forward_arm_L2">
+            <bone name="forward_arm_L3" />
+          </bone>
+        </bone>
+        <bone name="backward_arm_R1">
+          <bone name="backward_arm_R2">
+            <bone name="backward_arm_R3" />
+          </bone>
+        </bone>
+        <bone name="backward_arm_L1">
+          <bone name="backward_arm_L2">
+            <bone name="backward_arm_L3" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="leg_R1">
+        <bone name="leg_R2">
+          <bone name="leg_R3" />
+        </bone>
+      </bone>
+      <bone name="leg_L1">
+        <bone name="leg_L2">
+          <bone name="leg_L3" />
+        </bone>
+      </bone>
+    </bone>
+    <bone name="armored_infantry_melee_mesh" />
+  </standard_skeleton>
+  <skeleton title="armored infantry melee skeleton" target="armored_infantry_melee_skeleton">
+    <identifier>
+      <root>armored_infantry_melee_body</root>
+    </identifier>
+    <bone name="armored_infantry_melee_body">
+      <target>armored_infantry_melee_body</target>
+      <bone name="armored_infantry_melee_main_body">
+        <target>armored_infantry_melee_main_body</target>
+        <bone name="armored_infantry_melee_neck">
+          <target>armored_infantry_melee_neck</target>
+          <bone name="armored_infantry_melee_head">
+            <target>armored_infantry_melee_head</target>
+          </bone>
+        </bone>
+        <bone name="forward_arm_R1">
+          <target>forward_arm_R1</target>
+          <bone name="forward_arm_R2">
+            <target>forward_arm_R2</target>
+            <bone name="forward_arm_R3">
+              <target>forward_arm_R3</target>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="forward_arm_L1">
+          <target>forward_arm_L1</target>
+          <bone name="forward_arm_L2">
+            <target>forward_arm_L2</target>
+            <bone name="forward_arm_L3">
+              <target>forward_arm_L3</target>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="backward_arm_R1">
+          <target>backward_arm_R1</target>
+          <bone name="backward_arm_R2">
+            <target>backward_arm_R2</target>
+            <bone name="backward_arm_R3">
+              <target>backward_arm_R3</target>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="backward_arm_L1">
+          <target>backward_arm_L1</target>
+          <bone name="backward_arm_L2">
+            <target>backward_arm_L2</target>
+            <bone name="backward_arm_L3">
+              <target>backward_arm_L3</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="leg_R1">
+        <target>leg_R1</target>
+        <bone name="leg_R2">
+          <target>leg_R2</target>
+          <bone name="leg_R3">
+            <target>leg_R3</target>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="leg_L1">
+        <target>leg_L1</target>
+        <bone name="leg_L2">
+          <target>leg_L2</target>
+          <bone name="leg_L3">
+            <target>leg_L3</target>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="armored_infantry_melee_mesh">
+      <target>armored_infantry_melee_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

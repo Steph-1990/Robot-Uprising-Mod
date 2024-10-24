@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_armored_infantry">
+
+  <Identity>
+    <Classes datatype="tokens">MekaElite</Classes>
+    <VisibleClasses datatype="tokens">Hero</VisibleClasses>
+  </Identity>
+
+  <TrainingRestrictions>
+    <Category>Hero</Category>
+    <MatchLimit>1</MatchLimit>
+  </TrainingRestrictions>
+
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+
+</Entity>

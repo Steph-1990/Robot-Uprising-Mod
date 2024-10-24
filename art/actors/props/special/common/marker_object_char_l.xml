@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100">
+      <mesh>props/special/marker_object_char_l.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="base">
+      <textures>
+        <texture file="props/marker_object.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="Idle"/>
+     <variant name="click">
+      <props>
+        <prop actor="particles/arrow.xml" attachpoint="arrow"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="training">
+    <animations>
+        <animation file="props/structures/robot/meka_elite_mesh_building.dae" name="training"/>
+    </animations>
+</variant>

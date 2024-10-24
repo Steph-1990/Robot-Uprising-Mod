@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+
+  <Identity>
+    <RequiredTechnology>phase_city_robot</RequiredTechnology>
+    <VisibleClasses datatype="tokens">ResearchCenter</VisibleClasses>
+  </Identity>
+
+  <ProductionQueue/>
+
+  <!-- TODO : Différencier chaque civ avec {civ} -->
+  <Researcher>
+		<Technologies datatype="tokens">
+      {civ}/add_health_AMK1
+      {civ}/add_health_AMK2
+      {civ}/add_health_AMK3
+      {civ}/reduce_cost_AMK1
+      {civ}/reduce_cost_AMK2
+      {civ}/reduce_cost_AMK3
+      {civ}/add_resistance_AMK1
+      {civ}/add_resistance_AMK2
+      {civ}/add_resistance_AMK3
+      {civ}/add_damage_AMK1
+      {civ}/add_damage_AMK2
+      {civ}/add_damage_AMK3
+		</Technologies>
+  </Researcher>
+
+</Entity>

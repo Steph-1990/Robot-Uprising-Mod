@@ -1,0 +1,28 @@
+{
+	"genericName": "Technological Progress TMK2",
+	"description": "The TMK2 Technology Phase is a very important stage for the Robot faction. Among other things, it allows them to unlock ships, helping them to access previously inaccessible areas or to harvest resources much more quickly than before. This phase represents a real turning point in the history of the Robot civilisation.",
+	"cost": {
+		"stone": 500,
+		"food": 500,
+        "wood": 500
+	},
+	"requirements": {
+		"entity": {
+			"class": "PhaseOne",
+			"number": 5
+		}
+	},
+	"requirementsTooltip": "Requires three Phase One Structures.",
+	"supersedes": "phase_village_robot",
+	"replaces": ["phase_town"],
+	"icon": "robot/town_phase.png",
+	"researchTime": 60,
+	"tooltip": "Increases Buildobots building speed + 10% and Ladybots storage capacities + 50. Unlock Spacedock and Technical Center.",
+	"modifications": [
+		{ "value": "Builder/Rate", "add": 0.1, "affects": "Worker" },
+        { "value": "ResourceGatherer/Capacities/wood", "add": 50, "affects": "SpaceshipResourcesTransporterr" },
+        { "value": "ResourceGatherer/Capacities/stone", "add": 50, "affects": "SpaceshipResourcesTransporter" },
+        { "value": "ResourceGatherer/Capacities/food", "add": 50, "affects": "SpaceshipResourcesTransporter" }
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

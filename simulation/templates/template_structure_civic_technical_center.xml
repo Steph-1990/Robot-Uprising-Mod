@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+
+  <BuildRestrictions>
+    <Territory>neutral own</Territory>
+    <PlacementType>land</PlacementType>
+  </BuildRestrictions>
+
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <food>200</food>
+      <stone>250</stone>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="19.0" depth="31.5"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>3</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>1000</Max>
+    <RegenRate>0</RegenRate>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <SelectionGroupName>template_structure_civic_temple</SelectionGroupName>
+    <Tooltip>Train Healers and research healing technologies.</Tooltip>
+    <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    <Classes datatype="tokens">TechnicalCenter PhaseTwo</Classes>
+  </Identity>
+
+  <Obstruction>
+    <Static width="30.0" depth="25.0"/>
+  </Obstruction>
+
+  <Researcher>
+		<Technologies datatype="tokens">
+      {civ}/technical_center_MK1
+      {civ}/technical_center_MK2
+      {civ}/technical_center_MK3
+		</Technologies>
+  </Researcher>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>10</Pierce>
+        <Hack>8</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <TerritoryInfluence disable= ""/>
+
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

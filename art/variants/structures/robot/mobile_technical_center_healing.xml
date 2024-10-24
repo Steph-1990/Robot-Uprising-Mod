@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="healing">
+  <mesh>units/robot/mobile_technical_center.dae</mesh>
+  <props>
+    <prop actor="particles/bigflame.xml" attachpoint="left_up1"/>
+    <prop actor="particles/bigflame.xml" attachpoint="left_up2"/>
+    <prop actor="particles/bigflame.xml" attachpoint="left_up3"/>
+    <prop actor="particles/bigflame.xml" attachpoint="left_up4"/>
+    <prop actor="particles/bigflame.xml" attachpoint="right_up1"/>
+    <prop actor="particles/bigflame.xml" attachpoint="right_up2"/>
+    <prop actor="particles/bigflame.xml" attachpoint="right_up3"/>
+    <prop actor="particles/bigflame.xml" attachpoint="right_up4"/>
+  </props>
+</variant>

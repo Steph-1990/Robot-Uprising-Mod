@@ -1,0 +1,22 @@
+{
+	"genericName": "Worker MK2",
+	"description": "Give an improve to Worker.",
+	"supersedes": "human/support_worker_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/support_worker_2.png",
+	"requirementsTooltip": "Unlocked after Worker MK1.",
+	"researchTime": 45,
+	"tooltip": "Resistance + 3, Walkspeed + 1.5, Building speed + 0.15.",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": 1.5 },
+		{ "value": "Builder/Rate", "add": 0.15 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

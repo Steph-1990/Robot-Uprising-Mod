@@ -1,0 +1,23 @@
+{
+	"genericName": "Conveyor MK1",
+	"description": "Give an improve to Conveyor.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/spaceship_units_transporter_1.png",
+	"researchTime": 30,
+	"tooltip": "Health + 50, Flying speed + 10%, Garrison + 10.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 50 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.1 },
+		{ "value": "GarrisonHolder/Max", "add": 10 }
+	],
+	"affects": ["SpaceshipUnitsTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,25 @@
+{
+	"genericName": "Healer MK3",
+	"description": "Give an improve to Healer.",
+	"supersedes": "human/support_healer_MK2",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/support_worker_3.png",
+	"requirementsTooltip": "Unlocked after Healer MK2.",
+	"researchTime": 45,
+	"tooltip": "Heal Range + 20%, Heal per sec + 2, Health + 100.",
+	"modifications": [
+		{ "value": "Heal/Range", "multiply": 1.2 },
+        { "value": "Heal/Health", "add": 2 },
+        { "value": "Health/Max", "add": 100 }
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,26 @@
+{
+	"genericName": "Stingerbot MK1",
+	"description": "The Charged Ray revolutionizes Stingerbots by enabling them to deliver highly destructive rays through their mechanized stinger. This system operates by overloading special energy cells located within the Stingerbot's stinger with a high titanium charge. When the stinger is projected towards its target, this overloaded energy is released in the form of a highly concentrated and destructive ray.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/infantry_ranged_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Stingerbots damages + 3, resistance + 2 and range + 5.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Hack", "add": 3 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 5 },
+		{ "value": "Vision/Range", "add": 5 }
+	],
+	"affects": ["InfantryRanged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

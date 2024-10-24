@@ -1,0 +1,25 @@
+{
+	"genericName": "Grappler MK1",
+	"description": "Give an improve to Grappler.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/spaceship_resources_transporter_1.png",
+	"researchTime": 1,
+	"tooltip": "Speed + 10%, Health + 50, Capacities + 50.",
+	"modifications": [
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.1 },
+		{ "value": "Health/Max", "add": 50 },
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 50 },
+        { "value": "ResourceGatherer/Capacities/stone", "add": 50 },
+        { "value": "ResourceGatherer/Capacities/food", "add": 50 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>units/robot/mobile_technical_center.dae</mesh>
+      <textures>
+        <texture file="structures/robot/technical_center.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="nothealing" frequency="1"/>
+    <variant name="healing" file="structures/robot/mobile_technical_center_healing.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_trigger_point">
+
+  <Identity>
+    <VisibleClasses datatype="tokens">TutorialTriggerPointB</VisibleClasses>
+  </Identity>
+
+  <Minimap>
+    <Color r="200" g="100" b="30"/>
+    <Icon size="16.0">copper.png</Icon>
+    <Type>food</Type>
+  </Minimap> 
+
+  <TriggerPoint>
+    <Reference>B</Reference>
+  </TriggerPoint>
+
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+
+  <VisualActor>
+    <Actor>props/special/common/marker_object_char_m.xml</Actor>
+  </VisualActor>
+
+  <VisualActor>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly>
+  </VisualActor>
+
+</Entity>

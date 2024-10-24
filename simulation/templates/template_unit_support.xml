@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+
+  <Identity>
+    <Classes datatype="tokens">Human Organic</Classes>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+
+  <Minimap>
+    <Type>support</Type>
+  </Minimap>
+
+  <Position>
+    <Anchor>upright</Anchor>
+  </Position>
+
+  <UnitAI>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+  
+</Entity>

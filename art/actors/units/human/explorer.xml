@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>units/human/explorer.dae</mesh>
+      <textures>
+        <texture file="units/human/explorer.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="units/human/explorer_base_walk.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

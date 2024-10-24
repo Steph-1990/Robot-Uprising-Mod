@@ -1,0 +1,22 @@
+{
+	"genericName": "Homing Lasers MK1",
+	"description": "Robots found that their turrets were missing many shots on flying objects. So the techno-researchers foun a way to make the lasers shot by the turret follow his target.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/anti_aircraft_turret_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Anti Aircraft Turrets damages + 3 and range + 15.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 3 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 15 }
+	],
+	"affects": ["AntiAirTurret"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

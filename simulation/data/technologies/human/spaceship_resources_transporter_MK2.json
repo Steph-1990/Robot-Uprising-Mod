@@ -1,0 +1,22 @@
+{
+	"genericName": "Grappler MK2",
+	"description": "Give an improve to Grappler.",
+	"supersedes": "human/spaceship_resources_transporter_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/spaceship_resources_transporter_2.png",
+	"requirementsTooltip": "Unlocked after Grappler MK1.",
+	"researchTime": 45,
+	"tooltip": "Speed + 10%, Health + 70, Capacities + 50.",
+	"modifications": [
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.1 },
+		{ "value": "Health/Max", "add": 70 },
+		{ "value": "ResourceGatherer/Capacities/food", "add": 50 },
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 50 },
+		{ "value": "ResourceGatherer/Capacities/stone", "add": 50 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

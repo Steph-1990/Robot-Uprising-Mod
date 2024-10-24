@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Berry Bush Mesh 01">
+      <mesh>gaia/copper.dae</mesh>
+      <textures>
+        <texture file="copper_texture.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+     <variant name="click">
+      <props>
+        <prop actor="particles/arrow.xml" attachpoint="arrow"/>
+      </props>
+    </variant>
+  </group>
+</actor>

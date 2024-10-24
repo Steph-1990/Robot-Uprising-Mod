@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_ore">
+
+  <Health>
+    <DeathType>corpse</DeathType>
+    <RegenRate>0</RegenRate>
+    <Max>10000</Max>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+
+  <Identity>
+    <GenericName>Copper</GenericName>
+  	<Icon>gaia/copper.png</Icon>
+    <SpecificName>Copper</SpecificName>
+    <Tooltip>A perfect electrical conductor.</Tooltip>
+		<VisibleClasses datatype="tokens">Copper</VisibleClasses>
+  </Identity>
+
+  <Minimap>
+    <Color r="200" g="100" b="30"/>
+    <Icon size="16.0">copper.png</Icon>
+    <Type>food</Type>
+  </Minimap> 
+
+  <ResourceSupply disable=""/>
+
+  <VisualActor>
+    <Actor>geology/copper.xml</Actor>
+  </VisualActor>
+
+</Entity>

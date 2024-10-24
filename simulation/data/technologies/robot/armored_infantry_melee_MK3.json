@@ -1,0 +1,22 @@
+{
+	"genericName": "Scarabot MK3",
+	"description": "Intelligent Materials bestow upon Scarabots a capability for both devastating and adaptive striking power. These materials are distinguished by their integration of a high-level artificial intelligence, enabling real-time adjustments of their shape, texture, and composition. This functionality empowers the destructive members of Scarabots to optimize the damage inflicted during any interaction with a surface or material, facilitated by a prior analysis conducted before collision. It is conceivable that the intelligence of the materials may evolve akin to other automatons within the confederation.",
+	"supersedes": "robot/armored_infantry_melee_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/armored_infantry_melee_3.png",
+	"requirementsTooltip": "Unlocked after Scarabot MK2.",
+	"researchTime": 60,
+	"tooltip": "Increases Scarabots damages + 8, resistances + 6 and walkspeed + 10%.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "add": 8 },
+		{ "value": "Attack/Melee/Damage/Crush", "add": 8 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 6 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 6 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"affects": ["ArmoredInfantryMelee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

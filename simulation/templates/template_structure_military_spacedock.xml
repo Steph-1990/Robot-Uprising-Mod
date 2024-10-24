@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+
+  <Identity>
+    <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    <Classes datatype="tokens">Spacedock</Classes>
+    <VisibleClasses datatype="tokens">PhaseTwo Factory</VisibleClasses>
+  </Identity>
+  
+  <!-- TODO : Différencier chaque civ avec {civ} -->
+  <Researcher>
+    <Technologies datatype="tokens">
+      {civ}/spaceship_resources_transporter_MK1
+      {civ}/spaceship_resources_transporter_MK2
+      {civ}/spaceship_resources_transporter_MK3
+      {civ}/spaceship_units_transporter_MK1
+      {civ}/spaceship_units_transporter_MK2
+      {civ}/spaceship_units_transporter_MK3
+      {civ}/spaceship_hunter_MK1
+      {civ}/spaceship_hunter_MK2
+      {civ}/spaceship_hunter_MK3
+    </Technologies>
+  </Researcher>
+
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+    	units/{civ}/spaceship_resources_transporter
+      units/{civ}/spaceship_units_transporter
+      units/{civ}/spaceship_hunter
+      units/{civ}/spaceship_hunter_a
+    </Entities>
+  </Trainer>
+
+</Entity>

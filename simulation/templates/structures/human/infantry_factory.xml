@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_infantry_factory">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>200</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="55.0" depth="35.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+	  <Civ>human</Civ>
+    <Icon>structures/human/infantry_factory.png</Icon>
+	  <GenericName>Robotic Factory</GenericName>
+	  <SpecificName>Robotic Factory</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="55.0" depth="35.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>14</Pierce>
+        <Hack>6</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <VisualActor>
+    <Actor>structures/human/infantry_factory.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

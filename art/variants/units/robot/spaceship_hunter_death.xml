@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="death">
+    <mesh>units/robot/spaceship_hunter_death.dae</mesh>
+    <props>
+        <prop actor="particles/bigflame.xml" attachpoint="canon"/>
+        <prop actor="particles/spaceship_flame.xml" attachpoint="smoke"/>
+        <prop actor="particles/spaceship_hunter_flame_small.xml" attachpoint="smokeleft"/>
+        <prop actor="particles/spaceship_hunter_flame_small.xml" attachpoint="smokeright"/>
+    </props>
+</variant>

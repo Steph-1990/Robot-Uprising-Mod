@@ -1,0 +1,22 @@
+{
+	"genericName": "Buildobot MK2",
+	"description": "The Creative Discharges empower Buildobots by enabling them to manifest unprecedented constructivism and imagination, providing them with what they have always lacked: creativity. Operating from a sophisticated artificial neural network, this technology analyzes environmental data, construction objectives, and specific constraints to generate innovative ideas and ingenious solutions. By combining deep learning algorithms and natural language processing techniques, Buildobots are able to design structures and projects that surpass the bounds of preprogrammed logic, thus offering endless possibilities for construction and innovation.",
+	"supersedes": "robot/support_worker_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "robot/support_worker_2.png",
+	"requirementsTooltip": "Unlocked after Buildobot MK1.",
+	"researchTime": 45,
+	"tooltip": "Increases Buildobots resistance + 3, walkspeed + 1.5 and building speed + 15%.",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": 1.5 },
+		{ "value": "Builder/Rate", "add": 0.15 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

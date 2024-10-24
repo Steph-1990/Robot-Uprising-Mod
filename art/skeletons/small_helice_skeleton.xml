@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="small helice skeleton" id="small_helice_skeleton">
+    <bone name="small_helice" />
+    <bone name="small_helice_mesh" />
+  </standard_skeleton>
+  <skeleton title="small helice skeleton" target="small_helice_skeleton">
+    <identifier>
+      <root>small_helice</root>
+    </identifier>
+    <bone name="small_helice">
+      <target>small_helice</target>
+    </bone>
+    <bone name="small_helice_mesh">
+      <target>small_helice_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

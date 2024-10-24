@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_turret">
+
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Pierce>40</Pierce>
+        <Crush>40</Crush>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>80</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>200</RepeatTime>
+	  <RestrictedClasses datatype="tokens">Spaceship Structure</RestrictedClasses>
+    <PreferredClasses datatype="tokens">InfantryArea</PreferredClasses>
+    </Ranged>
+  </Attack>
+
+  <Auras datatype="tokens">
+    structures/electric_slow
+  </Auras>
+
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>300</stone>
+      <food>350</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Height>9.0</Height>
+    <Square width="9.5" depth="8.5"/>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>1200</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <RequiredTechnology>phase_village_robot</RequiredTechnology>
+    <SelectionGroupName>template_structure_defensive_tower_sentry</SelectionGroupName>
+    <Tooltip>Garrison Infantry for additional arrows. Needs the “Murder Holes” technology to protect its foot.</Tooltip>
+    <VisibleClasses datatype="tokens">SentryTower PhaseTwo</VisibleClasses>
+  </Identity>
+
+  <Obstruction>
+    <Static width="9.0" depth="7.5"/>
+  </Obstruction>
+
+  <ProductionQueue/>
+
+  <!-- TODO : Différencier les technos de chaque civ avec {civ} -->
+  <Researcher disable =""/>
+
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+
+</Entity>

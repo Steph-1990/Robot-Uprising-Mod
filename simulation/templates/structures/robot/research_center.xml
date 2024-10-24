@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_research_center">
+
+	<Cost>
+    	<BuildTime>40</BuildTime>
+    	<Population>1</Population>
+    	<Resources>
+			<wood>300</wood>
+			<stone>300</stone>
+    	</Resources>
+  	</Cost>
+
+	<Footprint>
+		<Square width="80" depth="80"/>
+		<Height>12.0</Height>
+	</Footprint>
+
+	<Health>
+		<DeathType>vanish</DeathType>
+		<Max>1200</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+  	</Health>
+
+  	<Identity>
+		<Civ>robot</Civ>
+		<GenericName>Improve Station</GenericName>
+		<Icon>structures/robot/research_center.png</Icon>
+		<Tooltip>Building made to research global technologies.</Tooltip>
+		<History>Robots had to improve themselves very fast so they created a building which is specially made for this. The Improve Station is a very important building in the civilisation because it makes Robots faster and better in every kinds of things.</History>
+		<SpecificName>Improve Station</SpecificName>
+  	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Obstruction>
+		<Static width="80.0" depth="80.0"/>
+	</Obstruction>
+
+	<Sound>
+		<SoundGroups>
+		<select>interface/select/building/research_center_select.xml</select>
+		</SoundGroups>
+	</Sound>
+
+	<Resistance>
+    	<Entity>
+      		<Damage>
+        		<Pierce>10</Pierce>
+        		<Hack>8</Hack>
+      		</Damage>
+    	</Entity>
+    </Resistance>
+
+    <VisualActor>
+    	<Actor>structures/robot/research_center.xml</Actor>
+	  <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
+    </VisualActor>
+
+</Entity>

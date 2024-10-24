@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<SoundGroup>
+	<Gain>0.9</Gain>
+	<Priority>100</Priority>
+	<ConeGain>1</ConeGain>
+	<Looping>0</Looping>
+	<RandOrder>1</RandOrder>
+	<GainUpper>0.9</GainUpper>
+	<GainLower>0.7</GainLower>
+	<RandPitch>1</RandPitch>
+	<Threshold>10</Threshold>
+	<Path>audio/actor/robot/death/</Path>
+	<Sound>armored_infantry_melee_death.ogg</Sound>
+	
+</SoundGroup>

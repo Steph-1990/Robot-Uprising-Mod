@@ -1,0 +1,19 @@
+{
+	"genericName": "Homing Lasers MK3",
+	"description": "Robots found that their turrets were missing many shots on flying objects. So the techno-researchers foun a way to make the lasers shot by the turret follow his target.",
+	"supersedes": "robot/anti_aircraft_turret_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/anti_aircraft_turret_3.png",
+	"requirementsTooltip": "Unlocked after Homing Lasers MK2.",
+	"researchTime": 60,
+	"tooltip": "Increases Anti Aircraft Turrets damages + 4 and range + 20.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 4 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 20 }
+	],
+	"affects": ["AntiAirTurret"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

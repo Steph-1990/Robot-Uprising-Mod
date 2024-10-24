@@ -1,0 +1,70 @@
+{
+	"Code": "human",
+	"Culture": "hum",
+	"Music": [
+		{
+			"File": "When_they_will_break_the_ice.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "March_to_Annihilation.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Silver Owls",
+			"History": "The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
+			"Description": "Workers +10% metal gather rate per phase advance."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/athen/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": ""
+		},
+		{
+			"Template": "",
+			"Count": 4
+		},
+		{
+			"Template": "",
+			"Count": 2
+		},
+		{
+			"Template": "",
+			"Count": 2
+		},
+		{
+			"Template": ""
+		}
+	],
+	"AINames": [
+		"Themistocles",
+		"Pericles",
+		"Cimon",
+		"Aristides",
+		"Xenophon",
+		"Hippias",
+		"Cleisthenes",
+		"Thucydides",
+		"Alcibiades",
+		"Miltiades",
+		"Cleon",
+		"Cleophon",
+		"Thrasybulus",
+		"Iphicrates",
+		"Demosthenes"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "",
+		"skirmish/units/default_infantry_melee_b": "",
+		"skirmish/units/default_support_female_citizen": "",
+		"skirmish/units/default_cavalry": "",
+		"skirmish/structures/default_house_10": ""
+	},
+	"SelectableInGameSetup": true
+}

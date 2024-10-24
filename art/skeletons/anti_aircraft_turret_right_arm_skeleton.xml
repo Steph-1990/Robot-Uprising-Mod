@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="anti aircraft turret right arm skeleton" id="anti_aircraft_turret_right_arm_skeleton">
+    <bone name="arm" />
+    <bone name="weapon" />
+    <bone name="anti_aircraft_turret_right_arm_mesh" />
+  </standard_skeleton>
+  <skeleton title="anti aircraft turret right arm skeleton" target="anti_aircraft_turret_right_arm_skeleton">
+    <identifier>
+      <root>arm</root>
+    </identifier>
+    <bone name="arm">
+      <target>arm</target>
+    </bone>
+    <bone name="weapon">
+      <target>weapon</target>
+    </bone>
+    <bone name="anti_aircraft_turret_right_arm_mesh">
+      <target>anti_aircraft_turret_right_arm_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

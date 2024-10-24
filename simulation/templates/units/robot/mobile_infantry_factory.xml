@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mobile_infantry_factory">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>200</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="35"/>
+  </Footprint>
+
+   <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">LightInfantry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>30</LoadingRange>
+    <EjectClassesOnDestroy datatype="tokens"/>
+    <Pickup>false</Pickup>
+  </GarrisonHolder>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+	  <Civ>robot</Civ>
+    <Icon>structures/robot/infantry_factory.png</Icon>
+	  <SpecificName>Mobile Infantry Factory</SpecificName>
+    <GenericName>Mobile Infantry Factory</GenericName>
+    <Tooltip>Infantry factory which has been switched to be a flying factory. This unit-building is able to create units in the air and on the ground.</Tooltip>
+    <History>Behebot thought that it was going to be hard to maintain a battlefield with the units composing the civilisation. That's why Robots created mobile factories, to supply the battelfield.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>14</Pierce>
+        <Hack>6</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+    <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>256x256/rectangle.png</MainTexture>
+        <MainTextureMask>256x256/rectangle_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/infantry_factory_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+        <Infantry_factory>
+            <Entity>structures/robot/improved_infantry_factory</Entity>
+            <Tooltip>Switch to make the infantry factory a building.</Tooltip>
+            <Variant>upgrading</Variant>
+            <Time>10</Time>
+            <Icon>portraits/upgrades/robot/infantry_factory.png</Icon>
+            <RequiredTechnology>phase_town_robot</RequiredTechnology>
+        </Infantry_factory>
+    </Upgrade>
+
+  <VisualActor>
+    <Actor>units/robot/mobile_infantry_factory.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

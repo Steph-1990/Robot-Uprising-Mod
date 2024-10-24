@@ -1,0 +1,23 @@
+{
+	"genericName": "Spybot MK1",
+	"description": "The Cartographic Deduction is a method enabling Spybots to analyze and map terrestrial, aerial, or underground environments before directly observing them. This process involves utilizing surface-collected data to make inferences about the environment, taking into account climatic conditions and available resources. While this approach may not be absolutely precise, it demonstrates remarkable advancements and provides unprecedented terrain previsualization in military history.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/support_explorer_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Spybots vision range + 6, health + 10 and flying speed + 1.",
+	"modifications": [
+		{ "value": "Vision/Range", "add": 6 },
+		{ "value": "Health/Max", "add": 10 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "add": 1 }
+	],
+	"affects": ["Explorer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

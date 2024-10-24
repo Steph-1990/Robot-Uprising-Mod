@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="units transporter skeleton" id="units_transporter_skeleton">
+    <bone name="units_transporter">
+      <bone name="door_left" />
+      <bone name="door_right" />
+    </bone>
+    <bone name="Units_transporter" />
+  </standard_skeleton>
+  <skeleton title="units transporter skeleton" target="units_transporter_skeleton">
+    <identifier>
+      <root>units_transporter</root>
+    </identifier>
+    <bone name="units_transporter">
+      <target>units_transporter</target>
+      <bone name="door_left">
+        <target>door_left</target>
+      </bone>
+      <bone name="door_right">
+        <target>door_right</target>
+      </bone>
+    </bone>
+    <bone name="Units_transporter">
+      <target>Units_transporter</target>
+    </bone>
+  </skeleton>
+</skeletons>

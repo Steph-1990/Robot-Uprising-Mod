@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_spacedock">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>200</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="85.0" depth="70"/>
+    <Height>5.0</Height>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <GenericName>Spacedock</GenericName>
+    <Icon>structures/robot/spacedock.png</Icon>
+    <SpecificName>Spacedock</SpecificName>
+    <Tooltip>Factory programmed to train spaceships only. These units can be imporved by technologies directly researched by the Spacedock.</Tooltip>
+    <History>Robots knew that they would need more power in their attack strategy. That's why they decided to create aircrafts which are able to help them being faster or to attack enemy aircrafts.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="85.0" depth="70.0"/>
+  </Obstruction>
+
+  <ParticlePlayerColor/>
+  
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/spacedock_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>12</Pierce>
+        <Hack>9</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <VisualActor>
+    <Actor>structures/robot/spacedock.xml</Actor>
+    <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

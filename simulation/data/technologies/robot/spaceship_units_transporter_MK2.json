@@ -1,0 +1,20 @@
+{
+	"genericName": "Bumblebot MK2",
+	"description": "The Propulsion System of the Bumblebots relies on cutting-edge technology utilizing miniaturized ion thrusters and highly efficient power generators. These thrusters are specially designed to provide precise directional thrust, allowing the Bumblebots to maneuver with agility in the air. Propulsion units optimize both speed and efficiency of movement. Thanks to this technology, Bumblebots can achieve incredible speeds, enabling them to reach distant positions in just fractions of minutes.",
+	"supersedes": "robot/spaceship_units_transporter_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "robot/spaceship_units_transporter_2.png",
+	"requirementsTooltip": "Unlocked after Bumblebot MK1.",
+	"researchTime": 45,
+	"tooltip": "Increases Bumblebots health + 70, flying speed + 15% and garrison + 10.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 70 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.15 },
+		{ "value": "GarrisonHolder/Max", "add": 10 }
+	],
+	"affects": ["SpaceshipUnitsTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

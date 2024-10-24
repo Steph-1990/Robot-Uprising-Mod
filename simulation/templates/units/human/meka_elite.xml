@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_meka_elite">
+
+	<Attack>
+    <Ranged>
+      	<AttackName>Laser</AttackName>
+			<Damage>
+				<Hack>55</Hack>
+        		<Pierce>65</Pierce>
+        		<Crush>55</Crush>
+			</Damage>
+      		<MinRange>2</MinRange>
+			<MaxRange>25</MaxRange>
+			<PrepareTime>1000</PrepareTime>
+			<RepeatTime>1500</RepeatTime>
+			<Projectile>
+				<Speed>70</Speed>
+				<Spread>4</Spread>
+				<Gravity>35</Gravity>
+				<FriendlyFire>false</FriendlyFire>
+				<LaunchPoint y="3"/>
+			</Projectile>
+			<PreferredClasses datatype="tokens">Human</PreferredClasses>
+      		<RestrictedClasses datatype="tokens">Drill Indestructible</RestrictedClasses>
+	</Ranged>
+    <Capture disable =""/>
+  	</Attack>
+
+	<Footprint>
+  		<Circle radius="20"/>
+ 	</Footprint>
+
+	<Health>
+		<DeathType>vanish</DeathType>
+		<Max>900</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+	<Identity>
+		<Civ>human</Civ>
+		<Icon>units/human/meka_elite.png</Icon>
+		<GenericName>grosmeka</GenericName>
+		<SelectionGroupName>units/kush/infantry_pikeman_b</SelectionGroupName>
+		<SpecificName>grosmeka</SpecificName>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Resistance>
+		<Entity>
+		<Damage>
+			<Hack>25</Hack>
+			<Pierce>25</Pierce>
+			<Crush>17</Crush>
+		</Damage>
+		</Entity>
+	</Resistance>
+
+	<UnitMotion>
+    	<WalkSpeed op="mul">1.4</WalkSpeed>
+  	</UnitMotion>
+
+	<VisualActor>
+		<Actor>units/human/meka_elite.xml</Actor>
+	</VisualActor>
+	
+</Entity>

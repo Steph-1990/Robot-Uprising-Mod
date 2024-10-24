@@ -1,0 +1,22 @@
+{
+	"genericName": "Technical Center MK1",
+	"description": "Give an improve of Technical Center.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/technical_center_1.png",
+	"researchTime": 30,
+	"tooltip": "Garrison Max+ 5, Heal/sec + 1",
+	"modifications": [
+		{ "value": "GarrisonHolder/Max", "add": 5 },
+		{ "value": "GarrisonHolder/BuffHeal", "add": 1 }
+	],
+	"affects": ["TechnicalCenter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

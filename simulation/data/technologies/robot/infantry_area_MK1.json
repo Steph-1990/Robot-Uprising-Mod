@@ -1,0 +1,23 @@
+{
+	"genericName": "Boombot MK1",
+	"description": "The Devotional Blindness instills in the Boombot a deep and illusory conviction that their sacrifice represents a true honor for the Mechanized Confederation. This fervent devotion and sense of altruism motivate the Boombot to redouble their efforts in combat and enhance the power of their honorable implosion.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/infantry_area_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Boombots damages + 10, range + 5 and laser resistance + 2.",
+	"modifications": [
+		{ "value": "DeathDamage/Damage/Crush", "add": 10 },
+		{ "value": "DeathDamage/Range", "add": 5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 }
+	],
+	"affects": ["InfantryArea"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

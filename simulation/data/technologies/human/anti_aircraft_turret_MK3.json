@@ -1,0 +1,19 @@
+{
+	"genericName": "Anti Air Turret MK3",
+	"description": "Give an improve of Anti Air Turret.",
+	"supersedes": "human/anti_aircraft_turret_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/anti_aircraft_turret_3.png",
+	"requirementsTooltip": "Unlocked after Anti Air Turret MK2.",
+	"researchTime": 60,
+	"tooltip": "Damage + 4, Range + 20.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 4 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 20 }
+	],
+	"affects": ["AntiAirTurret"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

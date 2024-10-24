@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>   
+  <group>
+    <variant frequency="100" name="palisade rocks gate">
+      <mesh>structures/robot/wall_long.dae</mesh>
+      <textures>
+          <texture file="structures/robot/wall.png" name="baseTex"/>
+          <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+<material>player_trans_spec.xml</material>
+</actor>

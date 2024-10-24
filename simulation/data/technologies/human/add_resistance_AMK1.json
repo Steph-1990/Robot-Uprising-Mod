@@ -1,0 +1,23 @@
+{
+	"genericName": "Reinforced Titanium AMK1",
+	"description": "Build structures with a reinforeced titanium..",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/research_center_1.png",
+	"researchTime": 45,
+	"tooltip": "All Resistances + 3.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

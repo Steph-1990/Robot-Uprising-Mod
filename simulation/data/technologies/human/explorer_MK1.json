@@ -1,0 +1,23 @@
+{
+	"genericName": "Explorer MK1",
+	"description": "Give an improve to Explorer.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "Advanced_optical.png",
+	"researchTime": 30,
+	"tooltip": "Vision range + 6, Health + 10, Flying speed + 1.",
+	"modifications": [
+		{ "value": "Vision/Range", "add": 6 },
+		{ "value": "Health/Max", "add": 10 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "add": 1 }
+	],
+	"affects": ["Support Explorer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

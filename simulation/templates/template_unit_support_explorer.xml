@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship">
+
+  <Attack disable= ""/>
+
+  <Identity>
+    <Classes datatype="tokens">Explorer</Classes>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+
+  <!-- A voir si on différencie les explorers aussi par leur vitesse, pour l'instant non. -->
+  <UnitMotionFlying>
+    <AccelRate>5.0</AccelRate>
+    <ClimbRate>5.0</ClimbRate>
+    <TiltRate>0</TiltRate>
+  </UnitMotionFlying>
+
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <CanDropUnits>false</CanDropUnits>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+
+</Entity>

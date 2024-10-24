@@ -1,0 +1,22 @@
+{
+	"genericName": "MEKA F1ght3r MK3",
+	"description": "Give an improve of MEKA F1ght3r.",
+	"supersedes": "human/armored_infantry_melee_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/armored_infantry_melee_3.png",
+	"requirementsTooltip": "Unlocked after MEKA F1ght3r MK2.",
+	"researchTime": 60,
+	"tooltip": "Damage + 8, Resistance + 6, Walkspeed x 1.1.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "add": 8 },
+		{ "value": "Attack/Melee/Damage/Crush", "add": 8 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 6 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 6 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"affects": ["ArmoredInfantryMelee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

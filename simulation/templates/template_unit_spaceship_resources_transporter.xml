@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship">
+
+  <Identity>
+    <Classes datatype="tokens">FemaleCitizen SpaceshipResourcesTransporter</Classes>
+    <VisibleClasses datatype="tokens">ResourceGatherer</VisibleClasses>
+  </Identity>
+
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <CanDropUnits>false</CanDropUnits>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+
+  <UnitMotionFlying>
+    <AccelRate>10.0</AccelRate>
+    <ClimbRate>5.0</ClimbRate>
+  </UnitMotionFlying>
+
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  
+</Entity>

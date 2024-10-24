@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mobile_technical_center">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>200</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+	  <Civ>robot</Civ>
+    <GenericName>Mobile Technical Center</GenericName>
+    <Icon>structures/robot/technical_center.png</Icon>
+	  <SpecificName>Mobile Technical Center</SpecificName>
+    <Tooltip>This building allows you to heal your units by putting them in garrison inside the Technical Center. This building can fly, you can use it in the air too.</Tooltip>
+    <History>Robots needed to be more resistant during long fights. That's why they decided to create the Technical Center, which is able to heal the rest of the civilisation easily.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>14</Pierce>
+        <Hack>6</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/technical_center_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+        <Technical_Center>
+            <Entity>structures/robot/improved_technical_center</Entity>
+            <Tooltip>Switch to make the Technical Center a building.</Tooltip>
+            <Variant>upgrading</Variant>
+            <Time>10</Time>
+            <Icon>portraits/upgrades/robot/technical_center.png</Icon>
+            <RequiredTechnology>phase_town_robot</RequiredTechnology>
+        </Technical_Center>
+    </Upgrade>
+
+  <VisualActor>
+    <Actor>units/robot/mobile_technical_center.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

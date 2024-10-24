@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+
+  <Attack>
+		<Ranged>
+			<AttackName>Laser</AttackName>
+			<Damage>
+				<Pierce>25</Pierce>
+			</Damage>
+			<MinRange>1</MinRange>
+			<MaxRange>60</MaxRange>
+			<PrepareTime>0</PrepareTime>
+			<RepeatTime>400</RepeatTime>
+			<Projectile>
+				<Speed>70</Speed>
+				<Spread>5</Spread>
+				<Gravity>0</Gravity>
+				<FriendlyFire>false</FriendlyFire>
+				<LaunchPoint y="3"/>
+				<ActorName>props/units/weapons/laser_ammo.xml</ActorName>
+			</Projectile>
+			<PreferredClasses datatype="tokens">Human</PreferredClasses>
+			<RestrictedClasses datatype="tokens">Drill Indestructible</RestrictedClasses>
+		</Ranged>
+		<Capture disable =""/>
+		<Slaughter disable =""/>
+	</Attack>
+
+  	<Footprint>
+    	<Circle radius="10"/>
+  	</Footprint>
+
+  	<Health>
+		<Max>200</Max>
+	</Health>
+
+  	<Identity>
+		<Civ>human</Civ>
+	  	<Icon>units/human/infantry_ranged.png</Icon>
+	  	<GenericName></GenericName>
+	  	<SpecificName>NIV1</SpecificName>
+	  	<Tooltip>Crossbot can eliminate enemies from a distance with his laser crossbow. This unit is particularly effective against bombers.</Tooltip>
+  	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Promotion>
+		<Entity>units/human/infantry_ranged_b</Entity>
+		<RequiredXp>150</RequiredXp>
+		<TrickleRate>25</TrickleRate>
+  	</Promotion>
+
+  	<Resistance>
+		<Entity>
+			<Damage>
+				<Crush>20</Crush>
+			</Damage>
+		</Entity>
+  	</Resistance>
+
+  	<UnitMotion>
+    	<WalkSpeed op="mul">1.5</WalkSpeed>
+  	</UnitMotion>
+
+  	<VisualActor>
+    	<Actor>units/human/infantry_ranged.xml</Actor>
+  	</VisualActor>
+  
+</Entity>

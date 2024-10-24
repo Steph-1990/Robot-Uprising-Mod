@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_meka_elite_factory">
+
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <wood>250</wood>
+      <stone>500</stone>
+      <food>500</food>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="35"/>
+    <Height>0.0</Height>
+    <MaxSpawnDistance>8</MaxSpawnDistance>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>human</Civ>
+    <Icon>structures/human/armored_infantry_factory.png</Icon>
+    <GenericName>MEKA ELITE Factory</GenericName>
+    <SpecificName>MEKA ELITE Factory</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="45.0" depth="45.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>15</Pierce>
+        <Hack>13</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <VisualActor>
+    <Actor>structures/human/meka_elite_factory.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+  
+</Entity>

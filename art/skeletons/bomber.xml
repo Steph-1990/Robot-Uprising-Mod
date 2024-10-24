@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="bomber" id="bomber">
+    <bone name="body_bomber" />
+    <bone name="plates_left" />
+    <bone name="plates_right" />
+    <bone name="plates_down" />
+    <bone name="plates_up" />
+    <bone name="bomber.001" />
+  </standard_skeleton>
+  <skeleton title="bomber" target="bomber">
+    <identifier>
+      <root>body_bomber</root>
+    </identifier>
+    <bone name="body_bomber">
+      <target>body_bomber</target>
+    </bone>
+    <bone name="plates_left">
+      <target>plates_left</target>
+    </bone>
+    <bone name="plates_right">
+      <target>plates_right</target>
+    </bone>
+    <bone name="plates_down">
+      <target>plates_down</target>
+    </bone>
+    <bone name="plates_up">
+      <target>plates_up</target>
+    </bone>
+    <bone name="bomber.001">
+      <target>bomber.001</target>
+    </bone>
+  </skeleton>
+</skeletons>

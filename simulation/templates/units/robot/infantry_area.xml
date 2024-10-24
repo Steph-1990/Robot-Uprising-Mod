@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_area">
+
+  	<Identity>
+		<Classes datatype="tokens">Kamikaze</Classes>
+        <GenericName>Boombot</GenericName>
+		<Icon>units/robot/infantry_area.png</Icon>
+		<SpecificName>Boombot</SpecificName>
+		<Tooltip>Melee infantry unit which works like a kamikaze. Powerful against Predabot.</Tooltip>
+    	<History>Robots don't even know about empathy, their program doesn't have it loaded. They created the Boombot to litterally push straight ahead without thinking about the cost.</History>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Sound>
+		<SoundGroups>
+			<select>voice/robot/civ/infantry_area_select.xml</select>		
+            <death>actor/robot/death/infantry_area_death.xml</death>
+		</SoundGroups>
+	</Sound>
+
+	<VisualActor>
+		<Actor>units/robot/infantry_area.xml</Actor>
+	</VisualActor>
+	
+</Entity>

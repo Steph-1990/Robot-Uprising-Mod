@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<object name="playerBanner"
+size="4 4 100%-4 100%-4"
+	type="image"
+>	
+	<object size="0 100%-24 100% 100%" name="statsArea" tooltip_style="sessionToolTip" type="image" sprite="backgroundPanel">
+		<!-- Civilization emblem. -->
+		<object size="50%-64 50%-10 50%+64 50%+10" name="playerCivIcon" type="image" ghost="true"/>
+		<!-- Player color band. -->
+		<object name="playerColorBackground" type="image" sprite="playerColorBackground" ghost="true"/>
+		<object type="image" sprite="bottomEdgedPanelShader" ghost="true"/>
+		<!-- Player name. -->
+		<object size="0 50%-10 100% 50%+10" name="player" type="text" style="largeCenteredOutlinedText"/>
+	</object>
+</object>

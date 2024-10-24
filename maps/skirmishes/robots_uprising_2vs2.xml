@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>desert</SkySet>
+		<SunColor r="0.894118" g="0.894118" b="0.894118"/>
+		<SunElevation angle="0.334408"/>
+		<SunRotation angle="2.15985"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0" g="0.619608" b="0"/>
+				<Tint r="0" g="0.501961" b="0"/>
+				<Height>85.1478</Height>
+				<Waviness>1.30859</Waviness>
+				<Murkiness>1</Murkiness>
+				<WindAngle>-3.14159</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="1257.07" y="968.309" z="-75.0871"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "This map is a 2vs2 map available with robots_uprising mod.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Robots Uprising 2vs2",
+  "PlayerData": [
+    null,
+    {},
+    {},
+    {},
+    {}
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "TriggerScripts": [
+    "scripts/StarciliteSpawner.js",
+    "scripts/TriggerHelper.js"
+  ],
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="190">
+			<Template>actor|flora/trees/palm_areca.xml</Template>
+			<Position x="145.43506" z="511.25745"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20222"/>
+		</Entity>
+		<Entity uid="1273">
+			<Template>trigger/trigger_point_A</Template>
+			<Player>0</Player>
+			<Position x="1000.5785" z="1144.68226"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56404"/>
+		</Entity>
+		<Entity uid="1274">
+			<Template>trigger/trigger_point_B</Template>
+			<Player>0</Player>
+			<Position x="903.58851" z="884.42939"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29883"/>
+		</Entity>
+		<Entity uid="1275">
+			<Template>trigger/trigger_point_C</Template>
+			<Player>0</Player>
+			<Position x="1081.65162" z="938.01783"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6465"/>
+		</Entity>
+		<Entity uid="1276">
+			<Template>trigger/trigger_point_D</Template>
+			<Player>0</Player>
+			<Position x="715.43464" z="1731.34034"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54179"/>
+		</Entity>
+		<Entity uid="1277">
+			<Template>trigger/trigger_point_E</Template>
+			<Player>0</Player>
+			<Position x="609.06629" z="1572.83082"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18590"/>
+		</Entity>
+		<Entity uid="1278">
+			<Template>trigger/trigger_point_F</Template>
+			<Player>0</Player>
+			<Position x="359.76786" z="1581.95215"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18957"/>
+		</Entity>
+		<Entity uid="1279">
+			<Template>trigger/trigger_point_G</Template>
+			<Player>0</Player>
+			<Position x="1130.44813" z="338.44584"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56567"/>
+		</Entity>
+		<Entity uid="1280">
+			<Template>trigger/trigger_point_H</Template>
+			<Player>0</Player>
+			<Position x="1303.54786" z="146.02967"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="379"/>
+		</Entity>
+		<Entity uid="1281">
+			<Template>trigger/trigger_point_I</Template>
+			<Player>0</Player>
+			<Position x="1596.73926" z="385.9397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32830"/>
+		</Entity>
+		<Entity uid="1287">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="158.27625" z="1239.46949"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34542"/>
+		</Entity>
+		<Entity uid="1288">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="494.50641" z="958.47486"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40034"/>
+		</Entity>
+		<Entity uid="1289">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="182.73292" z="801.37732"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18478"/>
+		</Entity>
+		<Entity uid="1291">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="662.92505" z="1840.8899"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32615"/>
+		</Entity>
+		<Entity uid="1292">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1017.77466" z="1011.80121"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24710"/>
+		</Entity>
+		<Entity uid="1293">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1283.7389" z="1804.67334"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48126"/>
+		</Entity>
+		<Entity uid="1294">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1544.97376" z="1073.07667"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24478"/>
+		</Entity>
+		<Entity uid="1296">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1305.90735" z="285.6414"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48232"/>
+		</Entity>
+		<Entity uid="1297">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="696.58777" z="262.79432"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6460"/>
+		</Entity>
+		<Entity uid="1299">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="914.14954" z="1703.47327"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2726"/>
+		</Entity>
+		<Entity uid="1300">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1362.58875" z="1537.66175"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41098"/>
+		</Entity>
+		<Entity uid="1301">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1873.89197" z="1230.90491"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28240"/>
+		</Entity>
+		<Entity uid="1302">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1220.29371" z="960.75898"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18478"/>
+		</Entity>
+		<Entity uid="1303">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="850.22852" z="1090.49878"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50043"/>
+		</Entity>
+		<Entity uid="1304">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1335.14771" z="502.35718"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40913"/>
+		</Entity>
+		<Entity uid="1306">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="426.69346" z="382.74244"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65295"/>
+		</Entity>
+		<Entity uid="1307">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="451.68705" z="1716.18177"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10177"/>
+		</Entity>
+		<Entity uid="1309">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1642.06446" z="1696.09278"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41133"/>
+		</Entity>
+		<Entity uid="1310">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1855.97486" z="866.01001"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="298"/>
+		</Entity>
+		<Entity uid="1311">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1142.80701" z="1171.66016"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1636"/>
+		</Entity>
+		<Entity uid="1312">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1031.6753" z="849.88318"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48292"/>
+		</Entity>
+		<Entity uid="1314">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1523.9469" z="283.56971"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44131"/>
+		</Entity>
+		<Entity uid="1315">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="667.40668" z="541.44056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8367"/>
+		</Entity>
+		<Entity uid="1362">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="591.48261" z="1137.15284"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18478"/>
+		</Entity>
+		<Entity uid="1363">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="447.5323" z="797.66144"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="34542"/>
+		</Entity>
+		<Entity uid="1364">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="217.60868" z="1031.85279"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="40034"/>
+		</Entity>
+		<Entity uid="1365">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1581.9452" z="799.93573"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="28240"/>
+		</Entity>
+		<Entity uid="1366">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1606.98304" z="1234.42225"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="298"/>
+		</Entity>
+		<Entity uid="1367">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1781.37134" z="1020.64545"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="24478"/>
+		</Entity>
+		<Entity uid="1369">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="858.53406" z="933.07105"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="24710"/>
+		</Entity>
+		<Entity uid="1371">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1296.60682" z="200.20231"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="48232"/>
+		</Entity>
+		<Entity uid="1372">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1598.78418" z="328.44309"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="44131"/>
+		</Entity>
+		<Entity uid="1373">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1396.02173" z="555.31165"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="40913"/>
+		</Entity>
+		<Entity uid="1374">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="742.96064" z="318.19513"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="6460"/>
+		</Entity>
+		<Entity uid="1375">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="739.09583" z="495.16889"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="8367"/>
+		</Entity>
+		<Entity uid="1376">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="455.13447" z="447.8216"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="65295"/>
+		</Entity>
+		<Entity uid="1377">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="749.46546" z="1792.91419"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="32615"/>
+		</Entity>
+		<Entity uid="1378">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="879.35376" z="1791.51734"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="2726"/>
+		</Entity>
+		<Entity uid="1379">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="443.28452" z="1639.4275"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="10177"/>
+		</Entity>
+		<Entity uid="1380">
+			<Template>gaia/ore/oil</Template>
+			<Player>0</Player>
+			<Position x="1206.81666" z="1791.08326"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="48126"/>
+		</Entity>
+		<Entity uid="1381">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1564.9563" z="1638.07581"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="41133"/>
+		</Entity>
+		<Entity uid="1382">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1432.53943" z="1568.41749"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="41098"/>
+		</Entity>
+		<Entity uid="1394">
+			<Template>skirmish/structures/default_command_base</Template>
+			<Player>1</Player>
+			<Position x="241.84449" z="909.3401"/>
+			<Orientation y="1.73888"/>
+			<Actor seed="58923"/>
+		</Entity>
+		<Entity uid="1395">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="328.34476" z="922.59198"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50306"/>
+		</Entity>
+		<Entity uid="1396">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="327.32911" z="910.53595"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21288"/>
+		</Entity>
+		<Entity uid="1397">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="326.36149" z="900.985"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50364"/>
+		</Entity>
+		<Entity uid="1398">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="325.36216" z="893.55243"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50364"/>
+		</Entity>
+		<Entity uid="1399">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="324.31064" z="883.64521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53532"/>
+		</Entity>
+		<Entity uid="1400">
+			<Template>skirmish/structures/default_command_base</Template>
+			<Player>2</Player>
+			<Position x="700.43854" z="1638.6725"/>
+			<Orientation y="-3.0111"/>
+			<Actor seed="25948"/>
+		</Entity>
+		<Entity uid="1401">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="646.32355" z="1567.02564"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11327"/>
+		</Entity>
+		<Entity uid="1402">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="666.61219" z="1557.78711"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18244"/>
+		</Entity>
+		<Entity uid="1403">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="684.15101" z="1551.09034"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18244"/>
+		</Entity>
+		<Entity uid="1404">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="695.91974" z="1545.60376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17911"/>
+		</Entity>
+		<Entity uid="1405">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="709.02857" z="1539.68531"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17911"/>
+		</Entity>
+		<Entity uid="1406">
+			<Template>skirmish/structures/default_command_base</Template>
+			<Player>3</Player>
+			<Position x="1886.2356" z="998.0995"/>
+			<Orientation y="-2.37374"/>
+			<Actor seed="11758"/>
+		</Entity>
+		<Entity uid="1407">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>3</Player>
+			<Position x="1794.19178" z="954.27253"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16540"/>
+		</Entity>
+		<Entity uid="1408">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>3</Player>
+			<Position x="1801.26343" z="947.31965"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17100"/>
+		</Entity>
+		<Entity uid="1409">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>3</Player>
+			<Position x="1809.85792" z="940.73835"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17100"/>
+		</Entity>
+		<Entity uid="1410">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>3</Player>
+			<Position x="1816.51734" z="934.0417"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6390"/>
+		</Entity>
+		<Entity uid="1411">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>3</Player>
+			<Position x="1820.07593" z="929.74671"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6390"/>
+		</Entity>
+		<Entity uid="1412">
+			<Template>skirmish/structures/default_command_base</Template>
+			<Player>4</Player>
+			<Position x="1337.81653" z="358.4408"/>
+			<Orientation y="-0.71271"/>
+			<Actor seed="64113"/>
+		</Entity>
+		<Entity uid="1413">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>4</Player>
+			<Position x="1306.12269" z="448.95691"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14026"/>
+		</Entity>
+		<Entity uid="1414">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>4</Player>
+			<Position x="1297.14759" z="441.48688"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50794"/>
+		</Entity>
+		<Entity uid="1415">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>4</Player>
+			<Position x="1287.70154" z="428.77085"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50794"/>
+		</Entity>
+		<Entity uid="1416">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>4</Player>
+			<Position x="1277.11182" z="420.2801"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62455"/>
+		</Entity>
+		<Entity uid="1417">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>4</Player>
+			<Position x="1272.80372" z="412.9062"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62455"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

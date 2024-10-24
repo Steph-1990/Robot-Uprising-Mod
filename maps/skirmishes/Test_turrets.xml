@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>dark2</SkySet>
+		<SunColor r="1.5" g="1.5" b="1.5"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.313726" g="0.376471" b="0.521569"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.298039" g="0.34902" b="0.698039"/>
+				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Height>0</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="238.327" y="299.453" z="-48.7708"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Test_turret",
+  "PlayerData": [
+    null,
+    {},
+    {}
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="5">
+			<Template>structures/robot/anti_aircraft_turret</Template>
+			<Player>2</Player>
+			<Position x="383.69819" z="215.71555"/>
+			<Orientation y="-1.84652"/>
+			<Actor seed="22035"/>
+		</Entity>
+		<Entity uid="6">
+			<Template>structures/robot/anti_aircraft_turret</Template>
+			<Player>2</Player>
+			<Position x="356.6168" z="270.1461"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56531"/>
+		</Entity>
+		<Entity uid="7">
+			<Template>structures/robot/land_turret</Template>
+			<Player>2</Player>
+			<Position x="343.2776" z="174.13593"/>
+			<Orientation y="-1.77961"/>
+			<Actor seed="63158"/>
+		</Entity>
+		<Entity uid="8">
+			<Template>structures/robot/land_turret</Template>
+			<Player>2</Player>
+			<Position x="313.38688" z="236.8353"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52306"/>
+		</Entity>
+		<Entity uid="10">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="197.83024" z="204.55503"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36921"/>
+		</Entity>
+		<Entity uid="11">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="198.03675" z="196.24933"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55472"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="206.34144" z="179.29093"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14022"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="206.31208" z="167.9701"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14022"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="195.17423" z="184.80726"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43753"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="190.11915" z="194.04535"/>
+			<Orientation y="-0.48855"/>
+			<Actor seed="43753"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="180.37134" z="212.38505"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43753"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="174.66556" z="220.21"/>
+			<Orientation y="3.07773"/>
+			<Actor seed="43753"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="181.75467" z="190.60141"/>
+			<Orientation y="2.76767"/>
+			<Actor seed="626"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="194.94535" z="160.92832"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="626"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="199.01255" z="161.25309"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="626"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="195.10294" z="222.92502"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43774"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="209.22413" z="194.04535"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2973"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="216.71348" z="172.93808"/>
+			<Orientation y="2.79036"/>
+			<Actor seed="2973"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="221.98401" z="157.42222"/>
+			<Orientation y="2.87027"/>
+			<Actor seed="2973"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>1</Player>
+			<Position x="191.23005" z="98.63965"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46522"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>1</Player>
+			<Position x="194.37885" z="82.01261"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19892"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/structures/robot/infantry_units_parts.dae</mesh>
+      <textures>
+        <texture file="robot_texture.png" name="baseTex"/>
+        <texture file="robot_texture.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="structures/robot/infantry_units_parts.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>mountainous</SkySet>
+		<SunColor r="1" g="1" b="1"/>
+		<SunElevation angle="0.0828141"/>
+		<SunRotation angle="0.394163"/>
+		<AmbientColor r="0.819608" g="0.976471" b="0.921569"/>
+		<Fog>
+			<FogFactor>0.000878906</FogFactor>
+			<FogThickness>0.421875</FogThickness>
+			<FogColor r="0" g="0" b="0"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.756863" g="0.956863" b="0.937255"/>
+				<Tint r="0.756863" g="0.956863" b="0.937255"/>
+				<Height>22.9465</Height>
+				<Waviness>0</Waviness>
+				<Murkiness>0</Murkiness>
+				<WindAngle>-3.14159</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>-0.285156</Brightness>
+			<Contrast>0.709961</Contrast>
+			<Saturation>1.0625</Saturation>
+			<Bloom>0.178516</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="716.458" y="744.712" z="375.56"/>
+		<Rotation angle="-0.318896"/>
+		<Declination angle="0.861158"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "Un glacier neptunien comportant 2 niveaux de hauteur.\n\nCette carte est jouable uniquement en 1 vs 1.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Neptune",
+  "PlayerData": [
+    null,
+    {},
+    {}
+  ],
+  "Preview": "neptune.png",
+  "RevealMap": false,
+  "TriggerScripts": [
+    "scripts/StarciliteSpawner.js",
+    "scripts/TriggerHelper.js"
+  ],
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="1566">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="198.19944" z="673.11054"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20243"/>
+		</Entity>
+		<Entity uid="1567">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="998.36591" z="1295.49024"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5957"/>
+		</Entity>
+		<Entity uid="1568">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="559.07642" z="1250.80933"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40307"/>
+		</Entity>
+		<Entity uid="1569">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="1024.81861" z="594.15003"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12152"/>
+		</Entity>
+		<Entity uid="1570">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="690.94654" z="311.82953"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64457"/>
+		</Entity>
+		<Entity uid="1571">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1161.62037" z="1195.35547"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32614"/>
+		</Entity>
+		<Entity uid="1572">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="284.54719" z="480.07105"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39484"/>
+		</Entity>
+		<Entity uid="1573">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="914.90119" z="299.27262"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55288"/>
+		</Entity>
+		<Entity uid="1574">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="1207.76319" z="593.79493"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55864"/>
+		</Entity>
+		<Entity uid="1575">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="287.78315" z="1041.94336"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60977"/>
+		</Entity>
+		<Entity uid="1576">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="403.44141" z="1171.85694"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38313"/>
+		</Entity>
+		<Entity uid="1577">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="1200.8899" z="786.0688"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24392"/>
+		</Entity>
+		<Entity uid="1578">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="853.40613" z="459.72455"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23305"/>
+		</Entity>
+		<Entity uid="1579">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="568.33722" z="465.66871"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27415"/>
+		</Entity>
+		<Entity uid="1580">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="1086.79151" z="954.09522"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28456"/>
+		</Entity>
+		<Entity uid="1581">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="101.62966" z="862.94294"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25803"/>
+		</Entity>
+		<Entity uid="1582">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="591.26771" z="1060.4568"/>
+			<Orientation y="4.04661"/>
+			<Actor seed="40307"/>
+		</Entity>
+		<Entity uid="1583">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="808.98963" z="1492.42505"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="60977"/>
+		</Entity>
+		<Entity uid="1588">
+			<Template>trigger/trigger_point_A</Template>
+			<Player>0</Player>
+			<Position x="491.50452" z="1204.48353"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51922"/>
+		</Entity>
+		<Entity uid="1589">
+			<Template>trigger/trigger_point_B</Template>
+			<Player>0</Player>
+			<Position x="345.41913" z="1094.08545"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50710"/>
+		</Entity>
+		<Entity uid="1590">
+			<Template>trigger/trigger_point_C</Template>
+			<Player>0</Player>
+			<Position x="756.83997" z="1270.1305"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29399"/>
+		</Entity>
+		<Entity uid="1591">
+			<Template>trigger/trigger_point_D</Template>
+			<Player>0</Player>
+			<Position x="285.88932" z="898.85444"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36190"/>
+		</Entity>
+		<Entity uid="1592">
+			<Template>trigger/trigger_point_E</Template>
+			<Player>0</Player>
+			<Position x="668.26197" z="805.05555"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35435"/>
+		</Entity>
+		<Entity uid="1593">
+			<Template>trigger/trigger_point_F</Template>
+			<Player>0</Player>
+			<Position x="1047.79444" z="478.04047"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8826"/>
+		</Entity>
+		<Entity uid="1594">
+			<Template>trigger/trigger_point_G</Template>
+			<Player>0</Player>
+			<Position x="627.4574" z="1111.73218"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27084"/>
+		</Entity>
+		<Entity uid="1595">
+			<Template>trigger/trigger_point_H</Template>
+			<Player>0</Player>
+			<Position x="507.29456" z="1000.5381"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14995"/>
+		</Entity>
+		<Entity uid="1596">
+			<Template>trigger/trigger_point_I</Template>
+			<Player>0</Player>
+			<Position x="767.12183" z="333.26105"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33490"/>
+		</Entity>
+		<Entity uid="1597">
+			<Template>trigger/trigger_point_J</Template>
+			<Player>0</Player>
+			<Position x="1201.00123" z="705.73621"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49875"/>
+		</Entity>
+		<Entity uid="1598">
+			<Template>trigger/trigger_point_E</Template>
+			<Player>0</Player>
+			<Position x="866.18842" z="701.01313"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35435"/>
+		</Entity>
+		<Entity uid="1599">
+			<Template>trigger/trigger_point_E</Template>
+			<Player>0</Player>
+			<Position x="670.01404" z="534.39942"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35435"/>
+		</Entity>
+		<Entity uid="1600">
+			<Template>gaia/ore/quartz</Template>
+			<Player>0</Player>
+			<Position x="857.5597" z="1028.48072"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="28456"/>
+		</Entity>
+		<Entity uid="1601">
+			<Template>gaia/ore/copper</Template>
+			<Player>0</Player>
+			<Position x="707.27552" z="858.25055"/>
+			<Orientation y="1.01249"/>
+			<Actor seed="12152"/>
+		</Entity>
+		<Entity uid="1602">
+			<Template>gaia/ore/titanium</Template>
+			<Player>0</Player>
+			<Position x="487.3064" z="736.94471"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="60977"/>
+		</Entity>
+		<Entity uid="1611">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="708.31153" z="1246.81556"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13595"/>
+		</Entity>
+		<Entity uid="1612">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="682.57911" z="1285.92957"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61789"/>
+		</Entity>
+		<Entity uid="1613">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="692.10572" z="1294.66163"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24604"/>
+		</Entity>
+		<Entity uid="1614">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="685.38117" z="1275.05213"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54407"/>
+		</Entity>
+		<Entity uid="1615">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="672.81971" z="1279.76648"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11500"/>
+		</Entity>
+		<Entity uid="1616">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="705.211" z="1234.19874"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39152"/>
+		</Entity>
+		<Entity uid="1617">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="716.31244" z="1259.37928"/>
+			<Orientation y="-0.18963"/>
+			<Actor seed="60250"/>
+		</Entity>
+		<Entity uid="1619">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="662.33594" z="1400.6233"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22275"/>
+		</Entity>
+		<Entity uid="1621">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="651.58033" z="1411.5907"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41434"/>
+		</Entity>
+		<Entity uid="1622">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="589.55756" z="1360.25355"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59127"/>
+		</Entity>
+		<Entity uid="1623">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="575.86365" z="1362.44642"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9058"/>
+		</Entity>
+		<Entity uid="1625">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="601.8819" z="1360.03626"/>
+			<Orientation y="-0.67071"/>
+			<Actor seed="51112"/>
+		</Entity>
+		<Entity uid="1626">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="287.37113" z="1303.03834"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29437"/>
+		</Entity>
+		<Entity uid="1627">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="292.46302" z="1314.06592"/>
+			<Orientation y="-2.4006"/>
+			<Actor seed="38241"/>
+		</Entity>
+		<Entity uid="1628">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="277.51124" z="1292.40052"/>
+			<Orientation y="-2.89197"/>
+			<Actor seed="58719"/>
+		</Entity>
+		<Entity uid="1629">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="147.20963" z="1121.63025"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21407"/>
+		</Entity>
+		<Entity uid="1630">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="227.70102" z="1247.08143"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="463"/>
+		</Entity>
+		<Entity uid="1631">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="233.30048" z="1238.91443"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19913"/>
+		</Entity>
+		<Entity uid="1632">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="176.37064" z="1028.46045"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55376"/>
+		</Entity>
+		<Entity uid="1634">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="164.07633" z="1012.81775"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56441"/>
+		</Entity>
+		<Entity uid="1635">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="148.85782" z="991.18006"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9036"/>
+		</Entity>
+		<Entity uid="1643">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="470.55341" z="1049.84546"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23136"/>
+		</Entity>
+		<Entity uid="1644">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="449.45127" z="1062.02527"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1254"/>
+		</Entity>
+		<Entity uid="1645">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="509.13065" z="1095.39124"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44579"/>
+		</Entity>
+		<Entity uid="1646">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="579.44111" z="1148.81824"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52298"/>
+		</Entity>
+		<Entity uid="1647">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="561.22761" z="1124.0669"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48584"/>
+		</Entity>
+		<Entity uid="1648">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="455.93134" z="1034.71851"/>
+			<Orientation y="-2.97684"/>
+			<Actor seed="38735"/>
+		</Entity>
+		<Entity uid="1649">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="728.23597" z="1314.87354"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61963"/>
+		</Entity>
+		<Entity uid="1650">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="742.77656" z="1326.30164"/>
+			<Orientation y="0.27639"/>
+			<Actor seed="19394"/>
+		</Entity>
+		<Entity uid="1651">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="727.05616" z="1301.78614"/>
+			<Orientation y="3.11425"/>
+			<Actor seed="28714"/>
+		</Entity>
+		<Entity uid="1659">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="354.38276" z="1375.51636"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39597"/>
+		</Entity>
+		<Entity uid="1661">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="424.50849" z="1348.09266"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13343"/>
+		</Entity>
+		<Entity uid="1668">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="721.93982" z="1270.59546"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51834"/>
+		</Entity>
+		<Entity uid="1669">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="727.14246" z="1290.8346"/>
+			<Orientation y="-2.1206"/>
+			<Actor seed="11919"/>
+		</Entity>
+		<Entity uid="1670">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="733.55018" z="1280.57544"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60858"/>
+		</Entity>
+		<Entity uid="1671">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="730.29395" z="1259.88062"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48378"/>
+		</Entity>
+		<Entity uid="1681">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="182.85523" z="1183.99427"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59289"/>
+		</Entity>
+		<Entity uid="1714">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="177.40616" z="1174.24341"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51875"/>
+		</Entity>
+		<Entity uid="1715">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="176.00351" z="1185.73426"/>
+			<Orientation y="-2.86892"/>
+			<Actor seed="6692"/>
+		</Entity>
+		<Entity uid="1716">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="190.48832" z="1191.81568"/>
+			<Orientation y="0.3893"/>
+			<Actor seed="25967"/>
+		</Entity>
+		<Entity uid="1717">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="520.52631" z="256.55356"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39134"/>
+		</Entity>
+		<Entity uid="1718">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="506.72233" z="259.67273"/>
+			<Orientation y="-2.39968"/>
+			<Actor seed="34255"/>
+		</Entity>
+		<Entity uid="1719">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="523.74207" z="269.86326"/>
+			<Orientation y="0.5734"/>
+			<Actor seed="32912"/>
+		</Entity>
+		<Entity uid="1720">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="512.89582" z="266.72092"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41513"/>
+		</Entity>
+		<Entity uid="1721">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="1325.24793" z="997.37623"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38846"/>
+		</Entity>
+		<Entity uid="1722">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="1313.4994" z="985.3849"/>
+			<Orientation y="0.04479"/>
+			<Actor seed="16168"/>
+		</Entity>
+		<Entity uid="1723">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="1330.56226" z="1014.85077"/>
+			<Orientation y="3.0587"/>
+			<Actor seed="63503"/>
+		</Entity>
+		<Entity uid="1724">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1319.8628" z="1007.4344"/>
+			<Orientation y="3.05626"/>
+			<Actor seed="16756"/>
+		</Entity>
+		<Entity uid="1725">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1314.14979" z="998.792"/>
+			<Orientation y="2.69001"/>
+			<Actor seed="11552"/>
+		</Entity>
+		<Entity uid="1726">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="274.15345" z="629.66077"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8398"/>
+		</Entity>
+		<Entity uid="1727">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="281.3368" z="624.32831"/>
+			<Orientation y="1.10341"/>
+			<Actor seed="58117"/>
+		</Entity>
+		<Entity uid="1728">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="288.95926" z="619.97779"/>
+			<Orientation y="-1.49387"/>
+			<Actor seed="30589"/>
+		</Entity>
+		<Entity uid="1729">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="292.74692" z="616.08606"/>
+			<Orientation y="-1.45133"/>
+			<Actor seed="38979"/>
+		</Entity>
+		<Entity uid="1730">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="297.14756" z="608.30616"/>
+			<Orientation y="1.09501"/>
+			<Actor seed="61043"/>
+		</Entity>
+		<Entity uid="1731">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="307.57435" z="605.63447"/>
+			<Orientation y="-1.3245"/>
+			<Actor seed="16705"/>
+		</Entity>
+		<Entity uid="1732">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="313.0081" z="600.68989"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46786"/>
+		</Entity>
+		<Entity uid="1733">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="272.96613" z="633.61353"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42763"/>
+		</Entity>
+		<Entity uid="1734">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="268.28312" z="640.90522"/>
+			<Orientation y="-3.05652"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="1735">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="324.2566" z="599.49958"/>
+			<Orientation y="1.37682"/>
+			<Actor seed="60768"/>
+		</Entity>
+		<Entity uid="1737">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="353.46134" z="667.93793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19066"/>
+		</Entity>
+		<Entity uid="1738">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="320.38657" z="673.18714"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13652"/>
+		</Entity>
+		<Entity uid="1739">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="344.15583" z="671.18384"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2009"/>
+		</Entity>
+		<Entity uid="1741">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="331.32273" z="632.14863"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16976"/>
+		</Entity>
+		<Entity uid="1743">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="696.75831" z="744.74628"/>
+			<Orientation y="3.95359"/>
+			<Actor seed="8398"/>
+		</Entity>
+		<Entity uid="1744">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="694.37977" z="734.12452"/>
+			<Orientation y="2.70078"/>
+			<Actor seed="58117"/>
+		</Entity>
+		<Entity uid="1745">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="687.18982" z="728.76258"/>
+			<Orientation y="0.10351"/>
+			<Actor seed="30589"/>
+		</Entity>
+		<Entity uid="1746">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="682.69434" z="726.52009"/>
+			<Orientation y="0.14605"/>
+			<Actor seed="38979"/>
+		</Entity>
+		<Entity uid="1747">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="674.8003" z="722.3277"/>
+			<Orientation y="2.69239"/>
+			<Actor seed="61043"/>
+		</Entity>
+		<Entity uid="1748">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="675.18628" z="713.38996"/>
+			<Orientation y="0.27288"/>
+			<Actor seed="16705"/>
+		</Entity>
+		<Entity uid="1749">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="669.55488" z="707.2035"/>
+			<Orientation y="3.95359"/>
+			<Actor seed="46786"/>
+		</Entity>
+		<Entity uid="1750">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="704.80463" z="746.88221"/>
+			<Orientation y="3.95359"/>
+			<Actor seed="42763"/>
+		</Entity>
+		<Entity uid="1751">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="713.6858" z="751.32166"/>
+			<Orientation y="-1.45916"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="1752">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="665.2765" z="695.46229"/>
+			<Orientation y="2.97419"/>
+			<Actor seed="60768"/>
+		</Entity>
+		<Entity uid="1764">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="712.52387" z="558.8152"/>
+			<Orientation y="-2.08977"/>
+			<Actor seed="30589"/>
+		</Entity>
+		<Entity uid="1765">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="717.84296" z="557.7201"/>
+			<Orientation y="-2.04723"/>
+			<Actor seed="38979"/>
+		</Entity>
+		<Entity uid="1766">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="725.85169" z="553.75104"/>
+			<Orientation y="0.49912"/>
+			<Actor seed="61043"/>
+		</Entity>
+		<Entity uid="1767">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="735.98084" z="557.39203"/>
+			<Orientation y="-1.9204"/>
+			<Actor seed="16705"/>
+		</Entity>
+		<Entity uid="1768">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="746.49164" z="553.9881"/>
+			<Orientation y="1.76032"/>
+			<Actor seed="46786"/>
+		</Entity>
+		<Entity uid="1769">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="757.93671" z="557.54261"/>
+			<Orientation y="0.78092"/>
+			<Actor seed="60768"/>
+		</Entity>
+		<Entity uid="1770">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="694.8354" z="558.51935"/>
+			<Orientation y="1.76032"/>
+			<Actor seed="8398"/>
+		</Entity>
+		<Entity uid="1771">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="703.7735" z="558.1377"/>
+			<Orientation y="0.50751"/>
+			<Actor seed="58117"/>
+		</Entity>
+		<Entity uid="1772">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="696.33985" z="556.98932"/>
+			<Orientation y="1.76032"/>
+			<Actor seed="42763"/>
+		</Entity>
+		<Entity uid="1773">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="688.37153" z="560.39588"/>
+			<Orientation y="-3.65243"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="1774">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="728.43775" z="702.75123"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48540"/>
+		</Entity>
+		<Entity uid="1775">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="736.76185" z="710.8863"/>
+			<Orientation y="-1.90444"/>
+			<Actor seed="53261"/>
+		</Entity>
+		<Entity uid="1776">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="718.54358" z="700.61457"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28065"/>
+		</Entity>
+		<Entity uid="1777">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_ice.xml</Template>
+			<Position x="814.33838" z="658.67072"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48190"/>
+		</Entity>
+		<Entity uid="1778">
+			<Template>actor|props/special/stalagmite_group_pikes_small_ice.xml</Template>
+			<Position x="816.10157" z="665.33515"/>
+			<Orientation y="2.02862"/>
+			<Actor seed="23152"/>
+		</Entity>
+		<Entity uid="1779">
+			<Template>actor|props/special/stalagmite_group_pikes_small_ice.xml</Template>
+			<Position x="814.8694" z="650.81397"/>
+			<Orientation y="1.72197"/>
+			<Actor seed="21528"/>
+		</Entity>
+		<Entity uid="1780">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="799.68964" z="658.85285"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50940"/>
+		</Entity>
+		<Entity uid="1781">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="768.45948" z="621.90803"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4111"/>
+		</Entity>
+		<Entity uid="1783">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="759.62232" z="654.97754"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2763"/>
+		</Entity>
+		<Entity uid="1784">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_ice.xml</Template>
+			<Position x="762.53736" z="656.11365"/>
+			<Orientation y="0.85952"/>
+			<Actor seed="39097"/>
+		</Entity>
+		<Entity uid="1785">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_ice.xml</Template>
+			<Position x="773.16797" z="623.79896"/>
+			<Orientation y="2.92121"/>
+			<Actor seed="8689"/>
+		</Entity>
+		<Entity uid="1786">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="700.61811" z="630.5398"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52978"/>
+		</Entity>
+		<Entity uid="1787">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="695.27149" z="631.10138"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19895"/>
+		</Entity>
+		<Entity uid="1788">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="700.88324" z="625.04737"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13662"/>
+		</Entity>
+		<Entity uid="1789">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="696.24091" z="618.95234"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42169"/>
+		</Entity>
+		<Entity uid="1790">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="691.06348" z="626.59156"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42169"/>
+		</Entity>
+		<Entity uid="1791">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="692.93354" z="613.96314"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43128"/>
+		</Entity>
+		<Entity uid="1792">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="691.33631" z="621.7884"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43128"/>
+		</Entity>
+		<Entity uid="1793">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="697.70026" z="627.10688"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23009"/>
+		</Entity>
+		<Entity uid="1794">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="695.24323" z="619.69574"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11706"/>
+		</Entity>
+		<Entity uid="1795">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="698.32313" z="616.60004"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5025"/>
+		</Entity>
+		<Entity uid="1796">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="674.40937" z="160.1792"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41835"/>
+		</Entity>
+		<Entity uid="1797">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="564.14222" z="144.14914"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56012"/>
+		</Entity>
+		<Entity uid="1798">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="472.54758" z="154.01465"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58119"/>
+		</Entity>
+		<Entity uid="1799">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="388.08857" z="194.8498"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16000"/>
+		</Entity>
+		<Entity uid="1800">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="380.27845" z="194.46634"/>
+			<Orientation y="1.66602"/>
+			<Actor seed="19081"/>
+		</Entity>
+		<Entity uid="1801">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="328.19126" z="226.33634"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11133"/>
+		</Entity>
+		<Entity uid="1802">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="263.59861" z="265.68934"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13043"/>
+		</Entity>
+		<Entity uid="1803">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="216.46421" z="351.21525"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15006"/>
+		</Entity>
+		<Entity uid="1804">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="146.55405" z="399.83515"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64566"/>
+		</Entity>
+		<Entity uid="1806">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="157.37198" z="467.42502"/>
+			<Orientation y="2.10506"/>
+			<Actor seed="21628"/>
+		</Entity>
+		<Entity uid="1807">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="110.73803" z="508.83414"/>
+			<Orientation y="-0.45405"/>
+			<Actor seed="55615"/>
+		</Entity>
+		<Entity uid="1808">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="119.54432" z="508.74125"/>
+			<Orientation y="-0.53891"/>
+			<Actor seed="61302"/>
+		</Entity>
+		<Entity uid="1809">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="151.36414" z="469.32523"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19849"/>
+		</Entity>
+		<Entity uid="1810">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="158.58878" z="458.70707"/>
+			<Orientation y="-3.04815"/>
+			<Actor seed="50674"/>
+		</Entity>
+		<Entity uid="1811">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="158.84244" z="472.46088"/>
+			<Orientation y="-2.54101"/>
+			<Actor seed="42701"/>
+		</Entity>
+		<Entity uid="1813">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="183.31391" z="439.52604"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18853"/>
+		</Entity>
+		<Entity uid="1814">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="149.73835" z="406.33664"/>
+			<Orientation y="2.18046"/>
+			<Actor seed="8210"/>
+		</Entity>
+		<Entity uid="1815">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="149.0105" z="390.45203"/>
+			<Orientation y="-1.3425"/>
+			<Actor seed="46372"/>
+		</Entity>
+		<Entity uid="1816">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="217.28046" z="340.07282"/>
+			<Orientation y="1.70202"/>
+			<Actor seed="51446"/>
+		</Entity>
+		<Entity uid="1817">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="207.727" z="350.83378"/>
+			<Orientation y="1.70067"/>
+			<Actor seed="42498"/>
+		</Entity>
+		<Entity uid="1818">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="234.86005" z="347.90394"/>
+			<Orientation y="1.61797"/>
+			<Actor seed="41802"/>
+		</Entity>
+		<Entity uid="1819">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="288.23487" z="268.96378"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29041"/>
+		</Entity>
+		<Entity uid="1835">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="466.55173" z="154.24961"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62327"/>
+		</Entity>
+		<Entity uid="1836">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="478.00364" z="150.39612"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25438"/>
+		</Entity>
+		<Entity uid="1837">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="570.69733" z="141.98304"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51986"/>
+		</Entity>
+		<Entity uid="1838">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="647.39161" z="131.14805"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57090"/>
+		</Entity>
+		<Entity uid="1839">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="647.62" z="138.71882"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10049"/>
+		</Entity>
+		<Entity uid="1841">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="1203.55152" z="831.1703"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33900"/>
+		</Entity>
+		<Entity uid="1842">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="1220.15882" z="841.15381"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64344"/>
+		</Entity>
+		<Entity uid="1843">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="1224.89881" z="826.51526"/>
+			<Orientation y="0.75422"/>
+			<Actor seed="53695"/>
+		</Entity>
+		<Entity uid="1844">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="1213.61646" z="818.33655"/>
+			<Orientation y="2.0078"/>
+			<Actor seed="64141"/>
+		</Entity>
+		<Entity uid="1845">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="1196.69556" z="815.77527"/>
+			<Orientation y="-0.94388"/>
+			<Actor seed="46920"/>
+		</Entity>
+		<Entity uid="1846">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="1186.55152" z="823.13276"/>
+			<Orientation y="-1.09557"/>
+			<Actor seed="34305"/>
+		</Entity>
+		<Entity uid="1847">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="1207.19153" z="810.2995"/>
+			<Orientation y="2.19475"/>
+			<Actor seed="59027"/>
+		</Entity>
+		<Entity uid="1848">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="87.4788" z="914.53003"/>
+			<Orientation y="3.59614"/>
+			<Actor seed="13595"/>
+		</Entity>
+		<Entity uid="1849">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="74.53908" z="913.36347"/>
+			<Orientation y="3.59614"/>
+			<Actor seed="39152"/>
+		</Entity>
+		<Entity uid="1850">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="101.96033" z="911.04487"/>
+			<Orientation y="1.05028"/>
+			<Actor seed="60250"/>
+		</Entity>
+		<Entity uid="1853">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="145.26117" z="915.1645"/>
+			<Orientation y="4.35416"/>
+			<Actor seed="28714"/>
+		</Entity>
+		<Entity uid="1854">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="114.39634" z="909.36664"/>
+			<Orientation y="3.59614"/>
+			<Actor seed="51834"/>
+		</Entity>
+		<Entity uid="1857">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="107.30857" z="897.9668"/>
+			<Orientation y="3.59614"/>
+			<Actor seed="48378"/>
+		</Entity>
+		<Entity uid="1858">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="132.2208" z="914.06489"/>
+			<Orientation y="3.59615"/>
+			<Actor seed="13595"/>
+		</Entity>
+		<Entity uid="1859">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="115.2478" z="923.5174"/>
+			<Orientation y="3.59615"/>
+			<Actor seed="48378"/>
+		</Entity>
+		<Entity uid="1860">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="101.49825" z="921.80262"/>
+			<Orientation y="3.59615"/>
+			<Actor seed="48378"/>
+		</Entity>
+		<Entity uid="1864">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="950.7063" z="218.11689"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16268"/>
+		</Entity>
+		<Entity uid="1866">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="945.32313" z="222.35587"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2515"/>
+		</Entity>
+		<Entity uid="1867">
+			<Template>actor|props/special/stalagmite_group_smooth_small_ice.xml</Template>
+			<Position x="956.24793" z="212.87449"/>
+			<Orientation y="-0.90365"/>
+			<Actor seed="3445"/>
+		</Entity>
+		<Entity uid="1868">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="1145.15284" z="287.07282"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4359"/>
+		</Entity>
+		<Entity uid="1869">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1157.2516" z="288.57404"/>
+			<Orientation y="1.08826"/>
+			<Actor seed="27813"/>
+		</Entity>
+		<Entity uid="1870">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1144.313" z="275.10862"/>
+			<Orientation y="-0.15609"/>
+			<Actor seed="36130"/>
+		</Entity>
+		<Entity uid="1871">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1136.35462" z="294.42573"/>
+			<Orientation y="2.93975"/>
+			<Actor seed="60080"/>
+		</Entity>
+		<Entity uid="1872">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="1267.82105" z="397.38532"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35381"/>
+		</Entity>
+		<Entity uid="1873">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="1274.1211" z="400.59122"/>
+			<Orientation y="-2.84418"/>
+			<Actor seed="40147"/>
+		</Entity>
+		<Entity uid="1874">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="1276.54102" z="396.1678"/>
+			<Orientation y="-0.66761"/>
+			<Actor seed="18858"/>
+		</Entity>
+		<Entity uid="1875">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="1272.70484" z="388.19721"/>
+			<Orientation y="2.93042"/>
+			<Actor seed="48938"/>
+		</Entity>
+		<Entity uid="1876">
+			<Template>actor|props/special/stalagmite_group_pikes_big_ice.xml</Template>
+			<Position x="1227.31373" z="347.94129"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4327"/>
+		</Entity>
+		<Entity uid="1877">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_ice.xml</Template>
+			<Position x="1211.3108" z="341.95704"/>
+			<Orientation y="-0.9927"/>
+			<Actor seed="50764"/>
+		</Entity>
+		<Entity uid="1878">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_ice.xml</Template>
+			<Position x="1239.3866" z="363.46665"/>
+			<Orientation y="-1.61175"/>
+			<Actor seed="21462"/>
+		</Entity>
+		<Entity uid="1880">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="1327.2378" z="566.1717"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26326"/>
+		</Entity>
+		<Entity uid="1881">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1329.65625" z="580.24378"/>
+			<Orientation y="0.19674"/>
+			<Actor seed="41204"/>
+		</Entity>
+		<Entity uid="1882">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1318.41663" z="570.29474"/>
+			<Orientation y="-2.32645"/>
+			<Actor seed="48926"/>
+		</Entity>
+		<Entity uid="1883">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1337.4131" z="557.03718"/>
+			<Orientation y="-0.51784"/>
+			<Actor seed="62096"/>
+		</Entity>
+		<Entity uid="1884">
+			<Template>actor|props/special/stalagmite_big_ice.xml</Template>
+			<Position x="1376.23426" z="618.50977"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3230"/>
+		</Entity>
+		<Entity uid="1885">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="1374.21888" z="628.93091"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23720"/>
+		</Entity>
+		<Entity uid="1886">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="1367.0088" z="617.2696"/>
+			<Orientation y="3.13471"/>
+			<Actor seed="13842"/>
+		</Entity>
+		<Entity uid="1887">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="1365.98536" z="671.0254"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35958"/>
+		</Entity>
+		<Entity uid="1888">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1362.65381" z="657.5965"/>
+			<Orientation y="-1.28283"/>
+			<Actor seed="18124"/>
+		</Entity>
+		<Entity uid="1889">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1370.30958" z="687.1247"/>
+			<Orientation y="-0.27495"/>
+			<Actor seed="23131"/>
+		</Entity>
+		<Entity uid="1890">
+			<Template>actor|props/special/stalagmite_group_smooth_big_ice.xml</Template>
+			<Position x="1341.98218" z="878.7812"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2619"/>
+		</Entity>
+		<Entity uid="1891">
+			<Template>actor|props/special/stalagmite_group_pikes_big_ice.xml</Template>
+			<Position x="1337.56104" z="895.8418"/>
+			<Orientation y="-0.47884"/>
+			<Actor seed="24440"/>
+		</Entity>
+		<Entity uid="1892">
+			<Template>actor|props/special/stalagmite_group_pikes_big_ice.xml</Template>
+			<Position x="1327.27881" z="873.37977"/>
+			<Orientation y="2.42455"/>
+			<Actor seed="28543"/>
+		</Entity>
+		<Entity uid="1893">
+			<Template>actor|props/special/stalagmite_group_pikes_big_ice.xml</Template>
+			<Position x="1349.70191" z="861.88538"/>
+			<Orientation y="0.62714"/>
+			<Actor seed="5229"/>
+		</Entity>
+		<Entity uid="1894">
+			<Template>actor|props/special/stalagmite_group_pikes_big_ice.xml</Template>
+			<Position x="1357.17713" z="884.50623"/>
+			<Orientation y="2.03031"/>
+			<Actor seed="4548"/>
+		</Entity>
+		<Entity uid="1895">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1349.55933" z="845.71454"/>
+			<Orientation y="3.00676"/>
+			<Actor seed="8524"/>
+		</Entity>
+		<Entity uid="1896">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_ice.xml</Template>
+			<Position x="1325.32374" z="903.26056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38827"/>
+		</Entity>
+		<Entity uid="1897">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="923.74543" z="1079.78992"/>
+			<Orientation y="2.4894"/>
+			<Actor seed="8398"/>
+		</Entity>
+		<Entity uid="1898">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="928.53766" z="1071.85535"/>
+			<Orientation y="1.2366"/>
+			<Actor seed="58117"/>
+		</Entity>
+		<Entity uid="1899">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="937.30799" z="1068.39173"/>
+			<Orientation y="-1.36068"/>
+			<Actor seed="30589"/>
+		</Entity>
+		<Entity uid="1900">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="939.05927" z="1063.68311"/>
+			<Orientation y="-1.31814"/>
+			<Actor seed="38979"/>
+		</Entity>
+		<Entity uid="1901">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="943.16803" z="1061.31934"/>
+			<Orientation y="1.2282"/>
+			<Actor seed="61043"/>
+		</Entity>
+		<Entity uid="1902">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="951.75788" z="1059.39808"/>
+			<Orientation y="-1.19132"/>
+			<Actor seed="16705"/>
+		</Entity>
+		<Entity uid="1903">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="959.77814" z="1057.27845"/>
+			<Orientation y="2.4894"/>
+			<Actor seed="46786"/>
+		</Entity>
+		<Entity uid="1904">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="922.2959" z="1091.54407"/>
+			<Orientation y="2.4894"/>
+			<Actor seed="42763"/>
+		</Entity>
+		<Entity uid="1905">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="918.42469" z="1103.10547"/>
+			<Orientation y="-2.92336"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="1906">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="971.37977" z="1054.82422"/>
+			<Orientation y="1.51001"/>
+			<Actor seed="60768"/>
+		</Entity>
+		<Entity uid="1907">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="1011.00904" z="1157.40076"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14518"/>
+		</Entity>
+		<Entity uid="1908">
+			<Template>actor|props/special/stalagmite_mid_ice.xml</Template>
+			<Position x="987.70972" z="1121.19751"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39312"/>
+		</Entity>
+		<Entity uid="1910">
+			<Template>actor|props/special/stalagmite_small_ice.xml</Template>
+			<Position x="995.15027" z="1159.75489"/>
+			<Orientation y="1.19234"/>
+			<Actor seed="60679"/>
+		</Entity>
+		<Entity uid="1911">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1049.88953" z="1197.91932"/>
+			<Orientation y="1.93708"/>
+			<Actor seed="38979"/>
+		</Entity>
+		<Entity uid="1912">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1059.41663" z="1188.60682"/>
+			<Orientation y="4.49183"/>
+			<Actor seed="58117"/>
+		</Entity>
+		<Entity uid="1913">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1038.7682" z="1208.41468"/>
+			<Orientation y="2.06391"/>
+			<Actor seed="16705"/>
+		</Entity>
+		<Entity uid="1914">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1063.27833" z="1180.18006"/>
+			<Orientation y="5.74462"/>
+			<Actor seed="8398"/>
+		</Entity>
+		<Entity uid="1915">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1053.12732" z="1194.5044"/>
+			<Orientation y="1.89454"/>
+			<Actor seed="30589"/>
+		</Entity>
+		<Entity uid="1916">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="1047.87464" z="1202.05152"/>
+			<Orientation y="4.48342"/>
+			<Actor seed="61043"/>
+		</Entity>
+		<Entity uid="1917">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="1029.90516" z="1212.10853"/>
+			<Orientation y="5.74462"/>
+			<Actor seed="46786"/>
+		</Entity>
+		<Entity uid="1918">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="1068.58667" z="1167.55713"/>
+			<Orientation y="5.74462"/>
+			<Actor seed="42763"/>
+		</Entity>
+		<Entity uid="1919">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="1060.70875" z="1160.64295"/>
+			<Orientation y="0.33187"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="1920">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="1016.61872" z="1215.72083"/>
+			<Orientation y="4.76523"/>
+			<Actor seed="60768"/>
+		</Entity>
+		<Entity uid="1921">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="539.21277" z="1079.52186"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3314"/>
+		</Entity>
+		<Entity uid="1922">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="536.44349" z="1064.66163"/>
+			<Orientation y="0.43047"/>
+			<Actor seed="3609"/>
+		</Entity>
+		<Entity uid="1923">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="557.15119" z="1080.69617"/>
+			<Orientation y="-0.02056"/>
+			<Actor seed="20876"/>
+		</Entity>
+		<Entity uid="1924">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="546.72663" z="1072.74866"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28746"/>
+		</Entity>
+		<Entity uid="1925">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="531.91938" z="1057.27686"/>
+			<Orientation y="2.2884"/>
+			<Actor seed="25646"/>
+		</Entity>
+		<Entity uid="1926">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="569.63886" z="1085.52515"/>
+			<Orientation y="1.67551"/>
+			<Actor seed="56583"/>
+		</Entity>
+		<Entity uid="1927">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="522.51923" z="1045.9408"/>
+			<Orientation y="-2.6527"/>
+			<Actor seed="18445"/>
+		</Entity>
+		<Entity uid="1928">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="580.52912" z="1094.97974"/>
+			<Orientation y="-1.04346"/>
+			<Actor seed="29018"/>
+		</Entity>
+		<Entity uid="1929">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="223.89753" z="903.09766"/>
+			<Orientation y="2.20531"/>
+			<Actor seed="29069"/>
+		</Entity>
+		<Entity uid="1930">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="242.96985" z="901.68995"/>
+			<Orientation y="0.43178"/>
+			<Actor seed="62544"/>
+		</Entity>
+		<Entity uid="1931">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="240.12534" z="909.12598"/>
+			<Orientation y="0.45981"/>
+			<Actor seed="52901"/>
+		</Entity>
+		<Entity uid="1932">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="209.93805" z="898.52204"/>
+			<Orientation y="-1.63596"/>
+			<Actor seed="56895"/>
+		</Entity>
+		<Entity uid="1933">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="220.75916" z="913.45667"/>
+			<Orientation y="2.20531"/>
+			<Actor seed="6901"/>
+		</Entity>
+		<Entity uid="1934">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="351.63349" z="951.4469"/>
+			<Orientation y="2.03602"/>
+			<Actor seed="5679"/>
+		</Entity>
+		<Entity uid="1935">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="372.34995" z="956.28901"/>
+			<Orientation y="2.03602"/>
+			<Actor seed="33380"/>
+		</Entity>
+		<Entity uid="1936">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="389.31278" z="968.97175"/>
+			<Orientation y="2.03602"/>
+			<Actor seed="8429"/>
+		</Entity>
+		<Entity uid="1937">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="402.30683" z="971.98108"/>
+			<Orientation y="0.88492"/>
+			<Actor seed="50532"/>
+		</Entity>
+		<Entity uid="1938">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="382.08097" z="970.32544"/>
+			<Orientation y="1.29661"/>
+			<Actor seed="33057"/>
+		</Entity>
+		<Entity uid="1939">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="364.43003" z="947.3451"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38789"/>
+		</Entity>
+		<Entity uid="1940">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="385.8241" z="957.10096"/>
+			<Orientation y="-1.61226"/>
+			<Actor seed="38317"/>
+		</Entity>
+		<Entity uid="1941">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="257.37903" z="987.81727"/>
+			<Orientation y="-0.8096"/>
+			<Actor seed="11710"/>
+		</Entity>
+		<Entity uid="1942">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="237.64557" z="1010.7981"/>
+			<Orientation y="1.7217"/>
+			<Actor seed="15840"/>
+		</Entity>
+		<Entity uid="1943">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="248.01142" z="1000.23523"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46685"/>
+		</Entity>
+		<Entity uid="1944">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="258.41187" z="997.62543"/>
+			<Orientation y="-0.72422"/>
+			<Actor seed="3438"/>
+		</Entity>
+		<Entity uid="1945">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="245.96875" z="1012.1493"/>
+			<Orientation y="-2.16927"/>
+			<Actor seed="21370"/>
+		</Entity>
+		<Entity uid="1946">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="590.17658" z="1287.81959"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46685"/>
+		</Entity>
+		<Entity uid="1947">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="599.63337" z="1266.6034"/>
+			<Orientation y="-0.80961"/>
+			<Actor seed="11710"/>
+		</Entity>
+		<Entity uid="1948">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="583.72718" z="1303.85901"/>
+			<Orientation y="-2.16927"/>
+			<Actor seed="21370"/>
+		</Entity>
+		<Entity uid="1950">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="567.33381" z="1299.07374"/>
+			<Orientation y="1.7217"/>
+			<Actor seed="15840"/>
+		</Entity>
+		<Entity uid="1951">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="596.95392" z="1277.73816"/>
+			<Orientation y="-0.72422"/>
+			<Actor seed="3438"/>
+		</Entity>
+		<Entity uid="1955">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="579.58753" z="1291.78541"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52047"/>
+		</Entity>
+		<Entity uid="1956">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="585.18934" z="1273.63917"/>
+			<Orientation y="1.41224"/>
+			<Actor seed="16697"/>
+		</Entity>
+		<Entity uid="1957">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="748.15583" z="1431.49463"/>
+			<Orientation y="2.07139"/>
+			<Actor seed="13595"/>
+		</Entity>
+		<Entity uid="1958">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="749.9449" z="1416.25953"/>
+			<Orientation y="2.07139"/>
+			<Actor seed="39152"/>
+		</Entity>
+		<Entity uid="1959">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="748.8675" z="1450.28492"/>
+			<Orientation y="-0.47448"/>
+			<Actor seed="60250"/>
+		</Entity>
+		<Entity uid="1960">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="748.26886" z="1505.56751"/>
+			<Orientation y="2.07139"/>
+			<Actor seed="61963"/>
+		</Entity>
+		<Entity uid="1961">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="748.61146" z="1520.42151"/>
+			<Orientation y="-0.00846"/>
+			<Actor seed="19394"/>
+		</Entity>
+		<Entity uid="1962">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="750.03528" z="1492.55896"/>
+			<Orientation y="2.82941"/>
+			<Actor seed="28714"/>
+		</Entity>
+		<Entity uid="1963">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="747.57367" z="1462.07715"/>
+			<Orientation y="2.07139"/>
+			<Actor seed="51834"/>
+		</Entity>
+		<Entity uid="1964">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="747.5149" z="1481.21302"/>
+			<Orientation y="-2.40545"/>
+			<Actor seed="11919"/>
+		</Entity>
+		<Entity uid="1965">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="757.88422" z="1474.19825"/>
+			<Orientation y="2.07139"/>
+			<Actor seed="60858"/>
+		</Entity>
+		<Entity uid="1966">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="755.13154" z="1455.94007"/>
+			<Orientation y="2.07139"/>
+			<Actor seed="48378"/>
+		</Entity>
+		<Entity uid="1967">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="234.68421" z="1026.9463"/>
+			<Orientation y="1.55433"/>
+			<Actor seed="61045"/>
+		</Entity>
+		<Entity uid="1968">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="230.61323" z="1041.31238"/>
+			<Orientation y="-0.93393"/>
+			<Actor seed="9340"/>
+		</Entity>
+		<Entity uid="1969">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="229.53779" z="1052.65113"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64585"/>
+		</Entity>
+		<Entity uid="1970">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="231.23746" z="1022.39527"/>
+			<Orientation y="1.72324"/>
+			<Actor seed="63161"/>
+		</Entity>
+		<Entity uid="1972">
+			<Template>actor|props/special/stalagmite_small_polar_ice.xml</Template>
+			<Position x="228.97187" z="1032.47156"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48543"/>
+		</Entity>
+		<Entity uid="1973">
+			<Template>actor|props/special/stalagmite_small_polar_ice.xml</Template>
+			<Position x="227.9452" z="1048.97425"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8409"/>
+		</Entity>
+		<Entity uid="1974">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="549.05542" z="1301.11585"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38135"/>
+		</Entity>
+		<Entity uid="1975">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="535.3058" z="1301.6941"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7931"/>
+		</Entity>
+		<Entity uid="1976">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="552.2107" z="1295.49415"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43518"/>
+		</Entity>
+		<Entity uid="1987">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="663.92109" z="700.48078"/>
+			<Orientation y="-3.65244"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="1999">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="576.23462" z="1290.19459"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2577"/>
+		</Entity>
+		<Entity uid="2000">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="604.3219" z="822.31324"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60171"/>
+		</Entity>
+		<Entity uid="2001">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="620.58167" z="828.75702"/>
+			<Orientation y="0.81484"/>
+			<Actor seed="4453"/>
+		</Entity>
+		<Entity uid="2002">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="591.00824" z="816.08625"/>
+			<Orientation y="-2.53359"/>
+			<Actor seed="12542"/>
+		</Entity>
+		<Entity uid="2003">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="629.45044" z="833.03077"/>
+			<Orientation y="-0.16001"/>
+			<Actor seed="52583"/>
+		</Entity>
+		<Entity uid="2004">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="583.12867" z="805.95228"/>
+			<Orientation y="2.61432"/>
+			<Actor seed="20466"/>
+		</Entity>
+		<Entity uid="2005">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="599.63386" z="806.65864"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5346"/>
+		</Entity>
+		<Entity uid="2006">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="623.37214" z="816.672"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42581"/>
+		</Entity>
+		<Entity uid="2007">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="584.813" z="826.36554"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17108"/>
+		</Entity>
+		<Entity uid="2008">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="606.65241" z="839.64808"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64306"/>
+		</Entity>
+		<Entity uid="2009">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="578.42127" z="811.25245"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9170"/>
+		</Entity>
+		<Entity uid="2010">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="625.14362" z="842.00208"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64175"/>
+		</Entity>
+		<Entity uid="2011">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="610.13813" z="836.00788"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25169"/>
+		</Entity>
+		<Entity uid="2012">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="592.53516" z="824.68018"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47502"/>
+		</Entity>
+		<Entity uid="2013">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="620.15851" z="821.68207"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47502"/>
+		</Entity>
+		<Entity uid="2014">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="602.54291" z="807.95893"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65033"/>
+		</Entity>
+		<Entity uid="2015">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="471.19025" z="264.05488"/>
+			<Orientation y="-2.08977"/>
+			<Actor seed="30589"/>
+		</Entity>
+		<Entity uid="2016">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="476.50934" z="262.95978"/>
+			<Orientation y="-2.04723"/>
+			<Actor seed="38979"/>
+		</Entity>
+		<Entity uid="2017">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="484.51807" z="258.99073"/>
+			<Orientation y="0.49912"/>
+			<Actor seed="61043"/>
+		</Entity>
+		<Entity uid="2018">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="494.64722" z="262.63172"/>
+			<Orientation y="-1.9204"/>
+			<Actor seed="16705"/>
+		</Entity>
+		<Entity uid="2020">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="501.1886" z="264.46802"/>
+			<Orientation y="0.78092"/>
+			<Actor seed="60768"/>
+		</Entity>
+		<Entity uid="2021">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="453.50178" z="263.75904"/>
+			<Orientation y="1.76032"/>
+			<Actor seed="8398"/>
+		</Entity>
+		<Entity uid="2022">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="462.43989" z="263.37739"/>
+			<Orientation y="0.50751"/>
+			<Actor seed="58117"/>
+		</Entity>
+		<Entity uid="2023">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="455.00623" z="262.22901"/>
+			<Orientation y="1.76032"/>
+			<Actor seed="42763"/>
+		</Entity>
+		<Entity uid="2024">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="447.03791" z="265.63556"/>
+			<Orientation y="-3.65244"/>
+			<Actor seed="17690"/>
+		</Entity>
+		<Entity uid="2025">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="486.46518" z="262.96653"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5187"/>
+		</Entity>
+		<Entity uid="2026">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="465.4336" z="266.85499"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27730"/>
+		</Entity>
+		<Entity uid="2027">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="498.10151" z="261.7992"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7939"/>
+		</Entity>
+		<Entity uid="2028">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="466.45624" z="263.03101"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30112"/>
+		</Entity>
+		<Entity uid="2033">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="131.702" z="707.5434"/>
+			<Orientation y="-0.05115"/>
+			<Actor seed="60242"/>
+		</Entity>
+		<Entity uid="2034">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="119.28013" z="683.41346"/>
+			<Orientation y="0.47783"/>
+			<Actor seed="62325"/>
+		</Entity>
+		<Entity uid="2035">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="117.89196" z="697.98505"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1815"/>
+		</Entity>
+		<Entity uid="2037">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="123.91794" z="676.03779"/>
+			<Orientation y="-0.12363"/>
+			<Actor seed="52016"/>
+		</Entity>
+		<Entity uid="2038">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="141.27811" z="708.66565"/>
+			<Orientation y="0.349"/>
+			<Actor seed="57779"/>
+		</Entity>
+		<Entity uid="2039">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="124.6888" z="693.59778"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55609"/>
+		</Entity>
+		<Entity uid="2040">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="137.48938" z="685.94715"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50983"/>
+		</Entity>
+		<Entity uid="2041">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="137.20951" z="700.1443"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27521"/>
+		</Entity>
+		<Entity uid="2042">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="128.31281" z="678.98328"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57019"/>
+		</Entity>
+		<Entity uid="2046">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="132.20487" z="691.02973"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13512"/>
+		</Entity>
+		<Entity uid="2047">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="958.15326" z="1382.65967"/>
+			<Orientation y="0.23067"/>
+			<Actor seed="60242"/>
+		</Entity>
+		<Entity uid="2048">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="939.51087" z="1362.93616"/>
+			<Orientation y="0.75965"/>
+			<Actor seed="62325"/>
+		</Entity>
+		<Entity uid="2049">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="942.2298" z="1377.31897"/>
+			<Orientation y="2.63804"/>
+			<Actor seed="1815"/>
+		</Entity>
+		<Entity uid="2050">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="941.9145" z="1354.56165"/>
+			<Orientation y="0.1582"/>
+			<Actor seed="52016"/>
+		</Entity>
+		<Entity uid="2051">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="967.66376" z="1381.0746"/>
+			<Orientation y="0.63082"/>
+			<Actor seed="57779"/>
+		</Entity>
+		<Entity uid="2052">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="947.53846" z="1371.2146"/>
+			<Orientation y="2.63804"/>
+			<Actor seed="55609"/>
+		</Entity>
+		<Entity uid="2053">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="957.70643" z="1360.30591"/>
+			<Orientation y="2.63804"/>
+			<Actor seed="50983"/>
+		</Entity>
+		<Entity uid="2054">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="961.38581" z="1374.02076"/>
+			<Orientation y="2.63804"/>
+			<Actor seed="27521"/>
+		</Entity>
+		<Entity uid="2055">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="946.95514" z="1356.16883"/>
+			<Orientation y="2.63804"/>
+			<Actor seed="57019"/>
+		</Entity>
+		<Entity uid="2056">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="954.04383" z="1366.6576"/>
+			<Orientation y="2.63804"/>
+			<Actor seed="13512"/>
+		</Entity>
+		<Entity uid="2058">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="934.05048" z="1346.94715"/>
+			<Orientation y="-2.31478"/>
+			<Actor seed="15743"/>
+		</Entity>
+		<Entity uid="2059">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="975.82734" z="1374.59705"/>
+			<Orientation y="-2.46139"/>
+			<Actor seed="36451"/>
+		</Entity>
+		<Entity uid="2060">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="944.66944" z="1345.62427"/>
+			<Orientation y="-0.11937"/>
+			<Actor seed="13485"/>
+		</Entity>
+		<Entity uid="2061">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="974.66535" z="1366.99134"/>
+			<Orientation y="1.00867"/>
+			<Actor seed="3760"/>
+		</Entity>
+		<Entity uid="2062">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="985.60932" z="1368.72425"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54405"/>
+		</Entity>
+		<Entity uid="2063">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="935.02479" z="1335.95875"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36350"/>
+		</Entity>
+		<Entity uid="2064">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="968.36713" z="1361.7754"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9261"/>
+		</Entity>
+		<Entity uid="2065">
+			<Template>actor|props/special/stalagmite_mid_polar_ice.xml</Template>
+			<Position x="954.27375" z="1352.78052"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32523"/>
+		</Entity>
+		<Entity uid="2066">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="968.89612" z="1357.55335"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60761"/>
+		</Entity>
+		<Entity uid="2067">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="955.9217" z="1348.36475"/>
+			<Orientation y="1.27923"/>
+			<Actor seed="28784"/>
+		</Entity>
+		<Entity uid="2070">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="935.77295" z="1327.12977"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10585"/>
+		</Entity>
+		<Entity uid="2071">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="928.14307" z="1330.2295"/>
+			<Orientation y="-2.98498"/>
+			<Actor seed="3711"/>
+		</Entity>
+		<Entity uid="2072">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="996.39686" z="1365.34607"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13707"/>
+		</Entity>
+		<Entity uid="2073">
+			<Template>actor|props/special/stalagmite_group_pikes_small_polar_ice.xml</Template>
+			<Position x="989.89386" z="1360.21692"/>
+			<Orientation y="1.56492"/>
+			<Actor seed="52099"/>
+		</Entity>
+		<Entity uid="2074">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="838.0315" z="229.2769"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52499"/>
+		</Entity>
+		<Entity uid="2075">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="820.3769" z="225.38053"/>
+			<Orientation y="-2.6634"/>
+			<Actor seed="49000"/>
+		</Entity>
+		<Entity uid="2076">
+			<Template>actor|props/special/stalagmite_group_smooth_big_polar_ice.xml</Template>
+			<Position x="855.49262" z="240.35425"/>
+			<Orientation y="-2.28742"/>
+			<Actor seed="49562"/>
+		</Entity>
+		<Entity uid="2077">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="805.60206" z="220.87784"/>
+			<Orientation y="0.23234"/>
+			<Actor seed="26412"/>
+		</Entity>
+		<Entity uid="2078">
+			<Template>actor|props/special/stalagmite_group_smooth_mid_polar_ice.xml</Template>
+			<Position x="874.92078" z="245.13404"/>
+			<Orientation y="-0.79313"/>
+			<Actor seed="48255"/>
+		</Entity>
+		<Entity uid="2079">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="793.8271" z="218.96842"/>
+			<Orientation y="0.23737"/>
+			<Actor seed="61859"/>
+		</Entity>
+		<Entity uid="2080">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="886.20362" z="249.08777"/>
+			<Orientation y="-1.06936"/>
+			<Actor seed="62489"/>
+		</Entity>
+		<Entity uid="2081">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="867.59351" z="246.61759"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2179"/>
+		</Entity>
+		<Entity uid="2082">
+			<Template>actor|props/special/stalagmite_group_smooth_small_polar_ice.xml</Template>
+			<Position x="807.06196" z="228.46534"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60708"/>
+		</Entity>
+		<Entity uid="2083">
+			<Template>actor|props/special/stalagmite_group_pikes_big_polar_ice.xml</Template>
+			<Position x="829.4881" z="235.07432"/>
+			<Orientation y="-1.95606"/>
+			<Actor seed="61701"/>
+		</Entity>
+		<Entity uid="2084">
+			<Template>actor|props/special/stalagmite_group_pikes_mid_polar_ice.xml</Template>
+			<Position x="848.40394" z="242.90989"/>
+			<Orientation y="2.1828"/>
+			<Actor seed="53920"/>
+		</Entity>
+		<Entity uid="2085">
+			<Template>actor|props/special/stalagmite_big_polar_ice.xml</Template>
+			<Position x="868.68708" z="236.51072"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33569"/>
+		</Entity>
+		<Entity uid="2086">
+			<Template>actor|props/special/stalagmite_big_polar_ice.xml</Template>
+			<Position x="812.42316" z="213.27353"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13284"/>
+		</Entity>
+		<Entity uid="2087">
+			<Template>skirmish/structures/default_command_base</Template>
+			<Player>1</Player>
+			<Position x="442.79273" z="357.05991"/>
+			<Orientation y="-0.18093"/>
+			<Actor seed="40121"/>
+		</Entity>
+		<Entity uid="2088">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="431.45713" z="427.01404"/>
+			<Orientation y="-0.1607"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2089">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="423.1514" z="425.85508"/>
+			<Orientation y="-0.1607"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2090">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="415.48804" z="425.01078"/>
+			<Orientation y="-0.1607"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2091">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="439.0265" z="428.75504"/>
+			<Orientation y="-0.1607"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2092">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>1</Player>
+			<Position x="446.7729" z="429.81247"/>
+			<Orientation y="-0.1607"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2093">
+			<Template>skirmish/units/default_explorer</Template>
+			<Player>1</Player>
+			<Position x="429.07493" z="439.84351"/>
+			<Orientation y="-0.20163"/>
+			<Actor seed="27826"/>
+		</Entity>
+		<Entity uid="2094">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="1181.63282" z="1069.27027"/>
+			<Orientation y="4.927"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2095">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="1179.66639" z="1061.1178"/>
+			<Orientation y="4.927"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2096">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="1177.64283" z="1053.67847"/>
+			<Orientation y="4.927"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2097">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="1182.78772" z="1076.95093"/>
+			<Orientation y="4.927"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2098">
+			<Template>skirmish/units/default_worker</Template>
+			<Player>2</Player>
+			<Position x="1184.64332" z="1084.54578"/>
+			<Orientation y="4.927"/>
+			<Actor seed="39039"/>
+		</Entity>
+		<Entity uid="2099">
+			<Template>skirmish/units/default_explorer</Template>
+			<Player>2</Player>
+			<Position x="1168.82313" z="1071.75684"/>
+			<Orientation y="4.88607"/>
+			<Actor seed="27826"/>
+		</Entity>
+		<Entity uid="2100">
+			<Template>skirmish/structures/default_command_base</Template>
+			<Player>2</Player>
+			<Position x="1250.87269" z="1054.17396"/>
+			<Orientation y="4.90677"/>
+			<Actor seed="40121"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

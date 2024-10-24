@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<setup>
+	<icon name="icon_population_robot"
+		sprite="stretched:session/icons/population/robot/population_small.png"
+		size="16 16"
+	/>
+	<icon name="icon_population_human"
+		sprite="stretched:session/icons/population/human/population_small.png"
+		size="16 16"
+	/>
+	<icon name="icon_time"
+		sprite="stretched:session/icons/resources/time_small.png"
+		size="16 16"
+	/>
+	<icon name="icon_xp"
+		sprite="stretched:session/icons/promote.png"
+		size="16 16"
+	/>
+</setup>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+    <props>
+        <prop actor="particles/spaceship_flame.xml" attachpoint="smoke1"/>
+        <prop actor="particles/spaceship_flame.xml" attachpoint="smoke2"/>
+        <prop actor="particles/spaceship_flame.xml" attachpoint="smoke3"/>
+        <prop actor="particles/spaceship_flame.xml" attachpoint="smoke4"/>
+    </props>
+</variant>

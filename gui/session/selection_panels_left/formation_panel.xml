@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object name="unitFormationPanel"
+	size="5 5 100% 100%"
+>
+	<object>
+		<repeat count="15">
+			<object name="unitFormationButton[n]" hidden="true" style="iconButton" type="button" size="0 0 46 46" tooltip_style="sessionToolTipBottomBold" z="50">
+				<object name="unitFormationIcon[n]" type="image" ghost="true" size="3 3 43 43"/>
+				<object name="unitFormationSelection[n]" hidden="true" type="image" ghost="true" size="3 3 43 43" sprite="stretched:session/icons/corners.png"/>
+				<object name="unitFormationCount[n]" hidden="true" type="image" ghost="true" size="3 3 43 43" sprite="stretched:session/icons/upgrade.png"/>
+			</object>
+		</repeat>
+	</object>
+</object>

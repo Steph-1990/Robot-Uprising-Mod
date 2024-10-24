@@ -1,0 +1,30 @@
+{
+	"genericName": "Overclocking AMK3",
+	"description": "Make the units being able to overclock.",
+	"supersedes": "human/add_damage_AMK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/armored_infantry_factory_3.png",
+	"requirementsTooltip": "Unlocked after Overclocking AMK2.",
+	"researchTime": 80,
+	"tooltip": "Increases Damage of all units except MEKA elite.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Crush", "add": 4, "affects": "ArmoredInfantryMelee" },
+        { "value": "Attack/Melee/Damage/Hack", "add": 4, "affects": "ArmoredInfantryMelee" },
+        { "value": "Attack/Ranged/Damage/Crush", "add": 4, "affects": "ArmoredInfantryRanged" },
+        { "value": "Attack/Ranged/Damage/Pierce", "add": 4, "affects": "ArmoredInfantryRanged" },
+        { "value": "Attack/Melee/Damage/Crush", "add": 4, "affects": "InfantryMelee" },
+        { "value": "Attack/Melee/Damage/Hack", "add": 4, "affects": "InfantryMelee" },
+        { "value": "Attack/Ranged/Damage/Hack", "add": 4, "affects": "InfantryRanged" },
+        { "value": "Attack/Ranged/Damage/Pierce", "add": 4, "affects": "InfantryRanged" },
+        { "value": "Attack/Ranged/Damage/Pierce", "add": 4, "affects": "SpaceshipHunter" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

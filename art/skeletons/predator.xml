@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="predator" id="predator">
+    <bone name="body_predator1">
+      <bone name="neck_predator">
+        <bone name="mouth_predator_down" />
+        <bone name="mouth_predator_up" />
+      </bone>
+    </bone>
+    <bone name="body_predator2">
+      <bone name="body_predator3">
+        <bone name="tail_predator1">
+          <bone name="tail_predator2">
+            <bone name="tail_predator3" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_left_forward1">
+      <bone name="leg_left_forward2">
+        <bone name="foot_left_forward" />
+      </bone>
+    </bone>
+    <bone name="leg_right_forward1">
+      <bone name="leg_right_forward2">
+        <bone name="foot_right_forward" />
+      </bone>
+    </bone>
+    <bone name="leg_right_backward1">
+      <bone name="leg_right_backward2">
+        <bone name="foot_right_backward" />
+      </bone>
+    </bone>
+    <bone name="leg_left_backward1">
+      <bone name="leg_left_backward2">
+        <bone name="foot_left_backward" />
+      </bone>
+    </bone>
+    <bone name="predator.001" />
+  </standard_skeleton>
+  <skeleton title="predator" target="predator">
+    <identifier>
+      <root>body_predator1</root>
+    </identifier>
+    <bone name="body_predator1">
+      <target>body_predator1</target>
+      <bone name="neck_predator">
+        <target>neck_predator</target>
+        <bone name="mouth_predator_down">
+          <target>mouth_predator_down</target>
+        </bone>
+        <bone name="mouth_predator_up">
+          <target>mouth_predator_up</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="body_predator2">
+      <target>body_predator2</target>
+      <bone name="body_predator3">
+        <target>body_predator3</target>
+        <bone name="tail_predator1">
+          <target>tail_predator1</target>
+          <bone name="tail_predator2">
+            <target>tail_predator2</target>
+            <bone name="tail_predator3">
+              <target>tail_predator3</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_left_forward1">
+      <target>leg_left_forward1</target>
+      <bone name="leg_left_forward2">
+        <target>leg_left_forward2</target>
+        <bone name="foot_left_forward">
+          <target>foot_left_forward</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_right_forward1">
+      <target>leg_right_forward1</target>
+      <bone name="leg_right_forward2">
+        <target>leg_right_forward2</target>
+        <bone name="foot_right_forward">
+          <target>foot_right_forward</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_right_backward1">
+      <target>leg_right_backward1</target>
+      <bone name="leg_right_backward2">
+        <target>leg_right_backward2</target>
+        <bone name="foot_right_backward">
+          <target>foot_right_backward</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_left_backward1">
+      <target>leg_left_backward1</target>
+      <bone name="leg_left_backward2">
+        <target>leg_left_backward2</target>
+        <bone name="foot_left_backward">
+          <target>foot_left_backward</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="predator.001">
+      <target>predator.001</target>
+    </bone>
+  </skeleton>
+</skeletons>

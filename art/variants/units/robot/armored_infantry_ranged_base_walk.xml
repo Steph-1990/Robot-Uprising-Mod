@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+  <animations>
+    <animation file="units/robot/walk/armored_infantry_ranged_walk.dae" name="walk" speed="6"/>
+    <animation file="units/robot/idle/armored_infantry_ranged_idle.dae" name="idle" speed="100"/>
+  </animations>
+</variant>

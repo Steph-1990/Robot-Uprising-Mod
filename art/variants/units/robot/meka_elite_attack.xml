@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_ranged">
+  <animations>
+    <animation file="units/robot/attack/meka_elite_attack.dae" name="attack_ranged" id="attack_melee1"/>
+    <animation file="units/robot/attack/meka_elite_attack_2.dae" name="attack_ranged" id="attack_melee2"/>
+    <animation file="units/robot/attack/meka_elite_attack_3.dae" name="attack_ranged" id="attack_melee3"/>
+  </animations>
+</variant>

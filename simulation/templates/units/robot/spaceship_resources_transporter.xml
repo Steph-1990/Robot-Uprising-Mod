@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship_resources_transporter">
+
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Population>2</Population>
+    <Resources>
+		<food>50</food>
+		<wood>50</wood>
+		<stone>50</stone>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="12"/>
+  </Footprint>
+  
+  <Health>
+    <Max>150</Max>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+	<Identity>
+    <Civ>robot</Civ>
+    <GenericName>Ladybot</GenericName>
+		<Icon>units/robot/spaceship_resources_transporter.png</Icon>
+		<SpecificName>Ladybot</SpecificName>
+    <Tooltip>Transport flying unit which can only interact with drills and the power station.</Tooltip>
+    <History>To be more productive, Robots created Ladybot, to transport more resources thatn Buildobot and to make it faster.</History>
+	</Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+		  <Pierce>10</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <ResourceGatherer>
+    <MaxDistance>10.0</MaxDistance>
+    <BaseSpeed>4</BaseSpeed>
+    <Rates>
+      <food.fruit>5</food.fruit>
+      <wood.tree>5</wood.tree>
+      <stone.rock>5</stone.rock>
+    </Rates>
+    <Capacities>
+      <food>200</food>
+      <stone>200</stone>
+      <wood>200</wood>
+    </Capacities>
+  </ResourceGatherer>
+
+	<Sound>
+    <SoundGroups>    
+      <select>voice/robot/civ/spaceship_resources_transporter_select.xml</select>   
+    </SoundGroups>
+  </Sound>
+
+	<VisualActor>
+		<Actor>units/robot/spaceship_resources_transporter.xml</Actor>
+	</VisualActor>
+
+</Entity>

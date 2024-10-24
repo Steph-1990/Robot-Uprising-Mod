@@ -1,0 +1,19 @@
+{
+	"genericName": "Sonic Cannon MK3",
+	"description": "In order to defend themselves against enemy attacks, the Robots have developed a sonic cannon capable of firing more powerful projectiles at ground units, inflicting heavy damage on their armour and with a greater range than their basic cannon.",
+	"supersedes": "robot/turret_defense_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/defense_turret_3.png",
+	"requirementsTooltip": "Unlocked after Sonic Cannon MK2.",
+	"researchTime": 60,
+	"tooltip": "Increases Land Turret damages + 5 and range + 20.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 4 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 20 }
+	],
+	"affects": ["Turret"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

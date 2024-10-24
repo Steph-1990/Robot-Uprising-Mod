@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="human_builder|template_unit_support_worker">
+
+	<Cost>
+		<BuildTime>5</BuildTime>
+		<Resources>
+			<food>25</food>
+			<stone>25</stone>
+		</Resources>
+  	</Cost>
+
+	<Footprint>
+		<Circle radius="4"/>
+		<Height>1</Height>
+	</Footprint>
+
+	<Health>
+		<DeathType>vanish</DeathType>
+		<Max>150</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+	<Identity>
+		<Civ>human</Civ>
+		<Icon>units/human/worker.png</Icon>
+		<SpecificName>Worker</SpecificName>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Promotion>
+		<Entity>units/human/worker_improved</Entity>
+		<RequiredXp>100</RequiredXp>
+		<TrickleRate>0</TrickleRate>
+	</Promotion>
+
+	<Resistance>
+		<Entity>
+		<Damage>
+			<Hack>6</Hack>
+			<Pierce>5</Pierce>
+			<Crush>5</Crush>
+		</Damage>
+		</Entity>
+	</Resistance>
+
+	<VisualActor>
+		<Actor>units/human/worker.xml</Actor>
+	</VisualActor>
+	
+</Entity>

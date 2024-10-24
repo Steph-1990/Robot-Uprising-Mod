@@ -1,0 +1,464 @@
+#: maps/tutorials/introductory_tutorial.js:4
+msgid "Welcome to the 0 A.D. : Robot Uprising tutorial!\n\n"
+msgstr "Bienvenue dans le tutoriel de 0 A.D. : Robot Uprising!\n\n"
+
+#: maps/tutorials/introductory_tutorial.js:7
+msgid "To begin, left-click on a Buildobot."
+msgstr "Pour commencer, cliquez avec le bouton gauche de la souris sur un Buildobot."
+
+#: maps/tutorials/introductory_tutorial.js:29
+msgid ""
+"Buildobots are the only units that can build structures. "
+"Structures are symbolized by green background icons.\n"
+"Click on the copper drill icon then place it on a copper deposit. "
+"Then left-click to build the drill."
+msgstr ""
+"Les Buildobots sont les seules unités à pouvoir construire des bâtiments. " 
+"Les bâtiments sont symbolisés par des icônes sur fond vert.\n"
+"Cliquez sur l'icône de la foreuse de cuivre puis placez la sur un gisement de cuivre. "
+"Ensuite, faites un clic gauche pour construire la foreuse."
+
+#: maps/tutorials/introductory_tutorial.js:37
+msgid ""
+"Once the Drill will be build, The Buildobot will automatically gather copper and bring it back to the Power Station.\n" 
+"Each drill can only be built on the deposit corresponding to its type. For example, the copper drill must be placed on a copper deposit to operate. "
+"Think about it the next time you want to gather ore."
+msgstr ""
+"Une fois la foreuse construite, le Buildobot commencera automatiquement à récupérer du minerai de cuivre pour le ramener à la centrale.\n" 
+"Chaque foreuse ne peut être construite que sur le gisement correspondant à son type. La foreuse de cuivre doit par exemple être placée sur un gisement de cuivre pour fonctionner. "
+"Pensez-y la prochaine fois que vous souhaitez récolter du minerai."
+
+#: maps/tutorials/introductory_tutorial.js:45
+msgid "Good, your first Drill is now operational and your copper supply starting to fill up progressively. "
+"Most units and buildings also require titanium, so we'll need to build a new drill.\n" 
+"This time, select the four inactive Buildobots near your Power Station. To do this, hold down left mouse click "
+"and draw a rectangle around them before to release mouse button."
+msgstr ""
+"Bien, votre première foreuse est à présent opérationnelle et vos réserves de cuivre vont pouvoir se remplir peu à peu. " 
+"La plupart des unités et bâtiments requièrent également du titane, nous allons donc avoir besoin d'une nouvelle foreuse.\n"
+"Cette fois, sélectionnez les quatre Buildobots inactifs près de votre centrale. Pour cela, maintenez le clic gauche de la souris enfoncée "
+"puis dessinez un rectangle autour des quatre unités avant de relâcher le bouton de la souris."
+
+#: maps/tutorials/introductory_tutorial.js:55
+msgid ""
+"By using several Buildobots to build a structure, you reduce the time needed to construct it. "
+"Let's try to build a titanium drill with your four Buildobots."
+msgstr ""
+"En utilisant plusieurs Buildobots pour construire un bâtiment, vous réduisez le temps nécessaire à la construction de ce dernier. " 
+"Essayez donc de construire une foreuse de titane avec vos quatre Buildobots."
+
+#: maps/tutorials/introductory_tutorial.js:63
+msgid ""
+"Perfect! Your two new drills are running at full speed but copper gathering rate is a "
+"bit slow against titanium one right? Let's try to fix this by training additional Buildobots.\n"
+"Click on the power station, then click on the Buildobot icon while holding down the batch production hotkey (shift key by default) to train 5 units at once."
+msgstr ""
+"Parfait! Vos deux nouvelles foreuses tournent à plein régime mais le taux de collecte du cuivre est un peu lent "
+"par rapport à celui du titane, n'est-ce pas ? Essayons d'arranger ça en formant des Buildobots supplémentaires.\n" 
+"Cliquez sur la centrale, puis cliquez sur l'icône du Buildobot tout en maintenant la touche de raccourci de production par lots (touche Maj par défaut) pour former 5 unités simultanément."
+
+#: maps/tutorials/introductory_tutorial.js:80
+msgid ""
+"Training units takes time, but you can take advantage of it to carry out other actions in parallel. "
+"Start by clicking on the copper drill."
+msgstr ""
+"Former des unités prend du temps, mais vous pouvez en profiter pour réaliser d'autres actions en parallèle. " 
+"Commencez par cliquer sur la foreuse de cuivre."
+
+#: maps/tutorials/introductory_tutorial.js:96
+msgid ""
+"The yellow background icon visible on the right panel means that it is a technology. "
+"Technologies allow you to make various improvements to your units or buildings. If you place cursor on the icon, "
+"you will see this technology allows to increase the speed of resource recovery. "
+"Click this icon to search for this technology."
+msgstr ""
+"L'icône sur fond jaune visible dans le panel de droite signifie qu'il s'agit d'une technologie. "
+"Les technologies vous permettent d'apporter diverses améliorations à vos unités ou bâtiments. Si vous placez le curseur de la souris sur l'icône, " 
+"vous verrez que cette technologie permet d'augmenter la vitesse de récupération des ressources. "
+"Cliquez sur cet icône pour rechercher cette technologie."
+
+#: maps/tutorials/introductory_tutorial.js:113
+msgid ""
+"Alright, your new Buildobots are ready and waiting for your orders. "
+"But first, let's start by training additional Buildobots to prepare for the next step. "
+"Select the Power Station then click on the Buildobot icon twice by holding down the batch production hotkey."
+msgstr ""
+"Bien, vos nouveaux Buildobots sont prêts et attendent vos ordres. "
+"Mais commençons d'abord par former des Buildobots supplémentaires pour préparer la prochaine étape. "
+"Sélectionnez la centrale puis cliquez sur l'icône du Buildobot deux fois de suite en maintenant la touche de raccourci de production par lots enfoncée."
+
+#: maps/tutorials/introductory_tutorial.js:130
+msgid ""
+"Take advantage to fairly spread your inactive Buildobots between the two drills while waiting for your new units to be trained. "
+"A drill can dispense resources to five Buildobots simultaneously, "
+"so don't hesitate to place as many units as possible on a drill in order to optimize gathering speed."
+msgstr ""
+"Profitez-en pour répartir équitablement vos Buildobots inactifs sur les deux foreuses en attendant que vos nouvelles unités soient formées. "
+"Une foreuse peut distribuer des ressources à 5 Buildobots simultanément, "
+"n'hésitez donc pas à placer un maximum d'unités sur une foreuse afin d'optimiser la vitesse de récolte."
+
+#: maps/tutorials/introductory_tutorial.js:137
+msgid ""
+"Quartz is a useful resource for researching technologies to improve units or buildings. "
+"Select five Buildobots and build a Quartz Drill."
+msgstr ""
+"Le quartz est une ressource utile pour rechercher des technologies permettant d'améliorer les unités ou les bâtiments. "
+"Sélectionnez cinq Buildobots et construisez une foreuse de quartz."
+
+#: maps/tutorials/introductory_tutorial.js:145
+msgid "It is time to train your first infantry units. Use your remaining Buildobots to build an Infantry Factory."
+msgstr "Il est maintenant temps de former vos premières unités d'infanterie. Utilisez vos Buildobots restants pour construire une usine d'infanterie légère."
+
+#: maps/tutorials/introductory_tutorial.js:153
+msgid ""
+"Select the Infantry Factory and train five Boombots. The Boombot is a kamikaze unit. "
+"It explodes on contact with a unit, structure or enemy fire causing area damage around it."
+msgstr "" 
+"Sélectionnez l'usine d'infanterie légère et formez 5 Boombots. Le Boombot est une unité kamikaze. "
+"Il explose au contact d'une unité, d'un bâtiment ou d'un tir ennemi provoquant des dégâts de zone autour de lui."
+
+#: maps/tutorials/introductory_tutorial.js:170
+msgid ""
+"Look at the lightning bolt icon at the top of the screen. This icon represents your available energy level. "
+"Units and buildings require energy to operate and your current energy level is no longer sufficient to produce five additional units. "
+"To increase your energy level you need to create a generator. Use your idle Buildobots to create a generator."
+msgstr ""
+"Regardez l'icône en forme d'éclair en haut de l'écran. Cette icône représente votre niveau d'énergie disponible. "
+"Les unités et les bâtiments ont besoin d'énergie pour fonctionner et votre niveau d'énergie actuel n'est plus suffisant pour produire 5 unités supplémentaires. "
+"Pour augmenter votre niveau d'énergie, vous devez créer un générateur. Utilisez vos Buildobots inactifs pour créer un générateur."
+
+#: maps/tutorials/introductory_tutorial.js:178
+msgid ""
+"Good, you now have enough energy to produce more units. Remember to build generators when your available energy level is deficient. "
+"Let's wait for the units training to be finished."
+msgstr ""
+"Bien, vous disposez désormais de suffisamment d'énergie pour produire davantage d'unités. Pensez à construire des générateurs lorsque votre niveau d'énergie disponible est insuffisant. "
+"Attendons que l'entraînement des unités soit terminé."
+
+#: maps/tutorials/introductory_tutorial.js:187
+msgid "Enemy is attacking us! Select your Boombots and right-click on enemy units to attack them."
+msgstr "L'ennemi nous attaque! Sélectionnez vos Boombots et cliquez avec le bouton droit de la souris sur les unités ennemies pour les attaquer."
+
+#: maps/tutorials/introductory_tutorial.js:197
+msgid ""
+"Well done, you repelled the enemy attack! As you can see, Boombots are quite effective against melee type units. "
+"Other enemy attacks could come, it would be wise to prepare for them. Click on the Power Station and train a Spybot."
+msgstr ""
+"Bien joué, vous êtes parvenu à repousser l'attaque ennemie! Comme vous pouvez le constater, les Boombots sont plutôt efficaces contre les unités de type corps à corps. "
+"D'autres attaques ennemies pourraient survenir, il serait judicieux de s'y préparer. Cliquez sur la centrale et formez un Spybot."
+
+#: maps/tutorials/introductory_tutorial.js:215
+msgid ""
+"Spybots are vulnerable units but they require few resources to train. "
+"They are also very useful to explore the map. Select your Spybot."
+msgstr ""
+"Les Spybots sont des unités vulnérables mais ils ne requièrent que peu de ressources pour être formées. "
+"Ils sont également très utiles pour explorer la carte. Sélectionnez votre Spybot."
+
+#: maps/tutorials/introductory_tutorial.js:231
+msgid "Now move it to the indicated location by right-clicking near the marker."
+msgstr "Déplacez-le maintenant à l'emplacement indiqué en cliquant avec le bouton droit près du marqueur."
+
+#: maps/tutorials/introductory_tutorial.js:249
+msgid ""
+"It would appears that enemy is preparing troops for another attack. "
+"It is time to riposte! Select your infantry factory and train 5 Predabots and 5 Stingerbots."
+msgstr ""
+"Il semblerait que l'ennemi prépare ses troupes pour une nouvelle attaque. "
+"Il est temps de riposter! Sélectionnez votre usine d'infanterie légère et formez 5 Predabots ainsi que 5 StingerBots."
+
+#: maps/tutorials/introductory_tutorial.js:275
+msgid ""
+"Each type of infantry unit is effective against a certain type but weak against another."
+"\n- The Predabot is strong against the Stingerbot but weak against the Boombot."
+"\n- The Stingerbot is strong against Boombot but weak against the Predabot."
+"\n- The Boombot is strong against the Predabot but weak against the Stingerbot."
+"\nTry to eliminate enemy units considering this rule."
+msgstr ""
+"Chaque type d'unité d'infanterie légère est efficace contre un certain type mais faible contre un autre."
+"\n- Le Predabot est fort contre le Stingerbot mais faible contre le Boombot."
+"\n- Le Stingerbot est fort contre Boombot mais faible contre le Predabot."
+"\n- Le Boombot est fort contre le Predabot mais faible contre le Stingerbot."
+"\nEssayez d'éliminer les unités ennemies en tenant compte de cette règle."
+
+#: maps/tutorials/introductory_tutorial.js:285
+msgid ""
+"Great, that should save us some time. Let's take this opportunity to strengthen the defenses of our base. "
+"Select your Buildobots then click on the energy barrier icon. To build the barrier, click a first time to choose a starting point, "
+"then move your cursor to the desired location before clicking a second time to validate the construction."
+msgstr ""
+"Bien, cela devrait nous permettre de gagner un peu de temps. Profitons-en pour renforcer les défenses de notre base. "
+"Sélectionner vos Buildobots puis cliquez sur l'icône de la barrière énergétique. Ensuite cliquez une première fois pour choisir le point de départ du mur, "
+"puis déplacez votre curseur à l'endroit désiré avant de cliquer une deuxième fois pour valider la construction."
+
+#: maps/tutorials/introductory_tutorial.js:293
+msgid ""
+"Land defense turrets are also very effective in repelling enemy attacks. "
+"Try to build at least two defense turrets behind your energy barrier. "
+"This way the turrets and barrier will protect each other."
+msgstr ""
+"Les tourelles de défense terrestres sont également très efficaces pour repousser les attaques ennemies. "
+"Essayez de construire au moins deux tourelles terrestres derrière votre barrière énergétique. "
+"De cette façon, les tourelles et la barrière se protègeront mutuellement."
+
+#: maps/tutorials/introductory_tutorial.js:306
+msgid ""
+"As you may have noticed, your units can freely cross the energy barrier. "
+"Enemies, on the other hand, will find themselves blocked and will be forced to destroy the barrier to pass. "
+"Now that our defenses are in place, it is time to move on to the next phase. Select your Power Station."
+msgstr ""
+"Comme vous l'avez peut être remarqué, vos unités peuvent traverser librement la barrière énergétique. "
+"Les ennemis en revanche se retrouveront bloqués et seront contraints de détruire la barrière pour passer. "
+"A présent que nos défenses sont en place, il est temps de passer à la phase suivante. Sélectionnez votre centrale."
+
+#: maps/tutorials/introductory_tutorial.js:306
+msgid ""
+"Moving to the next phase unlocks new buildings and technologies. Click on the icon with the number 2."
+msgstr ""
+"Passer à la phase suivante permet de débloquer de nouveaux bâtiments et technologies. Cliquez sur l'icône avec le chiffre 2."
+
+#: maps/tutorials/introductory_tutorial.js:330
+msgid ""
+"The enemy attacks again, try to repel the attack while you move on to the next phase. "
+"Do not hesitate to bring your units back to the base to defend it or to train others if necessary."
+msgstr ""
+"L'ennemi attaque à nouveau, essayez de repousser l'attaque le temps de passer à la phase suivante. "
+"N'hésitez pas à faire revenir vos unités à la base pour la défendre ou à en former d'autres si besoin."
+
+#: maps/tutorials/introductory_tutorial.js:354
+msgid ""
+"The attack has been repelled and you have now moved to phase 2. "
+"New buildings are available, select a Buildobot and build a repair center."
+msgstr ""
+"L'attaque a été repoussée et vous êtes maintenant passé à la phase 2. "
+"De nouveaux bâtiments sont disponibles, sélectionnez un Buildobot et construisez un centre de réparation."
+
+#: maps/tutorials/introductory_tutorial.js:362
+msgid ""
+"The repair center allows you to repair your damaged units. Select your infantry units and place them inside the repair center. "
+"To do this, first click on the 'Garrison' icon then click on the repair center. "
+"Only injured units will enter the structure, others stay outside."
+msgstr ""
+"Le centre de réparation permet de réparer vos unités endommagées. Sélectionnez vos unités d'infanterie et placez-les à l'intérieur du centre de réparation. "
+"Pour cela, cliquez d'abord sur l'icône 'Mettre en garnison' puis cliquez ensuite sur le centre de réparation. "
+"Seules les unités endommagées entreront dans le bâtiment, les autres resteront à l'extérieur."
+
+#: maps/tutorials/introductory_tutorial.js:372
+msgid ""
+"Once the units are fully repaired, they will leave the repair center on their own. "
+"You can create a rally point so that they automatically head to the designated location once repaired. "
+"To do this, select the Repair Center."
+msgstr ""
+"Une fois les unités entièrement réparées, elles quitteront le centre de réparation d’elles-mêmes. "
+"Vous pouvez créer un point de ralliement afin qu'elles se dirigent automatiquement vers l'emplacement indiqué une fois réparées. "
+"Pour ce faire, sélectionnez le Centre de réparation."
+
+#: maps/tutorials/introductory_tutorial.js:382
+msgid "To create a rally point, right-click where you want your units to automatically go once repaired."
+msgstr "Pour créer un Point de ralliement, cliquez avec le bouton droit de la souris à l'endroit où vous souhaitez que vos unités se rendent automatiquement une fois réparées."
+
+#: maps/tutorials/introductory_tutorial.js:392
+msgid ""
+"If you want to delete a rally point, simply execute the same action, this time by clicking on the building concerned. "
+"Try deleting your previous rally point."
+msgstr ""
+"Si vous souhaitez supprimer un point de ralliement, exécutez simplement la même action, cette fois en cliquant sur le bâtiment concerné. "
+"Essayez de supprimer votre point de ralliement précédent."
+
+#: maps/tutorials/introductory_tutorial.js:402
+msgid ""
+"It appears that resources sites near your base are all exhausted. Other resource sites are present on the map. "
+"Try to explore the map with your Spybot to find them then build a Spacedock."
+msgstr ""
+"Il semble que les sites de ressources proches de votre base soient tous épuisés. D'autres sites de ressources sont présents sur la carte. "
+"Essayez d'explorer la carte avec votre Spybot pour les trouver puis construisez un Hangar à vaisseaux."
+
+#: maps/tutorials/introductory_tutorial.js:410
+msgid ""
+"As you have noticed, the remaining resource sites are not accessible on foot. "
+"You're going to need a transport spaceship to get there. Select your Spacedock, then click on the Bumblebot icon."
+msgstr ""
+"Comme vous avez pu le constater, les autres sites ressources ne sont pas accessibles à pied. "
+"Vous aurez besoin d'un vaisseau de transport pour y arriver. Sélectionnez votre Hangar à vaisseaux, puis cliquez sur l'icône Bumblebot."
+
+#: maps/tutorials/introductory_tutorial.js:428
+msgid ""
+"Load your Buildobots into the transport spaceship. To do this, select them then click on the 'Garrison' icon present in the central panel under the unit name. "
+"Then left-click on the spaceship for the units to board."
+msgstr ""
+"Faites embarquer vos Buildobots dans le vaisseau de transport. Pour cela, sélectionnez les puis cliquez sur l'icône 'Mettre en garnison' présent dans le panel central sous le nom de l'unité. "
+"Cliquez ensuite avec le bouton gauche de la souris sur le vaisseau pour que les unités embarquent."
+
+#: maps/tutorials/introductory_tutorial.js:438
+msgid ""
+"Now select your ship and click on the 'Drop here' icon represented by a white arrow in the central panel. "
+"Finally click near a resource site so that the ship moves to the indicated location to deposit the units there."
+msgstr ""
+"Sélectionnez ensuite votre vaisseau puis cliquez sur l'icône 'Déposez ici' représenté par une flèche blanche dans le panel central. "
+"Enfin cliquez près d'un site de ressources afin que le vaisseau se déplace à l'endroit indiqué afin d'y déposer les unités."
+
+#: maps/tutorials/introductory_tutorial.js:448
+msgid "Build a drill with your Buildobots at one of the remaining resource sites."
+msgstr "Construisez une foreuse avec vos Buildobots sur l’un des sites de ressources restants."
+
+#: maps/tutorials/introductory_tutorial.js:456
+msgid ""
+"Your Buildobots cannot reach the Power Station on foot, and even if they could, "
+"the flow of resources would be slowed down due to the distance between the Power Station and the drill. "
+"This is where the Ladybot comes in. Select your Spacedock and train a Ladybot."
+msgstr ""
+"Vos Buildobots ne peuvent pas atteindre la centrale à pied, et même s'ils le pouvaient, "
+"l'acheminement des ressources s'en retrouverait ralenti du fait de la trop grande distance entre la centrale et la foreuse. "
+"C'est là qu'intervient le Ladybot. Sélectionnez votre Hangar à vaisseaux et formez un Ladybot."
+
+#: maps/tutorials/introductory_tutorial.js:474
+msgid ""
+"The Ladybot is a resource transport spaceship. Just like the Buildobot, it can transport ressources from the drill to the Power Station "
+"but unlike the latter, its storage capacity is higher and it can cover great distances very quickly. "
+"Try to use your Ladybot to gather resources from your new drill."
+msgstr ""
+"Le Ladybot est un vaisseau de transport de ressources. Tout comme le Buildobot, il permet d'acheminer les ressources de la foreuse à la centrale "
+"mais contrairement à ce dernier, sa capacité de stockage est plus élevée et il peut parcourir de grande distance très rapidement. "
+"Essayez d'utiliser votre Ladybot pour récolter les ressources de votre nouvelle foreuse."
+
+#: maps/tutorials/introductory_tutorial.js:487
+msgid ""
+"The Ladybot allows you to amass large amounts of resources quickly, but it is unarmed and therefore cannot defend itself against enemy attacks. "
+"Select your Spacedock and train 5 Falcobots."
+msgstr ""
+"Le Ladybot vous permet d'amasser de grandes quantités de ressources rapidement, mais il n'est pas armé et ne peut donc pas se défendre face aux attaques ennemies. "
+"Sélectionnez votre Hangar à vaisseaux et formez 5 Falcobots."
+
+#: maps/tutorials/introductory_tutorial.js:507
+msgid ""
+"Select your 5 Falcobots and click on the guard icon symbolized by a blue shield. "
+"Then click on the Ladybot so that your fighter spaceships protect your resource transport spaceship."
+msgstr ""
+"Sélectionnez vos 5 Falcobots et cliquez sur l'icône guard symbolisé par le petit bouclier bleu. "
+"Cliquez ensuite sur le Ladybot afin que vos vaisseaux chasseurs protègent votre vaisseau de transport de ressources."
+
+#: maps/tutorials/introductory_tutorial.js:524
+msgid "An enemy Falcobot is attacking our resource transport spaceship! Look at your fighter spaceships automatically defend your Ladybot."
+msgstr "Un Falcobot ennemi s'attaque à notre vaisseau de transport de ressources! Observez vos vaisseaux chasseur défendre automatiquement votre Ladybot."
+
+#: maps/tutorials/introductory_tutorial.js:534
+msgid ""
+"Targeting enemy resources transport spaceships and thus depriving the enemy of their resource supply is a great way to take advantage during a game. "
+"Select your 5 Falcobots and launch an assault on the enemy base to destroy the enemy resources transport spaceships."
+msgstr ""
+"Cibler les vaisseaux de transport de ressources ennemis et priver l'adversaire de son apport en ressources est un excellent moyen de prendre l'avantage au cours d'une partie. "
+"Sélectionnez vos 5 Falcobots et lancer un assaut sur la base adverse afin détruire les vaisseaux de transport de ressources adverses."
+
+#: maps/tutorials/introductory_tutorial.js:545
+msgid "Perfect, the enemy is now in a weak position. It's time to prepare for the final assault! Select your central unit and move on to phase 3."
+msgstr "Parfait, l'ennemi est à présent en position de faiblesse. Il est temps de se préparer pour l'assaut final! Sélectionnez votre centrale et passez à la phase 3."
+
+#: maps/tutorials/introductory_tutorial.js:553
+msgid ""
+"In the meantime, take the opportunity to check that all your Buildobots and Ladybots are active. "
+"You can use the lower right button on the minimap to find inactive units. "
+"You can also build new drills if your resources are deplated."
+msgstr ""
+"En attendant, profitez-en pour vérifier que tous vos Buildobots et Ladybots sont actifs. "
+"Vous pouvez utiliser le bouton inférieur droit de la minimap pour trouver des unités inactives. "
+"Vous pouvez aussi construire de nouvelles foreuses si vos ressources viennent à manquer."
+
+#: maps/tutorials/introductory_tutorial.js:545
+msgid "In phase 3 you have access to two new types of infantry units. Start by building an armored infantry factory."
+msgstr "En phase 3 vous avez accès à deux nouveaux types d'unités d'infanterie. Commencez par construire une usine d'infanterie lourde."
+
+#: maps/tutorials/introductory_tutorial.js:569
+msgid ""
+"Select your Armored Infantry Factory and train 10 Scarabots. Scarabots are not very effective against other infantry units, "
+"but they are very resistant and have a damage bonus against buildings."
+msgstr ""
+"Sélectionnez votre usine d'infanterie lourde et formez d'abord 10 Scarabots. Les Scarabots ne sont pas très efficaces contre les autres unités d'infanterie, "
+"ils sont en revanche très résistants et possèdent un bonus de dégât contre les bâtiments."
+
+#: maps/tutorials/introductory_tutorial.js:595
+msgid ""
+"Arachnobots on the other hand, are more powerful than basic infantry units but they are expensive "
+"to produce and their armor is not as thick as Scarabots one. Train 10 Arachnobots too."
+msgstr ""
+"Les Arachnobots quant à elles sont plus puissantes que les unités d'infanterie légère mais elles coûtent cher "
+"à produire et leur blindage n'est pas aussi épais que celui du Scarabot. Formez également 10 Arachnobots."
+
+#: maps/tutorials/introductory_tutorial.js:621
+msgid ""
+"The Research Center allows you to make various improvements to buildings. "
+"For example, it allows them to increase their number of health points or their field of vision. Build an Research Center."
+msgstr ""
+"Le centre de recherche permet d'apporter diverses améliorations pour les bâtiments. "
+"Il permet par exemple d'augmenter leur nombre de points de vie ou bien leur champ de vision. Construisez un centre de recherche."
+
+#: maps/tutorials/introductory_tutorial.js:629
+msgid ""
+"Each technology has three levels, one available for each phase. Since you have already progressed to phase three, you have access to all three upgrade levels directly. "
+"Click on the Research Center then click on the technology called Titanium Coating AMK1 to increase the number of hit points of each building."
+msgstr ""
+"Chaque technologie possède trois niveaux, un disponible pour chaque phase. Étant donné que vous êtes déjà passé à la phase trois, vous avez accès aux trois niveaux d'amélioration directement. "
+"Cliquez sur la technologie appelée Titanium Coating AMK1 afin d'augmenter le nombre de points de vie de chaque bâtiment."
+
+#: maps/tutorials/introductory_tutorial.js:637
+msgid ""
+"So far we have trained several types of infantry units, each with their own particularities. "
+"But there is last one, much more powerful than all the others, the Behebot. Start by building a Behebot factory."
+msgstr ""
+"Nous avons jusqu'ici formé plusieurs types d'unités d'infanterie différentes possédant chacune leur particularités. "
+"Mais il en existe une dernière, bien plus puissante que toutes les autres, le Behebot. Commencez par construire une usine de Behebot."
+
+#: maps/tutorials/introductory_tutorial.js:653
+msgid ""
+"Did you heard it? This sound indicates that a meteorite has crashed on the map. Meteorites contain Starcilite ore, required to train a Behebot. "
+"The location of meteorites is marked on your map, select some Buildobots and right-click on one of meteorites."
+msgstr ""
+"Vous avez entendu? Ce son indique qu'une météorite s'est écrasée sur la map. Les météorites contiennent du minerai de Starcilite, nécessaire pour former un Behebot. "
+"Dirigez-vous vers les différents endroits indiqués sur la minimap avec un ou plusieurs Buildobots pour récolter le minerai."
+
+#: maps/tutorials/introductory_tutorial.js:670
+msgid ""
+"As you can see, you don't need drills to gather Starcilite ore, Buildobots can collect it directly but they are the only ones who can do it. "
+"In addition to the usual resources, the Behebot requires 900 Starcilite crystals to be trained. Collect enough Starcilite to train a Behebot."
+msgstr ""
+"Comme vous pouvez le constater, vous n'avez pas besoin de foreuses pour récolter le minerai de Starcilite, les Buildobots peuvent le récupérer directement mais ils sont les seuls à pouvoir le faire. "
+"En plus des ressources habituelles, le Behebot nécessite 900 cristaux de Starcilite pour être entraîné. Récupérez suffisamment de Starcilite pour former un Behebot."
+
+#: maps/tutorials/introductory_tutorial.js:686
+msgid "Perfect, you now have enough Starcilite Ore to train a Behebot. Select your Behebot Factory then click on the Behebot icon."
+msgstr "Parfait, vous disposez à présent de suffisamment de minerai de Starcilite pour former un Behebot. Sélectionnez votre usine à Behebot puis cliquez sur l'icône du Behebot."
+
+#: maps/tutorials/introductory_tutorial.js:695
+msgid ""
+"We are coming to the end of this tutorial. It is time to launch our final assault and definitively destroy the enemy base. "
+"You can train a few additional units if necessary and upgrade them using technologies to ensure victory. "
+"When you will be ready, head to the enemy base and destroy it!"
+msgstr ""
+"Nous arrivons au terme de ce tutoriel. Il est temps de lancer notre assaut final et de détruire définitivement la base adverse. "
+"Vous pouvez former quelques unités supplémentaires si nécessaire et les améliorer à l'aide de technologies pour vous assurer la victoire. "
+"Lorsque vous serez prêt, dirigez-vous vers la base ennemie et détruisez-la !"
+
+#: maps/tutorials/introductory_tutorial.js:705
+msgid "Fantastic! You have managed to destroy the enemy base! This tutorial is now complete, thank you for playing!"
+msgstr "Fantastique! Vous avez réussi à détruire la base ennemie ! Ce tutoriel est maintenant terminé, merci d'avoir joué !"
+
+
+
+#: maps/tutorials/introductory_tutorial.js:72
+#: maps/tutorials/introductory_tutorial.js:122
+#: maps/tutorials/introductory_tutorial.js:162
+#: maps/tutorials/introductory_tutorial.js:258
+msgid "Do not forget to press the batch production hotkey (shift key by default) while clicking to produce multiple units."
+msgstr "N'oubliez pas d'appuyer sur la touche de raccourci de production par lots (touche Maj par défaut) tout en cliquant pour produire plusieurs unités."
+
+#: maps/tutorials/introductory_tutorial.js:71
+#: maps/tutorials/introductory_tutorial.js:121
+msgid "Left-clik on the Boombot icon."
+msgstr "Faites un clic gauche sur l'icône du Boombot."
+
+#: maps/tutorials/introductory_tutorial.js:204
+msgid "Left-clik on the Spybot icon."
+msgstr "Faites un clic gauche sur l'icône du Spybot."
+
+#: maps/tutorials/introductory_tutorial.js:257
+msgid "Left-clik on the Predabot or the Stingerbot icon."
+msgstr "Faites un clic gauche sur l'icône du Predabot ou du Stingerbot."

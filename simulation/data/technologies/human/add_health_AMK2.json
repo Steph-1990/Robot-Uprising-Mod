@@ -1,0 +1,23 @@
+{
+	"genericName": "Titanium Coating AMK2",
+	"description": "Give a titanium coating to all structures.",
+	"supersedes": "human/add_health_AMK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/research_center_2.png",
+	"requirementsTooltip": "Unlocked after Titanium Coating AMK1.",
+	"researchTime": 60,
+	"tooltip": "Health + 150.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 150 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

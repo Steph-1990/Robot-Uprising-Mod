@@ -1,0 +1,23 @@
+{
+	"genericName": "Hunter MK1",
+	"description": "Give an improve to hunter.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/spaceship_hunter_1.png",
+	"researchTime": 30,
+	"tooltip": "Health + 50, Fkying speed + 10%, Damage + 5.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 50 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 5 }
+	],
+	"affects": ["SpaceshipHunter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

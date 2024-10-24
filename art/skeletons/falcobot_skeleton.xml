@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="falcobot skeleton" id="falcobot_skeleton">
+    <bone name="base_hunter">
+      <bone name="body_hunter">
+        <bone name="wing_R1">
+          <bone name="wing_R2">
+            <bone name="wing_R3" />
+          </bone>
+        </bone>
+        <bone name="wing_L1">
+          <bone name="win_L2">
+            <bone name="wing_L3" />
+          </bone>
+        </bone>
+        <bone name="head">
+          <bone name="beak_down" />
+          <bone name="beak_up" />
+        </bone>
+      </bone>
+    </bone>
+    <bone name="falcobot_mesh" />
+  </standard_skeleton>
+  <skeleton title="falcobot skeleton" target="falcobot_skeleton">
+    <identifier>
+      <root>base_hunter</root>
+    </identifier>
+    <bone name="base_hunter">
+      <target>base_hunter</target>
+      <bone name="body_hunter">
+        <target>body_hunter</target>
+        <bone name="wing_R1">
+          <target>wing_R1</target>
+          <bone name="wing_R2">
+            <target>wing_R2</target>
+            <bone name="wing_R3">
+              <target>wing_R3</target>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="wing_L1">
+          <target>wing_L1</target>
+          <bone name="win_L2">
+            <target>win_L2</target>
+            <bone name="wing_L3">
+              <target>wing_L3</target>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="head">
+          <target>head</target>
+          <bone name="beak_down">
+            <target>beak_down</target>
+          </bone>
+          <bone name="beak_up">
+            <target>beak_up</target>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="falcobot_mesh">
+      <target>falcobot_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+
+  <Attack>
+    <Capture>
+      <AttackName>Capture</AttackName>
+      <Capture>2.5</Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
+    </Capture>
+    <Slaughter>
+      <AttackName>Slaughter</AttackName>
+      <Damage>
+        <Hack>1000</Hack>
+      </Damage>
+      <MaxRange>2</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
+    </Slaughter>
+  </Attack>
+
+  <Builder disable=""/>
+
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+
+  <Identity>
+    <GenericName>Infantry</GenericName>
+    <Classes datatype="tokens">Human CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Soldier Infantry Melee LightInfantry</VisibleClasses>
+  </Identity>
+
+  <ResourceGatherer disable=""/>
+
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/syntagma
+    </Formations>
+  </UnitAI>
+
+</Entity>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<object>
+	<!-- Sell -->
+	<object style="iconButton" type="button" size="0 0 50 50" tooltip_style="sessionToolTipBottomBold" hidden="true">
+		<object type="image" ghost="true" size="0 0 50 50"/>
+		<object type="text" ghost="true" style="resourceText" size="0 0 100% 50%"/>
+		<object type="image" ghost="true" hidden="true" size="0 0 50 50" sprite="stretched:session/icons/corners.png"/>
+	</object>
+	<!-- Buy -->
+	<object style="iconButton" type="button" size="0 52 50 102" tooltip_style="sessionToolTipBottomBold" hidden="true">
+		<object type="image" ghost="true" size="0 0 50 50"/>
+		<object ghost="true" style="resourceText" type="text" size="0 0 100% 50%"/>
+	</object>
+</object>

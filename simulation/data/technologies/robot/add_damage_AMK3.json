@@ -1,0 +1,30 @@
+{
+	"genericName": "Overclocking AMK3",
+	"description": "The collective consciousness represents the backbone of the Mechanized Confederation, the very essence of what allows the robots of the confederation to be considered beings somewhat endowed with heart and reason. By uniting their electronic minds, these machines can share their thoughts and experiences in real-time, thus creating a network of shared knowledge of unparalleled power. Through this symbiotic connection, they can exchange crucial information about the movements and strategies of their enemies, thereby enhancing their tactical efficiency and striking capability. This technological communion transcends individual limitations to form a collective and unique mind. It is through this consciousness that robots manage to exchange the rare fragments of ideas and simulations of emotions they believe they are capable of experiencing.",
+	"supersedes": "robot/add_damage_AMK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/research_center_3.png",
+	"requirementsTooltip": "Unlocked after Overclocking AMK2.",
+	"researchTime": 80,
+	"tooltip": "Increases + 4 damages of all combat units except MEKA elite.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Crush", "add": 4, "affects": "ArmoredInfantryMelee" },
+        { "value": "Attack/Melee/Damage/Hack", "add": 4, "affects": "ArmoredInfantryMelee" },
+        { "value": "Attack/Ranged/Damage/Crush", "add": 4, "affects": "ArmoredInfantryRanged" },
+        { "value": "Attack/Ranged/Damage/Pierce", "add": 4, "affects": "ArmoredInfantryRanged" },
+        { "value": "Attack/Melee/Damage/Crush", "add": 4, "affects": "InfantryMelee" },
+        { "value": "Attack/Melee/Damage/Hack", "add": 4, "affects": "InfantryMelee" },
+        { "value": "Attack/Ranged/Damage/Hack", "add": 4, "affects": "InfantryRanged" },
+        { "value": "Attack/Ranged/Damage/Pierce", "add": 4, "affects": "InfantryRanged" },
+        { "value": "Attack/Ranged/Damage/Pierce", "add": 4, "affects": "SpaceshipHunter" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_palisade">
+
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <wood>4</wood>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="25" depth="4"/>
+    <Height>6</Height>
+  </Footprint>
+
+  <Health>
+    <Max op="mul">0.2</Max>
+  </Health>
+
+  <Identity>
+    <Civ>human</Civ>
+  </Identity>
+
+  <Obstruction>
+    <Static width="25" depth="4"/>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
+  </Obstruction>
+
+  <StatusBars>
+    <HeightOffset>7</HeightOffset>
+  </StatusBars>
+
+  <VisualActor>
+    <Actor>structures/human/palisade_rocks_medium.xml</Actor>
+    <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
+  </VisualActor>
+
+  <WallPiece>
+    <Length>25</Length>
+  </WallPiece>
+
+</Entity>

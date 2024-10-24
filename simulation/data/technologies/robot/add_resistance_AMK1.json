@@ -1,0 +1,23 @@
+{
+	"genericName": "Reinforced Titanium AMK1",
+	"description": "The smart alloy is a computer system with advanced cognitive capabilities. It allows for real-time analysis of data from sensors integrated into robots. Thanks to sophisticated algorithms, the smart alloy can accurately assess the condition of each component of the robotic chassis, detecting even the slightest signs of deterioration or damage. In addition to providing information on the state of armor and structure, it is also capable of anticipating material needs for repair, taking into account various factors such as the intensity of recent combat, environmental conditions, and the specifics of each automaton. This ability to predict and plan maintenance tasks enables the Confederation to maintain its operational forces at their optimal level while minimizing costs and downtime.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/research_center_1.png",
+	"researchTime": 45,
+	"tooltip": "Increases units and structures resistances + 3.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

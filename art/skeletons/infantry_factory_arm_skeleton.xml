@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="infantry factory arm skeleton" id="infantry_factory_arm_skeleton">
+    <bone name="infantry_factory_arm_base">
+      <bone name="arm_trunk">
+        <bone name="arm_sphere">
+          <bone name="arm_2">
+            <bone name="arm_s2_sphere">
+              <bone name="arm_3">
+                <bone name="finger_up_left" />
+                <bone name="finger_up_right" />
+                <bone name="finger_down_right" />
+                <bone name="finger_down_left" />
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="Infantry_factory_arm" />
+  </standard_skeleton>
+  <skeleton title="infantry factory arm skeleton" target="infantry_factory_arm_skeleton">
+    <identifier>
+      <root>infantry_factory_arm_base</root>
+    </identifier>
+    <bone name="infantry_factory_arm_base">
+      <target>infantry_factory_arm_base</target>
+      <bone name="arm_trunk">
+        <target>arm_trunk</target>
+        <bone name="arm_sphere">
+          <target>arm_sphere</target>
+          <bone name="arm_2">
+            <target>arm_2</target>
+            <bone name="arm_s2_sphere">
+              <target>arm_s2_sphere</target>
+              <bone name="arm_3">
+                <target>arm_3</target>
+                <bone name="finger_up_left">
+                  <target>finger_up_left</target>
+                </bone>
+                <bone name="finger_up_right">
+                  <target>finger_up_right</target>
+                </bone>
+                <bone name="finger_down_right">
+                  <target>finger_down_right</target>
+                </bone>
+                <bone name="finger_down_left">
+                  <target>finger_down_left</target>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="Infantry_factory_arm">
+      <target>Infantry_factory_arm</target>
+    </bone>
+  </skeleton>
+</skeletons>

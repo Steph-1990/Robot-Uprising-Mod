@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+
+  <Decay>
+    <SinkingAnim>true</SinkingAnim>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>3.0</SinkRate>
+    <SinkAccel>7.0</SinkAccel>
+  </Decay>
+
+  <Identity>
+    <VisibleClasses datatype="tokens">Spaceship</VisibleClasses>
+  </Identity>
+
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>3</TurnRate>
+  </Position>
+
+  <Promotion disable=""/>
+
+  <ResourceGatherer disable=""/>
+
+  <UnitMotion disable=""/>
+
+  <UnitAI>
+    <Formations disable=""/>
+  </UnitAI>
+
+  <UnitMotionFlying>
+    <MaxSpeed>30.0</MaxSpeed>
+    <TakeoffSpeed>0</TakeoffSpeed>
+    <StationaryDistance>10</StationaryDistance>
+    <LandingSpeed>0</LandingSpeed>
+    <AccelRate>1000.0</AccelRate>
+    <SlowingRate>1.0</SlowingRate>
+    <BrakingRate>1000</BrakingRate>
+    <TurnRate>3</TurnRate>
+    <FlyingHeight>50</FlyingHeight>
+    <ClimbRate>10.0</ClimbRate>
+    <DiesInWater>false</DiesInWater>
+    <PassabilityClass>large</PassabilityClass>
+	  <OvershootTime>0.5</OvershootTime>
+    <TiltRate>0</TiltRate>
+  </UnitMotionFlying>
+
+  <Visibility>
+    <RetainInFog>false</RetainInFog>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+  </Visibility>
+
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  
+</Entity>

@@ -1,0 +1,22 @@
+{
+	"genericName": "Enhanced Reparation MK1",
+	"description": "The Systematic Repair enhances maintenance for the Mechanized Confederation's automatons by simplifying and expediting the repair process. Based on advanced analysis systems and extensive automation, this technology enables rapid and precise detection of issues encountered by the automatons. Once problems are identified, sophisticated algorithms are activated to coordinate and perform necessary repairs efficiently and accurately. Subsequently, assembly lines equipped with appropriate tools and spare parts intervene to carry out repairs with surgical precision.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/technical_center_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Technical Centers garrison Max + 5, heal/sec + 1.",
+	"modifications": [
+		{ "value": "GarrisonHolder/Max", "add": 5 },
+		{ "value": "GarrisonHolder/BuffHeal", "add": 1 }
+	],
+	"affects": ["TechnicalCenter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+
+	<object name="pgToolTip" style="TranslucentPanel" type="text" hidden="true" size="100%-313 25 100% 150" ghost="true"/>
+
+	<object name="mainMenu" type="image" style="MainMenuPanel" size="60 0 350 100%" z="50" >
+		<!-- Set z value explicitly to be able to click buttons for low
+			resolutions, when they might be covered by project information.
+			Players should be able to exit at least. -->
+		<object name="mainMenuButtons" size="8 160 100%-8 360" z="60">
+			<repeat count="10">
+				<object name="mainMenuButton[n]" type="button" style="StoneButtonFancy" tooltip_style="pgToolTip"/>
+			</repeat>
+		</object>
+
+		<!-- These are used to make the right side blend in with the submenu -->
+		<object name="MainMenuPanelRightBorderTop" type="image" sprite="MainMenuPanelRightBorder" ghost="true" size="100% 0 100% 100%" hidden="true"/>
+		<object name="MainMenuPanelRightBorderBottom" type="image" sprite="MainMenuPanelRightBorder" ghost="true" size="100% 0 100% 100%" hidden="true"/>
+		<object name="MainMenuPanelRightBorderMiddle" type="image" sprite="MainMenuPanelRightBorder" ghost="true" size="100% 0 100% 100%" hidden="false"/>
+
+		<include file="gui/pregame/ProjectInformation.xml"/>
+	</object>
+
+	<object name="submenu" type="image" style="SubmenuPanel" size="60 0 350 100%" hidden="true">
+		<object name="submenuButtons" type="image" size="10 0 100%-4 100%" tooltip_style="pgToolTip">
+			<repeat count="30">
+				<object type="button" style="StoneButtonFancy" tooltip_style="pgToolTip"/>
+			</repeat>
+		</object>
+	</object>
+
+	<!-- Hide submenu when user clicks on the background -->
+	<object name="closeMenuButton" type="button" hotkey="cancel"/>
+
+</object>

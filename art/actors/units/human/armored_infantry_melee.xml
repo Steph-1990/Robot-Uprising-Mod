@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+    <!-- <animations>
+				<animation file="mechanical/shredder_walk.dae" name="walk" speed="12"/>
+        <animation file="mechanical/shredder_idle.dae" name="idle" speed="80"/>
+		</animations> -->
+      <mesh>units/human/armored_infantry_melee.dae</mesh>
+      <textures>
+        <texture file="units/human/armored_infantry_melee.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,23 @@
+{
+	"genericName": "F1ght3r MK3",
+	"description": "Provide an improve to F1ght3r.",
+	"supersedes": "human/infantry_melee_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/infantry_melee_3.png",
+	"requirementsTooltip": "Unlocked after F1ghter MK2.",
+	"researchTime": 60,
+	"tooltip": "Damage + 7, Resistance + 4, Attack rate -100",
+
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "add": 7 },
+		{ "value": "Attack/Melee/Damage/Crush", "add": 7 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 4 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 4 },
+		{ "value": "Attack/Melee/RepeatTime", "add": -100 }
+	],
+	"affects": ["InfantryMelee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,22 @@
+{
+	"genericName": "Ladybot MK3",
+	"description": "The Automatic Compression revolutionizes the work of Ladybots. It automatically compresses the materials and resources they transport. This innovation is based on reducing the size of the cellular structure of the transported elements, thus facilitating the transport of a considerably larger quantity of resources. Thanks to this capability, Ladybots can optimize the efficiency of their transport operations, offering an ingenious solution to maximize deployment and routing speed.",
+	"supersedes": "robot/spaceship_resources_transporter_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/spaceship_resources_transporter_3.png",
+	"requirementsTooltip": "Unlocked after Ladybot MK2.",
+	"researchTime": 60,
+	"tooltip": "Increases Ladybots speed + 10%, health + 100 and storage capacities + 100.",
+	"modifications": [
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.15 },
+		{ "value": "Health/Max", "add": 100 },
+		{ "value": "ResourceGatherer/Capacities/stone", "add": 100 },
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 100 },
+		{ "value": "ResourceGatherer/Capacities/food", "add": 100 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

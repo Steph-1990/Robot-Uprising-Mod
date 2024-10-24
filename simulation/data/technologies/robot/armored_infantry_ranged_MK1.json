@@ -1,0 +1,26 @@
+{
+	"genericName": "Arachnobot MK1",
+	"description": "The Targeting Web represents a leading-edge technological advancement for the Arachnobots, endowing them with an unparalleled precision in target visualization. This technology operates through the meticulous acquisition and analysis of every available data, encompassing a range of variables such as aerodynamics, distance, perspective, climate, terrain, target velocity, as well as the localization of enemy energy reserves. Consequently, Arachnobots can ensnare their targets within a veritable web, from which escape is virtually impossible without incurring significant damage.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/armored_infantry_ranged_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Arachnobots damages + 5, resistances + 4 and range + 10.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 5 },
+		{ "value": "Attack/Ranged/Damage/Crush", "add": 5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 4 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 4 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 10 },
+		{ "value": "Vision/Range", "add": 10 }
+	],
+	"affects": ["ArmoredInfantryRanged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

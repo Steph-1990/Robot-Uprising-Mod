@@ -1,0 +1,13 @@
+{
+	"code": "wood",
+	"name": "Quartz",
+	"description": "A mineral with unique properties present in surprisingly high quantities.",
+	"order": 2,
+	"subtypes": {
+		"tree": "Tree",
+		"ruins": "Ruins"
+	},
+	"properties": ["barterable", "tradable", "tributable"],
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "abundant"
+}

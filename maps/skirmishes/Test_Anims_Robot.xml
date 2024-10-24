@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="2" g="2" b="2"/>
+		<SunElevation angle="0.263845"/>
+		<SunRotation angle="-2.39301"/>
+		<AmbientColor r="0.313726" g="0.376471" b="0.521569"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.298039" g="0.34902" b="0.698039"/>
+				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Height>0</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="374.242" y="378.295" z="-55.6278"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Test_anims_robot",
+  "PlayerData": [
+    null,
+    {},
+    {}
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="5">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="29.77634" z="228.42652"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24021"/>
+		</Entity>
+		<Entity uid="6">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="40.79877" z="217.21885"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1257"/>
+		</Entity>
+		<Entity uid="7">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="51.87696" z="205.236"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23915"/>
+		</Entity>
+		<Entity uid="8">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="41.06263" z="247.1432"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39183"/>
+		</Entity>
+		<Entity uid="9">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="55.71071" z="230.77369"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1004"/>
+		</Entity>
+		<Entity uid="10">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="69.40195" z="216.20817"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1004"/>
+		</Entity>
+		<Entity uid="11">
+			<Template>units/robot/explorer</Template>
+			<Player>1</Player>
+			<Position x="51.38248" z="268.42713"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63207"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>units/robot/explorer</Template>
+			<Player>1</Player>
+			<Position x="63.2248" z="253.93488"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22755"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>units/robot/explorer</Template>
+			<Player>1</Player>
+			<Position x="74.96982" z="237.75303"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22755"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>units/robot/infantry_area</Template>
+			<Player>1</Player>
+			<Position x="63.11586" z="294.06403"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31381"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>units/robot/infantry_area</Template>
+			<Player>1</Player>
+			<Position x="72.89684" z="282.47654"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25141"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>units/robot/infantry_area</Template>
+			<Player>1</Player>
+			<Position x="84.55637" z="267.28431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34902"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="73.18171" z="315.01246"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36527"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="85.65677" z="299.92124"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36344"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="96.08115" z="282.47651"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30674"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="84.98858" z="330.12888"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30155"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="103.18686" z="310.86905"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1441"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="111.63242" z="296.95832"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1441"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>1</Player>
+			<Position x="106.67573" z="352.57831"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50716"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>1</Player>
+			<Position x="123.78774" z="327.78052"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6772"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>1</Player>
+			<Position x="137.9198" z="307.97562"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46203"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/robot/spaceship_resources_transporter</Template>
+			<Player>1</Player>
+			<Position x="134.9922" z="380.10926"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31743"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/robot/spaceship_resources_transporter</Template>
+			<Player>1</Player>
+			<Position x="162.33408" z="356.10151"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32211"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/robot/spaceship_resources_transporter</Template>
+			<Player>1</Player>
+			<Position x="186.10334" z="333.02094"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32211"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/robot/spaceship_units_transporter</Template>
+			<Player>1</Player>
+			<Position x="153.90983" z="415.5995"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25798"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/robot/spaceship_units_transporter</Template>
+			<Player>1</Player>
+			<Position x="180.46402" z="399.797"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31380"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/robot/spaceship_units_transporter</Template>
+			<Player>1</Player>
+			<Position x="206.85105" z="365.39264"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31380"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/robot/support_healer</Template>
+			<Player>1</Player>
+			<Position x="78.24213" z="172.7132"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39798"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/robot/support_healer</Template>
+			<Player>1</Player>
+			<Position x="99.89763" z="192.17682"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32019"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/robot/support_healer</Template>
+			<Player>1</Player>
+			<Position x="99.16245" z="152.08695"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13569"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/robot/worker</Template>
+			<Player>1</Player>
+			<Position x="112.19436" z="176.01478"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16245"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/robot/worker</Template>
+			<Player>1</Player>
+			<Position x="116.97263" z="166.46372"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36690"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/robot/worker</Template>
+			<Player>1</Player>
+			<Position x="121.33706" z="172.67728"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15153"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/robot/explorer</Template>
+			<Player>2</Player>
+			<Position x="314.99173" z="37.79992"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="22755"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="269.79825" z="28.47338"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="24021"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="280.82068" z="17.26572"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1257"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>2</Player>
+			<Position x="281.08457" z="47.19008"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="39183"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>2</Player>
+			<Position x="295.73264" z="30.82058"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1004"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>2</Player>
+			<Position x="309.42386" z="16.25504"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1004"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/robot/explorer</Template>
+			<Player>2</Player>
+			<Position x="291.4044" z="68.47405"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="63207"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/robot/explorer</Template>
+			<Player>2</Player>
+			<Position x="303.24674" z="53.98176"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="22755"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/robot/infantry_area</Template>
+			<Player>2</Player>
+			<Position x="303.1378" z="94.11104"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="31381"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/robot/infantry_area</Template>
+			<Player>2</Player>
+			<Position x="312.91877" z="82.52352"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="25141"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/robot/infantry_area</Template>
+			<Player>2</Player>
+			<Position x="324.57831" z="67.33123"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="34902"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>2</Player>
+			<Position x="313.20365" z="115.05987"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="36527"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>2</Player>
+			<Position x="325.67869" z="99.96837"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="36344"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>2</Player>
+			<Position x="336.10306" z="82.52349"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="30674"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="325.0105" z="130.17612"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="30155"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="343.20878" z="110.91642"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1441"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="351.65436" z="97.00538"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1441"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>2</Player>
+			<Position x="346.69764" z="152.62568"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="50716"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>2</Player>
+			<Position x="363.80967" z="127.82758"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="6772"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/robot/spaceship_hunter</Template>
+			<Player>2</Player>
+			<Position x="377.94172" z="108.0229"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46203"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="435.59021" z="305.9339"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="24021"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="422.3484" z="284.68384"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="24021"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>2</Player>
+			<Position x="410.42878" z="269.30326"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="24021"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/robot/armored_infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="365.44498" z="331.82544"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1004"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/robot/infantry_ranged</Template>
+			<Player>1</Player>
+			<Position x="378.10642" z="346.03492"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="30674"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/robot/infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="393.65772" z="360.51673"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="1441"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/robot/armored_infantry_melee</Template>
+			<Player>1</Player>
+			<Position x="347.91999" z="320.85325"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="23915"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>units/robot/infantry_area</Template>
+			<Player>1</Player>
+			<Position x="354.92212" z="346.03495"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="25141"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

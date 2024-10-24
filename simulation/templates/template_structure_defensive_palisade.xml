@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive">
+
+  <BuildRestrictions>
+    <PlacementType>land-shore</PlacementType>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+
+  <Capturable disable =""/>
+
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+
+  <Identity>
+    <GenericName>Palisade</GenericName>
+    <SelectionGroupName>template_structure_defensive_palisade</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Palisade</VisibleClasses>
+    <Icon>structures/palisade_wall.png</Icon>
+    <RequiredTechnology>phase_village_robot</RequiredTechnology>
+  </Identity>
+
+  <RallyPoint disable=""/>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>25</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+</Entity>

@@ -1,0 +1,25 @@
+{
+	"genericName": "Reinforced Titanium AMK2",
+	"description": "Build structures with a reinforeced titanium..",
+	"supersedes": "human/add_resistance_AMK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/research_center_2.png",
+	"requirementsTooltip": "Unlocked after Reinforced Titanium AMK1.",
+	"researchTime": 60,
+	"tooltip": "All Resistances + 3.",
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

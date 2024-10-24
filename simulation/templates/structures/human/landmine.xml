@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_landmine">
+
+  <Identity>
+    <Civ>human</Civ>
+    <Icon>structures/human/landmine.png</Icon>
+    <SpecificName>Landmine</SpecificName>
+    <GenericName>Landmine</GenericName>
+    <Tooltip>A landmine that explodes on contact with the enemy.</Tooltip>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+	<Obstruction>
+		<Static width="18.0" depth="18.0"/>
+	</Obstruction>
+
+  <VisualActor>
+    <Actor>structures/human/landmine.xml</Actor>
+	  <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

@@ -1,0 +1,20 @@
+{
+	"genericName": "Explorer MK3",
+	"description": "Improve the centered optical of the explorer, his armor and his ability to fly fast.",
+	"supersedes": "human/support_explorer_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/support_explorer_3.png",
+	"requirementsTooltip": "Unlocked after Advanced optical MK2.",
+	"researchTime": 60,
+	"tooltip": "Vision range + 10, Health + 13, Flying speed + 2.",
+	"modifications": [
+		{ "value": "Vision/Range", "add": 10 },
+		{ "value": "Health/Max", "add": 13 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "add": 2 }
+	],
+	"affects": ["Explorer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,22 @@
+{
+	"genericName": "Sonic Cannon MK1",
+	"description": "In order to defend themselves against enemy attacks, the Robots have developed a sonic cannon capable of firing more powerful projectiles at ground units, inflicting heavy damage on their armour and with a greater range than their basic cannon.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/defense_turret_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Land Turret damages + 3 and range + 15.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 3 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 15 }
+	],
+	"affects": ["Turret"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

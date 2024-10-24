@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_armored_infantry_melee">
+
+  <Attack>
+    <Melee>
+      <AttackName>Axe</AttackName>
+      <Damage>
+        <Crush>35</Crush>
+        <Hack>10</Hack>
+      </Damage>
+      <MaxRange>8</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Drill Indestructible</RestrictedClasses>
+    </Melee>
+    <Capture disable =""/>
+  </Attack>
+
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <stone>300</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="5"/>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>500</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>human</Civ>
+    <Icon>units/human/armored_infantry_melee.png</Icon>
+  	<GenericName></GenericName>
+	  <SpecificName>NIV1</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Promotion>
+    <Entity>units/human/armored_infantry_melee_b</Entity>
+    <RequiredXp>150</RequiredXp>
+    <TrickleRate>25</TrickleRate>
+  </Promotion>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>30</Pierce>
+        <Hack>15</Hack>
+        <Crush>15</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <UnitMotion>
+    <WalkSpeed op="mul">1.4</WalkSpeed>
+  </UnitMotion>
+
+  <VisualActor>
+    <Actor>units/human/armored_infantry_melee.xml</Actor>
+  </VisualActor>
+  
+</Entity>

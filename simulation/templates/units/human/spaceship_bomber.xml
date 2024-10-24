@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship_hunter">
+
+	<Identity>
+		<Civ>human</Civ>
+		<Icon>units/robot/Hunter.png</Icon>
+		<GenericName></GenericName>
+		<SpecificName>Bombardier</SpecificName>
+		<Tooltip>The Hunter, specifically suited for air combats, use its laser canon to destroy enemies spaceships</Tooltip>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Promotion disable=""/>
+
+	<VisualActor>
+		<Actor>units/human/spaceship_bomber.xml</Actor>
+	</VisualActor>
+	
+</Entity>

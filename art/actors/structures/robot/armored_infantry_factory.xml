@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structures/robot/armored_infantry_factory.dae</mesh>
+      <props>
+        <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_1"/>
+        <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_2"/>
+        <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_3"/>
+        <prop actor="props/structures/robot/armored_infantry_factory_arm.xml" attachpoint="arm_4"/>
+      </props>
+      <textures>
+        <texture file="structures/robot/armored_infantry_factory.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="nottraining" frequency="1"/>
+    <variant name="training" file="structures/robot/armored_infantry_factory_training.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

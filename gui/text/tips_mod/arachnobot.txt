@@ -1,0 +1,5 @@
+ARACHNOBOT
+
+Infanterie lourde à distance de la civilisation robot.
+Unité très coûteuse mais possédant une grosse puissance de feu.
+Sensible aux dégâts de type explosion, protégez là des unités équipées d'arme explosive.

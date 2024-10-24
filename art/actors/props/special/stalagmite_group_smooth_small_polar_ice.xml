@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/special/stalagmite_group_smooth_small.dae</mesh>
+      <textures>
+        <texture file="props/polar_ice.png" name="baseTex"/>
+        <texture file="props/polar_ice_norm.png" name="normTex"/>
+        <texture file="props/polar_ice_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

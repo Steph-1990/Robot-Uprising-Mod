@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship">
+
+  <Identity>
+    <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    <Classes datatype="tokens">MobileArmoredInfantryFactory MobileStructure</Classes>
+    <VisibleClasses datatype="tokens">PhaseThree</VisibleClasses>
+  </Identity>
+
+  <!-- TODO : Différencier chaque civ avec {civ} -->
+  <Researcher>
+    <Technologies datatype="tokens">
+      {civ}/armored_infantry_melee_MK1
+      {civ}/armored_infantry_melee_MK2
+      {civ}/armored_infantry_melee_MK3
+      {civ}/armored_infantry_ranged_MK1
+      {civ}/armored_infantry_ranged_MK2
+      {civ}/armored_infantry_ranged_MK3
+    </Technologies>
+  </Researcher>
+
+  <ProductionQueue/>
+
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/armored_infantry_melee
+      units/{civ}/armored_infantry_ranged
+      units/{civ}/armored_infantry_melee_a
+      units/{civ}/armored_infantry_ranged_a
+    </Entities>
+  </Trainer>
+
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <CanDropUnits>false</CanDropUnits>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+
+   <UnitMotionFlying>
+        <AccelRate>10.0</AccelRate>
+        <SlowingRate>1000.0</SlowingRate>
+    </UnitMotionFlying>
+
+
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="opening">
+    <props>
+        <prop actor="props/units/robot/spaceships/big_propeller_units_transporter.xml" attachpoint="big_propeller"/>
+        <prop actor="props/units/robot/spaceships/small_propeller_units_transporter.xml" attachpoint="small_propeller_left"/>
+        <prop actor="props/units/robot/spaceships/small_propeller_units_transporter.xml" attachpoint="small_propeller_right"/>
+    </props>
+    <animations>
+        <animation file="units/robot/spaceships/spaceship_units_transporter_opening.dae" name="opening" speed="100"/>
+        <animation file="units/robot/spaceships/spaceship_units_transporter_closing.dae" name="closing" speed="100"/>
+    </animations>
+</variant>

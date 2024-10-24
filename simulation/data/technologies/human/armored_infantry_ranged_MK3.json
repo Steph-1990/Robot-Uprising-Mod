@@ -1,0 +1,23 @@
+{
+	"genericName": "MEKA Sh00t3r MK2",
+	"description": "Give an improve of MEKA Sh00t3r.",
+	"supersedes": "human/armored_infantry_ranged_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/armored_infantry_ranged_3.png",
+	"requirementsTooltip": "Unlocked after MEKA Sh00t3r MK2.",
+	"researchTime": 60,
+	"tooltip": "Damage + 8, Resistance + 7, Range + 15, Vision range + 15.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 8 },
+		{ "value": "Attack/Ranged/Damage/Crush", "add": 8 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 7 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 7 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 15 },
+		{ "value": "Vision/Range", "add": 15 }
+	],
+	"affects": ["ArmoredInfantryRanged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

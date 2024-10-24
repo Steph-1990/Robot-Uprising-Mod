@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+    <animations>
+        <animation file="units/robot/spaceships/spaceship_hunter_walk.dae" name="walk" speed="100"/>
+        <animation file="units/robot/spaceships/spaceship_hunter_idle.dae" name="idle_spaceship" speed="100"/>
+    </animations>
+</variant>

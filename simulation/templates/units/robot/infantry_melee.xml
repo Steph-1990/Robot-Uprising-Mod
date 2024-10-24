@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">	
+
+  <Attack>
+    <Melee>
+      <AttackName>Morsure</AttackName>
+      <Damage>
+        <Hack>40</Hack>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Spaceship Indestructible</RestrictedClasses>
+    </Melee>
+    <Capture disable =""/>
+    <Slaughter disable =""/>
+  </Attack>
+
+  <Cost>
+		<BuildTime>20</BuildTime>
+		<Population>1</Population>
+		<Resources>
+		<stone>150</stone>
+		<food>100</food>
+		</Resources>
+	</Cost>
+
+  <Footprint>
+    <Circle radius="5"/>
+  </Footprint>
+
+  <Health>
+    <Max>250</Max>
+  </Health>
+
+  <Identity>
+	  <Civ>robot</Civ>
+    <GenericName>Predabot</GenericName>
+	  <Icon>units/robot/infantry_melee.png</Icon>
+	  <SpecificName>Predabot</SpecificName>
+	  <Tooltip>Fast melee infantry unit which is powerful against Scorpobot.</Tooltip>
+    <History>Robots needed to push their enemies very fastly, that's why they created Predabot, to run on the enemies and destroy them at any cost.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Sound>
+    <SoundGroups>
+      <select>voice/robot/civ/infantry_melee_select.xml</select>
+      <attack>actor/robot/attack/infantry_melee_attack.xml</attack>
+      <death>actor/robot/death/infantry_melee_death.xml</death>   
+    </SoundGroups>
+  </Sound>
+
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+
+  <VisualActor>
+    <Actor>units/robot/infantry_melee.xml</Actor>
+  </VisualActor>
+
+</Entity>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<sprites>
+
+	<sprite name="MainMenuPanel">
+		<image texture="global/tile/stone_background.png"
+			real_texture_placement="28 0 292 264"
+			texture_size="0 0 240 240"
+		/>
+		<!-- MainMenuPanel top background -->
+		<image texture="pregame/shading/menu_panel_background_shading.png"
+			texture_size="0 0 100% 100%"
+			size="0 0 100% 100%"
+		/>
+		<!-- MainMenuPanel left border -->
+		<image texture="pregame/border/MainMenuPanelRightBorder.png"
+			texture_size="0 0 100% 100%"
+			size="-5 0 5 100%"
+		/>
+	</sprite>
+
+	<sprite name="MainMenuPanelRightBorder">
+		<!-- SubmenuPanel right border -->
+		<image texture="pregame/border/MainMenuPanelRightBorder.png"
+			texture_size="0 0 100% 100%"
+			size="100%-5 0 100%+5 100%"
+		/>
+	</sprite>
+
+	<sprite name="SubmenuPanel">
+		
+		<image texture="global/tile/stone_background.png"
+		real_texture_placement="28 0 292 264"
+		texture_size="0 0 240 240"
+		size="0 -10 100%+5 100%-20"
+		/>
+		<!-- MainMenuPanel top background -->
+		<image texture="pregame/shading/menu_panel_background_shading.png"
+			texture_size="0 0 100% 100%"
+			size="0 -10 100%+5 100%-20"
+		/>
+
+		<!-- SubmenuPanel top border -->
+		<image texture="pregame/border/MainMenuPanelTopBorder.png"
+			texture_size="0 0 100% 100%"
+			size="5 -15 100% -5"
+		/>
+
+		<!-- SubmenuPanel bottom border -->
+		<image texture="pregame/border/MainMenuPanelTopBorder.png"
+			texture_size="0 0 100% 100%"
+			size="5 100%-25 100% 100%-15"
+		/>
+
+		<!-- SubmenuPanel right border -->
+		<image texture="pregame/border/MainMenuPanelRightBorder.png"
+			texture_size="0 0 100% 100%"
+			size="100% -5 100%+10 100%-25"
+		/>
+
+		<!-- SubmenuPanel top right corner -->
+		<image texture="pregame/border/submenu_top_right_corner.png"
+			texture_size="0 0 100% 100%"
+			size="290 -15 300 -5"
+		/>
+
+		<!-- SubmenuPanel bottom right corner -->
+		<image texture="pregame/border/submenu_bottom_right_corner.png"
+			texture_size="0 0 100% 100%"
+			size="290 100%-25 300 100%-15"
+		/>
+
+		<!-- SubmenuPanel top left corner -->
+		<image texture="pregame/border/submenu_top_left_corner.png"
+			texture_size="0 0 100% 100%"
+			size="-5 -15 5 -5"
+		/>
+
+		<!-- SubmenuPanel bottom left corner -->
+		<image texture="pregame/border/submenu_bottom_left_corner.png"
+			texture_size="0 0 100% 100%"
+			size="-5 100%-25 5 100%-15"
+		/>
+
+	</sprite>
+
+	<sprite name="pgUserReportBox">
+		<image backcolor="0 0 0 180"
+			size="0 0 100% 100%"
+		/>
+		<image backcolor="200 200 200" size="0 0 100% 1"/>
+		<image backcolor="200 200 200" size="0 100%-1 100% 100%"/>
+		<image backcolor="200 200 200" size="0 0 1 100%"/>
+		<image backcolor="200 200 200" size="100%-1 0 100% 100%"/>
+	</sprite>
+
+</sprites>

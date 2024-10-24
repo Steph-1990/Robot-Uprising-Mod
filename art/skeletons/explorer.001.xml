@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="explorer.001" id="explorer.001">
+    <bone name="explorer_body" />
+    <bone name="aile_L1" />
+    <bone name="aile_R1" />
+    <bone name="aile_L2" />
+    <bone name="aile_R2" />
+    <bone name="aile_Mdown" />
+    <bone name="antenne_small" />
+    <bone name="antenne_long" />
+    <bone name="explorer" />
+  </standard_skeleton>
+  <skeleton title="explorer.001" target="explorer.001">
+    <identifier>
+      <root>explorer_body</root>
+    </identifier>
+    <bone name="explorer_body">
+      <target>explorer_body</target>
+    </bone>
+    <bone name="aile_L1">
+      <target>aile_L1</target>
+    </bone>
+    <bone name="aile_R1">
+      <target>aile_R1</target>
+    </bone>
+    <bone name="aile_L2">
+      <target>aile_L2</target>
+    </bone>
+    <bone name="aile_R2">
+      <target>aile_R2</target>
+    </bone>
+    <bone name="aile_Mdown">
+      <target>aile_Mdown</target>
+    </bone>
+    <bone name="antenne_small">
+      <target>antenne_small</target>
+    </bone>
+    <bone name="antenne_long">
+      <target>antenne_long</target>
+    </bone>
+    <bone name="explorer">
+      <target>explorer</target>
+    </bone>
+  </skeleton>
+</skeletons>

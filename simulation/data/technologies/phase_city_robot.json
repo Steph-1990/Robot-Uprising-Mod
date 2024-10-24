@@ -1,0 +1,28 @@
+{
+	"genericName": "Technological Progress TMK3",
+	"description": "The TMK3 Technological Phase is the apogee of the robot civilisation. They show their full potential by greatly increasing their production capacity and creating buildings that can switch between static and mobile modes. It is in TMK3 that the Robots prove to be very dangerous for their opponents. ",
+	"cost": {
+		"stone": 1000,
+		"food": 1000,
+        "wood": 1000
+	},
+	"requirements": {
+		"entity": {
+			"class": "PhaseTwo",
+			"number": 3
+		}
+	},
+	"requirementsTooltip": "Requires three Phase Two Structures.",
+	"supersedes": "phase_town_robot",
+	"replaces": ["phase_city"],
+	"icon": "robot/city_phase.png",
+	"researchTime": 60,
+	"tooltip": "Increases Buildobots building speed + 20% and Ladybots storage capacities + 100. Unlock Spacedock and Technical Center.",
+	"modifications": [
+		{ "value": "Builder/Rate", "add": 0.2, "affects": "Worker" },
+        { "value": "ResourceGatherer/Capacities/wood", "add": 100, "affects": "SpaceshipResourcesTransporterr" },
+        { "value": "ResourceGatherer/Capacities/stone", "add": 100, "affects": "SpaceshipResourcesTransporter" },
+        { "value": "ResourceGatherer/Capacities/food", "add": 100, "affects": "SpaceshipResourcesTransporter" }
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

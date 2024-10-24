@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_explorer">
+
+	<Cost>
+		<BuildTime>5</BuildTime>
+		<Population>1</Population>
+		<Resources>
+		<food>30</food>
+		<stone>30</stone>
+		<wood>25</wood>     
+		</Resources>
+	</Cost>
+
+	<Footprint>
+    	<Circle radius="5"/>
+    </Footprint>
+
+	<Health>
+		<Max>80</Max>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+	<Identity>
+		<Civ>human</Civ>
+		<Icon>units/human/explorer.png</Icon>
+	    <GenericName></GenericName>
+		<SpecificName>Explorer</SpecificName>
+		<Tooltip>The Explorer is useful for exploring the map in search of resources or to spy on enemies.</Tooltip>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Resistance>
+		<Entity>
+			<Damage>
+				<Pierce>5</Pierce>
+			</Damage>
+		</Entity>
+	</Resistance>
+
+	<VisualActor>
+		<Actor>units/human/explorer.xml</Actor>
+	</VisualActor>
+	
+</Entity>

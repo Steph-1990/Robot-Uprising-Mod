@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_trigger_point">
+
+  <Identity>
+    <VisibleClasses datatype="tokens">TutorialTriggerPointA</VisibleClasses>
+  </Identity>
+
+  <TriggerPoint>
+    <Reference>A</Reference>
+  </TriggerPoint>
+
+  <Vision>
+    <Range>10</Range>
+  </Vision>
+
+  <VisualActor>
+    <Actor>props/special/common/marker_object_char_l.xml</Actor>
+  </VisualActor>
+
+  <VisualActor>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly>
+  </VisualActor>
+
+  
+</Entity>

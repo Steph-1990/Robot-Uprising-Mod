@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+
+  <Identity>
+    <GenericName>MUR DE PIERRE</GenericName>
+    <Tooltip>MUR DE PIERRE WAW</Tooltip>
+    <VisibleClasses datatype="tokens">-Wall Palisade</VisibleClasses>
+    <Icon>structures/robot/palisade_wall.png</Icon>
+  </Identity>
+
+  <WallSet>
+    <Templates>
+      <Tower>structures/human/palisades_tower</Tower>
+      <Gate>structures/human/palisades_gate</Gate>
+      <Fort>structures/human/palisades_fort</Fort>
+      <WallLong>structures/human/palisades_long</WallLong>
+      <WallMedium>structures/human/palisades_medium</WallMedium>
+      <WallShort>structures/human/palisades_short</WallShort>
+      <WallCurves>structures/human/palisades_curve</WallCurves>
+      <WallEnd>structures/human/palisades_end</WallEnd>
+    </Templates>
+    <MinTowerOverlap>0.15</MinTowerOverlap>
+    <MaxTowerOverlap>0.95</MaxTowerOverlap>
+  </WallSet>
+  
+</Entity>

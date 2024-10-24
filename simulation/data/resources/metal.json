@@ -1,0 +1,13 @@
+{
+	"code": "metal",
+	"name": "Starcilite",
+	"description": "A meteor crystal that releases incredible energy.",
+	"order": 4,
+	"subtypes": {
+		"ore": "Ore",
+		"ruins": "Ruins"
+	},
+	"properties": ["barterable", "tradable", "tributable"],
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "sparse"
+}

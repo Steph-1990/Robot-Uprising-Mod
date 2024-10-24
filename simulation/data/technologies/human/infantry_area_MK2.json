@@ -1,0 +1,20 @@
+{
+	"genericName": "Bomber MK2",
+	"description": "Give an improve to Bomber.",
+	"supersedes": "human/infantry_area_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/infantry_area_2.png",
+	"requirementsTooltip": "Unlocked after Bomber MK1.",
+	"researchTime": 30,
+	"tooltip": "Damage + 10, Range + 5, Resistance + 2.",
+	"modifications": [
+		{ "value": "DeathDamage/Damage/Crush", "add": 10 },
+		{ "value": "DeathDamage/Range", "add": 5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 }
+	],
+	"affects": ["InfantryArea"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

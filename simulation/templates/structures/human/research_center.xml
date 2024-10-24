@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_research_center">
+
+	<Footprint>
+		<Square width="33.0" depth="33.0"/>
+		<Height>12.0</Height>
+	</Footprint>
+
+	<Health>
+		<DeathType>vanish</DeathType>
+		<Max>1200</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+  	</Health>
+
+    <Identity>
+	  <Civ>human</Civ>
+	  <Icon>structures/human/research_center.png</Icon>
+	  <Tooltip>Build to be able to research general technologies.</Tooltip>
+	  <GenericName>Improve Station</GenericName>
+	  <SpecificName>Improve Station</SpecificName>
+    </Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Obstruction>
+		<Static width="33.0" depth="33.0"/>
+	</Obstruction>
+
+	<Resistance>
+    	<Entity>
+      		<Damage>
+        		<Pierce>10</Pierce>
+        		<Hack>8</Hack>
+      		</Damage>
+    	</Entity>
+    </Resistance>
+
+    <VisualActor>
+    	<Actor>structures/human/research_center.xml</Actor>
+	  	<FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    </VisualActor>
+	
+</Entity>

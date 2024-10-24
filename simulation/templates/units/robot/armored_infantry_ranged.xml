@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_armored_infantry_ranged">
+
+  <Attack>
+    <Ranged>
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Pierce>50</Pierce>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>80</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>200</RepeatTime>
+      <Projectile>
+        <Speed>70</Speed>
+        <Spread>1</Spread>
+        <Gravity>0</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="5"/>
+		<ActorName>props/units/weapons/laser_ammo.xml</ActorName>
+	  </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Spaceship Indestructible</RestrictedClasses>
+    </Ranged>
+    <Capture disable =""/>
+  </Attack>
+
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <stone>300</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="10"/>
+  </Footprint>
+
+  <Health>
+    <Max>300</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <GenericName>Arachnobot</GenericName>
+    <Icon>units/robot/armored_infantry_ranged.png</Icon>
+    <SpecificName>Arachnobot</SpecificName>
+    <Tooltip>Ranged armored infantry unit powerful against Infantry units.</Tooltip>
+    <History>Arachnobot has been created to kill everything around it, it's a very powerful unit which deals a lot of damages to infantry units. It has been created just for that, because Robots needed more firepower.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>10</Pierce>
+        <Hack>14</Hack>
+        <Crush>10</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Sound>
+    <SoundGroups> 
+      <select>voice/robot/civ/armored_infantry_ranged_select.xml</select>
+      <attack>actor/robot/attack/armored_infantry_ranged_attack.xml</attack>
+      <death>actor/robot/death/armored_infantry_ranged_death.xml</death>   
+    </SoundGroups>
+  </Sound>
+
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+
+  <VisualActor>
+    <Actor>units/robot/armored_infantry_ranged.xml</Actor>
+  </VisualActor>
+
+</Entity>

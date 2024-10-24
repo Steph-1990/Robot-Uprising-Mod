@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structures/robot/anti_aircraft_turret.dae</mesh>
+      <props>
+        <prop actor="props/structures/robot/anti_aircraft_turret_left_arm.xml" attachpoint="left_arm"/>
+        <prop actor="props/structures/robot/anti_aircraft_turret_right_arm.xml" attachpoint="right_arm"/>
+        <prop actor="particles/mid_lightning.xml" attachpoint="lightning"/>
+      </props>
+      <textures>
+        <texture file="structures/robot/anti_aircraft_turret.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

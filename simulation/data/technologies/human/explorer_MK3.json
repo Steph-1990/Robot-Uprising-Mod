@@ -1,0 +1,20 @@
+{
+	"genericName": "Explorer MK3",
+	"description": "Give an improve to Explorer.",
+	"supersedes": "human/explorer_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "Advanced_optical.png",
+	"requirementsTooltip": "Unlocked after Advanced optical MK2.",
+	"researchTime": 60,
+	"tooltip": "Vision range + 10, Health + 13, Flying speed + 2.",
+	"modifications": [
+		{ "value": "Vision/Range", "add": 10 },
+		{ "value": "Health/Max", "add": 13 },
+		{ "value": "UnitMotion/WalkSpeed", "add": 2 }
+	],
+	"affects": ["Support Explorer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

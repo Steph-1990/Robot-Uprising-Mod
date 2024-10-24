@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/human/infantry_melee_a"> <!-- OU template_unit_infantry_melee -->
+
+  <Attack>
+    <Melee>
+      <AttackName>Pike</AttackName>
+      <Damage>
+        <Hack>299</Hack>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>5</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Drill</RestrictedClasses>
+    </Melee>
+    <Capture disable =""/>
+    <Slaughter disable =""/>
+  </Attack>
+
+  <Health>
+    <Max>456</Max>
+  </Health>
+
+  <Identity>
+	  <Civ>human</Civ>
+	  <SpecificName>NIV2</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Promotion>
+    <Entity>units/human/infantry_melee_c</Entity>
+    <RequiredXp>300</RequiredXp>
+    <TrickleRate>25</TrickleRate>
+  </Promotion>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <VisualActor>
+    <Actor>units/human/infantry_melee.xml</Actor>
+  </VisualActor>
+  
+</Entity>

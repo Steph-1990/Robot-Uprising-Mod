@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_melee">
+  <animations>
+    <animation file="units/robot/attack/infantry_melee_attack.dae" name="attack_melee"/>
+  </animations>
+</variant>

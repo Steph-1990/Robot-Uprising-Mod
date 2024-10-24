@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="upgrading">
+    <mesh>units/robot/worker.dae</mesh>
+    <animations>
+        <animation file="units/robot/idle/worker_idle.dae" name="upgrading" speed="300"/>
+    </animations>
+</variant>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship">
+
+  <Attack disable= ""/>
+
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0</EjectHealth>
+    <List datatype="tokens">Infantry Worker</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>15</LoadingRange>
+    <EjectClassesOnDestroy datatype="tokens"/>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+
+  <Identity>
+    <Classes datatype="tokens">SpaceshipUnitsTransporter</Classes>
+  </Identity>
+
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <CanDropUnits>false</CanDropUnits>
+    <DefaultStance>passive</DefaultStance>
+  </UnitAI>
+
+  <UnitMotionFlying>
+  	<AccelRate>20.0</AccelRate>
+    <SlowingRate>1000.0</SlowingRate>
+    <MaxSpeed>45.0</MaxSpeed>
+  </UnitMotionFlying>
+
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  
+</Entity>

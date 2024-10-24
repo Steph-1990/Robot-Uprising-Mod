@@ -1,0 +1,7 @@
+{
+  "name": "robots-uprising",
+  "version": "0.26.0",
+  "label": "The Robots Uprising",
+  "description": "Add a robot civilisation to 0 A.D, only playable in robots uprising maps.",
+  "dependencies": ["0ad=0.0.26"]
+}

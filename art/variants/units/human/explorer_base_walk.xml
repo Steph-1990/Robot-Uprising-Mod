@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+  <animations>
+    <animation file="units/human/walk/explorer_walk.dae" name="walk" speed="100"/>
+    <animation file="units/human/idle/explorer_idle.dae" name="idle" speed="100"/>
+    <animation file="units/human/idle/explorer_idle_2.dae" name="idle" speed="100"/>
+  </animations>
+</variant>

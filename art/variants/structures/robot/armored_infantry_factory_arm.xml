@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="idle">
+  <animations>
+    <animation file="props/structures/robot/armored_infantry_factory_arm_left.dae" name="idle"/>
+    <animation file="props/structures/robot/armored_infantry_factory_arm_right.dae" name="idle"/>
+  </animations>
+</variant>

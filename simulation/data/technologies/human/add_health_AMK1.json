@@ -1,0 +1,21 @@
+{
+	"genericName": "Titanium Coating AMK1",
+	"description": "Give a titanium coating to all structures.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/research_center_1.png",
+	"researchTime": 45,
+	"tooltip": "Health + 100.",
+	"modifications": [
+		{ "value": "Health/Max", "add": 100 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

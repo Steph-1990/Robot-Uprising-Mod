@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>units/robot/spaceship_hunter.dae</mesh>
+      <textures>
+        <texture file="units/robot/spaceship_hunter.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+      <props>
+        <prop actor="particles/spaceship_flame.xml" attachpoint="smoke"/>
+        <prop actor="particles/spaceship_hunter_flame_small.xml" attachpoint="smokeleft"/>
+        <prop actor="particles/spaceship_hunter_flame_small.xml" attachpoint="smokeright"/>
+        <prop attachpoint="canon"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="units/robot/spaceship_hunter_base_walk.xml"/>
+  </group>
+  <group>
+    <variant name="Idle" frequency="1"/>
+    <variant file="units/robot/spaceship_hunter_attack.xml"/>
+    <variant file="units/robot/spaceship_hunter_death.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

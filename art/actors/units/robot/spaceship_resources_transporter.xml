@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>units/robot/spaceship_resources_transporter.dae</mesh>
+      <textures>
+        <texture file="units/robot/spaceship_resources_transporter.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="units/robot/spaceship_resources_transporter_base_walk.xml"/>
+  </group>
+  <!-- <group>
+    <variant name="Idle" frequency="1"/>
+    <variant file="units/robot/spaceship_resources_transporter_gather.xml"/>
+  </group> -->
+  <material>player_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+
+  <BuildRestrictions>
+    <Territory>neutral own</Territory>
+    <PlacementType>land</PlacementType>
+  </BuildRestrictions>
+
+  <Identity>
+    <SelectionGroupName>template_structure_civic_house</SelectionGroupName>
+    <Classes datatype="tokens">Generator</Classes>
+    <VisibleClasses datatype="tokens">Generator PhaseOne</VisibleClasses>
+    <RequiredTechnology>phase_village_robot</RequiredTechnology>
+  </Identity>
+
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+
+  <Researcher>
+		<Technologies datatype="tokens">
+      {civ}/energy_supplier_MK1
+		</Technologies>
+  </Researcher>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>10</Pierce>
+        <Hack>2</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+
+  <TerritoryInfluence disable= ""/>
+
+</Entity>

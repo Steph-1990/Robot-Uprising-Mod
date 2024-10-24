@@ -1,0 +1,25 @@
+{
+	"genericName": "F1ght3r MK1",
+	"description": "Provide an improve to F1ght3r.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/infantry_melee_1.png",
+	"researchTime": 30,
+	"tooltip": "Damage + 3, Resistance + 2, Attack rate -100",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "add": 3 },
+		{ "value": "Attack/Melee/Damage/Crush", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 2 },
+		{ "value": "Attack/Melee/RepeatTime", "add": -100 }
+	],
+	"affects": ["InfantryMelee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

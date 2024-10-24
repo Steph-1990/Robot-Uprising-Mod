@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_ranged">
+  <props>
+    <prop actor="particles/blowing_dust.xml" attachpoint="canon"/>
+  </props>
+</variant>

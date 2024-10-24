@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_palisade">
+
+  <Footprint>
+    <Square width="9.5" depth="8.5"/>
+    <Height>9.0</Height>
+  </Footprint>
+
+  <Identity>
+    <GenericName>Wooden Tower</GenericName>
+    <Icon>structures/palisade_fort.png</Icon>
+  </Identity>
+  
+  <Obstruction>
+    <Static width="9.0" depth="7.5"/>
+  </Obstruction>
+
+<Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <wood>4</wood>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="5" depth="3"/>
+    <Height>6</Height>
+  </Footprint>
+
+  <Health>
+    <Max op="mul">0.2</Max>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+  </Identity>
+
+  <Obstruction>
+    <Static width="4" depth="2"/>
+  </Obstruction>
+
+  <ProductionQueue disable=""/>
+
+  <Researcher disable=""/>
+
+  <StatusBars>
+    <HeightOffset>7</HeightOffset>
+  </StatusBars>
+
+  <Trainer disable=""/>
+
+  <Upgrade disable=""/>
+
+  <VisualActor>
+    <Actor>structures/robot/palisade_rocks_fort.xml</Actor>
+    <FoundationActor>structures/fndn_1x1pal.xml</FoundationActor>
+  </VisualActor>
+
+  <WallPiece>
+    <Length>5</Length>
+  </WallPiece>
+
+</Entity>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="infantry ranged skeleton" id="infantry_ranged_skeleton">
+    <bone name="infantry_ranged_body">
+      <bone name="croc_R" />
+      <bone name="frontleg1_R">
+        <bone name="frontleg2_R">
+          <bone name="frontleg3_R">
+            <bone name="frontleg4_R" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg1_R">
+        <bone name="backleg2_R">
+          <bone name="backleg3_R">
+            <bone name="backleg4_R" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="canon_R" />
+      <bone name="croc_L" />
+      <bone name="frontleg1_L">
+        <bone name="frontleg2_L">
+          <bone name="frontleg3_L">
+            <bone name="frontleg4_L" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg1_L">
+        <bone name="backleg2_L">
+          <bone name="backleg3_L">
+            <bone name="backleg4_L" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="canon_L" />
+      <bone name="tailbase">
+        <bone name="tail1">
+          <bone name="tail2">
+            <bone name="tail3">
+              <bone name="tail4">
+                <bone name="tail5">
+                  <bone name="tail6">
+                    <bone name="tail7">
+                      <bone name="tail8">
+                        <bone name="tail9" />
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="infantry_ranged_mesh" />
+  </standard_skeleton>
+  <skeleton title="infantry ranged skeleton" target="infantry_ranged_skeleton">
+    <identifier>
+      <root>infantry_ranged_body</root>
+    </identifier>
+    <bone name="infantry_ranged_body">
+      <target>infantry_ranged_body</target>
+      <bone name="croc_R">
+        <target>croc_R</target>
+      </bone>
+      <bone name="frontleg1_R">
+        <target>frontleg1_R</target>
+        <bone name="frontleg2_R">
+          <target>frontleg2_R</target>
+          <bone name="frontleg3_R">
+            <target>frontleg3_R</target>
+            <bone name="frontleg4_R">
+              <target>frontleg4_R</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg1_R">
+        <target>backleg1_R</target>
+        <bone name="backleg2_R">
+          <target>backleg2_R</target>
+          <bone name="backleg3_R">
+            <target>backleg3_R</target>
+            <bone name="backleg4_R">
+              <target>backleg4_R</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="canon_R">
+        <target>canon_R</target>
+      </bone>
+      <bone name="croc_L">
+        <target>croc_L</target>
+      </bone>
+      <bone name="frontleg1_L">
+        <target>frontleg1_L</target>
+        <bone name="frontleg2_L">
+          <target>frontleg2_L</target>
+          <bone name="frontleg3_L">
+            <target>frontleg3_L</target>
+            <bone name="frontleg4_L">
+              <target>frontleg4_L</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg1_L">
+        <target>backleg1_L</target>
+        <bone name="backleg2_L">
+          <target>backleg2_L</target>
+          <bone name="backleg3_L">
+            <target>backleg3_L</target>
+            <bone name="backleg4_L">
+              <target>backleg4_L</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="canon_L">
+        <target>canon_L</target>
+      </bone>
+      <bone name="tailbase">
+        <target>tailbase</target>
+        <bone name="tail1">
+          <target>tail1</target>
+          <bone name="tail2">
+            <target>tail2</target>
+            <bone name="tail3">
+              <target>tail3</target>
+              <bone name="tail4">
+                <target>tail4</target>
+                <bone name="tail5">
+                  <target>tail5</target>
+                  <bone name="tail6">
+                    <target>tail6</target>
+                    <bone name="tail7">
+                      <target>tail7</target>
+                      <bone name="tail8">
+                        <target>tail8</target>
+                        <bone name="tail9">
+                          <target>tail9</target>
+                        </bone>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="infantry_ranged_mesh">
+      <target>infantry_ranged_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

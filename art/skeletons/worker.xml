@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="worker" id="worker">
+    <bone name="bassin" />
+    <bone name="leg_right1">
+      <bone name="leg_right2">
+        <bone name="foot_right" />
+      </bone>
+    </bone>
+    <bone name="leg_left1">
+      <bone name="leg_left2">
+        <bone name="foot_left" />
+      </bone>
+    </bone>
+    <bone name="cercle_3parts" />
+    <bone name="cercle_1part" />
+    <bone name="worker.001" />
+  </standard_skeleton>
+  <skeleton title="worker" target="worker">
+    <identifier>
+      <root>bassin</root>
+    </identifier>
+    <bone name="bassin">
+      <target>bassin</target>
+    </bone>
+    <bone name="leg_right1">
+      <target>leg_right1</target>
+      <bone name="leg_right2">
+        <target>leg_right2</target>
+        <bone name="foot_right">
+          <target>foot_right</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="leg_left1">
+      <target>leg_left1</target>
+      <bone name="leg_left2">
+        <target>leg_left2</target>
+        <bone name="foot_left">
+          <target>foot_left</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="cercle_3parts">
+      <target>cercle_3parts</target>
+    </bone>
+    <bone name="cercle_1part">
+      <target>cercle_1part</target>
+    </bone>
+    <bone name="worker.001">
+      <target>worker.001</target>
+    </bone>
+  </skeleton>
+</skeletons>

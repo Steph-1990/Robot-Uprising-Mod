@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="idle">
+  <animations>
+    <animation file="props/units/robot/spaceships/small_propeller_units_transporter_turning.dae" name="idle"/>
+  </animations>
+</variant>

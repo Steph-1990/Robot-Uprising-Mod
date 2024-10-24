@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+
+  <Identity>
+    <RequiredTechnology>phase_city_robot</RequiredTechnology>
+    <Classes datatype="tokens">ArmoredInfantryFactory</Classes>
+    <VisibleClasses datatype="tokens">Factory</VisibleClasses>
+  </Identity>
+
+  <!-- TODO : Différencier chaque civ avec {civ} -->
+  <Researcher>
+    <Technologies datatype="tokens">
+      {civ}/armored_infantry_melee_MK1
+      {civ}/armored_infantry_melee_MK2
+      {civ}/armored_infantry_melee_MK3
+      {civ}/armored_infantry_ranged_MK1
+      {civ}/armored_infantry_ranged_MK2
+      {civ}/armored_infantry_ranged_MK3
+    </Technologies>
+  </Researcher>
+
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/armored_infantry_melee
+      units/{civ}/armored_infantry_ranged
+      units/{civ}/armored_infantry_melee_a
+      units/{civ}/armored_infantry_ranged_a
+    </Entities>
+  </Trainer>
+
+</Entity>

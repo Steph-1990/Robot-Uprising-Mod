@@ -1,0 +1,20 @@
+{
+	"genericName": "Improve Workers",
+	"description": "Your workers are now able to attack ennemies.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "robot/support_worker_3.png",
+	"researchTime": 2,
+	"tooltip": "Add the ability to attack to all Workers.",
+	"modifications": [
+		{ "value": "Promotion/TrickleRate", "add": 100, "affects": "Worker" }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

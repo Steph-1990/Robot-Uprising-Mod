@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+
+  	<Identity>
+		<Civ>human</Civ>
+        <GenericName>Boombot</GenericName>
+		<Icon>units/robot/infantry_area.png</Icon>
+		<SpecificName>NIV1</SpecificName>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Promotion>
+		<Entity>units/human/infantry_ranged_area_b</Entity>
+		<RequiredXp>150</RequiredXp>
+		<TrickleRate>25</TrickleRate>
+	</Promotion>
+
+	<Sound>
+		<SoundGroups>
+			<select>voice/robot/civ/bomber_select.xml</select>
+		</SoundGroups>
+	</Sound>
+
+	<VisualActor>
+		<Actor>units/robot/infantry_area.xml</Actor>
+	</VisualActor>
+	
+</Entity>

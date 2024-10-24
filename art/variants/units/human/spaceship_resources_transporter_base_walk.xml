@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+  <animations>
+    <animation file="units/human/idle/spaceship_resources_transporter_idle.dae" name="idle" speed="100"/>
+  </animations>
+</variant>

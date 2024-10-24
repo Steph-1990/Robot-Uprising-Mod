@@ -1,0 +1,19 @@
+{
+	"genericName": "Heavy Cannon MK3",
+	"description": "Give an improve of Heavy Cannon.",
+	"supersedes": "human/turret_defense_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "human/defense_turret_3.png",
+	"requirementsTooltip": "Unlocked after Heavy Cannon MK2.",
+	"researchTime": 60,
+	"tooltip": "Damage + 4, Range + 20.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 4 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 20 }
+	],
+	"affects": ["Turret"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

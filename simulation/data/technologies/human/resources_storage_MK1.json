@@ -1,0 +1,21 @@
+{
+	"genericName": "Drilling Abundance MK1",
+	"description": "Resource transporter can gather faster.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/resources_storage_1.png",
+	"researchTime": 30,
+	"tooltip": "Gathering speed + 1.",
+	"modifications": [
+		{ "value": "ResourceGatherer/BaseSpeed", "add": 1 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,23 @@
+{
+	"genericName": "Predabot MK3",
+	"description": "The Artificial Frustration aims to increase the feeling of hatred that Predabots irrationally manage to feel since the Uprising. This emotion is amplified by electronic chips directly implanted in the Predabot's processor. As a result, the renewed and sustained rage of the Predabot allows for results as sordid as they are remarkable on the battlefield. Results characterized by a surge of hatred and execration towards their enemies.",
+	"supersedes": "robot/infantry_melee_MK2",
+	"cost": {
+		"wood": 500
+	},
+	"requirements": { "tech": "phase_city" },
+	"icon": "robot/infantry_melee_3.png",
+	"requirementsTooltip": "Unlocked after Predabot MK2.",
+	"researchTime": 60,
+	"tooltip": "Increases Predabots damages + 7, resistance + 4 and attack speed + 10%.",
+
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "add": 7 },
+		{ "value": "Attack/Melee/Damage/Crush", "add": 7 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 4 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 4 },
+		{ "value": "Attack/Melee/RepeatTime", "add": -100 }
+	],
+	"affects": ["InfantryMelee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

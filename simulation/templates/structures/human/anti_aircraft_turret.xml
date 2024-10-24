@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_turret_anti_aircraft">
+
+  <Attack>
+		<Ranged>
+			<Damage>
+				<Pierce>50</Pierce>
+			</Damage>
+			<MinRange>0</MinRange>
+			<MaxRange>150</MaxRange>
+			<PrepareTime>0</PrepareTime>
+			<Projectile>
+				<LaunchPoint y="30"/>
+			</Projectile>
+			<RepeatTime>200</RepeatTime>
+			<RestrictedClasses datatype="tokens">Human Structure</RestrictedClasses>
+			<PreferredClasses datatype="tokens">Hunter</PreferredClasses>
+		</Ranged>
+	</Attack>
+
+  <Cost>
+		<BuildTime>40</BuildTime>
+		<Population>1</Population>
+		<Resources>
+			<stone>300</stone>
+			<food>350</food>
+		</Resources>
+	</Cost>
+
+  <Footprint>
+    <Circle radius="20"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+		<DeathType>vanish</DeathType>
+		<Max>1200</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+  <Identity>
+	  <Civ>human</Civ>
+	      <Icon>structures/human/anti_aircraft_turret.png</Icon>
+	  <SpecificName>Anti-air Cannon</SpecificName>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+
+  <VisualActor>
+    <Actor>structures/human/anti_aircraft_turret.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+  
+</Entity>

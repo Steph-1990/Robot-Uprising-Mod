@@ -1,0 +1,25 @@
+{
+	"genericName": "MEKA F1ght3r MK1",
+	"description": "Give an improve of MEKA F1ght3r.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/armored_infantry_melee_1.png",
+	"researchTime": 30,
+	"tooltip": "Damage + 5, Resistance + 4, Walkspeed x 1.1.",
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "add": 5 },
+		{ "value": "Attack/Melee/Damage/Crush", "add": 5 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 4 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 4 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"affects": ["ArmoredInfantryMelee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

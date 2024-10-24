@@ -1,0 +1,25 @@
+{
+	"genericName": "Ladybot MK1",
+	"description": "The Automatic Compression revolutionizes the work of Ladybots. It automatically compresses the materials and resources they transport. This innovation is based on reducing the size of the cellular structure of the transported elements, thus facilitating the transport of a considerably larger quantity of resources. Thanks to this capability, Ladybots can optimize the efficiency of their transport operations, offering an ingenious solution to maximize deployment and routing speed.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_robot" },
+			{ "civ": "robot" }
+		]
+	},
+	"icon": "robot/spaceship_resources_transporter_1.png",
+	"researchTime": 30,
+	"tooltip": "Increases Ladybots speed + 10%, health + 50 and storage capacities + 50.",
+	"modifications": [
+		{ "value": "UnitMotionFlying/MaxSpeed", "multiply": 1.1 },
+		{ "value": "Health/Max", "add": 50 },
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 50 },
+        { "value": "ResourceGatherer/Capacities/stone", "add": 50 },
+        { "value": "ResourceGatherer/Capacities/food", "add": 50 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

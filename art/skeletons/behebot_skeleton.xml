@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="behebot skeleton" id="behebot_skeleton">
+    <bone name="behebot_body">
+      <bone name="neck">
+        <bone name="head_up" />
+        <bone name="head_down" />
+      </bone>
+      <bone name="frontleg_R1">
+        <bone name="frontleg_R2">
+          <bone name="frontmiddlefinger_R1">
+            <bone name="frontmiddlefinger_R2" />
+          </bone>
+          <bone name="frontbackfinger_R1">
+            <bone name="frontbackfinger_R2" />
+          </bone>
+          <bone name="frontfrontfinger_R1">
+            <bone name="frontfrontfinger_R2" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg_R1">
+        <bone name="backleg_R2">
+          <bone name="backmiddlefinger_R1">
+            <bone name="backmiddlefinger_R2" />
+          </bone>
+          <bone name="backbackfinger_R1">
+            <bone name="backbackfinger_R2" />
+          </bone>
+          <bone name="backfrontfinger_R1">
+            <bone name="backfrontfinger_R2" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="frontleg_L1">
+        <bone name="frontleg_L2">
+          <bone name="frontmiddlefinger_L1">
+            <bone name="frontmiddlefinger_L2" />
+          </bone>
+          <bone name="frontbackfinger_L1">
+            <bone name="frontbackfinger_L2" />
+          </bone>
+          <bone name="frontfrontfinger_L1">
+            <bone name="frontfrontfinger_L2" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg_L1">
+        <bone name="backleg_L2">
+          <bone name="backmiddlefinger_L1">
+            <bone name="backmiddlefinger_L2" />
+          </bone>
+          <bone name="backbackfinger_L1">
+            <bone name="backbackfinger_L2" />
+          </bone>
+          <bone name="backfrontfinger_L1">
+            <bone name="backfrontfinger_L2" />
+          </bone>
+        </bone>
+      </bone>
+      <bone name="tail1">
+        <bone name="tail2">
+          <bone name="tail3">
+            <bone name="tail4">
+              <bone name="tail5">
+                <bone name="tail6">
+                  <bone name="tail7">
+                    <bone name="tail8">
+                      <bone name="tail9">
+                        <bone name="tail10" />
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="behebot_mesh" />
+  </standard_skeleton>
+  <skeleton title="behebot skeleton" target="behebot_skeleton">
+    <identifier>
+      <root>behebot_body</root>
+    </identifier>
+    <bone name="behebot_body">
+      <target>behebot_body</target>
+      <bone name="neck">
+        <target>neck</target>
+        <bone name="head_up">
+          <target>head_up</target>
+        </bone>
+        <bone name="head_down">
+          <target>head_down</target>
+        </bone>
+      </bone>
+      <bone name="frontleg_R1">
+        <target>frontleg_R1</target>
+        <bone name="frontleg_R2">
+          <target>frontleg_R2</target>
+          <bone name="frontmiddlefinger_R1">
+            <target>frontmiddlefinger_R1</target>
+            <bone name="frontmiddlefinger_R2">
+              <target>frontmiddlefinger_R2</target>
+            </bone>
+          </bone>
+          <bone name="frontbackfinger_R1">
+            <target>frontbackfinger_R1</target>
+            <bone name="frontbackfinger_R2">
+              <target>frontbackfinger_R2</target>
+            </bone>
+          </bone>
+          <bone name="frontfrontfinger_R1">
+            <target>frontfrontfinger_R1</target>
+            <bone name="frontfrontfinger_R2">
+              <target>frontfrontfinger_R2</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg_R1">
+        <target>backleg_R1</target>
+        <bone name="backleg_R2">
+          <target>backleg_R2</target>
+          <bone name="backmiddlefinger_R1">
+            <target>backmiddlefinger_R1</target>
+            <bone name="backmiddlefinger_R2">
+              <target>backmiddlefinger_R2</target>
+            </bone>
+          </bone>
+          <bone name="backbackfinger_R1">
+            <target>backbackfinger_R1</target>
+            <bone name="backbackfinger_R2">
+              <target>backbackfinger_R2</target>
+            </bone>
+          </bone>
+          <bone name="backfrontfinger_R1">
+            <target>backfrontfinger_R1</target>
+            <bone name="backfrontfinger_R2">
+              <target>backfrontfinger_R2</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="frontleg_L1">
+        <target>frontleg_L1</target>
+        <bone name="frontleg_L2">
+          <target>frontleg_L2</target>
+          <bone name="frontmiddlefinger_L1">
+            <target>frontmiddlefinger_L1</target>
+            <bone name="frontmiddlefinger_L2">
+              <target>frontmiddlefinger_L2</target>
+            </bone>
+          </bone>
+          <bone name="frontbackfinger_L1">
+            <target>frontbackfinger_L1</target>
+            <bone name="frontbackfinger_L2">
+              <target>frontbackfinger_L2</target>
+            </bone>
+          </bone>
+          <bone name="frontfrontfinger_L1">
+            <target>frontfrontfinger_L1</target>
+            <bone name="frontfrontfinger_L2">
+              <target>frontfrontfinger_L2</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="backleg_L1">
+        <target>backleg_L1</target>
+        <bone name="backleg_L2">
+          <target>backleg_L2</target>
+          <bone name="backmiddlefinger_L1">
+            <target>backmiddlefinger_L1</target>
+            <bone name="backmiddlefinger_L2">
+              <target>backmiddlefinger_L2</target>
+            </bone>
+          </bone>
+          <bone name="backbackfinger_L1">
+            <target>backbackfinger_L1</target>
+            <bone name="backbackfinger_L2">
+              <target>backbackfinger_L2</target>
+            </bone>
+          </bone>
+          <bone name="backfrontfinger_L1">
+            <target>backfrontfinger_L1</target>
+            <bone name="backfrontfinger_L2">
+              <target>backfrontfinger_L2</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="tail1">
+        <target>tail1</target>
+        <bone name="tail2">
+          <target>tail2</target>
+          <bone name="tail3">
+            <target>tail3</target>
+            <bone name="tail4">
+              <target>tail4</target>
+              <bone name="tail5">
+                <target>tail5</target>
+                <bone name="tail6">
+                  <target>tail6</target>
+                  <bone name="tail7">
+                    <target>tail7</target>
+                    <bone name="tail8">
+                      <target>tail8</target>
+                      <bone name="tail9">
+                        <target>tail9</target>
+                        <bone name="tail10">
+                          <target>tail10</target>
+                        </bone>
+                      </bone>
+                    </bone>
+                  </bone>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="behebot_mesh">
+      <target>behebot_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

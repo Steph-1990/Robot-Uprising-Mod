@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_ranged">
+  <animations>
+    <animation file="props/structures/robot/land_turret_left_arm_shooting.dae" name="attack_ranged"/>
+  </animations>
+</variant>

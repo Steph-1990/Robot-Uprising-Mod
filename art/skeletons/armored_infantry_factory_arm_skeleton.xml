@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="armored infantry factory arm skeleton" id="armored_infantry_factory_arm_skeleton">
+    <bone name="circle" />
+    <bone name="arm_1">
+      <bone name="arm_2">
+        <bone name="arm_front" />
+        <bone name="arm_back" />
+      </bone>
+    </bone>
+    <bone name="armored_infantry_factory_arm_mesh" />
+  </standard_skeleton>
+  <skeleton title="armored infantry factory arm skeleton" target="armored_infantry_factory_arm_skeleton">
+    <identifier>
+      <root>circle</root>
+    </identifier>
+    <bone name="circle">
+      <target>circle</target>
+    </bone>
+    <bone name="arm_1">
+      <target>arm_1</target>
+      <bone name="arm_2">
+        <target>arm_2</target>
+        <bone name="arm_front">
+          <target>arm_front</target>
+        </bone>
+        <bone name="arm_back">
+          <target>arm_back</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="armored_infantry_factory_arm_mesh">
+      <target>armored_infantry_factory_arm_mesh</target>
+    </bone>
+  </skeleton>
+</skeletons>

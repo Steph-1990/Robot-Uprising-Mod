@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="death">
+    <mesh>units/robot/infantry_melee.dae</mesh>
+    <animations>
+        <animation file="units/robot/death/infantry_melee_death.dae" name="death" speed="100"/>
+        <animation file="units/robot/death/infantry_melee_death2.dae" name="death" speed="100"/>
+    </animations>
+</variant>

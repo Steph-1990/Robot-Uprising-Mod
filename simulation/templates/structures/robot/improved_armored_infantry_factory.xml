@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_armored_infantry_factory">
+
+  <Footprint>
+    <Square width="70.0" depth="60.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>1000</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+	    <Civ>robot</Civ>
+      <Icon>structures/robot/armored_infantry_factory.png</Icon>
+	    <SpecificName>Static Armored Infantry Factory</SpecificName>
+      <GenericName>Static Armored Infantry Factory</GenericName>
+      <Tooltip>Factory programmed to train armored infantry units only. Can be switched to a mobile mode, which make the factory able to move around the battlefield.</Tooltip>
+      <History>At the first fight against Humans civilisation, Robots needed more units to be able to win. After their first defeat, Robots decided to create factories able to fly over the battlefield to make them a part of the fight. They won their first great battle thanks to mobile factories.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="70.0" depth="60.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>16</Pierce>
+        <Hack>7</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+  
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/armored_infantry_factory_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+    <Armored_infantry_factory>
+      <Entity>units/robot/mobile_armored_infantry_factory</Entity>
+      <Tooltip>Switch to make the armored infantry factory able to move.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Icon>portraits/upgrades/robot/armored_infantry_factory.png</Icon>
+      <Time>10</Time>
+      <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    </Armored_infantry_factory>
+  </Upgrade>
+
+  <VisualActor>
+    <Actor>structures/robot/armored_infantry_factory.xml</Actor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <PlacementType>land</PlacementType>
+    <Distance>
+        <AppliesTo>all</AppliesTo>
+        <DrillAround>true</DrillAround>
+        <FromClass>Titanium</FromClass>
+        <MaxDistance>10</MaxDistance>
+        <MinDrillDistance>60</MinDrillDistance>
+    </Distance>
+  </BuildRestrictions>
+
+  <Capturable>
+    <CapturePoints>1000</CapturePoints>
+  </Capturable>
+
+  <Identity>
+    <VisibleClasses datatype="tokens">Drill PhaseOne TitaniumDrill</VisibleClasses>
+    <RequiredTechnology>phase_village_robot</RequiredTechnology>
+    <Tooltip>Build on a titanium ore to be able to gather it.</Tooltip>
+  </Identity>
+
+  <!-- TODO : Différencier chaque civ avec {civ} -->
+  <Researcher>
+		<Technologies datatype="tokens">
+      {civ}/resources_storage_MK1
+      {civ}/resources_storage_MK2
+      {civ}/resources_storage_MK3
+		</Technologies>
+  </Researcher>
+
+ <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>10000</Max>
+    <Type>stone.rock</Type>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+
+  <TerritoryDecay>
+    <Territory>enemy</Territory>
+  </TerritoryDecay>
+
+  </Entity>

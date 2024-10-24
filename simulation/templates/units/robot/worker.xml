@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="robot_builder|template_unit_support_worker">
+
+	<Cost>
+		<BuildTime>5</BuildTime>
+		<Resources>
+			<food>25</food>
+			<stone>25</stone>
+		</Resources>
+  	</Cost>
+
+	<Decay>
+		<SinkingAnim>true</SinkingAnim>
+		<DelayTime>1.4</DelayTime>
+		<SinkRate>3.0</SinkRate>
+		<SinkAccel>7.0</SinkAccel>
+	</Decay>
+
+	<Footprint>
+		<Circle radius="4"/>
+		<Height>1</Height>
+	</Footprint>
+
+	<Health>
+		<Max>150</Max>
+		<RegenRate>0</RegenRate>
+		<IdleRegenRate>0</IdleRegenRate>
+		<Unhealable>false</Unhealable>
+	</Health>
+
+	<Identity>
+		<Civ>robot</Civ>
+        <GenericName>Buildobot</GenericName>
+		<Icon>units/robot/worker.png</Icon>
+		<SpecificName>Buildobot</SpecificName>
+		<Tooltip>Support builder unit which is the only unit able to build structures and the only ground unit which is able to gather resources.</Tooltip>
+    	<History>Buildobot is one of the first member of the civilisation. The role of this unit is the most important, nothing can work without it. Behebot created it because every civilisation needs some workers to achieve the hard work to expand the faction.</History>
+	</Identity>
+
+	<Loot>
+		<wood>10</wood>
+		<stone>10</stone>
+		<food>10</food>
+		<xp>35</xp>
+	</Loot>
+
+	<Upgrade>
+		<infantry_range>
+			<Entity>units/robot/infantry_ranged</Entity>
+			<Tooltip>Switch to Stingerbot.</Tooltip>
+			<Variant>upgrading</Variant>
+			<Icon>portraits/upgrades/robot/worker_to_infantry_ranged.png</Icon>
+			<Time>10</Time>
+			<Cost>
+				<food>125</food>
+				<stone>175</stone>
+			</Cost>
+			<RequiredTechnology>phase_town_robot</RequiredTechnology>
+		</infantry_range>
+		<infantry_melee>
+			<Entity>units/robot/infantry_melee</Entity>
+			<Tooltip>Switch to Predabot</Tooltip>
+			<Variant>upgrading</Variant>
+			<Icon>portraits/upgrades/robot/worker_to_infantry_melee.png</Icon>
+			<Time>10</Time>
+			<Cost>
+				<food>125</food>
+				<stone>175</stone>
+			</Cost>
+			<RequiredTechnology>phase_town_robot</RequiredTechnology>
+		</infantry_melee>
+		<infantry_area>
+			<Entity>units/robot/infantry_area</Entity>
+			<Tooltip>Switch to Boombot.</Tooltip>
+			<Variant>upgrading</Variant>
+			<Icon>portraits/upgrades/robot/worker_to_infantry_area.png</Icon>
+			<Time>10</Time>
+			<Cost>
+				<food>75</food>
+				<stone>75</stone>
+			</Cost>
+			<RequiredTechnology>phase_town_robot</RequiredTechnology>
+		</infantry_area>
+	</Upgrade>
+
+	<Sound>
+		<SoundGroups> 
+			<select>voice/robot/civ/worker_select.xml</select>
+			<death>actor/robot/death/worker_death.xml</death>  
+		</SoundGroups>
+	</Sound>
+	
+	<Resistance>
+		<Entity>
+		<Damage>
+			<Hack>6</Hack>
+			<Pierce>5</Pierce>
+			<Crush>5</Crush>
+		</Damage>
+		</Entity>
+	</Resistance>
+
+	<VisualActor>
+		<Actor>units/robot/worker.xml</Actor>
+	</VisualActor>
+	
+</Entity>
+

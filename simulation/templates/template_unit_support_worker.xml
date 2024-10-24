@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support">
+
+  <Attack disable= ""/>
+
+  <Identity>
+    <VisibleClasses datatype="tokens">FemaleCitizen Citizen Human Worker Builder ResourceGatherer</VisibleClasses>
+    <RequiredTechnology>phase_village_robot</RequiredTechnology>
+  </Identity>
+
+  <UnitAI>
+    <CanPatrol>false</CanPatrol>
+    <Formations disable=""/>
+  </UnitAI>
+
+  <ResourceGatherer>
+    <MaxDistance>10.0</MaxDistance>
+    <BaseSpeed>4</BaseSpeed>
+    <Rates>
+      <metal.ore>5</metal.ore>
+      <food.fruit>5</food.fruit>
+      <wood.tree>5</wood.tree>
+      <stone.rock>5</stone.rock>
+    </Rates>
+    <Capacities>
+      <metal>200</metal>
+      <food>50</food>
+      <stone>50</stone>
+      <wood>50</wood>
+    </Capacities>
+  </ResourceGatherer>
+
+  <UnitMotion>
+    <WalkSpeed>15.0</WalkSpeed>
+  </UnitMotion>
+
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+
+</Entity>

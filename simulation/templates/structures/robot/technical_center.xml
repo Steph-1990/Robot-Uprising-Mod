@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_technical_center">
+
+	<Footprint>
+		<Square width="120" depth="85"/>
+		<Height>12.0</Height>
+	</Footprint>
+
+  <Identity>
+	  <Civ>robot</Civ>
+    <GenericName>Repair Center</GenericName>
+    <Icon>structures/robot/technical_center.png</Icon>
+	  <SpecificName>Repair Center</SpecificName>
+    <Tooltip>This building allows you to heal your units by putting them in garrison inside the Technical Center.</Tooltip>
+    <History>Robots needed to be more resistant during long fights. That's why they decided to create the Technical Center, which is able to heal the rest of the civilisation easily.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+		<Static width="40.0" depth="40.0"/>
+	</Obstruction>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/technical_center_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+    <Improved_Technical_Center>
+      <Entity>structures/robot/improved_technical_center</Entity>
+      <Tooltip>Upgrade Technical Center to be able to switch between building mode and movable mode.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Icon>portraits/upgrades/robot/technical_center.png</Icon>
+      <Time>10</Time>
+      <Cost>
+				<food>200</food>
+				<stone>200</stone>
+			</Cost>
+      <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    </Improved_Technical_Center>
+  </Upgrade>
+
+  <VisualActor>
+    <Actor>structures/robot/technical_center.xml</Actor>
+    <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

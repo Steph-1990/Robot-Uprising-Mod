@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="training">
+  <mesh>structures/robot/meka_elite_factory.dae</mesh>
+  <props>
+    <prop actor="props/structures/robot/meka_elite_mesh.xml" attachpoint="meka_elite_mesh"/>
+  </props>
+</variant>

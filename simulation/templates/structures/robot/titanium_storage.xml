@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_titanium_storage">
+
+  <Cost>
+    <Population>2</Population>
+    <BuildTime>30</BuildTime>
+  </Cost>
+
+  <Footprint>
+    <Circle radius="30"/>
+    <Height>0.0</Height>
+    <MaxSpawnDistance>8</MaxSpawnDistance>
+  </Footprint>
+
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <GenericName>Titanium Drill</GenericName>
+    <Icon>structures/robot/titanium_storage.png</Icon>
+    <SpecificName>Titanium Drill</SpecificName>
+    <Tooltip>Necessary building to be able to gather Titanium resources. Only Buildobots and Ladybots can interact with this building. Drills can be improved by technologies directly researched by the drill.</Tooltip>
+    <History>Robots needed to develop themselves faster so they had the the idea to create drills that would be more productive than Buildobot in terms of gathering resources.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="30.0" depth="30.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>12</Pierce>
+        <Hack>9</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/ressources_storage_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <VisualActor>
+    <Actor>structures/robot/titanium_storage.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

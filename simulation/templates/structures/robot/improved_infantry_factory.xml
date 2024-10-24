@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_infantry_factory">
+
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>200</stone>
+      <food>200</food>
+    </Resources>
+  </Cost>
+
+  <Footprint>
+    <Square width="55" depth="65"/>
+    <Height>12.0</Height>
+  </Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>900</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <Icon>structures/robot/infantry_factory.png</Icon>
+    <SpecificName>Static Infantry Factory</SpecificName>
+    <GenericName>Static Infantry Factory</GenericName>
+    <Tooltip>Factory programmed to train infantry units only. Can be switched to a mobile mode, which make the factory able to move around the battlefield.</Tooltip>
+    <History>At the first fight against Humans civilisation, Robots needed more units to be able to win. After their first defeat, Robots decided to create factories able to fly over the battlefield to make them a part of the fight. They won their first great battle thanks to mobile factories.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+    <Static width="55.0" depth="65.0"/>
+  </Obstruction>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce>14</Pierce>
+        <Hack>6</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/infantry_factory_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <Upgrade>
+    <Infantry_factory>
+      <Entity>units/robot/mobile_infantry_factory</Entity>
+      <Tooltip>Switch to make the infantry factory able to move.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Icon>portraits/upgrades/robot/infantry_factory.png</Icon>
+      <Time>10</Time>
+      <RequiredTechnology>phase_town_robot</RequiredTechnology>
+    </Infantry_factory>
+  </Upgrade>
+
+  <VisualActor>
+    <Actor>units/robot/mobile_infantry_factory.xml</Actor>
+    <FoundationActor>structures/fndn_10x12.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

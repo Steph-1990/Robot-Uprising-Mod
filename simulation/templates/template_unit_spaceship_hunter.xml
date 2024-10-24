@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_spaceship">
+
+  <Identity>
+    <Classes datatype="tokens">SpaceshipHunter</Classes>
+    <VisibleClasses datatype="tokens">Hunter</VisibleClasses>
+  </Identity>
+
+  <UnitAI>
+    <Formations disable =""/>
+    <DefaultStance>violent</DefaultStance>
+  </UnitAI>
+
+  <UnitMotionFlying>
+	  <MaxSpeed>60.0</MaxSpeed>
+	  <TakeoffSpeed>50.0</TakeoffSpeed>
+	  <LandingSpeed>40.0</LandingSpeed>
+	  <AccelRate>25.0</AccelRate>
+	  <SlowingRate>5.0</SlowingRate>
+	  <BrakingRate>50.0</BrakingRate>
+	  <ClimbRate>15.0</ClimbRate>
+	  <TiltRate>-0.4</TiltRate>
+	  <DiesInWater>true</DiesInWater>
+  </UnitMotionFlying>
+
+  <Vision>
+    <Range>120</Range>
+  </Vision>
+
+</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="base">
+    <animations>
+        <animation file="units/robot/spaceships/spaceship_resources_transporter_gather.dae" name="gather_rock"/>
+    </animations>
+    <props>
+        <prop actor="particles/spaceship_hunter_flame.xml" attachpoint="smoke"/>
+    </props>
+</variant>

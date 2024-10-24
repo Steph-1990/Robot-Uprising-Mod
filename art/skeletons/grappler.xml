@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="grappler" id="grappler">
+    <bone name="body_grappler">
+      <bone name="head_grappler" />
+    </bone>
+    <bone name="helice" />
+    <bone name="aile_left1">
+      <bone name="aile_left2" />
+    </bone>
+    <bone name="aile_top1">
+      <bone name="aile_top2" />
+    </bone>
+    <bone name="aile_right1">
+      <bone name="aile_right2" />
+    </bone>
+    <bone name="aile_down1">
+      <bone name="aile_down2" />
+    </bone>
+    <bone name="Vaisseau" />
+  </standard_skeleton>
+  <skeleton title="grappler" target="grappler">
+    <identifier>
+      <root>body_grappler</root>
+    </identifier>
+    <bone name="body_grappler">
+      <target>body_grappler</target>
+      <bone name="head_grappler">
+        <target>head_grappler</target>
+      </bone>
+    </bone>
+    <bone name="helice">
+      <target>helice</target>
+    </bone>
+    <bone name="aile_left1">
+      <target>aile_left1</target>
+      <bone name="aile_left2">
+        <target>aile_left2</target>
+      </bone>
+    </bone>
+    <bone name="aile_top1">
+      <target>aile_top1</target>
+      <bone name="aile_top2">
+        <target>aile_top2</target>
+      </bone>
+    </bone>
+    <bone name="aile_right1">
+      <target>aile_right1</target>
+      <bone name="aile_right2">
+        <target>aile_right2</target>
+      </bone>
+    </bone>
+    <bone name="aile_down1">
+      <target>aile_down1</target>
+      <bone name="aile_down2">
+        <target>aile_down2</target>
+      </bone>
+    </bone>
+    <bone name="Vaisseau">
+      <target>Vaisseau</target>
+    </bone>
+  </skeleton>
+</skeletons>

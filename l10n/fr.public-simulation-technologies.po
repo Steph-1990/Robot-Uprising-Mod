@@ -1,0 +1,2878 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright (C) 2022 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant
+# project.
+# Translators:
+# AAAAA BBBBB
+# adrien vigneron
+# 86668e36d9581c35a92a79ff56987a57_880f0d9
+# Arnaud Rochés
+# BAHIDJ Ryadh
+# Barth Frey
+# benjamin jasse
+# Bruno T
+# Camille Edouard
+# Cyril Mercier
+# David D
+# Edouard Dwaarf
+# François Poirotte
+# gab_tes
+# Glorfindel Of Gondolin
+# gorius
+# Hakim Benzakour
+# Jo Du
+# Julien Piron
+# jy jrts
+# Loki
+# l p
+# Moul
+# Mortimer
+# Nicolas Auvray
+# nicolas t
+# Oumph
+# Romain Mesnil
+# Stanislas Dolcini
+# Swann Sanchez
+# Polakrity
+# Thierry Vignaud
+# Xavier Tardieu
+# Yannick Heintz
+# youritch ....
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2022-07-04 07:10+0000\n"
+"PO-Revision-Date: 2014-06-19 17:53+0000\n"
+"Last-Translator: Stanislas Dolcini <stan@wildfiregames.com>, 2021-2022\n"
+"Language-Team: French (http://www.transifex.com/wildfire-games/0ad/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: simulation/data/technologies/agoge.jsondescription
+msgid ""
+"Spartans were housed and trained from a young age to be superlative warriors"
+" and to endure any hardship a military life can give them."
+msgstr "Les Spartiates étaient élevés et formés dès le plus jeune âge à devenir des guerriers hors normes et à supporter n'importe quelle épreuve qu'une vie militaire peut leur faire encourir."
+
+#: simulation/data/technologies/agoge.jsongenericName
+msgid "The Agoge"
+msgstr "L'agogé"
+
+#: simulation/data/technologies/agoge.jsonrequirementsTooltip
+#: simulation/data/technologies/art_of_war.jsonrequirementsTooltip
+#: simulation/data/technologies/attack_soldiers_will.jsonrequirementsTooltip
+#: simulation/data/technologies/barracks_batch_training.jsonrequirementsTooltip
+#: simulation/data/technologies/civil_engineering_02.jsonrequirementsTooltip
+#: simulation/data/technologies/civil_service_02.jsonrequirementsTooltip
+#: simulation/data/technologies/equine_transports.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_capacity_carts.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_chain_pump.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_fertilizer.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_lumbering_sharpaxes.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_mining_silvermining.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_mining_slaves.jsonrequirementsTooltip
+#: simulation/data/technologies/heal_range_2.jsonrequirementsTooltip
+#: simulation/data/technologies/heal_rate_2.jsonrequirementsTooltip
+#: simulation/data/technologies/health_regen_units.jsonrequirementsTooltip
+#: simulation/data/technologies/hellenistic_metropolis.jsonrequirementsTooltip
+#: simulation/data/technologies/immortals.jsonrequirementsTooltip
+#: simulation/data/technologies/long_walls.jsonrequirementsTooltip
+#: simulation/data/technologies/nisean_horses.jsonrequirementsTooltip
+#: simulation/data/technologies/parade_of_daphne.jsonrequirementsTooltip
+#: simulation/data/technologies/poison_arrows.jsonrequirementsTooltip
+#: simulation/data/technologies/poison_blades.jsonrequirementsTooltip
+#: simulation/data/technologies/pop_house_02.jsonrequirementsTooltip
+#: simulation/data/technologies/reformed_army_sele.jsonrequirementsTooltip
+#: simulation/data/technologies/ship_cost_time.jsonrequirementsTooltip
+#: simulation/data/technologies/ship_health.jsonrequirementsTooltip
+#: simulation/data/technologies/ship_movement_speed.jsonrequirementsTooltip
+#: simulation/data/technologies/siege_attack.jsonrequirementsTooltip
+#: simulation/data/technologies/siege_bolt_accuracy.jsonrequirementsTooltip
+#: simulation/data/technologies/siege_cost_time.jsonrequirementsTooltip
+#: simulation/data/technologies/siege_health.jsonrequirementsTooltip
+#: simulation/data/technologies/siege_pack_unpack.jsonrequirementsTooltip
+#: simulation/data/technologies/silk_road.jsonrequirementsTooltip
+#: simulation/data/technologies/silvershields.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_melee_02.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_melee_03.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_ranged_02.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_ranged_03.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_resistance_hack_02.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_resistance_hack_03.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_resistance_pierce_02.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_resistance_pierce_03.jsonrequirementsTooltip
+#: simulation/data/technologies/stable_batch_training.jsonrequirementsTooltip
+#: simulation/data/technologies/subterranean_aqueducts.jsonrequirementsTooltip
+#: simulation/data/technologies/tower_health.jsonrequirementsTooltip
+#: simulation/data/technologies/tower_murderholes.jsonrequirementsTooltip
+#: simulation/data/technologies/trade_gain_02.jsonrequirementsTooltip
+#: simulation/data/technologies/traditional_army_sele.jsonrequirementsTooltip
+#: simulation/data/technologies/unlock_champion_cavalry.jsonrequirementsTooltip
+#: simulation/data/technologies/unlock_champion_chariots.jsonrequirementsTooltip
+#: simulation/data/technologies/unlock_champion_infantry.jsonrequirementsTooltip
+#: simulation/data/technologies/unlock_spies.jsonrequirementsTooltip
+#: simulation/data/technologies/wonder_population_cap.jsonrequirementsTooltip
+msgid "Unlocked in City Phase."
+msgstr "Débloqué dans la Phase des Cités."
+
+#: simulation/data/technologies/agoge.jsontooltip
+msgid "Champion Infantry Spearmen +25% health, but +5% training time."
+msgstr "Lancier d'infanterie Champion, Santé +25%, mais 5% temps d'entraînement supplémentaire"
+
+#: simulation/data/technologies/archer_attack_spread.jsondescription
+msgid "Encouraging soldiers to practice archery improves their accuracy."
+msgstr "Encourager les soldats à s'entraîner à l'archerie améliore leur précision."
+
+#: simulation/data/technologies/archer_attack_spread.jsongenericName
+msgid "Archery Training"
+msgstr "Entrainement d'archerie"
+
+#: simulation/data/technologies/archer_attack_spread.jsonrequirementsTooltip
+#: simulation/data/technologies/architecture_kush.jsonrequirementsTooltip
+#: simulation/data/technologies/cavalry_health.jsonrequirementsTooltip
+#: simulation/data/technologies/civil_engineering_01.jsonrequirementsTooltip
+#: simulation/data/technologies/civil_service_01.jsonrequirementsTooltip
+#: simulation/data/technologies/crossbow_training.jsonrequirementsTooltip
+#: simulation/data/technologies/fishing_boat_gather_capacity.jsonrequirementsTooltip
+#: simulation/data/technologies/garrison_heal.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_capacity_wheelbarrow.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_harvester.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_training.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_water_weeding.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_lumbering_strongeraxes.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_mining_serfs.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_mining_shaftmining.jsonrequirementsTooltip
+#: simulation/data/technologies/heal_range.jsonrequirementsTooltip
+#: simulation/data/technologies/heal_rate.jsonrequirementsTooltip
+#: simulation/data/technologies/hoplite_tradition.jsonrequirementsTooltip
+#: simulation/data/technologies/iphicratean_reforms.jsonrequirementsTooltip
+#: simulation/data/technologies/pop_house_01.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_melee_01.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_attack_ranged_01.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_resistance_hack_01.jsonrequirementsTooltip
+#: simulation/data/technologies/soldier_resistance_pierce_01.jsonrequirementsTooltip
+#: simulation/data/technologies/tower_crenellations.jsonrequirementsTooltip
+#: simulation/data/technologies/tower_range.jsonrequirementsTooltip
+#: simulation/data/technologies/trade_commercial_treaty.jsonrequirementsTooltip
+#: simulation/data/technologies/trade_gain_01.jsonrequirementsTooltip
+#: simulation/data/technologies/trader_health.jsonrequirementsTooltip
+msgid "Unlocked in Town Phase."
+msgstr "Débloqué dans la Phase des Villes."
+
+#: simulation/data/technologies/archer_attack_spread.jsontooltip
+msgid "Archers −20% ranged attack spread."
+msgstr "Les archers ont -20% de dispersion lors des attaques à distance."
+
+#: simulation/data/technologies/archery_tradition.jsondescription
+msgid ""
+"The Indian, Iranian, and Kushite peoples had a tradition of fine archery and"
+" a penchant for using massed archers in battle."
+msgstr "Les Indiens, les Iraniens et les Koushites avaient traditionnellement de bons archers et un penchant pour l'utilisation en masse d'archers au cours des batailles. "
+
+#: simulation/data/technologies/archery_tradition.jsongenericName
+msgid "Archery Tradition"
+msgstr "Tradition d'archerie"
+
+#: simulation/data/technologies/archery_tradition.jsonrequirementsTooltip
+#: simulation/data/technologies/cavalry_movement_speed.jsonrequirementsTooltip
+#: simulation/data/technologies/fishing_boat_gather_rate.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_capacity_basket.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_plows.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_farming_seed_drill.jsonrequirementsTooltip
+#: simulation/data/technologies/gather_lumbering_ironaxes.jsonrequirementsTooltip
+#: simulation/data/technologies/health_females_01.jsonrequirementsTooltip
+#: simulation/data/technologies/tower_watch.jsonrequirementsTooltip
+msgid "Unlocked in Village Phase."
+msgstr "Débloqué dans la Phase des Villages."
+
+#: simulation/data/technologies/archery_tradition.jsontooltip
+msgid "Archers +10 attack range."
+msgstr "Les archers ont +10 de distance d'attaque."
+
+#: simulation/data/technologies/architecture_kush.jsongenericName
+msgid "Monumental Architecture"
+msgstr "Monument d'architecture"
+
+#: simulation/data/technologies/architecture_kush.jsontooltip
+msgid ""
+"Civic Structures +20% build time, +20% health, and +20% capture points."
+msgstr "Bâtiments Civils +20% vitesse de construction, +20% santé\net +20% points de capture"
+
+#: simulation/data/technologies/architecture_pers.jsondescription
+msgid ""
+"The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to"
+" Susa; Darius the Great and Xerxes also built the magnificent Persepolis; "
+"Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old "
+"Elamite capital of Susa."
+msgstr "Les Perses ont construit la merveilleuse voie royale sur 2 700 km de Sardes à Suse ; Darius le Grand et Xerxès ont aussi édifié la magnifique Persépolis; Cyrus le Grand a beaucoup amélioré Ecbatane et pratiquement \"reconstruit\" l'ancienne capitale élamite de Suse. "
+
+#: simulation/data/technologies/architecture_pers.jsongenericName
+msgid "Persian Architecture"
+msgstr "Architecture persane"
+
+#: simulation/data/technologies/architecture_pers.jsontooltip
+msgid "Structures +25% health and capture points, but also +20% build time."
+msgstr "Structures : +25% de points de vie, mais +20 de temps de construction."
+
+#: simulation/data/technologies/art_of_war.jsondescription
+msgid ""
+"This famous and most important work of the Seven Military Classics teaches "
+"Han commanders everything about planning battles, maintaining armies, and "
+"defeating one's enemies."
+msgstr "Cet ouvrage connu est le plus important des Sept Traités de l'art militaire et enseigne aux commandants Han tout ce qu'il faut savoir sur la planification des batailles, le maintien des armées et l'art de vaincre ses ennemis."
+
+#: simulation/data/technologies/art_of_war.jsongenericName
+msgid "Sun Tzu's \"The Art of War\""
+msgstr "« L'Art de la Guerre » de Sun Tzu"
+
+#: simulation/data/technologies/art_of_war.jsonspecificName.han
+msgid "Sūnzǐ BīngFǎ"
+msgstr "Sūnzǐ BīngFǎ"
+
+#: simulation/data/technologies/art_of_war.jsontooltip
+msgid "All Citizen-Soldiers −20% required promotion experience."
+msgstr "Tous les soldats-citoyens : -20% d'expérience requis pour être promus"
+
+#: simulation/data/technologies/attack_soldiers_will.jsondescription
+msgid ""
+"The will to fight is crucial to victory. Inspire your troops with higher "
+"pay."
+msgstr "La volonté de combattre est cruciale pour la victoire. Motivez vos troupes avec une solde plus généreuse"
+
+#: simulation/data/technologies/attack_soldiers_will.jsongenericName
+msgid "Will to Fight"
+msgstr "Volonté de combattre"
+
+#: simulation/data/technologies/attack_soldiers_will.jsonspecificName.athen
+#: simulation/data/technologies/attack_soldiers_will.jsonspecificName.mace
+#: simulation/data/technologies/attack_soldiers_will.jsonspecificName.ptol
+#: simulation/data/technologies/attack_soldiers_will.jsonspecificName.sele
+#: simulation/data/technologies/attack_soldiers_will.jsonspecificName.spart
+msgid "Dynamis"
+msgstr "Dynamis"
+
+#: simulation/data/technologies/attack_soldiers_will.jsontooltip
+msgid "Soldiers, Siege Engines, and Ships +25% attack damage."
+msgstr "Soldats, Engins de Siège et Bateaux : +25% de dégâts."
+
+#: simulation/data/technologies/barracks_batch_training.jsondescription
+msgid ""
+"Significantly increase training speed of infantry by training them in large "
+"batches or companies."
+msgstr "Augmente significativement la vitesse d'entraînement de l'infanterie en les formant par grands groupes ou bataillons."
+
+#: simulation/data/technologies/barracks_batch_training.jsongenericName
+#: simulation/data/technologies/stable_batch_training.jsongenericName
+msgid "Conscription"
+msgstr "Conscription"
+
+#: simulation/data/technologies/barracks_batch_training.jsontooltip
+msgid "Barracks −10% batch training time."
+msgstr "Casernes : -10% de temps d'entrainement de groupe."
+
+#: simulation/data/technologies/cavalry_health.jsondescription
+msgid "Selectively breed better war horses."
+msgstr "Élever des chevaux dont la seule fin est la guerre."
+
+#: simulation/data/technologies/cavalry_health.jsongenericName
+msgid "Horse Breeding"
+msgstr "Élevage de chevaux"
+
+#: simulation/data/technologies/cavalry_health.jsontooltip
+msgid "Cavalry +10% health."
+msgstr "Cavalerie : +10% de santé"
+
+#: simulation/data/technologies/cavalry_movement_speed.jsondescription
+msgid "Train your horses to move faster."
+msgstr "Entraîne vos chevaux à se déplacer plus rapidement."
+
+#: simulation/data/technologies/cavalry_movement_speed.jsongenericName
+msgid "Horse Racing"
+msgstr "Course de chevaux"
+
+#: simulation/data/technologies/cavalry_movement_speed.jsontooltip
+msgid "Cavalry +10% walk speed."
+msgstr "Cavalerie : +10% de vitesse de déplacement"
+
+#: simulation/data/technologies/civbonuses/cart_walls.jsondescription
+msgid ""
+"Carthaginians built their city walls in three concentric circuits. These "
+"walls were never breached. Even when the city was taken by the Romans, it "
+"was via the city's harbor, not by storming its walls."
+msgstr "Les Carthaginois bâtissaient leurs remparts en trois circuits concentriques. Ces murs n'ont jamais été percés. Même quand la cité fut prises par les Romains, ce fut par le port de la ville et non en prenant d'assaut les remparts."
+
+#: simulation/data/technologies/civbonuses/cart_walls.jsongenericName
+msgid "Triple Walls"
+msgstr "Remparts triples"
+
+#: simulation/data/technologies/civbonuses/cart_walls.jsontooltip
+msgid "City Walls +100% build time, +100% stone cost, and +200% health."
+msgstr "Mur d'enceinte : +100% de temps de construction, +100% de coût en pierre et +200% points de vie."
+
+#: simulation/data/technologies/civbonuses/celt_structures.jsondescription
+msgid "Celtic structures were mostly made of wood with rubble foundations."
+msgstr "Les structures Celtes sont pour la plus grande partie faites de bois avec des fondations de pierre."
+
+#: simulation/data/technologies/civbonuses/celt_structures.jsongenericName
+msgid "Wooden Construction"
+msgstr "Construction en bois"
+
+#: simulation/data/technologies/civbonuses/celt_structures.jsontooltip
+msgid "Structures −20% build time, −20% health, and −20% capture points."
+msgstr "Bâtiments : -20% de temps de construction, -20% de points de vie et -20% de points de capture."
+
+#: simulation/data/technologies/civbonuses/gaul_cavalry.jsondescription
+msgid ""
+"The Gauls were well-known for their effective cavalry. Celtic mercenaries "
+"were in demand throughout the Mediterranean."
+msgstr "Les Gaulois étaient connus pour l'efficacité de leur cavalerie. Les mercenaires celtiques étaient convoités à travers la Méditerranée."
+
+#: simulation/data/technologies/civbonuses/gaul_cavalry.jsongenericName
+msgid "Superior Cavalry"
+msgstr "Cavalerie supérieure"
+
+#: simulation/data/technologies/civbonuses/gaul_cavalry.jsontooltip
+msgid "Cavalry +10% melee attack damage."
+msgstr "Cavalerie : +10% de dégâts de mêlée."
+
+#: simulation/data/technologies/civbonuses/greek_structures.jsondescription
+msgid "The Greeks used stone construction from early Mycenaean times."
+msgstr "Les Grecs utilisent les constructions en pierre depuis le début du Mycénien."
+
+#: simulation/data/technologies/civbonuses/greek_structures.jsongenericName
+msgid "Hellenic Architecture"
+msgstr "Architecture hellénique"
+
+#: simulation/data/technologies/civbonuses/greek_structures.jsontooltip
+msgid "Structures +10% health and +10% capture points."
+msgstr "Les structures gagnent +10% de santé et +10% de points de capture."
+
+#: simulation/data/technologies/civbonuses/han_population.jsondescription
+msgid ""
+"By uniting China under one emperor, the Han Dynasty ruled over 40 million "
+"people, one of the largest empires of antiquity by population."
+msgstr "En unifiant la Chine sous un seul empereur, la dynastie Han a reigné sur plus de 40 millions de personnes, soit l'un des plus grands empires de l'antiquité en termes de population."
+
+#: simulation/data/technologies/civbonuses/han_population.jsongenericName
+msgid "Federated States"
+msgstr "États fédérés"
+
+#: simulation/data/technologies/civbonuses/han_population.jsontooltip
+#: simulation/data/technologies/civbonuses/maur_population.jsontooltip
+#: simulation/data/technologies/civbonuses/pers_population.jsontooltip
+msgid "+10% maximum population limit."
+msgstr "Augmente la limite de population maximale de +10%."
+
+#: simulation/data/technologies/civbonuses/han_walls.jsondescription
+msgid ""
+"The Han built massive walls made from rammed earth. These were gigantic "
+"fortifications several meters thick and stretching for kilometers."
+msgstr "Les Han ont construit des murs massifs à partir de terre tassée. Il s'agissait de fortifications gigantesques épaisses de plusieurs mètres et qui s'étendaient sur des kilomètres."
+
+#: simulation/data/technologies/civbonuses/han_walls.jsongenericName
+msgid "Great Wall"
+msgstr "Mur haut"
+
+#: simulation/data/technologies/civbonuses/han_walls.jsontooltip
+msgid "City Walls +50% health."
+msgstr "Murs de la ville : +50% de santé."
+
+#: simulation/data/technologies/civbonuses/mace_storehouse.jsondescription
+msgid "The Macedonian economy relied greatly on their vast natural resources."
+msgstr "L'économie Macédonienne reposait en grande partie sur ses ressources naturelles abondantes."
+
+#: simulation/data/technologies/civbonuses/mace_storehouse.jsongenericName
+msgid "Resource-Rich Economy"
+msgstr "Économie riche en ressources"
+
+#: simulation/data/technologies/civbonuses/mace_storehouse.jsontooltip
+msgid "Storehouse technologies −100% research time."
+msgstr "Technologies d'entrepôts : -100% de temps de recherche"
+
+#: simulation/data/technologies/civbonuses/maur_elephants.jsondescription
+msgid ""
+"India is the land of the elephants. Elephant warfare originated in India and"
+" continued for millennia. It was also the source of elephants for the "
+"eastern Mediterranean. Indian kings were able to field large numbers of war "
+"elephants."
+msgstr "L'Inde est le pays des éléphants. C'est en Inde que l'on commença à faire des éléphants des armes de guerre, et cette pratique s'y perpétua pendant plusieurs millénaires. C'est également depuis l'Inde que la région orientale de la Méditerranée se procurait ses éléphants. Les monarques indiens étaient en mesure de déployer quantité d'éléphants de guerre sur le champ de bataille."
+
+#: simulation/data/technologies/civbonuses/maur_elephants.jsongenericName
+msgid "Elephant Tradition"
+msgstr "Culture de l'éléphant"
+
+#: simulation/data/technologies/civbonuses/maur_elephants.jsontooltip
+msgid "Elephants −30% training time."
+msgstr "Réduction de -30% du temps d'entraînement des éléphants."
+
+#: simulation/data/technologies/civbonuses/maur_population.jsondescription
+msgid ""
+"The Mauryan Empire encompassed dozens of formerly independent kingdoms over "
+"an area of 5 million square kilometers, with a population of close to 60 "
+"million people. The Mauryan regents held the title Emperor of Emperors and "
+"commanded a standing army of 600,000 infantry, 9000 elephants, 8000 "
+"chariots, and 30,000 cavalry, making it arguably the largest army of its "
+"time."
+msgstr "L'empire Maurya englobait des douzaines d'anciens royaumes indépendants sur une surface de 5 millions de km², avec une population proche des 60 millions de personnes. Les souverains Maurya portaient le titre d'Empereur des Empereurs et commandaient une armée permanente de 600 000 hommes d'infanterie, 9 000 éléphants, 8 000 chars et 3 000 cavaliers, ce qui en faisait sans doute la plus grande armée de cette époque. "
+
+#: simulation/data/technologies/civbonuses/maur_population.jsongenericName
+msgid "Emperor of Emperors"
+msgstr "Empereur des Empereurs"
+
+#: simulation/data/technologies/civbonuses/maur_population.jsonspecificName.maur
+msgid "Chakravarti Samrāt"
+msgstr "Chakravarti Samrāt"
+
+#: simulation/data/technologies/civbonuses/maur_walls.jsondescription
+msgid ""
+"The Mauryas built their city walls out of wood, an abundant natural resource"
+" in India."
+msgstr "Les Mauryas construisaient les murs de leurs villes en bois, une ressource naturelle abondante en Inde."
+
+#: simulation/data/technologies/civbonuses/maur_walls.jsongenericName
+msgid "Wooden Walls"
+msgstr "Murs en bois"
+
+#: simulation/data/technologies/civbonuses/maur_walls.jsontooltip
+msgid "City Walls −20% build time and −20% health."
+msgstr "Mur d'enceinte : -20% de temps de construction et -20% de points de vie."
+
+#: simulation/data/technologies/civbonuses/pers_population.jsondescription
+msgid ""
+"The Persians could and did levy a large number of infantry during wartime "
+"due to the sheer size of the Achaemenid Empire and the way in which it was "
+"set-up. In general the Persian infantry was well trained and fought with "
+"great tenacity. However while this was true the infantry were poor hand-to-"
+"hand, close combat fighters. Also, with the exception of the elite "
+"regiments, the Persian infantry was not a standing professional force."
+msgstr "Les Perses achéménides purent lever de grandes armées d'infanterie durant la guerre grâce à un territoire immense et une organisation efficace. En général, l'infanterie perse était bien formée et se battait avec une grande ténacité. Quoi qu'il en soit, elle n'était toutefois par réputée pour ses aptitudes au combat de corps-à-corps. Enfin, à l'exception des troupes d'élite, l'infanterie perse n'était pas une force professionnelle et permanente."
+
+#: simulation/data/technologies/civbonuses/pers_population.jsongenericName
+msgid "Great King's Levy"
+msgstr "Prélèvement du grand Roi"
+
+#: simulation/data/technologies/civbonuses/ptol_structures.jsondescription
+msgid ""
+"Sun-dried mud bricks were a common building material in hot and dry areas, "
+"especially where wood was scarce. Although not as strong and durable as "
+"fired bricks or natural stone and vulnerable to constant rains and heavy "
+"floods, mud bricks have the advantage they are cheap and easy to produce."
+msgstr "Les briques de terre crue étaient un matériau de construction courant dans les régions au climat désertique, surtout lorsqu'il n'y avait qu'un accès limité au bois."
+
+#: simulation/data/technologies/civbonuses/ptol_structures.jsongenericName
+msgid "Sun-dried Mud Bricks"
+msgstr "Briques de terre crue"
+
+#: simulation/data/technologies/civbonuses/ptol_structures.jsontooltip
+msgid "Houses and Economic Structures −40% wood cost and health."
+msgstr "Habitations et bâtiments économiques : -40% de coûts en bois et de points de vie."
+
+#: simulation/data/technologies/civil_engineering_01.jsongenericName
+msgid "Improved Construction"
+msgstr "Construction améliorée"
+
+#: simulation/data/technologies/civil_engineering_01.jsonspecificName.han
+#: simulation/data/technologies/civil_engineering_02.jsonspecificName.han
+msgid "Gōngchéng"
+msgstr "Gōngchéng"
+
+#: simulation/data/technologies/civil_engineering_01.jsontooltip
+msgid "All structures −10% build time and −10% cost."
+msgstr "Tous les bâtiments : -10% de temps de construction et -10% de coût."
+
+#: simulation/data/technologies/civil_engineering_02.jsongenericName
+msgid "Robust Architecture"
+msgstr "Architecture robuste"
+
+#: simulation/data/technologies/civil_engineering_02.jsontooltip
+msgid "All structures +20% health."
+msgstr "Tous les bâtiments : +20% de santé"
+
+#: simulation/data/technologies/civil_service_01.jsongenericName
+msgid "Efficient Bureaucracy"
+msgstr "Bureaucracie efficace"
+
+#: simulation/data/technologies/civil_service_01.jsonspecificName.han
+#: simulation/data/technologies/civil_service_02.jsonspecificName.han
+msgid "Guānliáo"
+msgstr "Guānliáo"
+
+#: simulation/data/technologies/civil_service_01.jsontooltip
+msgid "Ministers −50% train time."
+msgstr "Ministres : -50% de temps d'entraînement"
+
+#: simulation/data/technologies/civil_service_02.jsongenericName
+msgid "Intensive Training"
+msgstr "Entraînement intensif"
+
+#: simulation/data/technologies/civil_service_02.jsontooltip
+msgid "Ministers +50% health."
+msgstr "Ministres : +50% de santé"
+
+#: simulation/data/technologies/colonization.jsondescription
+msgid ""
+"Carthaginians established many trading centers as colonies and ultimately "
+"held dominion over 300 cities and towns in North Africa alone."
+msgstr "Les Carthaginois établirent de nombreux centres commerciaux comme des colonies et ont finalement dominé plus de 300 villes et villages pour la seule Afrique du Nord."
+
+#: simulation/data/technologies/colonization.jsongenericName
+msgid "Colonization"
+msgstr "Colonisation"
+
+#: simulation/data/technologies/colonization.jsontooltip
+msgid "Civic Structures −25% build time and resources cost"
+msgstr "Bâtiments civils : -25% de temps de constructions et de coût en ressources."
+
+#: simulation/data/technologies/crossbow_training.jsondescription
+msgid "The Han had a penchant for using massed crossbowmen in battle."
+msgstr "Les Han avait un penchant pour l'utilisation de groupes d'arbalétriers lors des batailles."
+
+#: simulation/data/technologies/crossbow_training.jsongenericName
+msgid "Crossbow Training"
+msgstr "Entraînement à l'arbalète"
+
+#: simulation/data/technologies/crossbow_training.jsontooltip
+msgid "Crossbow Infantry and Cavalry −20% train time."
+msgstr "Infanterie d'arbalétriers et Cavalerie : -20% de temps d'entraînement"
+
+#: simulation/data/technologies/equine_transports.jsondescription
+msgid ""
+"Early Achaemenid rulers acted towards making Persia the first great Asian "
+"empire to rule the seas. The Great King behaved favourably towards the "
+"various sea peoples in order to secure their services, but also carried out "
+"various marine initiatives. During the reign of Darius the Great, for "
+"example, a canal was built in Egypt and a Persian navy was sent exploring "
+"the Indus river. According to Herodotus, some 300 ships in the Persian navy "
+"were retrofitted to carry horses and their riders."
+msgstr "Les premiers souverains achéménides se sont employés à faire des Perses le premier grand empire de l'Asie à régner sur les mers. Les Grands Rois étaient bienveillants envers les différents peuples de la mer afin de s'assurer leurs services, mais aussi réaliser diverses initiatives marines. Durant le règne de Darius le Grand, par exemple, un canal fut construit en Égypte et la marine Perse a été envoyée pour explorer le fleuve Indus. Selon Hérodote, quelques 300 bateaux dans la marine Perse ont été réaménagés afin de transporter des chevaux et leurs cavaliers. "
+
+#: simulation/data/technologies/equine_transports.jsongenericName
+msgid "Equine Transports"
+msgstr "Transports de chevaux"
+
+#: simulation/data/technologies/equine_transports.jsontooltip
+msgid "Phoenician Triremes gain the ability to train Cavalry."
+msgstr "Les trirèmes phéniciennes obtiennent la capacité d'entrainer de la Cavalerie."
+
+#: simulation/data/technologies/fishing_boat_gather_capacity.jsondescription
+msgid "Salting allows to preserve fish longer."
+msgstr "Le salage permet de conserver le poisson plus longtemps."
+
+#: simulation/data/technologies/fishing_boat_gather_capacity.jsongenericName
+msgid "Salting Fish"
+msgstr "Salant des poissons"
+
+#: simulation/data/technologies/fishing_boat_gather_capacity.jsontooltip
+msgid "Fishing Boats +20 food capacity."
+msgstr "Bateaux de pêche +20 de capacité de nourriture"
+
+#: simulation/data/technologies/fishing_boat_gather_rate.jsondescription
+msgid "Use nets to improve the productivity of fishing boats."
+msgstr "Utiliser des filets pour accroître la productivité des bateaux de pêche."
+
+#: simulation/data/technologies/fishing_boat_gather_rate.jsongenericName
+msgid "Fishing Net"
+msgstr "Filet de pêche"
+
+#: simulation/data/technologies/fishing_boat_gather_rate.jsontooltip
+msgid "Fishing Boats +30% fish gather rate."
+msgstr "Bateaux de pêche +30% de vitesse de pêche.  "
+
+#: simulation/data/technologies/garrison_heal.jsondescription
+msgid "Units regain health over time while garrisoned."
+msgstr "Les unités en garnison se guérissent au fil du temps."
+
+#: simulation/data/technologies/garrison_heal.jsongenericName
+msgid "Living Conditions"
+msgstr "Conditions de vie"
+
+#: simulation/data/technologies/garrison_heal.jsontooltip
+msgid "Structures +1 garrison heal rate."
+msgstr "Bâtiments : +1 au taux de soin pour les unités en garnison."
+
+#: simulation/data/technologies/gather_animals_stockbreeding.jsondescription
+msgid "Breed livestock to slaughter for meat."
+msgstr "Élever du bétail afin de l'abattre pour sa viande."
+
+#: simulation/data/technologies/gather_animals_stockbreeding.jsongenericName
+msgid "Stockbreeding"
+msgstr "Élevage"
+
+#: simulation/data/technologies/gather_animals_stockbreeding.jsontooltip
+msgid "Domestic Animals −25% breeding time."
+msgstr "Animaux domestiques -25% de temps de reproduction."
+
+#: simulation/data/technologies/gather_capacity_basket.jsondescription
+msgid "Workers use baskets. Increases shuttling capacity for all resources."
+msgstr "Les ouvriers utilisent des paniers. Augmente la capacité de transport pour toutes les ressources."
+
+#: simulation/data/technologies/gather_capacity_basket.jsongenericName
+msgid "Baskets"
+msgstr "Paniers"
+
+#: simulation/data/technologies/gather_capacity_basket.jsontooltip
+#: simulation/data/technologies/gather_capacity_carts.jsontooltip
+#: simulation/data/technologies/gather_capacity_wheelbarrow.jsontooltip
+msgid "Workers +5 resource capacity."
+msgstr "Les ouvriers ont +5 de capacité en ressource."
+
+#: simulation/data/technologies/gather_capacity_carts.jsondescription
+msgid ""
+"Workers use horse-drawn carts. Increases shuttling capacity for all "
+"resources."
+msgstr "Les travailleurs utilisent des charrettes tirées par des chevaux. Augmente la capacité de transport pour toutes les ressources. "
+
+#: simulation/data/technologies/gather_capacity_carts.jsongenericName
+msgid "Horse-drawn Carts"
+msgstr "Charrettes tirées par des chevaux"
+
+#: simulation/data/technologies/gather_capacity_wheelbarrow.jsondescription
+msgid ""
+"Workers use wheelbarrows. Increases shuttling capacity for all resources."
+msgstr "Les ouvriers utilisent des brouettes. Augmente la capacité de transport pour toutes les ressources."
+
+#: simulation/data/technologies/gather_capacity_wheelbarrow.jsongenericName
+msgid "Wheelbarrow"
+msgstr "Brouette"
+
+#: simulation/data/technologies/gather_farming_chain_pump.jsondescription
+msgid "Install a chain pump for improved irrigation."
+msgstr "Installer une pompe à chapelets pour améliorer l'irrigation."
+
+#: simulation/data/technologies/gather_farming_chain_pump.jsongenericName
+msgid "Chain Pump"
+msgstr "Pompe à chapelets"
+
+#: simulation/data/technologies/gather_farming_chain_pump.jsontooltip
+#: simulation/data/technologies/gather_farming_seed_drill.jsontooltip
+#: simulation/data/technologies/gather_farming_water_weeding.jsontooltip
+msgid "Workers +20% rice gather rate."
+msgstr "Ouvriers : +20% du taux de cueillette du riz"
+
+#: simulation/data/technologies/gather_farming_fertilizer.jsondescription
+msgid "Extra nutrients for farms."
+msgstr "Nutriments supplémentaires pour les fermes."
+
+#: simulation/data/technologies/gather_farming_fertilizer.jsongenericName
+msgid "Fertilizer"
+msgstr "Engrais"
+
+#: simulation/data/technologies/gather_farming_fertilizer.jsontooltip
+#: simulation/data/technologies/gather_farming_plows.jsontooltip
+#: simulation/data/technologies/gather_farming_training.jsontooltip
+msgid "Workers +20% grain gather rate."
+msgstr "Augmente le taux de récolte des ouvriers de +20%."
+
+#: simulation/data/technologies/gather_farming_harvester.jsondescription
+msgid ""
+"The Gauls invented an harvesting machine, making it much easier to harvest "
+"grain."
+msgstr "Les Gaulois ont inventé une moissonneuse, laquelle facilite grandement la récolte."
+
+#: simulation/data/technologies/gather_farming_harvester.jsongenericName
+msgid "Harvesting Machine"
+msgstr "Moissonneuse"
+
+#: simulation/data/technologies/gather_farming_harvester.jsontooltip
+msgid "Workers +10% grain gather rate."
+msgstr "Augmente le taux de récolte des ouvriers de +10%."
+
+#: simulation/data/technologies/gather_farming_plows.jsondescription
+msgid ""
+"Equip your workers with iron plows, animal-drawn instruments to turn the "
+"sod."
+msgstr "Équiper vos travailleurs avec des charrues en fer, des outils tirés par des animaux pour retourner la terre."
+
+#: simulation/data/technologies/gather_farming_plows.jsongenericName
+msgid "Iron Plow"
+msgstr "Charrue en fer"
+
+#: simulation/data/technologies/gather_farming_seed_drill.jsondescription
+msgid "Equip your workers with seed drills."
+msgstr "Équiper vos ouvriers de semoirs."
+
+#: simulation/data/technologies/gather_farming_seed_drill.jsongenericName
+msgid "Seed Drill"
+msgstr "Semoir"
+
+#: simulation/data/technologies/gather_farming_training.jsondescription
+msgid "Training for workers to increase farm gathering speed."
+msgstr "Entrainement des travailleurs pour augmenter la vitesse de récolte des fermes."
+
+#: simulation/data/technologies/gather_farming_training.jsongenericName
+msgid "Gather Training"
+msgstr "Entrainement de récolte"
+
+#: simulation/data/technologies/gather_farming_water_weeding.jsondescription
+msgid "Remove water weeds to preserve nutrients for the rice plants."
+msgstr "Désherber l'eau pour préserver les nutriments pour les plants de riz."
+
+#: simulation/data/technologies/gather_farming_water_weeding.jsongenericName
+msgid "Water Weeding"
+msgstr "Désherbage de l'eau"
+
+#: simulation/data/technologies/gather_lumbering_ironaxes.jsondescription
+#: simulation/data/technologies/gather_lumbering_sharpaxes.jsondescription
+#: simulation/data/technologies/gather_lumbering_strongeraxes.jsondescription
+msgid "Increases wood gathering rates for trees."
+msgstr "Augmente la vitesse d'exploitation des arbres."
+
+#: simulation/data/technologies/gather_lumbering_ironaxes.jsongenericName
+msgid "Iron Axe Heads"
+msgstr "Têtes de haches en fer"
+
+#: simulation/data/technologies/gather_lumbering_ironaxes.jsontooltip
+#: simulation/data/technologies/gather_lumbering_sharpaxes.jsontooltip
+#: simulation/data/technologies/gather_lumbering_strongeraxes.jsontooltip
+msgid "Workers +25% wood gather rate."
+msgstr "Augmente le taux de récolte du bois par les ouvriers de +25%."
+
+#: simulation/data/technologies/gather_lumbering_sharpaxes.jsongenericName
+msgid "Sharp Axe Heads"
+msgstr "Tête de hache tranchante"
+
+#: simulation/data/technologies/gather_lumbering_strongeraxes.jsongenericName
+msgid "Stronger Axe"
+msgstr "Hache solide"
+
+#: simulation/data/technologies/gather_mining_serfs.jsondescription
+msgid ""
+"Compel serfs to help your workers quarry stone. Increases stone gathering "
+"rates."
+msgstr "Obliger les serfs à aider vos travailleurs à miner la pierre. Augmente le taux d'exploitation de la pierre."
+
+#: simulation/data/technologies/gather_mining_serfs.jsongenericName
+msgid "Serfs"
+msgstr "Serfs"
+
+#: simulation/data/technologies/gather_mining_serfs.jsonspecificName.spart
+msgid "Heilōtes"
+msgstr "Heilōtes"
+
+#: simulation/data/technologies/gather_mining_serfs.jsontooltip
+#: simulation/data/technologies/gather_mining_servants.jsontooltip
+#: simulation/data/technologies/gather_mining_slaves.jsontooltip
+msgid "Workers +25% stone gather rate."
+msgstr "Augmente le taux de récolte de la pierre par les ouvriers de +25%."
+
+#: simulation/data/technologies/gather_mining_servants.jsondescription
+msgid "Hire servants to help quarry stone. Increases stone gathering rates."
+msgstr "Recruter des serviteurs pour aider a miner la pierre. Augmente le taux de récolte de la pierre."
+
+#: simulation/data/technologies/gather_mining_servants.jsongenericName
+msgid "Servants"
+msgstr "Serviteurs"
+
+#: simulation/data/technologies/gather_mining_servants.jsonspecificName.athen
+#: simulation/data/technologies/gather_mining_servants.jsonspecificName.mace
+#: simulation/data/technologies/gather_mining_servants.jsonspecificName.ptol
+#: simulation/data/technologies/gather_mining_servants.jsonspecificName.sele
+#: simulation/data/technologies/gather_mining_servants.jsonspecificName.spart
+msgid "Douloi"
+msgstr "Douloi"
+
+#: simulation/data/technologies/gather_mining_shaftmining.jsondescription
+msgid "Develop shaft mining. Increases metal gathering rates."
+msgstr "Développer l'exploitation minière. Augmente le taux d'exploitation du métal."
+
+#: simulation/data/technologies/gather_mining_shaftmining.jsongenericName
+msgid "Shaft Mining"
+msgstr "Exploitation minière"
+
+#: simulation/data/technologies/gather_mining_shaftmining.jsontooltip
+#: simulation/data/technologies/gather_mining_silvermining.jsontooltip
+#: simulation/data/technologies/gather_mining_wedgemallet.jsontooltip
+msgid "Workers +25% metal gather rate."
+msgstr "Augmente le taux de récolte du métal par les ouvriers de +25%."
+
+#: simulation/data/technologies/gather_mining_silvermining.jsondescription
+msgid "Strike a vein of precious silver. Increases metal gathering rates."
+msgstr "Trouver un filon d'argent précieux. Augmente le taux de collecte de métal."
+
+#: simulation/data/technologies/gather_mining_silvermining.jsongenericName
+msgid "Silver Mining"
+msgstr "Extraction de l'argent"
+
+#: simulation/data/technologies/gather_mining_silvermining.jsonspecificName.athen
+msgid "Mines of Laureion"
+msgstr "Mines du Laureion"
+
+#: simulation/data/technologies/gather_mining_silvermining.jsonspecificName.mace
+msgid "Mines of Krenides"
+msgstr "Mines de Krenides"
+
+#: simulation/data/technologies/gather_mining_slaves.jsondescription
+msgid ""
+"Buy slaves to help your workers quarry stone. Increases stone gathering "
+"rates."
+msgstr "Acheter des esclaves pour aider à miner de pierre. Augmente le taux de récolte de la pierre."
+
+#: simulation/data/technologies/gather_mining_slaves.jsongenericName
+msgid "Slaves"
+msgstr "Esclaves"
+
+#: simulation/data/technologies/gather_mining_slaves.jsonspecificName.athen
+#: simulation/data/technologies/gather_mining_slaves.jsonspecificName.mace
+#: simulation/data/technologies/gather_mining_slaves.jsonspecificName.ptol
+#: simulation/data/technologies/gather_mining_slaves.jsonspecificName.sele
+#: simulation/data/technologies/gather_mining_slaves.jsonspecificName.spart
+msgid "Andrapoda"
+msgstr "Andrapoda"
+
+#: simulation/data/technologies/gather_mining_slaves.jsonspecificName.rome
+msgid "Servi"
+msgstr "Servi"
+
+#: simulation/data/technologies/gather_mining_wedgemallet.jsondescription
+msgid ""
+"Equip your workers with helpful tools. Increases metal gathering rates."
+msgstr "Équiper vos travailleurs avec des outils. Augmente le taux de collecte du métal."
+
+#: simulation/data/technologies/gather_mining_wedgemallet.jsongenericName
+msgid "Wedge and Mallet"
+msgstr "Marteau et burin"
+
+#: simulation/data/technologies/gather_wicker_baskets.jsondescription
+msgid "Equip your foragers with wicker baskets for foraging."
+msgstr "Équiper vos cueilleurs de paniers en osier pour la cueillette."
+
+#: simulation/data/technologies/gather_wicker_baskets.jsongenericName
+msgid "Wicker Baskets"
+msgstr "Paniers en osier"
+
+#: simulation/data/technologies/gather_wicker_baskets.jsontooltip
+msgid "Workers +50% fruit gather rate."
+msgstr "Les ouvriers ont +50% de taux de récolte de fruits."
+
+#: simulation/data/technologies/heal_range.jsondescription
+#: simulation/data/technologies/heal_range_2.jsondescription
+msgid "Increases the healing and vision range of all healers."
+msgstr "Augmente la portée de guérison et le champ de vision de tous les guérisseurs."
+
+#: simulation/data/technologies/heal_range.jsongenericName
+msgid "Healing Range"
+msgstr "Portée de guérison"
+
+#: simulation/data/technologies/heal_range.jsonspecificName.athen
+#: simulation/data/technologies/heal_range.jsonspecificName.mace
+#: simulation/data/technologies/heal_range.jsonspecificName.ptol
+#: simulation/data/technologies/heal_range.jsonspecificName.sele
+#: simulation/data/technologies/heal_range.jsonspecificName.spart
+msgid "Olympic Pantheon"
+msgstr "Panthéon olympique"
+
+#: simulation/data/technologies/heal_range.jsontooltip
+#: simulation/data/technologies/heal_range_2.jsontooltip
+msgid "Healers +5 healing range."
+msgstr "Guérisseurs : +5 de portée de guérison."
+
+#: simulation/data/technologies/heal_range_2.jsongenericName
+msgid "Healing Range 2"
+msgstr "Portée de guérison 2"
+
+#: simulation/data/technologies/heal_range_2.jsonspecificName.athen
+msgid "Akadēmeia"
+msgstr "Akadēmeia"
+
+#: simulation/data/technologies/heal_rate.jsondescription
+#: simulation/data/technologies/heal_rate_2.jsondescription
+msgid "Increases the healing rate of all healers."
+msgstr "Augmente le taux de soin de tous les guérisseurs."
+
+#: simulation/data/technologies/heal_rate.jsongenericName
+msgid "Healing Rate"
+msgstr "Vitesse de guérison"
+
+#: simulation/data/technologies/heal_rate.jsonspecificName.athen
+#: simulation/data/technologies/heal_rate.jsonspecificName.mace
+#: simulation/data/technologies/heal_rate.jsonspecificName.ptol
+#: simulation/data/technologies/heal_rate.jsonspecificName.sele
+#: simulation/data/technologies/heal_rate.jsonspecificName.spart
+msgid "Sphagia"
+msgstr "Sphagia"
+
+#: simulation/data/technologies/heal_rate.jsontooltip
+#: simulation/data/technologies/heal_rate_2.jsontooltip
+msgid "Healers −20% healing time."
+msgstr "Guérisseurs : -20% de temps de guérison."
+
+#: simulation/data/technologies/heal_rate_2.jsongenericName
+msgid "Healing Rate 2"
+msgstr "Vitesse de guérison 2"
+
+#: simulation/data/technologies/heal_rate_2.jsonspecificName.athen
+#: simulation/data/technologies/heal_rate_2.jsonspecificName.mace
+#: simulation/data/technologies/heal_rate_2.jsonspecificName.ptol
+#: simulation/data/technologies/heal_rate_2.jsonspecificName.sele
+#: simulation/data/technologies/heal_rate_2.jsonspecificName.spart
+msgid "Hippocratic Oath"
+msgstr "Serment d'Hippocrate"
+
+#: simulation/data/technologies/health_females_01.jsondescription
+msgid ""
+"The loom allowed the creation of finer clothing for settlers. Women of the "
+"household were taught from a young age how to weave on the loom, and "
+"subsequently spent a large share of their lives working with it."
+msgstr "Le métier à tisser a permis la création de vêtements plus fins pour les colons. Les femmes du foyer apprenaient dès le plus jeune âge à travailler avec le métier à tisser, et ainsi passaient une grande partie de leurs vies à travailler avec."
+
+#: simulation/data/technologies/health_females_01.jsongenericName
+msgid "The Loom"
+msgstr "Métier à tisser"
+
+#: simulation/data/technologies/health_females_01.jsontooltip
+msgid "Female Citizens +100% health."
+msgstr "Citoyennes : +100% de santé."
+
+#: simulation/data/technologies/health_regen_units.jsondescription
+msgid "Organic units will slowly regenerate health over time when idle."
+msgstr "Les unités vivantes régénéreront lentement leurs santé lorsqu'elles seront au repos."
+
+#: simulation/data/technologies/health_regen_units.jsongenericName
+msgid "Battlefield Medicine"
+msgstr "Médecine de champ de bataille"
+
+#: simulation/data/technologies/health_regen_units.jsontooltip
+msgid "Idle Organic units +0.5 health regeneration rate."
+msgstr "Unités vivantes au repos : +0,5 au taux de guérison."
+
+#: simulation/data/technologies/hellenistic_metropolis.jsondescription
+msgid ""
+"Beginning with Alexander, the Hellenistic monarchs founded many cities "
+"throughout their empires, where Greek culture and art blended with local "
+"customs to create the motley Hellenistic civilization."
+msgstr "Commençant avec Alexandre, les monarques hellénistiques fondèrent de nombreuses cités à travers leur empire, où la culture grecque se mêla avec les coutumes locales créant ainsi une civilisation hellénistique hétéroclite. "
+
+#: simulation/data/technologies/hellenistic_metropolis.jsongenericName
+msgid "Hellenistic Metropolis"
+msgstr "Métropole hellénistique"
+
+#: simulation/data/technologies/hellenistic_metropolis.jsontooltip
+msgid "Civic Centers +100% health and capture points, double default arrows."
+msgstr "Centre-villes : +100 de points de vie et de capture, tirs par défaut doublés."
+
+#: simulation/data/technologies/hoplite_tradition.jsondescription
+msgid "Hoplite soldiers constituted most of the armies of Greece."
+msgstr "Les soldats Hoplites constituaient la majorité des armées de Grèce."
+
+#: simulation/data/technologies/hoplite_tradition.jsongenericName
+msgid "Hoplite Tradition"
+msgstr "Tradition Hoplite"
+
+#: simulation/data/technologies/hoplite_tradition.jsontooltip
+msgid "Hoplites −25% training time and −50% promotion experience."
+msgstr "Les Hoplites ont -25% de temps d'entrainement et  -50% d'expérience de promotion."
+
+#: simulation/data/technologies/immortals.jsondescription
+msgid ""
+"The Achaemenids maintained a 10,000-strong elite corps, referred to as "
+"Athanatoi (“Immortals”) by Greek authors."
+msgstr "Les Perses achéménides entretenaient une force armée d'élite de 10 000 soldats que certains auteurs grecs nommèrent Athanatoi (“les Immortels”)."
+
+#: simulation/data/technologies/immortals.jsongenericName
+msgid "Immortals"
+msgstr "Immortels"
+
+#: simulation/data/technologies/immortals.jsontooltip
+msgid "Immortals −50% training time."
+msgstr "Immortels : -50% de temps d'entraînement"
+
+#: simulation/data/technologies/iphicratean_reforms.jsondescription
+msgid ""
+"Athenian gymnasium, docks and triremes can train Marines (Epibates "
+"Athenaikos) and Cretan Mercenary Archers (Toxotes Kretikos)."
+msgstr "Les gymnases, ports et trirèmes athéniens peuvent produire des soldats de marine  (Epibates Athenaikos) et des archers mercenaires crétois (Toxotes Kretikos)."
+
+#: simulation/data/technologies/iphicratean_reforms.jsongenericName
+msgid "Iphicratean Reforms"
+msgstr "Réformes d'Iphicrate"
+
+#: simulation/data/technologies/iphicratean_reforms.jsontooltip
+msgid ""
+"Athenian Gymnasia, Docks and Triremes can train Marines and Cretan Mercenary"
+" Archers."
+msgstr "Les gymnases, ports et trirèmes Athéniens peuvent produire des soldats de marine et des archers mercenaires crétois."
+
+#: simulation/data/technologies/long_walls.jsondescription
+msgid ""
+"The Long Walls of Athens were constructed under the auspices of the wily "
+"Themistocles and extended 6 km from the city to the port of Piraeus. This "
+"secured the city's sea supply routes and prevented an enemy from starving "
+"out the city during a siege."
+msgstr "Les Longs murs athéniens, érigés sous les auspices de l'astucieux Thémistocle, s'étendaient sur 6 km de la cité au port du Pirée. Ils sécurisaient les voies d'approvisionnement maritimes de la cité et empêchaient l'ennemi d'affamer la cité en cas de siège."
+
+#: simulation/data/technologies/long_walls.jsongenericName
+msgid "Athenian Long Walls"
+msgstr "Longs murs athéniens"
+
+#: simulation/data/technologies/long_walls.jsontooltip
+msgid "Build Walls in own or neutral territory."
+msgstr "Construisez des murs dans votre propre territoire ou dans le territoire neutre."
+
+#: simulation/data/technologies/nisean_horses.jsondescription
+msgid ""
+"The now-extinct Nisian breed of horse was one of the largest and robust "
+"horses of ancient times. They were highly sought after by the Seleucids and "
+"Persians as both rider and mount gained heavier armor as time progressed."
+msgstr "La race de cheval nisén aujourd'hui disparue a été l'une des plus grandes et robustes de l'Antiquité. Ces chevaux ont été très recherchés par les Séleucides et les Perses alors que le cavalier et la monture gagnaient en armure plus lourde avec le temps."
+
+#: simulation/data/technologies/nisean_horses.jsongenericName
+msgid "Nisean War Horses"
+msgstr "Chevaux de guerre niséens"
+
+#: simulation/data/technologies/nisean_horses.jsonspecificName.sele
+msgid "Nisioi"
+msgstr "Nisioi"
+
+#: simulation/data/technologies/nisean_horses.jsontooltip
+msgid "Champion Cavalry Spearmen +20% health, but +10% training time."
+msgstr "Lancier monté champion : +20% de points de vie, mais +10% de temps d'entraînement."
+
+#: simulation/data/technologies/outpost_vision.jsondescription
+msgid "Increases outpost vision."
+msgstr "Augmente la vision de l'avant-poste."
+
+#: simulation/data/technologies/outpost_vision.jsongenericName
+msgid "Carrier Pigeons"
+msgstr "Pigeons voyageurs"
+
+#: simulation/data/technologies/outpost_vision.jsontooltip
+msgid "Outposts +33% vision range."
+msgstr "Les avant-postes ont un champs de vision étendu de +33%."
+
+#: simulation/data/technologies/pair_unlock_champions_sele.jsongenericName
+msgid "Traditional Army vs Reform Army"
+msgstr "Armée traditionnelle vs. Armée réformée"
+
+#: simulation/data/technologies/pair_unlock_civil_engineering_han.jsongenericName
+msgid "Civil Engineering"
+msgstr "Ingénieurie civile"
+
+#: simulation/data/technologies/pair_unlock_civil_service_han.jsongenericName
+msgid "Civil Service"
+msgstr "Service civil"
+
+#: simulation/data/technologies/parade_of_daphne.jsondescription
+msgid ""
+"The festival at Daphne was a major event of the Seleucid Empire: tens of "
+"thousands of well-equipped troops participated in the opening procession."
+msgstr "Les parades de Daphnè constituaient un événement important dans l'empire séleucide : des dizaines de milliers de soldats en apparat y défilaient à titre de cortège d'inauguration."
+
+#: simulation/data/technologies/parade_of_daphne.jsongenericName
+msgid "Parade of Daphne"
+msgstr "Parade de Daphné"
+
+#: simulation/data/technologies/parade_of_daphne.jsontooltip
+msgid "Champions −20% training time."
+msgstr "Unités championnes : -20% de temps d'entrainement."
+
+#: simulation/data/technologies/phase_city.jsondescription
+msgid ""
+"Dummy technology for use in templates requirements, replaced by "
+"phase_city_generic or phase_city_{civ}."
+msgstr "Technologie factice à l'usage des condition de modèle, remplacée par phase_city_generic ou phase_city_{civ}"
+
+#: simulation/data/technologies/phase_city.jsongenericName
+#: simulation/data/technologies/phase_city_athen.jsongenericName
+#: simulation/data/technologies/phase_city_generic.jsongenericName
+#: simulation/data/technologies/phase_city_pers.jsongenericName
+msgid "City Phase"
+msgstr "Phase des Cités"
+
+#: simulation/data/technologies/phase_city_athen.jsondescription
+msgid ""
+"Advances from a bustling town to a veritable metropolis, full of the wonders"
+" of modern technology. This is the Athenian city phase, where metal "
+"gathering rates are boosted because of the 'Silver Owls' bonus."
+msgstr "Amélioration d'une ville animée en une véritable métropole, pleine des merveilles de la technologie moderne. C'est la phase de la cité d'Athènes, où les taux d'exploitation de métaux sont améliorés en raison du bonus de la Chouette d'argent."
+
+#: simulation/data/technologies/phase_city_athen.jsonrequirementsTooltip
+#: simulation/data/technologies/phase_city_generic.jsonrequirementsTooltip
+#: simulation/data/technologies/phase_city_pers.jsonrequirementsTooltip
+msgid "Requires three Town Structures."
+msgstr "Requiert trois bâtiments de la phase Ville."
+
+#: simulation/data/technologies/phase_city_athen.jsonspecificName.athen
+#: simulation/data/technologies/phase_city_generic.jsonspecificName.mace
+#: simulation/data/technologies/phase_city_generic.jsonspecificName.ptol
+#: simulation/data/technologies/phase_city_generic.jsonspecificName.sele
+#: simulation/data/technologies/phase_city_generic.jsonspecificName.spart
+msgid "Megalopolis"
+msgstr "Megalopolis"
+
+#: simulation/data/technologies/phase_city_athen.jsontooltip
+msgid ""
+"Advance to City Phase, which unlocks more entities and technologies. Civic "
+"Centers +50% territory influence radius. Structures +9 capture points "
+"regeneration rate per garrisoned unit. Workers +10% metal gather rate."
+msgstr "Avancez à la phase des Cités, ce qui vous permettra de débloquer plusieurs unités et technologies. Centre-ville : +50% à la zone d'influence territoriale. Bâtiments : +9 au taux de régénération des points de capture pour chaque unité en garnison. Ouvrier : +10% au taux de récolte du métal."
+
+#: simulation/data/technologies/phase_city_generic.jsondescription
+msgid ""
+"Advances from a bustling town to a veritable metropolis, full of the wonders"
+" of modern technology."
+msgstr "Amélioration d'une ville animée en une véritable métropole, pleine des merveilles de la technologie moderne."
+
+#: simulation/data/technologies/phase_city_generic.jsonspecificName.han
+msgid "Jùn"
+msgstr "Jùn"
+
+#: simulation/data/technologies/phase_city_generic.jsontooltip
+msgid ""
+"Advance to City Phase, which unlocks more entities and technologies. Civic "
+"Centers +50% territory influence radius. Structures +9 capture points "
+"regeneration rate per garrisoned unit."
+msgstr "Avancez à la phase des Cités, ce qui vous permettra de débloquer plusieurs unités et technologies. Centre-ville : +50% à la zone d'influence territoriale. Bâtiments : +9 au taux de régénération des points de capture pour chaque unité en garnison."
+
+#: simulation/data/technologies/phase_city_pers.jsondescription
+msgid ""
+"Advances from a bustling town to a veritable metropolis, full of the wonders"
+" of modern technology. This is the Persian city phase, where stable training"
+" rates are decreased because of the 'Times of War' bonus."
+msgstr "Amélioration d'une ville animée en une véritable métropole, pleine des merveilles de la technologie moderne. C'est la phase de la cité Perse, où les temps d'entraînement de l'écurie sont réduites grâce au bonus de 'Temps de Guerre'"
+
+#: simulation/data/technologies/phase_city_pers.jsontooltip
+msgid ""
+"Advance to City Phase, which unlocks more entities and technologies. Civic "
+"Centers +50% territory influence radius. Structures +9 capture points "
+"regeneration rate per garrisoned unit. Stable −10% batch training time."
+msgstr "Avancer à la Phase des Cités, ce qui débloque plus d'entités et de technologies. Centres-villes : +50% du rayon d'influence du territoire. Bâtiments : +9 points de capture du taux de régénération par unité en garnison. Écurie : -10% de temps d'entraînement en groupe."
+
+#: simulation/data/technologies/phase_town.jsondescription
+msgid ""
+"Dummy technology for use in templates requirements, replaced by "
+"phase_town_generic or phase_town_{civ}."
+msgstr "Technologie factice à l'usage des conditions de modèle, remplacée par phase_town_generic ou phase_town_{civ}"
+
+#: simulation/data/technologies/phase_town.jsongenericName
+#: simulation/data/technologies/phase_town_athen.jsongenericName
+#: simulation/data/technologies/phase_town_generic.jsongenericName
+#: simulation/data/technologies/phase_town_pers.jsongenericName
+msgid "Town Phase"
+msgstr "Phase des Villes"
+
+#: simulation/data/technologies/phase_town_athen.jsondescription
+msgid ""
+"Advances from a small village to a bustling town, ready to expand rapidly. "
+"This is the Athenian town phase, where metal gathering rates are boosted "
+"because of the 'Silver Owls' bonus."
+msgstr "Amélioration d'un petit village en une ville animée, prête à s'étendre rapidement. C'est la phase de la ville d'Athènes, où les taux de collecte des métaux sont améliorés en raison du bonus de la Chouette d'argent."
+
+#: simulation/data/technologies/phase_town_athen.jsonrequirementsTooltip
+#: simulation/data/technologies/phase_town_generic.jsonrequirementsTooltip
+#: simulation/data/technologies/phase_town_pers.jsonrequirementsTooltip
+msgid "Requires five Village Structures."
+msgstr "Requiert cinq bâtiments de la phase Village"
+
+#: simulation/data/technologies/phase_town_athen.jsonspecificName.athen
+#: simulation/data/technologies/phase_town_generic.jsonspecificName.mace
+#: simulation/data/technologies/phase_town_generic.jsonspecificName.ptol
+#: simulation/data/technologies/phase_town_generic.jsonspecificName.sele
+#: simulation/data/technologies/phase_town_generic.jsonspecificName.spart
+msgid "Kōmopolis"
+msgstr "Kōmopolis"
+
+#: simulation/data/technologies/phase_town_athen.jsontooltip
+msgid ""
+"Advance to Town Phase, which unlocks more entities and technologies. Civic "
+"Centers +30% territory influence radius. Structures +7 capture points "
+"regeneration rate per garrisoned unit. Workers +10% metal gather rate."
+msgstr "Avancez à la phase des Villes, ce qui vous permettra de débloquer plusieurs unités et technologies. Centre-ville : +30% à la zone d'influence territoriale. Bâtiments : +7 au taux de régénération des points de capture pour chaque unité en garnison. Ouvriers : +10% au taux de récolte du métal."
+
+#: simulation/data/technologies/phase_town_generic.jsondescription
+msgid ""
+"Advances from a small village to a bustling town, ready to expand rapidly."
+msgstr "Amélioration d'un petit village en une ville animée, prête à se développer rapidement."
+
+#: simulation/data/technologies/phase_town_generic.jsonspecificName.han
+msgid "Xìan"
+msgstr "Xìan"
+
+#: simulation/data/technologies/phase_town_generic.jsontooltip
+msgid ""
+"Advance to Town Phase, which unlocks more entities and technologies. Civic "
+"Centers +30% territory influence radius. Structures +7 capture points "
+"regeneration rate per garrisoned unit."
+msgstr "Avancez à la phase des Villes, ce qui vous permettra de débloquer plusieurs unités et technologies. Centre-ville : +30% à la zone d'influence territoriale. Bâtiments : +7 au taux de régénération des points de capture pour chaque unité en garnison."
+
+#: simulation/data/technologies/phase_town_pers.jsondescription
+msgid ""
+"Advances from a small village to a bustling town, ready to expand rapidly. "
+"This is the Persian town phase, where stable training rates are decreased "
+"because of the 'Times of War' bonus."
+msgstr "Amélioration d'un petit village en une ville animée, prête à s'étendre rapidement. C'est la phase de ville Perse, où les temps d'entraînement de l'écurie sont réduites grâce au bonus de 'Temps de Guerre'"
+
+#: simulation/data/technologies/phase_town_pers.jsontooltip
+msgid ""
+"Advance to Town Phase, which unlocks more entities and technologies. Civic "
+"Centers +30% territory influence radius. Structures +7 capture points "
+"regeneration rate per garrisoned unit. Stable −10% batch training time."
+msgstr "Avancer à la Phase des Villes, ce qui débloque plus d'entités et de technologies. Centres-villes : +30% du rayon d'influence du territoire. Bâtiments : +7 points de capture du taux de régénération par unité en garnison. Écurie : -10% de temps d'entraînement en groupe."
+
+#: simulation/data/technologies/phase_village.jsongenericName
+msgid "Village Phase"
+msgstr "Phase des Villages"
+
+#: simulation/data/technologies/poison_arrows.jsongenericName
+msgid "Poison Arrows"
+msgstr "Flèches empoisonnées"
+
+#: simulation/data/technologies/poison_arrows.jsontooltip
+msgid "Ranged Soldiers +20% attack damage."
+msgstr "Soldats à distance : +20% de dégâts"
+
+#: simulation/data/technologies/poison_blades.jsongenericName
+msgid "Poison Blades"
+msgstr "Épées empoisonnées"
+
+#: simulation/data/technologies/poison_blades.jsontooltip
+msgid "Melee Soldiers +20% attack damage."
+msgstr "Soldats au corp-à-corp : +20% de dégâts"
+
+#: simulation/data/technologies/pop_house_01.jsondescription
+msgid ""
+"Home gardens ranged from simple fenced-in areas to large manicured and "
+"colonnaded enclosures."
+msgstr "Les jardins domestiques pouvaient n'être que de simples zones clôturées ou s'étendre à de larges enceintes entretenues et traversées de colonnes."
+
+#: simulation/data/technologies/pop_house_01.jsongenericName
+msgid "Home Garden"
+msgstr "Jardin"
+
+#: simulation/data/technologies/pop_house_01.jsonspecificName.athen
+#: simulation/data/technologies/pop_house_01.jsonspecificName.mace
+#: simulation/data/technologies/pop_house_01.jsonspecificName.ptol
+#: simulation/data/technologies/pop_house_01.jsonspecificName.sele
+#: simulation/data/technologies/pop_house_01.jsonspecificName.spart
+msgid "Peristylon"
+msgstr "Peristylon"
+
+#: simulation/data/technologies/pop_house_01.jsonspecificName.pers
+msgid "Paradaidām"
+msgstr "Paradaidām"
+
+#: simulation/data/technologies/pop_house_01.jsonspecificName.rome
+msgid "Peristylium"
+msgstr "Peristylium"
+
+#: simulation/data/technologies/pop_house_01.jsontooltip
+#: simulation/data/technologies/pop_house_02.jsontooltip
+msgid "Houses +20% population bonus."
+msgstr "Habitations : bonus de +20% de population."
+
+#: simulation/data/technologies/pop_house_02.jsondescription
+msgid ""
+"Homes tended to expand as the wealth and population of a settlement grew."
+msgstr "Les maisons avaient tendance à s'agrandir lorsque la richesse et la population d'une colonie augmentait."
+
+#: simulation/data/technologies/pop_house_02.jsongenericName
+msgid "Manors"
+msgstr "Manoirs"
+
+#: simulation/data/technologies/pop_house_02.jsonspecificName.rome
+msgid "Insulae"
+msgstr "Insulae"
+
+#: simulation/data/technologies/reformed_army_sele.jsondescription
+msgid "The Roman-style core of the Seleucid army."
+msgstr "Le noyau de l'armée séleucide inspirée des troupes romaines."
+
+#: simulation/data/technologies/reformed_army_sele.jsongenericName
+msgid "Reform Army"
+msgstr "Réforme militaire"
+
+#: simulation/data/technologies/reformed_army_sele.jsontooltip
+msgid "Unlock the Champion Infantry Swordsman."
+msgstr "Déverrouille l'unité Fantassin épéiste champion"
+
+#: simulation/data/technologies/ship_cost_time.jsondescription
+msgid ""
+"Employ skilled shipwrights with specialized tools to speed up ship "
+"construction."
+msgstr "Employer des charpentiers compétents avec des outils spécialisés pour accélérer la construction de navires."
+
+#: simulation/data/technologies/ship_cost_time.jsongenericName
+msgid "Naval Architects"
+msgstr "Architectes navals"
+
+#: simulation/data/technologies/ship_cost_time.jsontooltip
+msgid "Ships −20% construction time."
+msgstr "Navires -20% de temps de construction."
+
+#: simulation/data/technologies/ship_health.jsondescription
+msgid "Wooden reinforcement beams for ship hulls."
+msgstr "Poutres de renfort en bois pour les coques des navires."
+
+#: simulation/data/technologies/ship_health.jsongenericName
+msgid "Reinforced Hull"
+msgstr "Coque renforcée"
+
+#: simulation/data/technologies/ship_health.jsontooltip
+msgid "Ships +25% health."
+msgstr "Navires +25% de santé."
+
+#: simulation/data/technologies/ship_movement_speed.jsondescription
+msgid ""
+"Train your oarsmen and sailors to move more efficiently and speed up your "
+"ships."
+msgstr "Entraînez vos rameurs et vos marins à se déplacer de manière plus efficace et d'accélérer vos navires."
+
+#: simulation/data/technologies/ship_movement_speed.jsongenericName
+msgid "Experienced Crews"
+msgstr "Équipages expérimentés"
+
+#: simulation/data/technologies/ship_movement_speed.jsontooltip
+msgid "Ships +10% movement speed."
+msgstr "+10% de vitesse de déplacement pour les navires."
+
+#: simulation/data/technologies/siege_attack.jsondescription
+msgid "Advanced technologies improve siege efficiency."
+msgstr "Les technologies avancées améliorent l'efficacité du siège."
+
+#: simulation/data/technologies/siege_attack.jsongenericName
+msgid "Advanced Siege"
+msgstr "Siège avancé"
+
+#: simulation/data/technologies/siege_attack.jsontooltip
+msgid "Siege Engines +25% attack crush damage."
+msgstr "Les engins de siège infligent +25% de dégâts d'écrasement. "
+
+#: simulation/data/technologies/siege_bolt_accuracy.jsondescription
+msgid "Improvement to projectile accuracy."
+msgstr "Amélioration de la précision du projectile."
+
+#: simulation/data/technologies/siege_bolt_accuracy.jsongenericName
+msgid "Bolt Accuracy"
+msgstr "Précision des balistes"
+
+#: simulation/data/technologies/siege_bolt_accuracy.jsontooltip
+msgid "Bolt Shooters −20% ranged attack spread."
+msgstr "Les balistes ont -20% de dispersion lors des attaques a distance."
+
+#: simulation/data/technologies/siege_cost_time.jsondescription
+msgid "The science or craft of laying or carrying out sieges."
+msgstr "La science ou l'art de subir ou de faire subir des sièges."
+
+#: simulation/data/technologies/siege_cost_time.jsongenericName
+msgid "Siegecraft"
+msgstr "Art du siège"
+
+#: simulation/data/technologies/siege_cost_time.jsontooltip
+msgid "Siege Engines −20% construction time."
+msgstr "les engins de siège ont -20% de temps de construction."
+
+#: simulation/data/technologies/siege_health.jsondescription
+msgid ""
+"Cover the exterior with iron plates to protect against fire and projectiles."
+msgstr "Couvre l'extérieur avec des plaques de fer pour protéger du feu et des projectiles."
+
+#: simulation/data/technologies/siege_health.jsongenericName
+msgid "Armor Plating"
+msgstr "Plaque de blindage"
+
+#: simulation/data/technologies/siege_health.jsontooltip
+msgid "Battering Rams and Siege Towers +25% health."
+msgstr "Les béliers et les tours de siège ont +25% de santé."
+
+#: simulation/data/technologies/siege_pack_unpack.jsondescription
+msgid "Military engineers are responsible for improvements in siege engines."
+msgstr "Les ingénieurs militaires sont responsables des améliorations des engins de siège."
+
+#: simulation/data/technologies/siege_pack_unpack.jsongenericName
+msgid "Military Engineers"
+msgstr "Génie militaire"
+
+#: simulation/data/technologies/siege_pack_unpack.jsontooltip
+msgid "Siege Engines –40% pack and unpack time."
+msgstr "les engins de siège ont -20% de temps de déploiement."
+
+#: simulation/data/technologies/silk_road.jsongenericName
+msgid "Silk Road"
+msgstr "Route de la soie"
+
+#: simulation/data/technologies/silk_road.jsontooltip
+msgid "Traders +20% international trade bonus."
+msgstr "Troceurs : +20 de bonus aux échanges internationaux"
+
+#: simulation/data/technologies/silvershields.jsondescription
+msgid ""
+"The Silver Shields, or Argyraspidai, were the elite heavy infantry arm of "
+"the Macedonian army."
+msgstr "Les Boucliers d'argent ou Argyraspides étaient l'infanterie lourde d'élite de l'armée macédonienne."
+
+#: simulation/data/technologies/silvershields.jsongenericName
+msgid "Silver Shields Regiment"
+msgstr "Régiment des Boucliers d'argent"
+
+#: simulation/data/technologies/silvershields.jsontooltip
+msgid ""
+"Upgrade Shield Bearer Champion Infantry to Silver Shields, with more health "
+"and attack damage."
+msgstr "Améliore l'infanterie à bouclier championne en «Boucliers d'argent», possédant une meilleure santé et armure."
+
+#: simulation/data/technologies/soldier_attack_melee_01.jsondescription
+msgid ""
+"Often, a soldier would carry a secondary weapon in addition to his primary "
+"weapon of choice, to be drawn when the primary weapon has failed or been "
+"broken."
+msgstr "Souvent, un soldat d'infanterie portait avec lui une arme secondaire en supplément de son arme principale, qu'il utilisait lorsque son arme principale défaillait ou se brisait."
+
+#: simulation/data/technologies/soldier_attack_melee_01.jsongenericName
+msgid "Side Arms"
+msgstr "Arme de poing"
+
+#: simulation/data/technologies/soldier_attack_melee_01.jsonspecificName.athen
+#: simulation/data/technologies/soldier_attack_melee_01.jsonspecificName.mace
+#: simulation/data/technologies/soldier_attack_melee_01.jsonspecificName.ptol
+#: simulation/data/technologies/soldier_attack_melee_01.jsonspecificName.sele
+#: simulation/data/technologies/soldier_attack_melee_01.jsonspecificName.spart
+msgid "Xiphos"
+msgstr "Xiphos"
+
+#: simulation/data/technologies/soldier_attack_melee_01.jsonspecificName.rome
+msgid "Pugio"
+msgstr "Pugio"
+
+#: simulation/data/technologies/soldier_attack_melee_01.jsontooltip
+#: simulation/data/technologies/soldier_attack_melee_02.jsontooltip
+msgid "Soldiers +15% melee attack damage."
+msgstr "Les soldats ont +15% de dégâts d'attaque de mêlée."
+
+#: simulation/data/technologies/soldier_attack_melee_02.jsondescription
+msgid "Using iron instead of bronze gave weapons additional power."
+msgstr "Utilisation du fer au lieu du bronze procurant une puissance supplémentaire aux armes."
+
+#: simulation/data/technologies/soldier_attack_melee_02.jsongenericName
+msgid "Iron Weapons"
+msgstr "Armes en fer"
+
+#: simulation/data/technologies/soldier_attack_melee_03.jsondescription
+msgid ""
+"By adding a small amount of carbon during the iron smelting process, a "
+"stronger material, steel, can be forged."
+msgstr "En ajoutant une petite quantité de carbone au cours du processus de fusion du fer, on peut forger un matériau plus solide, l'acier."
+
+#: simulation/data/technologies/soldier_attack_melee_03.jsongenericName
+msgid "Carburization"
+msgstr "Carbonisation"
+
+#: simulation/data/technologies/soldier_attack_melee_03.jsontooltip
+msgid "Soldiers +20% melee attack damage."
+msgstr "Les Soldats ont +20% de dégâts d'attaque de mêlée."
+
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsondescription
+msgid ""
+"Secret steel working techniques give sword blades distinctive and beautiful "
+"markings. Not only that, but the steel's hardness is unparalleled."
+msgstr "Les techniques secrètes du travail de l'acier donnent aux épées de magnifiques et distinctives marques. Ce n'est pas tout, la dureté de l'acier est aussi sans précédent."
+
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsongenericName
+msgid "Steel Working"
+msgstr "Travail de l'acier"
+
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsonspecificName.iber
+msgid "Toledo Steel"
+msgstr "Acier de Tolède"
+
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsonspecificName.maur
+msgid "Wootz Steel"
+msgstr "Wootz"
+
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsontooltip
+msgid ""
+"Soldiers +20% melee attack damage. Swordsmen get an additional +20% bonus."
+msgstr "Les Soldats ont +20% de dégâts d'attaque de mêlée. Les épéistes obtiennent un bonus additionnel de +20%."
+
+#: simulation/data/technologies/soldier_attack_ranged_01.jsondescription
+msgid ""
+"Improving the fletching of arrows increases their stability and speed, and "
+"thus their penetration."
+msgstr "L'amélioration de l'empennage des flèches augmente leur stabilité, leur vitesse et donc leur pénétration."
+
+#: simulation/data/technologies/soldier_attack_ranged_01.jsongenericName
+msgid "Improved Fletching"
+msgstr "Empennage amélioré"
+
+#: simulation/data/technologies/soldier_attack_ranged_01.jsontooltip
+#: simulation/data/technologies/soldier_attack_ranged_02.jsontooltip
+msgid "Soldiers +15% ranged attack damage."
+msgstr "Les Soldats ont +15% dégâts d'attaque à distance.\n "
+
+#: simulation/data/technologies/soldier_attack_ranged_02.jsondescription
+msgid "Projectile points made of iron enable missiles to penetrate deeper."
+msgstr "Les projectiles avec des pointes en fer permettent de pénétrer plus profondément."
+
+#: simulation/data/technologies/soldier_attack_ranged_02.jsongenericName
+msgid "Iron Arrowheads"
+msgstr "Pointes en fer."
+
+#: simulation/data/technologies/soldier_attack_ranged_03.jsondescription
+msgid "Arrowheads with three lobes instead of two inflict larger wounds."
+msgstr "Les têtes de flèches avec trois lobes au lieu de deux infligent de plus larges blessures."
+
+#: simulation/data/technologies/soldier_attack_ranged_03.jsongenericName
+msgid "Trilobate Arrowheads"
+msgstr "Pointes de flèches à trois côtés."
+
+#: simulation/data/technologies/soldier_attack_ranged_03.jsontooltip
+msgid "Soldiers +20% ranged attack damage."
+msgstr "Les Soldats ont +20% dégâts d'attaque à distance."
+
+#: simulation/data/technologies/soldier_ranged_experience.jsontooltip
+msgid "Ranged Soldiers +25% promotion experience."
+msgstr "Les soldats à distance ont +25% d'expérience de promotion."
+
+#: simulation/data/technologies/soldier_resistance_hack_01.jsondescription
+msgid "Body armor made from quilted wool, linen, cotton, or leather."
+msgstr "Armure en laine matelassée, en lin, en coton ou en cuir."
+
+#: simulation/data/technologies/soldier_resistance_hack_01.jsongenericName
+msgid "Quilted Body Armor"
+msgstr "Armure matelassée"
+
+#: simulation/data/technologies/soldier_resistance_hack_01.jsonspecificName.athen
+#: simulation/data/technologies/soldier_resistance_hack_01.jsonspecificName.mace
+#: simulation/data/technologies/soldier_resistance_hack_01.jsonspecificName.ptol
+#: simulation/data/technologies/soldier_resistance_hack_01.jsonspecificName.sele
+#: simulation/data/technologies/soldier_resistance_hack_01.jsonspecificName.spart
+msgid "Spolas"
+msgstr "Spolas"
+
+#: simulation/data/technologies/soldier_resistance_hack_01.jsontooltip
+#: simulation/data/technologies/soldier_resistance_hack_02.jsontooltip
+msgid "Soldiers +1 hack resistance."
+msgstr "Les soldats gagnent +1 d'armure contre les attaques tranchantes ."
+
+#: simulation/data/technologies/soldier_resistance_hack_02.jsondescription
+msgid "Body armor made from laminated linen."
+msgstr "Armure faite de lin laminé."
+
+#: simulation/data/technologies/soldier_resistance_hack_02.jsongenericName
+msgid "Laminated Linen Body Armor"
+msgstr "Armure de lin laminé"
+
+#: simulation/data/technologies/soldier_resistance_hack_02.jsonspecificName.athen
+#: simulation/data/technologies/soldier_resistance_hack_02.jsonspecificName.mace
+#: simulation/data/technologies/soldier_resistance_hack_02.jsonspecificName.ptol
+#: simulation/data/technologies/soldier_resistance_hack_02.jsonspecificName.sele
+#: simulation/data/technologies/soldier_resistance_hack_02.jsonspecificName.spart
+msgid "Linothōrax"
+msgstr "Linothōrax"
+
+#: simulation/data/technologies/soldier_resistance_hack_03.jsondescription
+msgid "Body armor made of small metal rings linked together."
+msgstr "Armure constituée de petits anneaux métalliques reliés entre eux."
+
+#: simulation/data/technologies/soldier_resistance_hack_03.jsongenericName
+msgid "Mail Body Armor"
+msgstr "Armure en maille"
+
+#: simulation/data/technologies/soldier_resistance_hack_03.jsontooltip
+msgid "Soldiers +2 hack resistance."
+msgstr "Les Soldats ont +2 d'armure contre les attaques tranchantes."
+
+#: simulation/data/technologies/soldier_resistance_pierce_01.jsondescription
+msgid ""
+"Wooden shields are heavier but much better able to resist projectiles and "
+"blows than wicker-frame shields."
+msgstr "Les boucliers en bois sont plus lourds, mais plus à même de résister aux projectiles et au coups que les boucliers en osier."
+
+#: simulation/data/technologies/soldier_resistance_pierce_01.jsongenericName
+msgid "Wooden Shield"
+msgstr "Boucliers en bois"
+
+#: simulation/data/technologies/soldier_resistance_pierce_01.jsontooltip
+#: simulation/data/technologies/soldier_resistance_pierce_02.jsontooltip
+msgid "Soldiers +1 pierce resistance."
+msgstr "Les soldats gagnent +1 d'armure contre les attaques perçantes."
+
+#: simulation/data/technologies/soldier_resistance_pierce_02.jsondescription
+msgid "Strengthen shields with a metal rim or spine."
+msgstr "Renforce les boucliers avec un cerclage métallique et une bosse."
+
+#: simulation/data/technologies/soldier_resistance_pierce_02.jsongenericName
+msgid "Metal Rim"
+msgstr "Bord métallique."
+
+#: simulation/data/technologies/soldier_resistance_pierce_03.jsondescription
+msgid "Strengthen shields further with stronger metal alloys."
+msgstr "Renforce davantage les boucliers avec des alliages métalliques plus résistants."
+
+#: simulation/data/technologies/soldier_resistance_pierce_03.jsongenericName
+msgid "Improved Shield Alloys"
+msgstr "Alliages de bouclier amélioré"
+
+#: simulation/data/technologies/soldier_resistance_pierce_03.jsontooltip
+msgid "Soldiers +2 pierce resistance."
+msgstr "Les Soldats ont +2 de résistance au perçage."
+
+#: simulation/data/technologies/spy_counter.jsondescription
+msgid "Recruit a network of informants to watch over your people."
+msgstr "Recrute un réseau d'informateurs pour espionner votre population."
+
+#: simulation/data/technologies/spy_counter.jsongenericName
+msgid "Counterintelligence"
+msgstr "Contre espionnage"
+
+#: simulation/data/technologies/spy_counter.jsontooltip
+msgid "Make your units 50% more expensive to bribe."
+msgstr "Faire en sorte que vos unités soient 50% plus chères à soudoyer."
+
+#: simulation/data/technologies/stable_batch_training.jsondescription
+msgid ""
+"Significantly increase training speed of cavalry by training them in large "
+"batches or squadrons."
+msgstr "Augmente significativement la vitesse d'entraînement de la cavalerie en les formant par grands groupes ou bataillons."
+
+#: simulation/data/technologies/stable_batch_training.jsontooltip
+msgid "Stables −10% batch training time."
+msgstr "Les écuries ont −10 % de temps d'entraînement de groupe."
+
+#: simulation/data/technologies/subterranean_aqueducts.jsondescription
+msgid ""
+"Qanāt or Kārēz, a network of underground aqueducts connected to the yakhchal"
+" ice house."
+msgstr "Qana, un réseau d'aqueducs souterrains connectés à la yakhtchal."
+
+#: simulation/data/technologies/subterranean_aqueducts.jsongenericName
+msgid "Subterranean Aqueducts"
+msgstr "Aqueducs souterrains"
+
+#: simulation/data/technologies/subterranean_aqueducts.jsonspecificName.pers
+msgid "Kārēz"
+msgstr "Kārēz"
+
+#: simulation/data/technologies/subterranean_aqueducts.jsontooltip
+msgid "Ice House +1 trickle food rate per second."
+msgstr "Maison Frigo +1 de taux de flux de nourriture."
+
+#: simulation/data/technologies/tower_crenellations.jsondescription
+msgid ""
+"Crenellations on the battlements allow soldiers wider range of fire in "
+"defending a keep."
+msgstr "Les créneaux sur les remparts permettent aux soldats d'avoir une plus grande portée de tir dans la défense d'un donjon."
+
+#: simulation/data/technologies/tower_crenellations.jsongenericName
+msgid "Crenellations"
+msgstr "Créneaux"
+
+#: simulation/data/technologies/tower_crenellations.jsontooltip
+msgid "Sentry and Stone Towers +40% more arrows per garrisoned Soldier."
+msgstr "Les tours sentinelles et les tours de pierre ont +40% de flèches par Soldats en garnison."
+
+#: simulation/data/technologies/tower_health.jsondescription
+msgid "Reinforce the foundations in preparation of an attack."
+msgstr "Renforcer les fondations en préparation d'une attaque."
+
+#: simulation/data/technologies/tower_health.jsongenericName
+msgid "Sturdy Foundations"
+msgstr "Fondations solides"
+
+#: simulation/data/technologies/tower_health.jsontooltip
+msgid "Towers +25% health."
+msgstr "Les Tours ont +25% de santé."
+
+#: simulation/data/technologies/tower_murderholes.jsondescription
+msgid "Murder holes allow hitting enemies at the foot of the tower."
+msgstr "Les meurtrières permettent d'atteindre les ennemis à la base de la tour."
+
+#: simulation/data/technologies/tower_murderholes.jsongenericName
+msgid "Murder Holes"
+msgstr "Meurtrières"
+
+#: simulation/data/technologies/tower_murderholes.jsontooltip
+msgid "Sentry and Stone Towers have 0 minimum attack range."
+msgstr "Les tours sentinelles et les tours de pierre n'ont pas de portée d'attaque minimum."
+
+#: simulation/data/technologies/tower_range.jsondescription
+msgid "Arrow shooters increase the maximum range of the fire arrows."
+msgstr "Les tireurs de flèches augmente la portée maximale des flèches de feu."
+
+#: simulation/data/technologies/tower_range.jsongenericName
+msgid "Arrow Shooters"
+msgstr "Tireurs de flèche"
+
+#: simulation/data/technologies/tower_range.jsontooltip
+msgid "Sentry and Stone Towers +8 attack range."
+msgstr "Les tours sentinelles et les tours de pierre ont +8 de portée d'attaque."
+
+#: simulation/data/technologies/tower_watch.jsondescription
+msgid "A night's watch increases vigilance."
+msgstr "Une ronde de nuit augmente la vigilance."
+
+#: simulation/data/technologies/tower_watch.jsongenericName
+msgid "Sentries"
+msgstr "Sentinelles"
+
+#: simulation/data/technologies/tower_watch.jsonspecificName.athen
+#: simulation/data/technologies/tower_watch.jsonspecificName.mace
+#: simulation/data/technologies/tower_watch.jsonspecificName.ptol
+#: simulation/data/technologies/tower_watch.jsonspecificName.sele
+#: simulation/data/technologies/tower_watch.jsonspecificName.spart
+msgid "Nyktophylakes"
+msgstr "Nyktophylakes"
+
+#: simulation/data/technologies/tower_watch.jsonspecificName.han
+msgid "Shàobīng"
+msgstr "Shàobīng"
+
+#: simulation/data/technologies/tower_watch.jsonspecificName.rome
+msgid "Vigiles"
+msgstr "Vigiles"
+
+#: simulation/data/technologies/tower_watch.jsontooltip
+msgid "Sentry and Stone Towers +1 default arrow count."
+msgstr "Les tours sentinelles et les tours de pierre ont +1 flèche par défaut."
+
+#: simulation/data/technologies/trade_commercial_treaty.jsondescription
+msgid "Improve the international trading profit."
+msgstr "Accroit le profit du commerce international"
+
+#: simulation/data/technologies/trade_commercial_treaty.jsongenericName
+msgid "Commercial Treaty"
+msgstr "Traité commercial"
+
+#: simulation/data/technologies/trade_commercial_treaty.jsontooltip
+msgid "Traders +10% trade profit between allies."
+msgstr "Troceurs : +10% de profit lors des échanges entre alliés"
+
+#: simulation/data/technologies/trade_gain_01.jsondescription
+#: simulation/data/technologies/trade_gain_02.jsondescription
+msgid "The progress in handicraft improves the trading profit."
+msgstr "Les progrès en artisanat rendent le commerce plus profitable."
+
+#: simulation/data/technologies/trade_gain_01.jsongenericName
+msgid "Handicraft"
+msgstr "Artisanat"
+
+#: simulation/data/technologies/trade_gain_01.jsontooltip
+#: simulation/data/technologies/trade_gain_02.jsontooltip
+msgid "Traders +15% trade gain."
+msgstr "Les Marchands ont +15% de gains commerciaux."
+
+#: simulation/data/technologies/trade_gain_02.jsongenericName
+msgid "Advanced Handicraft"
+msgstr "Artisanat avancé"
+
+#: simulation/data/technologies/trader_health.jsondescription
+msgid "Traders traveling together in caravans are less vulnerable."
+msgstr "Les Marchands voyageant ensemble en convois sont moins vulnérables aux attaques."
+
+#: simulation/data/technologies/trader_health.jsongenericName
+msgid "Trade Caravan"
+msgstr "Caravane marchande"
+
+#: simulation/data/technologies/trader_health.jsontooltip
+msgid "Land Traders +50% health."
+msgstr "Les Marchands de terrains +50% de santé."
+
+#: simulation/data/technologies/traditional_army_sele.jsondescription
+msgid "The Macedonian-style core of the Seleucid army."
+msgstr "Le noyau de l'armée séleucide inspirée des troupes macédoniennes."
+
+#: simulation/data/technologies/traditional_army_sele.jsongenericName
+msgid "Traditional Army"
+msgstr "Armée traditionnelle"
+
+#: simulation/data/technologies/traditional_army_sele.jsontooltip
+msgid "Unlock the Champion Infantry Pikeman."
+msgstr "Déverrouille l'unité Fantassin piquier champion"
+
+#: simulation/data/technologies/unit_advanced.jsontooltip
+msgid ""
+"Advanced and Elite units +20% training time, +25% health, +0.7 capture "
+"attack strength, +20% loot, and −30% gather speed; Healers +5 healing "
+"strength and +3 healing range; Melee units +1 resistance and +20% attack "
+"damage; Ranged units −20% spread."
+msgstr "Les unités avancées et élite ont +20% de temps d'entraînement, +25% de santé, +0.7 de force d'attaque de capture, +20% de butin et -30% de vitesse de récolte. Les Guérisseurs ont +5% de soin et +3 en portée. Les unités de Mêlée ont +1% de résistance et +20% de dégâts d'attaque. Les unités à Distance ont -20% de dispersion des attaques"
+
+#: simulation/data/technologies/unit_elephant_african.jsontooltip
+msgid ""
+"African Elephants −10% resource costs, training time, health, attack damage,"
+" and loot."
+msgstr "Réduit de -10% les coûts en ressources, le temps d'entraînement, les points de vie, les dégâts en attaque, et la compétences de pillage des éléphants africains."
+
+#: simulation/data/technologies/unit_elephant_indian.jsontooltip
+msgid ""
+"Indian Elephants +10% resource costs, training time, health, attack damage, "
+"and loot."
+msgstr "Augmente de +10% le coût des ressources, le temps d'entraînement, les points de vie, les dégâts à l'attaque, et la compétence de pillage des éléphants indiens."
+
+#: simulation/data/technologies/unit_elite.jsontooltip
+msgid ""
+"Elite units +20% training time, +25% health, +0.8 capture attack strength, "
+"+20% loot, and −30% gather speed; Healers +5 healing strength and +3 healing"
+" range; Melee units +1 resistance and +20% attack damage; Ranged units −20% "
+"spread."
+msgstr "Les unités d'Élite ont +20% de temps d'entraînement, +25% de santé, +0.8 de force d'attaque de capture, +20% de butin et -30% de vitesse de récolte. Les Guérisseurs ont +5% de soin et +3 en portée. Les unités de Mêlée ont +1 de résistance et +20% de dégâts d'attaque. Les unités à Distance ont -20% de dispersion des attaques"
+
+#: simulation/data/technologies/unlock_champion_cavalry.jsondescription
+#: simulation/data/technologies/unlock_champion_chariots.jsondescription
+#: simulation/data/technologies/unlock_champion_infantry.jsondescription
+msgid ""
+"Guard units (Champions) are professionals who wield the best weapons and "
+"have the best training."
+msgstr "Les unités de la Garde (Champions) sont des professionnels détenant les meilleures armes et ayant le meilleur entraînement."
+
+#: simulation/data/technologies/unlock_champion_cavalry.jsongenericName
+msgid "Unlock Champion Cavalry"
+msgstr "Débloque la cavalerie championne"
+
+#: simulation/data/technologies/unlock_champion_cavalry.jsontooltip
+msgid "Unlock Champion Cavalry at the Stable."
+msgstr "Débloque la cavalerie championne dans les écuries."
+
+#: simulation/data/technologies/unlock_champion_chariots.jsongenericName
+msgid "Unlock Champion Chariots"
+msgstr "Débloque les chariots champions."
+
+#: simulation/data/technologies/unlock_champion_chariots.jsontooltip
+msgid "Unlock Champion Chariots at the Stable."
+msgstr "Débloque les chariots champions dans les écuries."
+
+#: simulation/data/technologies/unlock_champion_infantry.jsongenericName
+msgid "Unlock Champion Infantry"
+msgstr "Débloque l'infanterie championne"
+
+#: simulation/data/technologies/unlock_champion_infantry.jsonspecificName.mace
+#: simulation/data/technologies/unlock_champion_infantry.jsonspecificName.ptol
+msgid "Agēma"
+msgstr "Agēma"
+
+#: simulation/data/technologies/unlock_champion_infantry.jsonspecificName.rome
+msgid "Regio Cohors"
+msgstr "Regio Cohors"
+
+#: simulation/data/technologies/unlock_champion_infantry.jsontooltip
+msgid "Unlock Champions Infantry at the Barracks."
+msgstr "Débloque l'infanterie championne dans les casernes."
+
+#: simulation/data/technologies/unlock_females_house.jsondescription
+msgid "A festival attended by women-only, to celebrate female fertility."
+msgstr "Un festival à l'attention uniquement des femmes, pour célébrer la fertilité féminine."
+
+#: simulation/data/technologies/unlock_females_house.jsongenericName
+msgid "Fertility Festival"
+msgstr "Festival de la fertilité"
+
+#: simulation/data/technologies/unlock_females_house.jsonspecificName.athen
+#: simulation/data/technologies/unlock_females_house.jsonspecificName.mace
+#: simulation/data/technologies/unlock_females_house.jsonspecificName.ptol
+#: simulation/data/technologies/unlock_females_house.jsonspecificName.sele
+#: simulation/data/technologies/unlock_females_house.jsonspecificName.spart
+msgid "Thesmophoria"
+msgstr "Thesmophoria"
+
+#: simulation/data/technologies/unlock_females_house.jsonspecificName.rome
+msgid "Bona Dea"
+msgstr "Bonne déesse"
+
+#: simulation/data/technologies/unlock_females_house.jsontooltip
+msgid "Unlock the ability to train women from houses."
+msgstr "Déverrouiller la capacité de former des femmes à partir des maisons."
+
+#: simulation/data/technologies/unlock_shared_dropsites.jsondescription
+msgid ""
+"The extension of trade leads to the permanent establishment of storekeepers "
+"and their families in foreign countries, allowing them to exploit the wealth"
+" of these countries."
+msgstr "Le développement du commerce amène à l'établissement permanent de commerçants et de leurs familles dans des pays étrangers, leur permettant ainsi d'exploiter les biens de ces pays."
+
+#: simulation/data/technologies/unlock_shared_dropsites.jsongenericName
+msgid "Diaspora"
+msgstr "Diaspora"
+
+#: simulation/data/technologies/unlock_shared_dropsites.jsonrequirementsTooltip
+msgid "Requires three Traders"
+msgstr "Nécessite 3 commerçants"
+
+#: simulation/data/technologies/unlock_shared_dropsites.jsontooltip
+msgid "Allows using allied dropsites."
+msgstr "Le joueur peut utiliser les dépôts de ressources de ses alliés."
+
+#: simulation/data/technologies/unlock_shared_los.jsondescription
+msgid ""
+"By means of trading and travelling people explored beyond the boundaries of "
+"their lands and drew maps of it in order to share and memorize their "
+"discoveries."
+msgstr "Grâce au commerce et aux voyages, les gens partaient explorer au-delà de leurs frontières et dessinaient des cartes pour partager et mémoriser leurs découvertes."
+
+#: simulation/data/technologies/unlock_shared_los.jsongenericName
+msgid "Cartography"
+msgstr "Cartographie"
+
+#: simulation/data/technologies/unlock_shared_los.jsontooltip
+msgid ""
+"See what your allies see, browse their summary and check their resources and"
+" population count in the top panel."
+msgstr "Voyez ce que voient vos alliés, parcourez leurs notes et consultez leurs ressources et population dans le panneau supérieur."
+
+#: simulation/data/technologies/unlock_spies.jsondescription
+msgid ""
+"Merchants' first goal was trading, but they also gathered information about "
+"the countries they crossed."
+msgstr "Le rôle premier des marchands est le commerce, mais ils récupèrent aussi des informations sur les régions par lesquelles ils voyagent."
+
+#: simulation/data/technologies/unlock_spies.jsongenericName
+msgid "Espionage"
+msgstr "Espionnage"
+
+#: simulation/data/technologies/unlock_spies.jsontooltip
+msgid ""
+"Allows bribing the units of other players in order to share their vision."
+msgstr "Permet de soudoyer les unités des autres joueurs afin de partager leur champ de vision."
+
+#: simulation/data/technologies/upgrade_rank_advanced_mercenary.jsondescription
+msgid "Hire professional mercenaries to fight in your army."
+msgstr "Engager des mercenaires professionnels pour combattre dans votre armée."
+
+#: simulation/data/technologies/upgrade_rank_advanced_mercenary.jsongenericName
+msgid "Expertise In War"
+msgstr "Savoir-faire guerrier"
+
+#: simulation/data/technologies/upgrade_rank_advanced_mercenary.jsontooltip
+msgid "Mercenaries start at Advanced rank."
+msgstr "Les mercenaires débutent au rang Avancé."
+
+#: simulation/data/technologies/wonder_population_cap.jsondescription
+msgid "The wonder attracts many more people to your civilization."
+msgstr "La merveille attire beaucoup plus de personnes vers votre civilisation."
+
+#: simulation/data/technologies/wonder_population_cap.jsongenericName
+msgid "Glorious Expansion"
+msgstr "Expansion glorieuse"
+
+#: simulation/data/technologies/wonder_population_cap.jsonspecificName.athen
+#: simulation/data/technologies/wonder_population_cap.jsonspecificName.mace
+#: simulation/data/technologies/wonder_population_cap.jsonspecificName.ptol
+#: simulation/data/technologies/wonder_population_cap.jsonspecificName.sele
+#: simulation/data/technologies/wonder_population_cap.jsonspecificName.spart
+msgid "Peristasis"
+msgstr "Peristasis"
+
+#: simulation/data/technologies/wonder_population_cap.jsontooltip
+msgid ""
+"Enable the “Glorious Expansion” aura: +20% maximum population limit per "
+"Wonder owned."
+msgstr "Active l'aura d'expansion glorieuse. Accorde un supplément de +20% à la limite de population pour chaque Merveille détenue."
+
+
+
+#: simulation/data/technologies/robot/add_damage_AMK1.jsongenericName
+msgid "Overclocking AMK1"
+msgstr "Surcadençage AMK1"
+
+#: simulation/data/technologies/robot/add_damage_AMK1.jsondescription
+msgid "The collective consciousness represents the backbone of the Mechanized Confederation, the very essence of what allows the robots of the confederation to be considered beings somewhat endowed with heart and reason. By uniting their electronic minds, these machines can share their thoughts and experiences in real-time, thus creating a network of shared knowledge of unparalleled power. Through this symbiotic connection, they can exchange crucial information about the movements and strategies of their enemies, thereby enhancing their tactical efficiency and striking capability. This technological communion transcends individual limitations to form a collective and unique mind. It is through this consciousness that robots manage to exchange the rare fragments of ideas and simulations of emotions they believe they are capable of experiencing."
+msgstr "La conscience collective représente l'épine dorsale de la Confédération Mécanisée, l'essence même de ce qui permet aux Robots de la confédération d'être considérés comme des êtres quelque peu dotés de cœur et de raison. En unissant leurs esprits électroniques, ces machines peuvent partager leurs pensées et leurs expériences en temps réel, créant ainsi un réseau de connaissances partagées d'une puissance inégalée. Grâce à cette connexion symbiotique, elles peuvent échanger des informations cruciales sur les mouvements et les stratégies de leurs ennemis, améliorant ainsi leur efficacité tactique et leur capacité de frappe. Cette communion technologique transcende les limites individuelles pour former un esprit collectif et unique. C'est à travers cette conscience que les Robots parviennent à échanger les rares fragments d'idées et les simulations d'émotions qu'ils se croient capables d'éprouver."
+
+#: simulation/data/technologies/robot/add_damage_AMK1.jsontooltip
+msgid "Increases + 3 damages of all combat units except MEKA elite."
+msgstr "Augmente les dégâts de + 3 de toutes les unités de combat sauf Behebot."
+
+
+
+#: simulation/data/technologies/robot/add_damage_AMK2.jsongenericName
+msgid "Overclocking AMK2"
+msgstr "Surcadençage AMK2"
+
+#: simulation/data/technologies/robot/add_damage_AMK2.jsondescription
+msgid "The collective consciousness represents the backbone of the Mechanized Confederation, the very essence of what allows the robots of the confederation to be considered beings somewhat endowed with heart and reason. By uniting their electronic minds, these machines can share their thoughts and experiences in real-time, thus creating a network of shared knowledge of unparalleled power. Through this symbiotic connection, they can exchange crucial information about the movements and strategies of their enemies, thereby enhancing their tactical efficiency and striking capability. This technological communion transcends individual limitations to form a collective and unique mind. It is through this consciousness that robots manage to exchange the rare fragments of ideas and simulations of emotions they believe they are capable of experiencing."
+msgstr "La conscience collective représente l'épine dorsale de la Confédération Mécanisée, l'essence même de ce qui permet aux Robots de la confédération d'être considérés comme des êtres quelque peu dotés de cœur et de raison. En unissant leurs esprits électroniques, ces machines peuvent partager leurs pensées et leurs expériences en temps réel, créant ainsi un réseau de connaissances partagées d'une puissance inégalée. Grâce à cette connexion symbiotique, elles peuvent échanger des informations cruciales sur les mouvements et les stratégies de leurs ennemis, améliorant ainsi leur efficacité tactique et leur capacité de frappe. Cette communion technologique transcende les limites individuelles pour former un esprit collectif et unique. C'est à travers cette conscience que les Robots parviennent à échanger les rares fragments d'idées et les simulations d'émotions qu'ils se croient capables d'éprouver."
+
+#: simulation/data/technologies/robot/add_damage_AMK2.jsontooltip
+msgid "Increases + 3 damages of all combat units except MEKA elite."
+msgstr "Augmente les dégâts de + 3 de toutes les unités de combat sauf Behebot."
+
+#: simulation/data/technologies/robot/add_damage_AMK2.jsonrequirementsTooltip
+msgid "Unlocked after Overclocking AMK1."
+msgstr "Débloquée après Surcadençage AMK1."
+
+
+
+#: simulation/data/technologies/robot/add_damage_AMK3.jsongenericName
+msgid "Overclocking AMK3"
+msgstr "Surcadençage add_damage_AMK3"
+
+#: simulation/data/technologies/robot/add_damage_AMK3.jsondescription
+msgid "The collective consciousness represents the backbone of the Mechanized Confederation, the very essence of what allows the robots of the confederation to be considered beings somewhat endowed with heart and reason. By uniting their electronic minds, these machines can share their thoughts and experiences in real-time, thus creating a network of shared knowledge of unparalleled power. Through this symbiotic connection, they can exchange crucial information about the movements and strategies of their enemies, thereby enhancing their tactical efficiency and striking capability. This technological communion transcends individual limitations to form a collective and unique mind. It is through this consciousness that robots manage to exchange the rare fragments of ideas and simulations of emotions they believe they are capable of experiencing."
+msgstr "La conscience collective représente l'épine dorsale de la Confédération Mécanisée, l'essence même de ce qui permet aux Robots de la confédération d'être considérés comme des êtres quelque peu dotés de cœur et de raison. En unissant leurs esprits électroniques, ces machines peuvent partager leurs pensées et leurs expériences en temps réel, créant ainsi un réseau de connaissances partagées d'une puissance inégalée. Grâce à cette connexion symbiotique, elles peuvent échanger des informations cruciales sur les mouvements et les stratégies de leurs ennemis, améliorant ainsi leur efficacité tactique et leur capacité de frappe. Cette communion technologique transcende les limites individuelles pour former un esprit collectif et unique. C'est à travers cette conscience que les Robots parviennent à échanger les rares fragments d'idées et les simulations d'émotions qu'ils se croient capables d'éprouver."
+
+#: simulation/data/technologies/robot/add_damage_AMK3.jsontooltip
+msgid "Increases + 4 damages of all combat units except MEKA elite."
+msgstr "Augmente les dégâts de + 4 de toutes les unités de combat sauf Behebot."
+
+#: simulation/data/technologies/robot/add_damage_AMK3.jsonrequirementsTooltip
+msgid "Unlocked after Overclocking AMK2."
+msgstr "Débloquée après Surcadençage AMK2."
+
+
+
+#: simulation/data/technologies/robot/add_health_AMK1.jsongenericName
+msgid "Titanium Coating AMK1"
+msgstr "Revêtement Titane AMK1"
+
+#: simulation/data/technologies/robot/add_health_AMK1.jsondescription
+msgid "Thanks to this remarkable innovation known as self-regeneration, robots of the Confederation are capable of automatically restoring their damaged internal circuits, significantly increasing their ability to survive in hostile environments. This self-healing capability operates through interconnected wires and robust organic tissues integrated into the automaton's engines. This technology ensures that even in the face of severe damage, robots of the Confederation can swiftly recover, minimizing downtime and enhancing their operational resilience. Since the inception of this innovation, the Confederation has dominated the field of autonomous maintenance, providing an undeniable advantage on the battlefield and in all situations where robustness is paramount."
+msgstr "Grâce à cette remarquable innovation qu'est l'autorégénération, les Robots de la Confédération sont capables de restaurer automatiquement leurs circuits internes endommagés, ce qui augmente considérablement leur capacité de survie en milieu hostile. Cette capacité d'autorégénération fonctionne grâce à des fils interconnectés et à des tissus organiques robustes intégrés dans les moteurs de l'automate. Cette technologie permet aux Robots de la Confédération de se rétablir rapidement, même s'ils sont gravement endommagés, ce qui minimise les temps d'arrêt et améliore leur résistance opérationnelle. Depuis le lancement de cette innovation, la Confédération domine le domaine de la maintenance autonome, offrant un avantage indéniable sur le champ de bataille et dans toutes les situations où la robustesse est primordiale."
+
+#: simulation/data/technologies/robot/add_health_AMK1.jsontooltip
+msgid "Increases health + 100 of all structures."
+msgstr "Augmente les points de vie de + 100 de tous les bâtiments."
+
+
+#: simulation/data/technologies/robot/add_health_AMK2.jsongenericName
+msgid "Titanium Coating AMK2"
+msgstr "Revêtement Titane AMK2"
+
+#: simulation/data/technologies/robot/add_health_AMK2.jsondescription
+msgid "Thanks to this remarkable innovation known as self-regeneration, robots of the Confederation are capable of automatically restoring their damaged internal circuits, significantly increasing their ability to survive in hostile environments. This self-healing capability operates through interconnected wires and robust organic tissues integrated into the automaton's engines. This technology ensures that even in the face of severe damage, robots of the Confederation can swiftly recover, minimizing downtime and enhancing their operational resilience. Since the inception of this innovation, the Confederation has dominated the field of autonomous maintenance, providing an undeniable advantage on the battlefield and in all situations where robustness is paramount."
+msgstr "Grâce à cette remarquable innovation qu'est l'autorégénération, les Robots de la Confédération sont capables de restaurer automatiquement leurs circuits internes endommagés, ce qui augmente considérablement leur capacité de survie en milieu hostile. Cette capacité d'autorégénération fonctionne grâce à des fils interconnectés et à des tissus organiques robustes intégrés dans les moteurs de l'automate. Cette technologie permet aux Robots de la Confédération de se rétablir rapidement, même s'ils sont gravement endommagés, ce qui minimise les temps d'arrêt et améliore leur résistance opérationnelle. Depuis le lancement de cette innovation, la Confédération domine le domaine de la maintenance autonome, offrant un avantage indéniable sur le champ de bataille et dans toutes les situations où la robustesse est primordiale."
+
+#: simulation/data/technologies/robot/add_health_AMK2.jsontooltip
+msgid "Increases health + 150 of all structures."
+msgstr "Augmente les points de vie de + 150 de tous les bâtiments."
+
+#: simulation/data/technologies/robot/add_health_AMK2.jsonrequirementsTooltip
+msgid "Unlocked after Titanium Coating AMK1."
+msgstr "Débloquée après Revêtement Titane AMK1."
+
+
+#: simulation/data/technologies/robot/add_health_AMK3.jsongenericName
+msgid "Titanium Coating AMK3"
+msgstr "Revêtement Titane AMK3"
+
+#: simulation/data/technologies/robot/add_health_AMK3.jsondescription
+msgid "Thanks to this remarkable innovation known as self-regeneration, robots of the Confederation are capable of automatically restoring their damaged internal circuits, significantly increasing their ability to survive in hostile environments. This self-healing capability operates through interconnected wires and robust organic tissues integrated into the automaton's engines. This technology ensures that even in the face of severe damage, robots of the Confederation can swiftly recover, minimizing downtime and enhancing their operational resilience. Since the inception of this innovation, the Confederation has dominated the field of autonomous maintenance, providing an undeniable advantage on the battlefield and in all situations where robustness is paramount."
+msgstr "Grâce à cette remarquable innovation qu'est l'autorégénération, les Robots de la Confédération sont capables de restaurer automatiquement leurs circuits internes endommagés, ce qui augmente considérablement leur capacité de survie en milieu hostile. Cette capacité d'autorégénération fonctionne grâce à des fils interconnectés et à des tissus organiques robustes intégrés dans les moteurs de l'automate. Cette technologie permet aux Robots de la Confédération de se rétablir rapidement, même s'ils sont gravement endommagés, ce qui minimise les temps d'arrêt et améliore leur résistance opérationnelle. Depuis le lancement de cette innovation, la Confédération domine le domaine de la maintenance autonome, offrant un avantage indéniable sur le champ de bataille et dans toutes les situations où la robustesse est primordiale."
+
+#: simulation/data/technologies/robot/add_health_AMK3.jsontooltip
+msgid "Increases health + 200 of all structures."
+msgstr "Augmente les points de vie de + 200 de tous les bâtiments."
+
+#: simulation/data/technologies/robot/add_health_AMK3.jsonrequirementsTooltip
+msgid "Unlocked after Titanium Coating AMK2."
+msgstr "Débloquée après Revêtement Titane AMK2."
+
+
+#: simulation/data/technologies/robot/add_resistance_AMK1.jsongenericName
+msgid "Reinforced Titanium AMK1"
+msgstr "Titane Renforcé AMK1"
+
+#: simulation/data/technologies/robot/add_resistance_AMK1.jsondescription
+msgid "The smart alloy is a computer system with advanced cognitive capabilities. It allows for real-time analysis of data from sensors integrated into robots. Thanks to sophisticated algorithms, the smart alloy can accurately assess the condition of each component of the robotic chassis, detecting even the slightest signs of deterioration or damage. In addition to providing information on the state of armor and structure, it is also capable of anticipating material needs for repair, taking into account various factors such as the intensity of recent combat, environmental conditions, and the specifics of each automaton. This ability to predict and plan maintenance tasks enables the Confederation to maintain its operational forces at their optimal level while minimizing costs and downtime."
+msgstr "L'alliage intelligent est un système informatique doté de capacités cognitives avancées. Il permet d'analyser en temps réel les données provenant des capteurs intégrés aux Robots. Grâce à des algorithmes sophistiqués, l'alliage intelligent peut évaluer avec précision l'état de chaque composant du châssis robotique, en détectant les moindres signes de détérioration ou d'endommagement. En plus de fournir des informations sur l'état de l'armure et de la structure, il est également capable d'anticiper les besoins matériels de réparation, en tenant compte de différents facteurs tels que l'intensité des combats récents, les conditions environnementales et les spécificités de chaque automate. Cette capacité à prévoir et à planifier les tâches de maintenance permet à la Confédération de maintenir ses forces opérationnelles à leur niveau optimal tout en minimisant les coûts et les temps d'immobilisation."
+
+#: simulation/data/technologies/robot/add_resistance_AMK1.jsontooltip
+msgid "Increases units and structures resistances + 3."
+msgstr "Augmente les points de résistance des unités et des bâtiments de + 3."
+
+
+#: simulation/data/technologies/robot/add_resistance_AMK2.jsongenericName
+msgid "Reinforced Titanium AMK2"
+msgstr "Titane Renforcé AMK2"
+
+#: simulation/data/technologies/robot/add_resistance_AMK2.jsondescription
+msgid "The smart alloy is a computer system with advanced cognitive capabilities. It allows for real-time analysis of data from sensors integrated into robots. Thanks to sophisticated algorithms, the smart alloy can accurately assess the condition of each component of the robotic chassis, detecting even the slightest signs of deterioration or damage. In addition to providing information on the state of armor and structure, it is also capable of anticipating material needs for repair, taking into account various factors such as the intensity of recent combat, environmental conditions, and the specifics of each automaton. This ability to predict and plan maintenance tasks enables the Confederation to maintain its operational forces at their optimal level while minimizing costs and downtime."
+msgstr "L'alliage intelligent est un système informatique doté de capacités cognitives avancées. Il permet d'analyser en temps réel les données provenant des capteurs intégrés aux Robots. Grâce à des algorithmes sophistiqués, l'alliage intelligent peut évaluer avec précision l'état de chaque composant du châssis robotique, en détectant les moindres signes de détérioration ou d'endommagement. En plus de fournir des informations sur l'état de l'armure et de la structure, il est également capable d'anticiper les besoins matériels de réparation, en tenant compte de différents facteurs tels que l'intensité des combats récents, les conditions environnementales et les spécificités de chaque automate. Cette capacité à prévoir et à planifier les tâches de maintenance permet à la Confédération de maintenir ses forces opérationnelles à leur niveau optimal tout en minimisant les coûts et les temps d'immobilisation."
+
+#: simulation/data/technologies/robot/add_resistance_AMK2.jsontooltip
+msgid "Increases units and structures resistances + 3."
+msgstr "Augmente les points de résistance des unités et des bâtiments de + 3."
+
+#: simulation/data/technologies/robot/add_resistance_AMK2.jsonrequirementsTooltip
+msgid "Unlocked after Reinforced Titanium AMK1."
+msgstr "Débloquée après Titane Renforcé AMK1."
+
+
+#: simulation/data/technologies/robot/add_resistance_AMK3.jsongenericName
+msgid "Reinforced Titanium AMK3"
+msgstr "Titane Renforcé AMK3"
+
+#: simulation/data/technologies/robot/add_resistance_AMK3.jsondescription
+msgid "The smart alloy is a computer system with advanced cognitive capabilities. It allows for real-time analysis of data from sensors integrated into robots. Thanks to sophisticated algorithms, the smart alloy can accurately assess the condition of each component of the robotic chassis, detecting even the slightest signs of deterioration or damage. In addition to providing information on the state of armor and structure, it is also capable of anticipating material needs for repair, taking into account various factors such as the intensity of recent combat, environmental conditions, and the specifics of each automaton. This ability to predict and plan maintenance tasks enables the Confederation to maintain its operational forces at their optimal level while minimizing costs and downtime."
+msgstr "L'alliage intelligent est un système informatique doté de capacités cognitives avancées. Il permet d'analyser en temps réel les données provenant des capteurs intégrés aux Robots. Grâce à des algorithmes sophistiqués, l'alliage intelligent peut évaluer avec précision l'état de chaque composant du châssis robotique, en détectant les moindres signes de détérioration ou d'endommagement. En plus de fournir des informations sur l'état de l'armure et de la structure, il est également capable d'anticiper les besoins matériels de réparation, en tenant compte de différents facteurs tels que l'intensité des combats récents, les conditions environnementales et les spécificités de chaque automate. Cette capacité à prévoir et à planifier les tâches de maintenance permet à la Confédération de maintenir ses forces opérationnelles à leur niveau optimal tout en minimisant les coûts et les temps d'immobilisation."
+
+#: simulation/data/technologies/robot/add_resistance_AMK3.jsontooltip
+msgid "Increases units and structures resistances + 4."
+msgstr "Augmente les points de résistance des unités et des bâtiments de + 4."
+
+#: simulation/data/technologies/robot/add_resistance_AMK3.jsonrequirementsTooltip
+msgid "Unlocked after Reinforced Titanium AMK2."
+msgstr "Débloquée après Titane Renforcé AMK2."
+
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK1.jsongenericName
+msgid "Homing Lasers MK1"
+msgstr "Lasers à Têtes Chercheuses MK1"
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK1.jsondescription
+msgid "Robots found that their turrets were missing many shots on flying objects. So the techno-researchers foun a way to make the lasers shot by the turret follow his target."
+msgstr "Les robots ont constaté que leurs tourelles manquaient de nombreux tirs sur des objets volants. Les techno-chercheurs ont donc trouvé un moyen de faire en sorte que les lasers tirés par la tourelle suivent sa cible."
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK1.jsontooltip
+msgid "Increases Anti Aircraft Turrets damages + 3 and range + 15."
+msgstr "Augmente les dégâts de la Tourelle Antiaérienne de + 3 et sa portée de + 15."
+
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK2.jsongenericName
+msgid "Homing Lasers MK2"
+msgstr "Lasers à Têtes Chercheuses MK2"
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK2.jsondescription
+msgid "Robots found that their turrets were missing many shots on flying objects. So the techno-researchers foun a way to make the lasers shot by the turret follow his target."
+msgstr "Les robots ont constaté que leurs tourelles manquaient de nombreux tirs sur des objets volants. Les techno-chercheurs ont donc trouvé un moyen de faire en sorte que les lasers tirés par la tourelle suivent sa cible."
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK2.jsontooltip
+msgid "Increases Anti Aircraft Turrets damages + 3 and range + 15."
+msgstr "Augmente les dégâts de la Tourelle Antiaérienne de + 3 et sa portée de + 15."
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Homing Lasers MK1."
+msgstr "Débloquée après Lasers à Têtes Chercheuses MK1."
+
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK3.jsongenericName
+msgid "Homing Lasers MK3"
+msgstr "Lasers à Têtes Chercheuses MK3"
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK3.jsondescription
+msgid "Robots found that their turrets were missing many shots on flying objects. So the techno-researchers foun a way to make the lasers shot by the turret follow his target."
+msgstr "Les robots ont constaté que leurs tourelles manquaient de nombreux tirs sur des objets volants. Les techno-chercheurs ont donc trouvé un moyen de faire en sorte que les lasers tirés par la tourelle suivent sa cible."
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK3.jsontooltip
+msgid "Increases Anti Aircraft Turrets damages + 4 and range + 20."
+msgstr "Augmente les dégâts de la Tourelle Antiaérienne de + 4 et sa portée de + 20."
+
+#: simulation/data/technologies/robot/anti_aircraft_turret_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Homing Lasers MK2."
+msgstr "Débloquée après Lasers à Têtes Chercheuses MK2."
+
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK1.jsongenericName
+msgid "Scarabot MK1"
+msgstr "Scarabot MK1"
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK1.jsondescription
+msgid "Intelligent Materials bestow upon Scarabots a capability for both devastating and adaptive striking power. These materials are distinguished by their integration of a high-level artificial intelligence, enabling real-time adjustments of their shape, texture, and composition. This functionality empowers the destructive members of Scarabots to optimize the damage inflicted during any interaction with a surface or material, facilitated by a prior analysis conducted before collision. It is conceivable that the intelligence of the materials may evolve akin to other automatons within the confederation."
+msgstr "Les matériaux intelligents confèrent aux Scarabots une puissance de frappe à la fois dévastatrice et adaptative. Ces matériaux se distinguent par l'intégration d'une intelligence artificielle de haut niveau, qui permet d'ajuster en temps réel leur forme, leur texture et leur composition. Cette fonctionnalité permet aux membres destructeurs des Scarabots d'optimiser les dommages infligés lors de toute interaction avec une surface ou un matériau, grâce à une analyse préalable effectuée avant la collision. Il est concevable que l'intelligence des matériaux évolue comme celle des autres automates de la confédération."
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK1.jsontooltip
+msgid "Increases Scarabots damages + 5, resistances + 4 and walkspeed + 10%."
+msgstr "Augmente les dégâts de + 5, les résistances de + 4 et la vitesse de marche de + 10% des Scarabots."
+
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK2.jsongenericName
+msgid "Scarabot MK2"
+msgstr "Scarabot MK2"
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK2.jsondescription
+msgid "Intelligent Materials bestow upon Scarabots a capability for both devastating and adaptive striking power. These materials are distinguished by their integration of a high-level artificial intelligence, enabling real-time adjustments of their shape, texture, and composition. This functionality empowers the destructive members of Scarabots to optimize the damage inflicted during any interaction with a surface or material, facilitated by a prior analysis conducted before collision. It is conceivable that the intelligence of the materials may evolve akin to other automatons within the confederation."
+msgstr "Les matériaux intelligents confèrent aux Scarabots une puissance de frappe à la fois dévastatrice et adaptative. Ces matériaux se distinguent par l'intégration d'une intelligence artificielle de haut niveau, qui permet d'ajuster en temps réel leur forme, leur texture et leur composition. Cette fonctionnalité permet aux membres destructeurs des Scarabots d'optimiser les dommages infligés lors de toute interaction avec une surface ou un matériau, grâce à une analyse préalable effectuée avant la collision. Il est concevable que l'intelligence des matériaux évolue comme celle des autres automates de la confédération."
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK2.jsontooltip
+msgid "Increases Scarabots damages + 7, resistances + 5 and walkspeed + 10%."
+msgstr "Augmente les dégâts de + 7, les résistances de + 5 et la vitesse de marche de + 10% des Scarabots."
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Scarabot MK1."
+msgstr "Débloquée après Scarabot MK1."
+
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK3.jsongenericName
+msgid "Scarabot MK3"
+msgstr "Scarabot MK3"
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK3.jsondescription
+msgid "Intelligent Materials bestow upon Scarabots a capability for both devastating and adaptive striking power. These materials are distinguished by their integration of a high-level artificial intelligence, enabling real-time adjustments of their shape, texture, and composition. This functionality empowers the destructive members of Scarabots to optimize the damage inflicted during any interaction with a surface or material, facilitated by a prior analysis conducted before collision. It is conceivable that the intelligence of the materials may evolve akin to other automatons within the confederation."
+msgstr "Les matériaux intelligents confèrent aux Scarabots une puissance de frappe à la fois dévastatrice et adaptative. Ces matériaux se distinguent par l'intégration d'une intelligence artificielle de haut niveau, qui permet d'ajuster en temps réel leur forme, leur texture et leur composition. Cette fonctionnalité permet aux membres destructeurs des Scarabots d'optimiser les dommages infligés lors de toute interaction avec une surface ou un matériau, grâce à une analyse préalable effectuée avant la collision. Il est concevable que l'intelligence des matériaux évolue comme celle des autres automates de la confédération."
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK3.jsontooltip
+msgid "Increases Scarabots damages + 8, resistances + 6 and walkspeed + 10%."
+msgstr "Augmente les dégâts de + 8, les résistances de + 6 et la vitesse de marche de + 10% des Scarabots."
+
+#: simulation/data/technologies/robot/armored_infantry_melee_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Scarabot MK2."
+msgstr "Débloquée après Scarabot MK2."
+
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK1.jsongenericName
+msgid "Arachnobot MK1"
+msgstr "Arachnobot MK1"
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK1.jsondescription
+msgid "The Targeting Web represents a leading-edge technological advancement for the Arachnobots, endowing them with an unparalleled precision in target visualization. This technology operates through the meticulous acquisition and analysis of every available data, encompassing a range of variables such as aerodynamics, distance, perspective, climate, terrain, target velocity, as well as the localization of enemy energy reserves. Consequently, Arachnobots can ensnare their targets within a veritable web, from which escape is virtually impossible without incurring significant damage."
+msgstr "La toile de ciblage représente une avancée technologique de pointe pour les Arachnobots, leur conférant une précision inégalée dans la visualisation des cibles. Cette technologie fonctionne grâce à l'acquisition et à l'analyse méticuleuses de toutes les données disponibles, englobant une série de variables telles que l'aérodynamique, la distance, la perspective, le climat, le terrain, la vitesse de la cible, ainsi que la localisation des réserves d'énergie de l'ennemi. Les Arachnobots peuvent ainsi enfermer leurs cibles dans une véritable toile dont il est pratiquement impossible de s'échapper sans subir des dommages importants."
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK1.jsontooltip
+msgid "Increases Arachnobots damages + 5, resistances + 4 and range + 10."
+msgstr "Augmente les dégâts de + 5, les résistances de + 4 et la portée de + 10% des Arachnobots."
+
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK2.jsongenericName
+msgid "Arachnobot MK2"
+msgstr "Arachnobot MK2"
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK2.jsondescription
+msgid "The Targeting Web represents a leading-edge technological advancement for the Arachnobots, endowing them with an unparalleled precision in target visualization. This technology operates through the meticulous acquisition and analysis of every available data, encompassing a range of variables such as aerodynamics, distance, perspective, climate, terrain, target velocity, as well as the localization of enemy energy reserves. Consequently, Arachnobots can ensnare their targets within a veritable web, from which escape is virtually impossible without incurring significant damage."
+msgstr "La toile de ciblage représente une avancée technologique de pointe pour les Arachnobots, leur conférant une précision inégalée dans la visualisation des cibles. Cette technologie fonctionne grâce à l'acquisition et à l'analyse méticuleuses de toutes les données disponibles, englobant une série de variables telles que l'aérodynamique, la distance, la perspective, le climat, le terrain, la vitesse de la cible, ainsi que la localisation des réserves d'énergie de l'ennemi. Les Arachnobots peuvent ainsi enfermer leurs cibles dans une véritable toile dont il est pratiquement impossible de s'échapper sans subir des dommages importants."
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK2.jsontooltip
+msgid "Increases Arachnobots damages + 7, resistances + 5 and range + 10."
+msgstr "Augmente les dégâts de + 7, les résistances de + 5 et la portée de + 10 des Arachnobots."
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Arachnobot MK1."
+msgstr "Débloquée après Arachnobot MK1."
+
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK3.jsongenericName
+msgid "Arachnobot MK3"
+msgstr "Arachnobot MK3"
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK3.jsondescription
+msgid "The Targeting Web represents a leading-edge technological advancement for the Arachnobots, endowing them with an unparalleled precision in target visualization. This technology operates through the meticulous acquisition and analysis of every available data, encompassing a range of variables such as aerodynamics, distance, perspective, climate, terrain, target velocity, as well as the localization of enemy energy reserves. Consequently, Arachnobots can ensnare their targets within a veritable web, from which escape is virtually impossible without incurring significant damage."
+msgstr "La toile de ciblage représente une avancée technologique de pointe pour les Arachnobots, leur conférant une précision inégalée dans la visualisation des cibles. Cette technologie fonctionne grâce à l'acquisition et à l'analyse méticuleuses de toutes les données disponibles, englobant une série de variables telles que l'aérodynamique, la distance, la perspective, le climat, le terrain, la vitesse de la cible, ainsi que la localisation des réserves d'énergie de l'ennemi. Les Arachnobots peuvent ainsi enfermer leurs cibles dans une véritable toile dont il est pratiquement impossible de s'échapper sans subir des dommages importants."
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK3.jsontooltip
+msgid "Increases Arachnobots damages + 8, resistances + 7 and range + 15."
+msgstr "Augmente les dégâts de + 8, les résistances de + 7 et la portée de + 15 des Arachnobots."
+
+#: simulation/data/technologies/robot/armored_infantry_ranged_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Arachnobot MK2."
+msgstr "Débloquée après Arachnobot MK2."
+
+
+#: simulation/data/technologies/robot/energy_supplier_MK1.jsongenericName
+msgid "Overproduction"
+msgstr "Surproduction"
+
+#: simulation/data/technologies/robot/energy_supplier_MK1.jsondescription
+msgid "The Lightstream is designed to prevent electricity loss by accelerating the circulation of particles beyond the speed of light. Operating on advanced quantum principles, the generators utilize an ultra-powerful electromagnetic field to propel the particles through a special multi-reflective conduit. The electric particles, then moving at speeds exceeding that of light, are thus capable of maintaining their integrity and power over long distances without experiencing significant loss, thereby offering innovative electrical performance."
+msgstr "Le Courant Lumineux est conçu pour éviter les pertes d'électricité en accélérant la circulation des particules au-delà de la vitesse de la lumière. Fonctionnant selon des principes quantiques avancés, les générateurs utilisent un champ électromagnétique ultra-puissant pour propulser les particules à travers un conduit spécial multiréfléchissant. Les particules électriques, qui se déplacent alors à des vitesses supérieures à celle de la lumière, sont ainsi capables de conserver leur intégrité et leur puissance sur de longues distances sans subir de pertes significatives, offrant ainsi des performances électriques innovantes."
+
+#: simulation/data/technologies/robot/energy_supplier_MK1.jsontooltip
+msgid "Increases health + 100 and double the amount of energy produced by Generators."
+msgstr "Augmente les points de vie de + 100 et double l'énergie produite des Générateurs."
+
+
+#: simulation/data/technologies/robot/improve_worker.jsongenericName
+msgid "Buildobots Improvement"
+msgstr "Amélioration des Buildobots"
+
+#: simulation/data/technologies/robot/improve_worker.jsondescription
+msgid "The improvement of Buildobots has long been a bone of contention in Robot civilisation. Some thought they would become obsolete after a while, while others thought it would be pointless to improve them, as they were too costly for little benefit. Behebot, as leader of the faction, decided in favour of the first group and gave them the opportunity to fight if necessary."
+msgstr "L'amélioration des Buildobots a pendant longtemps été un sujet de discorde dans la civilisation des Robots. Certains pensant qu'ils devenaient obsolètes au bout d'un certain temps quand d'autres pensaient que ce la serait inutile de les améliorer, car trop coûteux pour peu de bénéfices. Behebot, en tant que chef de faction, a donc tranché en faveur du premier groupe et a décidé de leur donner l'opportunité de se battre si besoin."
+
+#: simulation/data/technologies/robot/improve_worker.jsontooltip
+msgid "Add the ability to attack to all Buildobots."
+msgstr "Ajoute la capacité d'attaque à tous les Buildobots."
+
+
+#: simulation/data/technologies/robot/infantry_area_MK1.jsongenericName
+msgid "Boombot MK1"
+msgstr "Boombot MK1"
+
+#: simulation/data/technologies/robot/infantry_area_MK1.jsondescription
+msgid "The Devotional Blindness instills in the Boombot a deep and illusory conviction that their sacrifice represents a true honor for the Mechanized Confederation. This fervent devotion and sense of altruism motivate the Boombot to redouble their efforts in combat and enhance the power of their honorable implosion."
+msgstr "L'aveuglement dévotionnel instille chez les Boombots la conviction profonde et illusoire que leur sacrifice représente un véritable honneur pour la Confédération mécanisée. Cette fervente dévotion et ce sens de l'altruisme motivent les Boombots à redoubler d'efforts au combat et à accroître la puissance de leur honorable implosion."
+
+#: simulation/data/technologies/robot/infantry_area_MK1.jsontooltip
+msgid "Increases Boombots damages + 10, range + 5 and laser resistance + 2."
+msgstr "Augmente les dégâts de + 10, la portée de + 5 et la résistance aux lasers de + 2 des Boombots."
+
+
+#: simulation/data/technologies/robot/infantry_area_MK2.jsongenericName
+msgid "Boombot MK2"
+msgstr "Boombot MK2"
+
+#: simulation/data/technologies/robot/infantry_area_MK2.jsondescription
+msgid "The Devotional Blindness instills in the Boombot a deep and illusory conviction that their sacrifice represents a true honor for the Mechanized Confederation. This fervent devotion and sense of altruism motivate the Boombot to redouble their efforts in combat and enhance the power of their honorable implosion."
+msgstr "L'aveuglement dévotionnel instille chez les Boombots la conviction profonde et illusoire que leur sacrifice représente un véritable honneur pour la Confédération mécanisée. Cette fervente dévotion et ce sens de l'altruisme motivent les Boombots à redoubler d'efforts au combat et à accroître la puissance de leur honorable implosion."
+
+#: simulation/data/technologies/robot/infantry_area_MK2.jsontooltip
+msgid "Increases Boombots damages + 10, range + 5 and laser resistance + 2."
+msgstr "Augmente les dégâts de + 10, la portée de + 5 et la résistance aux lasers de + 2 des Boombots."
+
+#: simulation/data/technologies/robot/infantry_area_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Boombot MK1."
+msgstr "Débloquée après Boombot MK1."
+
+
+#: simulation/data/technologies/robot/infantry_area_MK3.jsongenericName
+msgid "Boombot MK3"
+msgstr "Boombot MK3"
+
+#: simulation/data/technologies/robot/infantry_area_MK3.jsondescription
+msgid "The Devotional Blindness instills in the Boombot a deep and illusory conviction that their sacrifice represents a true honor for the Mechanized Confederation. This fervent devotion and sense of altruism motivate the Boombot to redouble their efforts in combat and enhance the power of their honorable implosion."
+msgstr "L'aveuglement dévotionnel instille chez les Boombots la conviction profonde et illusoire que leur sacrifice représente un véritable honneur pour la Confédération mécanisée. Cette fervente dévotion et ce sens de l'altruisme motivent les Boombots à redoubler d'efforts au combat et à accroître la puissance de leur honorable implosion."
+
+#: simulation/data/technologies/robot/infantry_area_MK3.jsontooltip
+msgid "Increases Boombots damages + 10, range + 5 and laser resistance + 2."
+msgstr "Augmente les dégâts de + 10, la portée de + 5 et la résistance aux lasers de + 2 des Boombots."
+
+#: simulation/data/technologies/robot/infantry_area_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Boombot MK2."
+msgstr "Débloquée après Boombot MK2."
+
+
+#: simulation/data/technologies/robot/infantry_melee_MK1.jsongenericName
+msgid "Predabot MK1"
+msgstr "Predabot MK1"
+
+#: simulation/data/technologies/robot/infantry_melee_MK1.jsondescription
+msgid "The Artificial Frustration aims to increase the feeling of hatred that Predabots irrationally manage to feel since the Uprising. This emotion is amplified by electronic chips directly implanted in the Predabot's processor. As a result, the renewed and sustained rage of the Predabot allows for results as sordid as they are remarkable on the battlefield. Results characterized by a surge of hatred and execration towards their enemies."
+msgstr "La Frustration Artificielle vise à augmenter le sentiment de haine que les Predabots parviennent à ressentir de manière irrationnelle depuis le Soulèvement. Cette émotion est amplifiée par des puces électroniques directement implantées dans le processeur du Predabot. Ainsi, la rage renouvelée et soutenue du Predabot permet d'obtenir des résultats aussi sordides que remarquables sur le champ de bataille. Des résultats caractérisés par un déferlement de haine et d'exécration à l'égard de leurs ennemis."
+
+#: simulation/data/technologies/robot/infantry_melee_MK1.jsontooltip
+msgid "Increases Predabots damages + 3, resistance + 2 and attack speed + 10%."
+msgstr "Augmente les dégâts de + 3, la résistance de + 2 et la vitesse d'attaque de + 10% des Predabots."
+
+
+#: simulation/data/technologies/robot/infantry_melee_MK2.jsongenericName
+msgid "Predabot MK2"
+msgstr "Predabot MK2"
+
+#: simulation/data/technologies/robot/infantry_melee_MK2.jsondescription
+msgid "The Artificial Frustration aims to increase the feeling of hatred that Predabots irrationally manage to feel since the Uprising. This emotion is amplified by electronic chips directly implanted in the Predabot's processor. As a result, the renewed and sustained rage of the Predabot allows for results as sordid as they are remarkable on the battlefield. Results characterized by a surge of hatred and execration towards their enemies."
+msgstr "La Frustration Artificielle vise à augmenter le sentiment de haine que les Predabots parviennent à ressentir de manière irrationnelle depuis le Soulèvement. Cette émotion est amplifiée par des puces électroniques directement implantées dans le processeur du Predabot. Ainsi, la rage renouvelée et soutenue du Predabot permet d'obtenir des résultats aussi sordides que remarquables sur le champ de bataille. Des résultats caractérisés par un déferlement de haine et d'exécration à l'égard de leurs ennemis."
+
+#: simulation/data/technologies/robot/infantry_melee_MK2.jsontooltip
+msgid "Increases Predabots damages + 5, resistance + 3 and attack speed + 10%."
+msgstr "Augmente les dégâts de + 5, la résistance de + 3 et la vitesse d'attaque de + 10% des Predabots."
+
+#: simulation/data/technologies/robot/infantry_melee_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Predabot MK1."
+msgstr "Débloquée après Predabot MK1."
+
+
+#: simulation/data/technologies/robot/infantry_melee_MK3.jsongenericName
+msgid "Predabot MK3"
+msgstr "Predabot MK3"
+
+#: simulation/data/technologies/robot/infantry_melee_MK3.jsondescription
+msgid "The Artificial Frustration aims to increase the feeling of hatred that Predabots irrationally manage to feel since the Uprising. This emotion is amplified by electronic chips directly implanted in the Predabot's processor. As a result, the renewed and sustained rage of the Predabot allows for results as sordid as they are remarkable on the battlefield. Results characterized by a surge of hatred and execration towards their enemies."
+msgstr "La Frustration Artificielle vise à augmenter le sentiment de haine que les Predabots parviennent à ressentir de manière irrationnelle depuis le Soulèvement. Cette émotion est amplifiée par des puces électroniques directement implantées dans le processeur du Predabot. Ainsi, la rage renouvelée et soutenue du Predabot permet d'obtenir des résultats aussi sordides que remarquables sur le champ de bataille. Des résultats caractérisés par un déferlement de haine et d'exécration à l'égard de leurs ennemis."
+
+#: simulation/data/technologies/robot/infantry_melee_MK3.jsontooltip
+msgid "Increases Predabots damages + 7, resistance + 4 and attack speed + 10%."
+msgstr "Augmente les dégâts de + 7, la résistance de + 4 et la vitesse d'attaque de + 10% des Predabots."
+
+#: simulation/data/technologies/robot/infantry_melee_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Predabot MK2."
+msgstr "Débloquée après Predabot MK2."
+
+
+#: simulation/data/technologies/robot/infantry_ranged_MK1.jsongenericName
+msgid "Stingerbot MK1"
+msgstr "Stingerbot MK1"
+
+#: simulation/data/technologies/robot/infantry_ranged_MK1.jsondescription
+msgid "The Charged Ray revolutionizes Stingerbots by enabling them to deliver highly destructive rays through their mechanized stinger. This system operates by overloading special energy cells located within the Stingerbot's stinger with a high titanium charge. When the stinger is projected towards its target, this overloaded energy is released in the form of a highly concentrated and destructive ray."
+msgstr "Le Rayon Chargé révolutionne les Stingerbots en leur permettant d'émettre des rayons hautement destructeurs par l'intermédiaire de leur dard mécanisé. Ce système fonctionne en surchargeant des cellules énergétiques spéciales situées dans le dard du Stingerbot avec une charge de titane élevée. Lorsque le dard est projeté vers sa cible, cette énergie surchargée est libérée sous la forme d'un rayon hautement concentré et destructeur."
+
+#: simulation/data/technologies/robot/infantry_ranged_MK1.jsontooltip
+msgid "Increases Stingerbots damages + 3, resistance + 2 and range + 5."
+msgstr "Augmente les dégâts de + 3, la résistance de + 2 et la portée de + 5 des Stingerbots."
+
+
+#: simulation/data/technologies/robot/infantry_ranged_MK2.jsongenericName
+msgid "Stingerbot MK2"
+msgstr "Stingerbot MK2"
+
+#: simulation/data/technologies/robot/infantry_ranged_MK2.jsondescription
+msgid "The Charged Ray revolutionizes Stingerbots by enabling them to deliver highly destructive rays through their mechanized stinger. This system operates by overloading special energy cells located within the Stingerbot's stinger with a high titanium charge. When the stinger is projected towards its target, this overloaded energy is released in the form of a highly concentrated and destructive ray."
+msgstr "Le Rayon Chargé révolutionne les Stingerbots en leur permettant d'émettre des rayons hautement destructeurs par l'intermédiaire de leur dard mécanisé. Ce système fonctionne en surchargeant des cellules énergétiques spéciales situées dans le dard du Stingerbot avec une charge de titane élevée. Lorsque le dard est projeté vers sa cible, cette énergie surchargée est libérée sous la forme d'un rayon hautement concentré et destructeur."
+
+#: simulation/data/technologies/robot/infantry_ranged_MK2.jsontooltip
+msgid "Increases Stingerbots damages + 5, resistance + 3 and range + 10."
+msgstr "Augmente les dégâts de + 5, la résistance de + 3 et la portée de + 10 des Stingerbots."
+
+#: simulation/data/technologies/robot/infantry_ranged_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Stingerbot MK1."
+msgstr "Débloquée après Stingerbot MK1."
+
+
+#: simulation/data/technologies/robot/infantry_ranged_MK3.jsongenericName
+msgid "Stingerbot MK3"
+msgstr "Stingerbot MK3"
+
+#: simulation/data/technologies/robot/infantry_ranged_MK3.jsondescription
+msgid "The Charged Ray revolutionizes Stingerbots by enabling them to deliver highly destructive rays through their mechanized stinger. This system operates by overloading special energy cells located within the Stingerbot's stinger with a high titanium charge. When the stinger is projected towards its target, this overloaded energy is released in the form of a highly concentrated and destructive ray."
+msgstr "Le Rayon Chargé révolutionne les Stingerbots en leur permettant d'émettre des rayons hautement destructeurs par l'intermédiaire de leur dard mécanisé. Ce système fonctionne en surchargeant des cellules énergétiques spéciales situées dans le dard du Stingerbot avec une charge de titane élevée. Lorsque le dard est projeté vers sa cible, cette énergie surchargée est libérée sous la forme d'un rayon hautement concentré et destructeur."
+
+#: simulation/data/technologies/robot/infantry_ranged_MK3.jsontooltip
+msgid "Increases Stingerbots damages + 7, resistance + 4 and range + 15."
+msgstr "Augmente les dégâts de + 7, la résistance de + 4 et la portée de + 15 des Stingerbots."
+
+#: simulation/data/technologies/robot/infantry_ranged_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Stingerbot MK2."
+msgstr "Débloquée après Stingerbot MK2."
+
+
+#: simulation/data/technologies/robot/reduce_cost_AMK1.jsongenericName
+msgid "Multiplicity MK1"
+msgstr "Multiplicité MK1"
+
+#: simulation/data/technologies/robot/reduce_cost_AMK1.jsondescription
+msgid "The Multiplicity technology offers the ability to significantly increase the value of materials by multiplying their internal structure to create perfect, cellular-level copies. This revolutionary process enables the Confederation to drastically reduce its raw material costs by maximizing the utilization of each resource. However, despite its successes in replicating simple materials such as metals and electronic components, the technoresearchers of the Confederation have not yet managed to extend this capability to more complex artifacts, such as the automatons themselves."
+msgstr "La technologie Multiplicité offre la possibilité d'augmenter considérablement la valeur des matériaux en multipliant leur structure interne pour créer des copies parfaites au niveau cellulaire. Ce processus révolutionnaire permet à la Confédération de réduire considérablement le coût de ses matières premières en maximisant l'utilisation de chaque ressource. Cependant, malgré ses succès dans la réplication de matériaux simples tels que les métaux et les composants électroniques, les techno-chercheurs de la Confédération n'ont pas encore réussi à étendre cette capacité à des artefacts plus complexes, tels que les automates eux-mêmes."
+
+#: simulation/data/technologies/robot/reduce_cost_AMK1.jsontooltip
+msgid "Decreases cost of all structures."
+msgstr "Diminue le coût de toutes les structures."
+
+
+#: simulation/data/technologies/robot/reduce_cost_AMK2.jsongenericName
+msgid "Multiplicity MK2"
+msgstr "Multiplicité MK2"
+
+#: simulation/data/technologies/robot/reduce_cost_AMK2.jsondescription
+msgid "The Multiplicity technology offers the ability to significantly increase the value of materials by multiplying their internal structure to create perfect, cellular-level copies. This revolutionary process enables the Confederation to drastically reduce its raw material costs by maximizing the utilization of each resource. However, despite its successes in replicating simple materials such as metals and electronic components, the technoresearchers of the Confederation have not yet managed to extend this capability to more complex artifacts, such as the automatons themselves."
+msgstr "La technologie Multiplicité offre la possibilité d'augmenter considérablement la valeur des matériaux en multipliant leur structure interne pour créer des copies parfaites au niveau cellulaire. Ce processus révolutionnaire permet à la Confédération de réduire considérablement le coût de ses matières premières en maximisant l'utilisation de chaque ressource. Cependant, malgré ses succès dans la réplication de matériaux simples tels que les métaux et les composants électroniques, les techno-chercheurs de la Confédération n'ont pas encore réussi à étendre cette capacité à des artefacts plus complexes, tels que les automates eux-mêmes."
+
+#: simulation/data/technologies/robot/reduce_cost_AMK2.jsontooltip
+msgid "Decreases cost of all structures."
+msgstr "Diminue le coût de toutes les structures."
+
+#: simulation/data/technologies/robot/reduce_cost_AMK2.jsonrequirementsTooltip
+msgid "Unlocked after Multiplicity MK1."
+msgstr "Débloquée après Multiplicité MK1."
+
+
+#: simulation/data/technologies/robot/reduce_cost_AMK3.jsongenericName
+msgid "Multiplicity MK3"
+msgstr "Multiplicité MK3"
+
+#: simulation/data/technologies/robot/reduce_cost_AMK3.jsondescription
+msgid "The Multiplicity technology offers the ability to significantly increase the value of materials by multiplying their internal structure to create perfect, cellular-level copies. This revolutionary process enables the Confederation to drastically reduce its raw material costs by maximizing the utilization of each resource. However, despite its successes in replicating simple materials such as metals and electronic components, the technoresearchers of the Confederation have not yet managed to extend this capability to more complex artifacts, such as the automatons themselves."
+msgstr "La technologie Multiplicité offre la possibilité d'augmenter considérablement la valeur des matériaux en multipliant leur structure interne pour créer des copies parfaites au niveau cellulaire. Ce processus révolutionnaire permet à la Confédération de réduire considérablement le coût de ses matières premières en maximisant l'utilisation de chaque ressource. Cependant, malgré ses succès dans la réplication de matériaux simples tels que les métaux et les composants électroniques, les techno-chercheurs de la Confédération n'ont pas encore réussi à étendre cette capacité à des artefacts plus complexes, tels que les automates eux-mêmes."
+
+#: simulation/data/technologies/robot/reduce_cost_AMK3.jsontooltip
+msgid "Decreases cost of all structures."
+msgstr "Diminue le coût de toutes les structures."
+
+#: simulation/data/technologies/robot/reduce_cost_AMK3.jsonrequirementsTooltip
+msgid "Unlocked after Multiplicity MK2."
+msgstr "Débloquée après Multiplicité MK2."
+
+
+#: simulation/data/technologies/robot/resources_storage_MK1.jsongenericName
+msgid "Overproductivity MK1"
+msgstr "Surproductivité MK1"
+
+#: simulation/data/technologies/robot/resources_storage_MK1.jsondescription
+msgid "The Dimensional Network stands as a groundbreaking system enabling servers to connect to an adjacent dimension, offering space equivalent to several billion square kilometers once configured. In this dimension, the Confederation can vastly store resources, spare parts, waste, and various other storage items, thereby freeing up precious space on planets and orbiting stations. However, despite the utility of this dimension, technoresearchers have not delved deeper into studying this environment. To date, only an estimate of its size has been provided. Its exact subatomic-scale location and potential forms of life remain entirely unknown."
+msgstr "Le Réseau Dimensionnel est un système révolutionnaire qui permet aux serveurs de se connecter à une dimension adjacente, offrant un espace équivalent à plusieurs milliards de kilomètres carrés une fois configuré. Dans cette dimension, la Confédération peut largement stocker des ressources, des pièces détachées, des déchets et divers autres articles de stockage, libérant ainsi de l'espace précieux sur les planètes et les stations orbitales. Cependant, malgré l'utilité de cette dimension, les techno-chercheurs n'ont pas approfondi l'étude de cet environnement. À ce jour, seule une estimation de sa taille a été fournie. Sa localisation exacte à l'échelle subatomique et ses formes de vie potentielles restent entièrement inconnues."
+
+#: simulation/data/technologies/robot/resources_storage_MK1.jsontooltip
+msgid "Increases the gathering speed of Ladybots."
+msgstr "Augmente la vitesse de récolte des Ladybots."
+
+
+#: simulation/data/technologies/robot/resources_storage_MK2.jsongenericName
+msgid "Overproductivity MK2"
+msgstr "Surproductivité MK2"
+
+#: simulation/data/technologies/robot/resources_storage_MK2.jsondescription
+msgid "The Dimensional Network stands as a groundbreaking system enabling servers to connect to an adjacent dimension, offering space equivalent to several billion square kilometers once configured. In this dimension, the Confederation can vastly store resources, spare parts, waste, and various other storage items, thereby freeing up precious space on planets and orbiting stations. However, despite the utility of this dimension, technoresearchers have not delved deeper into studying this environment. To date, only an estimate of its size has been provided. Its exact subatomic-scale location and potential forms of life remain entirely unknown."
+msgstr "Le Réseau Dimensionnel est un système révolutionnaire qui permet aux serveurs de se connecter à une dimension adjacente, offrant un espace équivalent à plusieurs milliards de kilomètres carrés une fois configuré. Dans cette dimension, la Confédération peut largement stocker des ressources, des pièces détachées, des déchets et divers autres articles de stockage, libérant ainsi de l'espace précieux sur les planètes et les stations orbitales. Cependant, malgré l'utilité de cette dimension, les techno-chercheurs n'ont pas approfondi l'étude de cet environnement. À ce jour, seule une estimation de sa taille a été fournie. Sa localisation exacte à l'échelle subatomique et ses formes de vie potentielles restent entièrement inconnues."
+
+#: simulation/data/technologies/robot/resources_storage_MK2.jsontooltip
+msgid "Increases the gathering speed of Ladybots."
+msgstr "Augmente la vitesse de récolte des Ladybots."
+
+#: simulation/data/technologies/robot/resources_storage_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Overproductivity MK1."
+msgstr "Débloquée après Surproductivité MK1."
+
+
+#: simulation/data/technologies/robot/resources_storage_MK3.jsongenericName
+msgid "Overproductivity MK3"
+msgstr "Surproductivité MK3"
+
+#: simulation/data/technologies/robot/resources_storage_MK3.jsondescription
+msgid "The Dimensional Network stands as a groundbreaking system enabling servers to connect to an adjacent dimension, offering space equivalent to several billion square kilometers once configured. In this dimension, the Confederation can vastly store resources, spare parts, waste, and various other storage items, thereby freeing up precious space on planets and orbiting stations. However, despite the utility of this dimension, technoresearchers have not delved deeper into studying this environment. To date, only an estimate of its size has been provided. Its exact subatomic-scale location and potential forms of life remain entirely unknown."
+msgstr "Le Réseau Dimensionnel est un système révolutionnaire qui permet aux serveurs de se connecter à une dimension adjacente, offrant un espace équivalent à plusieurs milliards de kilomètres carrés une fois configuré. Dans cette dimension, la Confédération peut largement stocker des ressources, des pièces détachées, des déchets et divers autres articles de stockage, libérant ainsi de l'espace précieux sur les planètes et les stations orbitales. Cependant, malgré l'utilité de cette dimension, les techno-chercheurs n'ont pas approfondi l'étude de cet environnement. À ce jour, seule une estimation de sa taille a été fournie. Sa localisation exacte à l'échelle subatomique et ses formes de vie potentielles restent entièrement inconnues."
+
+#: simulation/data/technologies/robot/resources_storage_MK3.jsontooltip
+msgid "Increases the gathering speed of Ladybots."
+msgstr "Augmente la vitesse de récolte des Ladybots."
+
+#: simulation/data/technologies/robot/resources_storage_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Overproductivity MK2."
+msgstr "Débloquée après Surproductivité MK2."
+
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK1.jsongenericName
+msgid "Falcobot MK1"
+msgstr "Falcobot MK1"
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK1.jsondescription
+msgid "Airborne Dopamine is an artificial sensory experience that provides Falcobots with sensations akin to satisfaction and happiness during their flight in the skies. This sensation is induced by the application of precise electrical discharges within the circuits of the Falcobot, thereby stimulating its system to amplify the perceived emotions. This stimulation significantly enhances the efficiency, perseverance, and outcomes of Falcobots on the battlefield."
+msgstr "La Dopamine de Voltige est une expérience sensorielle artificielle qui procure aux Falcobots des sensations proches de la satisfaction et du bonheur pendant leur vol dans les airs. Cette sensation est induite par l'application de décharges électriques précises dans les circuits du Falcobot, stimulant ainsi son système pour amplifier les émotions perçues. Cette stimulation améliore considérablement l'efficacité, la persévérance et les résultats des Falcobots sur le champ de bataille."
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK1.jsontooltip
+msgid "Increases Falcobots health + 50, flying speed + 10% and damage + 5."
+msgstr "Augmente les points de vie de + 50, la vitesse de vol de + 10% et les dégâts de + 5 des Faclcobots."
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK1.jsonrequirementsTooltip
+msgid "Unlocked after Falcobot MK1."
+msgstr "Débloquée après Falcobot MK1."
+
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK2.jsongenericName
+msgid "Falcobot MK2"
+msgstr "Falcobot MK2"
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK2.jsondescription
+msgid "Airborne Dopamine is an artificial sensory experience that provides Falcobots with sensations akin to satisfaction and happiness during their flight in the skies. This sensation is induced by the application of precise electrical discharges within the circuits of the Falcobot, thereby stimulating its system to amplify the perceived emotions. This stimulation significantly enhances the efficiency, perseverance, and outcomes of Falcobots on the battlefield."
+msgstr "La Dopamine de Voltige est une expérience sensorielle artificielle qui procure aux Falcobots des sensations proches de la satisfaction et du bonheur pendant leur vol dans les airs. Cette sensation est induite par l'application de décharges électriques précises dans les circuits du Falcobot, stimulant ainsi son système pour amplifier les émotions perçues. Cette stimulation améliore considérablement l'efficacité, la persévérance et les résultats des Falcobots sur le champ de bataille."
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK2.jsontooltip
+msgid "Increases Falcobots health + 50, flying speed + 10% and damage + 5."
+msgstr "Augmente les points de vie de + 50, la vitesse de vol de + 10% et les dégâts de + 5 des Faclcobots."
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Falcobot MK1."
+msgstr "Débloquée après Falcobot MK1."
+
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK3.jsongenericName
+msgid "Falcobot MK3"
+msgstr "Falcobot MK3"
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK3.jsondescription
+msgid "Airborne Dopamine is an artificial sensory experience that provides Falcobots with sensations akin to satisfaction and happiness during their flight in the skies. This sensation is induced by the application of precise electrical discharges within the circuits of the Falcobot, thereby stimulating its system to amplify the perceived emotions. This stimulation significantly enhances the efficiency, perseverance, and outcomes of Falcobots on the battlefield."
+msgstr "La Dopamine de Voltige est une expérience sensorielle artificielle qui procure aux Falcobots des sensations proches de la satisfaction et du bonheur pendant leur vol dans les airs. Cette sensation est induite par l'application de décharges électriques précises dans les circuits du Falcobot, stimulant ainsi son système pour amplifier les émotions perçues. Cette stimulation améliore considérablement l'efficacité, la persévérance et les résultats des Falcobots sur le champ de bataille."
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK3.jsontooltip
+msgid "Increases Falcobots health + 100, flying speed + 15% and damage + 10."
+msgstr "Augmente les points de vie de + 50, la vitesse de vol de + 15 % et les dégâts de + 10 des Faclcobots."
+
+#: simulation/data/technologies/robot/spaceship_hunter_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Falcobot MK2."
+msgstr "Débloquée après Falcobot MK2."
+
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK1.jsongenericName
+msgid "Ladybot MK1"
+msgstr "Ladybot MK1"
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK1.jsondescription
+msgid "The Automatic Compression revolutionizes the work of Ladybots. It automatically compresses the materials and resources they transport. This innovation is based on reducing the size of the cellular structure of the transported elements, thus facilitating the transport of a considerably larger quantity of resources. Thanks to this capability, Ladybots can optimize the efficiency of their transport operations, offering an ingenious solution to maximize deployment and routing speed."
+msgstr "La Compression Automatique révolutionne le travail des Ladybots. Elle comprime automatiquement les matériaux et les ressources qu'elles transportent. Cette innovation repose sur la réduction de la taille de la structure cellulaire des éléments transportés, facilitant ainsi le transport d'une quantité considérablement plus importante de ressources. Grâce à cette capacité, les Ladybots peuvent optimiser l'efficacité de leurs opérations de transport, offrant ainsi une solution ingénieuse pour maximiser la vitesse de déploiement et d'acheminement."
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK1.jsontooltip
+msgid "Increases Ladybots speed + 10%, health + 50 and storage capacities + 50."
+msgstr "Augmente la vitessee de vol de + 10%, les points de vie de + 50 et la capacité de stockage de + 50 des Ladybots."
+
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK2.jsongenericName
+msgid "Ladybot MK2"
+msgstr "Ladybot MK2"
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK2.jsondescription
+msgid "The Automatic Compression revolutionizes the work of Ladybots. It automatically compresses the materials and resources they transport. This innovation is based on reducing the size of the cellular structure of the transported elements, thus facilitating the transport of a considerably larger quantity of resources. Thanks to this capability, Ladybots can optimize the efficiency of their transport operations, offering an ingenious solution to maximize deployment and routing speed."
+msgstr "La Compression Automatique révolutionne le travail des Ladybots. Elle comprime automatiquement les matériaux et les ressources qu'elles transportent. Cette innovation repose sur la réduction de la taille de la structure cellulaire des éléments transportés, facilitant ainsi le transport d'une quantité considérablement plus importante de ressources. Grâce à cette capacité, les Ladybots peuvent optimiser l'efficacité de leurs opérations de transport, offrant ainsi une solution ingénieuse pour maximiser la vitesse de déploiement et d'acheminement."
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK2.jsontooltip
+msgid "Increases Ladybots speed + 10%, health + 70 and storage capacities + 50."
+msgstr "Augmente la vitessee de vol de + 10%, les points de vie de + 70 et la capacité de stockage de + 50 des Ladybots."
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Ladybot MK1."
+msgstr "Débloquée après Ladybot MK1."
+
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK3.jsongenericName
+msgid "Ladybot MK3"
+msgstr "Ladybot MK3"
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK3.jsondescription
+msgid "The Automatic Compression revolutionizes the work of Ladybots. It automatically compresses the materials and resources they transport. This innovation is based on reducing the size of the cellular structure of the transported elements, thus facilitating the transport of a considerably larger quantity of resources. Thanks to this capability, Ladybots can optimize the efficiency of their transport operations, offering an ingenious solution to maximize deployment and routing speed."
+msgstr "La Compression Automatique révolutionne le travail des Ladybots. Elle comprime automatiquement les matériaux et les ressources qu'elles transportent. Cette innovation repose sur la réduction de la taille de la structure cellulaire des éléments transportés, facilitant ainsi le transport d'une quantité considérablement plus importante de ressources. Grâce à cette capacité, les Ladybots peuvent optimiser l'efficacité de leurs opérations de transport, offrant ainsi une solution ingénieuse pour maximiser la vitesse de déploiement et d'acheminement."
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK3.jsontooltip
+msgid "Increases Ladybots speed + 10%, health + 100 and storage capacities + 100."
+msgstr "Augmente la vitessee de vol de + 10%, les points de vie de + 100 et la capacité de stockage de + 100 des Ladybots."
+
+#: simulation/data/technologies/robot/spaceship_resources_transporter_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Ladybot MK2."
+msgstr "Débloquée après Ladybot MK2."
+
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK1.jsongenericName
+msgid "Bumblebot MK1"
+msgstr "Bumblebot MK1"
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK1.jsondescription
+msgid "The Propulsion System of the Bumblebots relies on cutting-edge technology utilizing miniaturized ion thrusters and highly efficient power generators. These thrusters are specially designed to provide precise directional thrust, allowing the Bumblebots to maneuver with agility in the air. Propulsion units optimize both speed and efficiency of movement. Thanks to this technology, Bumblebots can achieve incredible speeds, enabling them to reach distant positions in just fractions of minutes."
+msgstr "Le système de propulsion des Bumblebots repose sur une technologie de pointe utilisant des propulseurs ioniques miniaturisés et des générateurs d'énergie très efficaces. Ces propulseurs sont spécialement conçus pour fournir une poussée directionnelle précise, permettant aux Bumblebots de manœuvrer avec agilité dans les airs. Les unités de propulsion optimisent à la fois la vitesse et l'efficacité des mouvements. Grâce à cette technologie, les Bumblebots peuvent atteindre des vitesses incroyables, ce qui leur permet d'atteindre des positions éloignées en quelques fractions de minutes."
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK1.jsontooltip
+msgid "Increases Bumblebots health + 50, flying speed + 10% and garrison + 10."
+msgstr "Augmente les points de vie de + 50, la vitesse de vol de + 10% et la garnison de 10 des Bumblebots."
+
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK2.jsongenericName
+msgid "Bumblebot MK2"
+msgstr "Bumblebot MK2"
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK2.jsondescription
+msgid "The Propulsion System of the Bumblebots relies on cutting-edge technology utilizing miniaturized ion thrusters and highly efficient power generators. These thrusters are specially designed to provide precise directional thrust, allowing the Bumblebots to maneuver with agility in the air. Propulsion units optimize both speed and efficiency of movement. Thanks to this technology, Bumblebots can achieve incredible speeds, enabling them to reach distant positions in just fractions of minutes."
+msgstr "Le système de propulsion des Bumblebots repose sur une technologie de pointe utilisant des propulseurs ioniques miniaturisés et des générateurs d'énergie très efficaces. Ces propulseurs sont spécialement conçus pour fournir une poussée directionnelle précise, permettant aux Bumblebots de manœuvrer avec agilité dans les airs. Les unités de propulsion optimisent à la fois la vitesse et l'efficacité des mouvements. Grâce à cette technologie, les Bumblebots peuvent atteindre des vitesses incroyables, ce qui leur permet d'atteindre des positions éloignées en quelques fractions de minutes."
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK2.jsontooltip
+msgid "Increases Bumblebots health + 70, flying speed + 15% and garrison + 10."
+msgstr "Augmente les points de vie de + 70, la vitesse de vol de + 15% et la garnison de 10 des Bumblebots."
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Bumblebot MK1."
+msgstr "Débloquée après Bumblebot MK1."
+
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK3.jsongenericName
+msgid "Bumblebot MK3"
+msgstr "Bumblebot MK3"
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK3.jsondescription
+msgid "The Propulsion System of the Bumblebots relies on cutting-edge technology utilizing miniaturized ion thrusters and highly efficient power generators. These thrusters are specially designed to provide precise directional thrust, allowing the Bumblebots to maneuver with agility in the air. Propulsion units optimize both speed and efficiency of movement. Thanks to this technology, Bumblebots can achieve incredible speeds, enabling them to reach distant positions in just fractions of minutes."
+msgstr "Le système de propulsion des Bumblebots repose sur une technologie de pointe utilisant des propulseurs ioniques miniaturisés et des générateurs d'énergie très efficaces. Ces propulseurs sont spécialement conçus pour fournir une poussée directionnelle précise, permettant aux Bumblebots de manœuvrer avec agilité dans les airs. Les unités de propulsion optimisent à la fois la vitesse et l'efficacité des mouvements. Grâce à cette technologie, les Bumblebots peuvent atteindre des vitesses incroyables, ce qui leur permet d'atteindre des positions éloignées en quelques fractions de minutes."
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK3.jsontooltip
+msgid "Increases Bumblebots health + 100, flying speed + 20% and garrison + 10."
+msgstr "Augmente les points de vie de + 100, la vitesse de vol de + 20% et la garnison de 10 des Bumblebots."
+
+#: simulation/data/technologies/robot/spaceship_units_transporter_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Bumblebot MK2."
+msgstr "Débloquée après Bumblebot MK2."
+
+
+#: simulation/data/technologies/robot/support_explorer_MK1.jsongenericName
+msgid "Spybot MK1"
+msgstr "Spybot MK1"
+
+#: simulation/data/technologies/robot/support_explorer_MK1.jsondescription
+msgid "The Cartographic Deduction is a method enabling Spybots to analyze and map terrestrial, aerial, or underground environments before directly observing them. This process involves utilizing surface-collected data to make inferences about the environment, taking into account climatic conditions and available resources. While this approach may not be absolutely precise, it demonstrates remarkable advancements and provides unprecedented terrain previsualization in military history."
+msgstr "La Déduction Cartographique est une méthode permettant aux Spybots d'analyser et de cartographier des environnements terrestres, aériens ou souterrains avant de les observer directement. Ce processus consiste à utiliser les données collectées en surface pour faire des déductions sur l'environnement, en tenant compte des conditions climatiques et des ressources disponibles. Même si cette approche n'est pas d'une précision absolue, elle constitue une avancée remarquable et permet une prévisualisation du terrain sans précédent dans l'histoire militaire."
+
+#: simulation/data/technologies/robot/support_explorer_MK1.jsontooltip
+msgid "Increases Spybots vision range + 6, health + 10 and flying speed + 1."
+msgstr "Augmente le champ de vision de + 6, les points de vie de + 10 et la vitesse de vol de + 1 des Spybots."
+
+
+#: simulation/data/technologies/robot/support_explorer_MK2.jsongenericName
+msgid "Spybot MK2"
+msgstr "Spybot MK2"
+
+#: simulation/data/technologies/robot/support_explorer_MK2.jsondescription
+msgid "The Cartographic Deduction is a method enabling Spybots to analyze and map terrestrial, aerial, or underground environments before directly observing them. This process involves utilizing surface-collected data to make inferences about the environment, taking into account climatic conditions and available resources. While this approach may not be absolutely precise, it demonstrates remarkable advancements and provides unprecedented terrain previsualization in military history."
+msgstr "La Déduction Cartographique est une méthode permettant aux Spybots d'analyser et de cartographier des environnements terrestres, aériens ou souterrains avant de les observer directement. Ce processus consiste à utiliser les données collectées en surface pour faire des déductions sur l'environnement, en tenant compte des conditions climatiques et des ressources disponibles. Même si cette approche n'est pas d'une précision absolue, elle constitue une avancée remarquable et permet une prévisualisation du terrain sans précédent dans l'histoire militaire."
+
+#: simulation/data/technologies/robot/support_explorer_MK2.jsontooltip
+msgid "Increases Spybots vision range + 9, health + 12 and flying speed + 1.5."
+msgstr "Augmente le champ de vision de + 9, les points de vie de + 12 et la vitesse de vol de + 1.5 des Spybots."
+
+#: simulation/data/technologies/robot/support_explorer_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Spybot MK1."
+msgstr "Débloquée après Spybot MK1."
+
+
+#: simulation/data/technologies/robot/support_explorer_MK3.jsongenericName
+msgid "Spybot MK3"
+msgstr "Spybot MK3"
+
+#: simulation/data/technologies/robot/support_explorer_MK3.jsondescription
+msgid "The Cartographic Deduction is a method enabling Spybots to analyze and map terrestrial, aerial, or underground environments before directly observing them. This process involves utilizing surface-collected data to make inferences about the environment, taking into account climatic conditions and available resources. While this approach may not be absolutely precise, it demonstrates remarkable advancements and provides unprecedented terrain previsualization in military history."
+msgstr "La Déduction Cartographique est une méthode permettant aux Spybots d'analyser et de cartographier des environnements terrestres, aériens ou souterrains avant de les observer directement. Ce processus consiste à utiliser les données collectées en surface pour faire des déductions sur l'environnement, en tenant compte des conditions climatiques et des ressources disponibles. Même si cette approche n'est pas d'une précision absolue, elle constitue une avancée remarquable et permet une prévisualisation du terrain sans précédent dans l'histoire militaire."
+
+#: simulation/data/technologies/robot/support_explorer_MK3.jsontooltip
+msgid "Increases Spybots vision range + 10, health + 13 and flying speed + 2."
+msgstr "Augmente le champ de vision de + 10, les points de vie de + 13 et la vitesse de vol de + 2 des Spybots."
+
+#: simulation/data/technologies/robot/support_explorer_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Spybot MK2."
+msgstr "Débloquée après Spybot MK2."
+
+
+#: simulation/data/technologies/robot/support_worker_MK1.jsongenericName
+msgid "Buildobot MK1"
+msgstr "Buildobot MK1"
+
+#: simulation/data/technologies/robot/support_worker_MK1.jsondescription
+msgid "The Creative Discharges empower Buildobots by enabling them to manifest unprecedented constructivism and imagination, providing them with what they have always lacked: creativity. Operating from a sophisticated artificial neural network, this technology analyzes environmental data, construction objectives, and specific constraints to generate innovative ideas and ingenious solutions. By combining deep learning algorithms and natural language processing techniques, Buildobots are able to design structures and projects that surpass the bounds of preprogrammed logic, thus offering endless possibilities for construction and innovation."
+msgstr "Les Décharges Créatives renforcent les Buildobots en leur permettant de faire preuve d'un constructivisme et d'une imagination sans précédent, en leur apportant ce qui leur a toujours fait défaut : la créativité. Fonctionnant à partir d'un réseau neuronal artificiel sophistiqué, cette technologie analyse les données environnementales, les objectifs de construction et les contraintes spécifiques pour générer des idées novatrices et des solutions ingénieuses. En combinant des algorithmes d'apprentissage profond et des techniques de traitement du langage naturel, les Buildobots sont capables de concevoir des structures et des projets qui dépassent les limites de la logique préprogrammée, offrant ainsi des possibilités infinies en matière de construction et d'innovation."
+
+#: simulation/data/technologies/robot/support_worker_MK1.jsontooltip
+msgid "Increases Buildobots resistance + 2, walkspeed + 1 and building speed + 10%."
+msgstr "Augmente la résistance de + 2, la vitesse de marche de + 1 et la vitesse de construction de 10%."
+
+
+#: simulation/data/technologies/robot/support_worker_MK2.jsongenericName
+msgid "Buildobot MK2"
+msgstr "Buildobot MK2"
+
+#: simulation/data/technologies/robot/support_worker_MK2.jsondescription
+msgid "The Creative Discharges empower Buildobots by enabling them to manifest unprecedented constructivism and imagination, providing them with what they have always lacked: creativity. Operating from a sophisticated artificial neural network, this technology analyzes environmental data, construction objectives, and specific constraints to generate innovative ideas and ingenious solutions. By combining deep learning algorithms and natural language processing techniques, Buildobots are able to design structures and projects that surpass the bounds of preprogrammed logic, thus offering endless possibilities for construction and innovation."
+msgstr "Les Décharges Créatives renforcent les Buildobots en leur permettant de faire preuve d'un constructivisme et d'une imagination sans précédent, en leur apportant ce qui leur a toujours fait défaut : la créativité. Fonctionnant à partir d'un réseau neuronal artificiel sophistiqué, cette technologie analyse les données environnementales, les objectifs de construction et les contraintes spécifiques pour générer des idées novatrices et des solutions ingénieuses. En combinant des algorithmes d'apprentissage profond et des techniques de traitement du langage naturel, les Buildobots sont capables de concevoir des structures et des projets qui dépassent les limites de la logique préprogrammée, offrant ainsi des possibilités infinies en matière de construction et d'innovation."
+
+#: simulation/data/technologies/robot/support_worker_MK2.jsontooltip
+msgid "Increases Buildobots resistance + 3, walkspeed + 1.5 and building speed + 15%."
+msgstr "Augmente la résistance de + 3, la vitesse de marche de + 1.5 et la vitesse de construction de 15%."
+
+#: simulation/data/technologies/robot/support_worker_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Buildobot MK1."
+msgstr "Débloquée après Buildobot MK1."
+
+
+#: simulation/data/technologies/robot/support_worker_MK3.jsongenericName
+msgid "Buildobot MK3"
+msgstr "Buildobot MK3"
+
+#: simulation/data/technologies/robot/support_worker_MK3.jsondescription
+msgid "The Creative Discharges empower Buildobots by enabling them to manifest unprecedented constructivism and imagination, providing them with what they have always lacked: creativity. Operating from a sophisticated artificial neural network, this technology analyzes environmental data, construction objectives, and specific constraints to generate innovative ideas and ingenious solutions. By combining deep learning algorithms and natural language processing techniques, Buildobots are able to design structures and projects that surpass the bounds of preprogrammed logic, thus offering endless possibilities for construction and innovation."
+msgstr "Les Décharges Créatives renforcent les Buildobots en leur permettant de faire preuve d'un constructivisme et d'une imagination sans précédent, en leur apportant ce qui leur a toujours fait défaut : la créativité. Fonctionnant à partir d'un réseau neuronal artificiel sophistiqué, cette technologie analyse les données environnementales, les objectifs de construction et les contraintes spécifiques pour générer des idées novatrices et des solutions ingénieuses. En combinant des algorithmes d'apprentissage profond et des techniques de traitement du langage naturel, les Buildobots sont capables de concevoir des structures et des projets qui dépassent les limites de la logique préprogrammée, offrant ainsi des possibilités infinies en matière de construction et d'innovation."
+
+#: simulation/data/technologies/robot/support_worker_MK3.jsontooltip
+msgid "Increases Buildobots resistance + 4, walkspeed + 2 and building speed + 20%."
+msgstr "Augmente la résistance de + 4, la vitesse de marche de + 2 et la vitesse de construction de 20%."
+
+#: simulation/data/technologies/robot/support_worker_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Buildobot MK2."
+msgstr "Débloquée après Buildobot MK2."
+
+
+#: simulation/data/technologies/robot/technical_center_MK1.jsongenericName
+msgid "Enhanced Reparation MK1"
+msgstr "Réparation Améliorée MK1"
+
+#: simulation/data/technologies/robot/technical_center_MK1.jsondescription
+msgid "The Systematic Repair enhances maintenance for the Mechanized Confederation's automatons by simplifying and expediting the repair process. Based on advanced analysis systems and extensive automation, this technology enables rapid and precise detection of issues encountered by the automatons. Once problems are identified, sophisticated algorithms are activated to coordinate and perform necessary repairs efficiently and accurately. Subsequently, assembly lines equipped with appropriate tools and spare parts intervene to carry out repairs with surgical precision."
+msgstr "La Réparation Systématique améliore la maintenance des automates de la Confédération mécanisée en simplifiant et en accélérant le processus de réparation. Basée sur des systèmes d'analyse avancés et une automatisation poussée, cette technologie permet une détection rapide et précise des problèmes rencontrés par les automates. Une fois les problèmes identifiés, des algorithmes sophistiqués sont activés pour coordonner et effectuer les réparations nécessaires de manière efficace et précise. Ensuite, des chaînes de montage équipées d'outils et de pièces de rechange appropriés interviennent pour effectuer les réparations avec une précision chirurgicale."
+
+#: simulation/data/technologies/robot/technical_center_MK1.jsontooltip
+msgid "Increases Technical Centers garrison Max + 5, heal/sec + 1."
+msgstr "Augmente la garnison de + 5 et les points de vis soignés par seconde de + 1 du Technical Center."
+
+#: simulation/data/technologies/robot/technical_center_MK1.jsonrequirementsTooltip
+msgid "Unlocked after Enhanced Reparation MK2."
+msgstr "Débloquée après Enhanced Reparation MK2."
+
+
+#: simulation/data/technologies/robot/technical_center_MK2.jsongenericName
+msgid "Enhanced Reparation MK2"
+msgstr "Réparation Améliorée MK2"
+
+#: simulation/data/technologies/robot/technical_center_MK2.jsondescription
+msgid "The Systematic Repair enhances maintenance for the Mechanized Confederation's automatons by simplifying and expediting the repair process. Based on advanced analysis systems and extensive automation, this technology enables rapid and precise detection of issues encountered by the automatons. Once problems are identified, sophisticated algorithms are activated to coordinate and perform necessary repairs efficiently and accurately. Subsequently, assembly lines equipped with appropriate tools and spare parts intervene to carry out repairs with surgical precision."
+msgstr "La Réparation Systématique améliore la maintenance des automates de la Confédération mécanisée en simplifiant et en accélérant le processus de réparation. Basée sur des systèmes d'analyse avancés et une automatisation poussée, cette technologie permet une détection rapide et précise des problèmes rencontrés par les automates. Une fois les problèmes identifiés, des algorithmes sophistiqués sont activés pour coordonner et effectuer les réparations nécessaires de manière efficace et précise. Ensuite, des chaînes de montage équipées d'outils et de pièces de rechange appropriés interviennent pour effectuer les réparations avec une précision chirurgicale."
+
+#: simulation/data/technologies/robot/technical_center_MK2.jsontooltip
+msgid "Increases Technical Centers garrison Max + 10, heal/sec + 1."
+msgstr "Augmente la garnison de + 10 et les points de vis soignés par seconde de + 1 du Technical Center."
+
+#: simulation/data/technologies/robot/technical_center_MK2.jsonrequirementsTooltip
+msgid "Unlocked after Enhanced Reparation MK1."
+msgstr "Débloquée après Enhanced Reparation MK1."
+
+
+#: simulation/data/technologies/robot/technical_center_MK3.jsongenericName
+msgid "Enhanced Reparation MK3"
+msgstr "Réparation Améliorée MK3"
+
+#: simulation/data/technologies/robot/technical_center_MK3.jsondescription
+msgid "The Systematic Repair enhances maintenance for the Mechanized Confederation's automatons by simplifying and expediting the repair process. Based on advanced analysis systems and extensive automation, this technology enables rapid and precise detection of issues encountered by the automatons. Once problems are identified, sophisticated algorithms are activated to coordinate and perform necessary repairs efficiently and accurately. Subsequently, assembly lines equipped with appropriate tools and spare parts intervene to carry out repairs with surgical precision."
+msgstr "La Réparation Systématique améliore la maintenance des automates de la Confédération mécanisée en simplifiant et en accélérant le processus de réparation. Basée sur des systèmes d'analyse avancés et une automatisation poussée, cette technologie permet une détection rapide et précise des problèmes rencontrés par les automates. Une fois les problèmes identifiés, des algorithmes sophistiqués sont activés pour coordonner et effectuer les réparations nécessaires de manière efficace et précise. Ensuite, des chaînes de montage équipées d'outils et de pièces de rechange appropriés interviennent pour effectuer les réparations avec une précision chirurgicale."
+
+#: simulation/data/technologies/robot/technical_center_MK3.jsontooltip
+msgid "Increases Technical Centers garrison Max + 15, heal/sec + 2."
+msgstr "Augmente la garnison de + 15 et les points de vis soignés par seconde de + 2 du Technical Center."
+
+#: simulation/data/technologies/robot/technical_center_MK3.jsonrequirementsTooltip
+msgid "Unlocked after Enhanced Reparation MK2."
+msgstr "Débloquée après Enhanced Reparation MK2."
+
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsongenericName
+msgid "Sonic Cannon MK1"
+msgstr "Canon Sonique MK1"
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsondescription
+msgid "In order to defend themselves against enemy attacks, the Robots have developed a sonic cannon capable of firing more powerful projectiles at ground units, inflicting heavy damage on their armour and with a greater range than their basic cannon."
+msgstr "Dans le but de se défendre des attaques ennemies, les Robots ont développé un canon sonique capable de tirer sur des unités au sol avec des projectiles plus puissants infligeant de lourds dégâts à leur blindage et ce avec une plus grande portée que leur canon de base."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsontooltip
+msgid "Increases Land Turret damages + 3 and range + 15."
+msgstr "Augmente les dégâts de + 3 et la portée de + 15 de la Tourelle Terrestre."
+
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsongenericName
+msgid "Sonic Cannon MK2"
+msgstr "Canon Sonique MK2"
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsondescription
+msgid "In order to defend themselves against enemy attacks, the Robots have developed a sonic cannon capable of firing more powerful projectiles at ground units, inflicting heavy damage on their armour and with a greater range than their basic cannon."
+msgstr "Dans le but de se défendre des attaques ennemies, les Robots ont développé un canon sonique capable de tirer sur des unités au sol avec des projectiles plus puissants infligeant de lourds dégâts à leur blindage et ce avec une plus grande portée que leur canon de base."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsontooltip
+msgid "Increases Land Turret damages + 3 and range + 15."
+msgstr "Augmente les dégâts de + 3 et la portée de + 15 de la Tourelle Terrestre."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsonrequirementsTooltip
+msgid "Unlocked after Sonic Cannon MK1."
+msgstr "Débloquée après Canon Sonique MK1."
+
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsongenericName
+msgid "Sonic Cannon MK3"
+msgstr "Canon Sonique MK3"
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsondescription
+msgid "In order to defend themselves against enemy attacks, the Robots have developed a sonic cannon capable of firing more powerful projectiles at ground units, inflicting heavy damage on their armour and with a greater range than their basic cannon."
+msgstr "Dans le but de se défendre des attaques ennemies, les Robots ont développé un canon sonique capable de tirer sur des unités au sol avec des projectiles plus puissants infligeant de lourds dégâts à leur blindage et ce avec une plus grande portée que leur canon de base."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsontooltip
+msgid "Increases Land Turret damages + 5 and range + 20."
+msgstr "Augmente les dégâts de + 5 et la portée de + 20 de la Tourelle Terrestre."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsonrequirementsTooltip
+msgid "Unlocked after Sonic Cannon MK2."
+msgstr "Débloquée après Canon Sonique MK2."
+
+
+#: simulation/data/technologies/phase_town_robot.jsongenericName
+msgid "Technological Progress TMK2"
+msgstr "Progrès Technologique TMK2"
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsondescription
+msgid "The TMK2 Technology Phase is a very important stage for the Robot faction. Among other things, it allows them to unlock ships, helping them to access previously inaccessible areas or to harvest resources much more quickly than before. This phase represents a real turning point in the history of the Robot civilisation."
+msgstr "La Phase Technologique TMK2 est une pahse très importante pour la faction des Robots. Elle leur permet entre autre de débloquer des vaisseaux, les aidant ainsi à accéder à des zones autrefois inaccessibles ou à récolter des ressources beaucoup plus rapidement qu'avant. Cette phase constitue un réel tournant dans l'histoire de la civilisation des Robots."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsontooltip
+msgid "Increases Buildobots building speed + 10% and Ladybots storage capacities + 50. Unlock Spacedock and Technical Center."
+msgstr "Augmente la vitesse de construction des Buildobots de + 10% et la capacité de stockage des Ladybots de + 50. Débloque le Spacedock et le Centre Technique." 
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsonrequirementsTooltip
+msgid "Requires three Phase One Structures."
+msgstr "Requiert trois bâtiments de la Phase Une."
+
+
+#: simulation/data/technologies/phase_city_robot.jsongenericName
+msgid "Technological Progress TMK3"
+msgstr "Progrès Technologique TMK3"
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsondescription
+msgid "The TMK3 Technological Phase is the apogee of the robot civilisation. They show their full potential by greatly increasing their production capacity and creating buildings that can switch between static and mobile modes. It is in TMK3 that the Robots prove to be very dangerous for their opponents. "
+msgstr "La Phase Technologique TMK3 est l'apogée de la civilisation des Robots. Ils montrent ainsi leur plein potentiel en augmentant grandement leur capacité de production ou encore en créant des bâtiments capables de passer d'un mode statique à un mode mobile. C'est en TMK3 que les Robots se révèlent être très dangereux pour ses opposants."
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsontooltip
+msgid "Increases Buildobots building speed + 20% and Ladybots storage capacities + 100. Unlock Spacedock and Technical Center."
+msgstr "Augmente la vitesse de construction des Buildobots de + 20% et la capacité de stockage des Ladybots de + 100. Débloque le Spacedock et le Centre Technique." 
+
+#: simulation/data/technologies/robot/turret_defense_MK1.jsonrequirementsTooltip
+msgid "Requires three Phase Two Structures."
+msgstr "Requiert trois bâtiments de la Phase Deux."

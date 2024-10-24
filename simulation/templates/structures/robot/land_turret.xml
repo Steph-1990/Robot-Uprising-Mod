@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_turret_land">
+
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Pierce>40</Pierce>
+        <Crush>40</Crush>
+      </Damage>
+      <MinRange>0</MinRange>
+      <MaxRange>80</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>200</RepeatTime>
+	  <RestrictedClasses datatype="tokens">Spaceship Structure</RestrictedClasses>
+    <PreferredClasses datatype="tokens">InfantryArea</PreferredClasses>
+    </Ranged>
+  </Attack>
+
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>1</Population>
+    <Resources>
+      <stone>300</stone>
+      <food>350</food>
+    </Resources>
+  </Cost>
+
+	<Footprint>
+		  <Circle radius="22"/>
+      <Height>12.0</Height>
+	</Footprint>
+
+  <Health>
+    <DeathType>vanish</DeathType>
+    <Max>1200</Max>
+    <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+
+  <Identity>
+    <Civ>robot</Civ>
+    <GenericName>Land Turret</GenericName>
+    <Icon>structures/robot/defense_turret.png</Icon>
+    <SpecificName>Land Turret</SpecificName>
+    <Tooltip>Automatic Turret which is able to shoot on grounded units only. This building can be improved by technologies directly researched by the Land Turret.</Tooltip>
+		<History>This turret has been programmed to defend the field around his view at any cost, which make it quite useful when Robots have to defend themselves against grounded enemies.</History>
+  </Identity>
+
+  <Loot>
+    <wood>10</wood>
+    <stone>10</stone>
+    <food>10</food>
+    <xp>35</xp>
+  </Loot>
+
+  <Obstruction>
+		<Static width="22.0" depth="22.0"/>
+	</Obstruction>
+
+  <ParticlePlayerColor/>
+
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/land_turret_select.xml</select>
+    </SoundGroups>
+  </Sound>
+
+  <VisualActor>
+    <Actor>structures/robot/land_turret.xml</Actor>
+	  <FoundationActor>structures/fndn_theater.xml</FoundationActor>
+  </VisualActor>
+
+</Entity>

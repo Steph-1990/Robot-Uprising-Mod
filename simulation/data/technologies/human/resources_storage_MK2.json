@@ -1,0 +1,18 @@
+{
+	"genericName": "Drilling Abundance MK2",
+	"description": "Resource transporter can gather faster.",
+	"supersedes": "human/resources_storage_MK1",
+	"cost": {
+		"wood": 400
+	},
+	"requirements": { "tech": "phase_town" },
+	"icon": "human/resources_storage_2.png",
+	"requirementsTooltip": "Unlocked after Drilling Abundance MK1.",
+	"researchTime": 45,
+	"tooltip": "Gathering speed + 1.",
+	"modifications": [
+		{ "value": "ResourceGatherer/BaseSpeed", "add": 1 }
+	],
+	"affects": ["SpaceshipResourcesTransporter"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

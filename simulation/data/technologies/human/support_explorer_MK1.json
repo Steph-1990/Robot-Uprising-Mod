@@ -1,0 +1,23 @@
+{
+	"genericName": "Explorer MK1",
+	"description": "Improve the centered optical of the explorer, his armor and his ability to fly fast.",
+	"cost": {
+		"wood": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village_human" },
+			{ "civ": "human" }
+		]
+	},
+	"icon": "human/support_explorer_1.png",
+	"researchTime": 30,
+	"tooltip": "Vision range + 6, Health + 10, Flying speed + 1.",
+	"modifications": [
+		{ "value": "Vision/Range", "add": 6 },
+		{ "value": "Health/Max", "add": 10 },
+		{ "value": "UnitMotionFlying/MaxSpeed", "add": 1 }
+	],
+	"affects": ["Explorer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

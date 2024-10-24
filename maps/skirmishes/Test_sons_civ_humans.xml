@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>dark2</SkySet>
+		<SunColor r="1.5" g="1.5" b="1.5"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.313726" g="0.376471" b="0.521569"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>0</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="324.137" y="263.566" z="20.6415"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Test_sons_civ_humans",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "human"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="4">
+			<Template>structures/human/anti_aircraft_turret</Template>
+			<Player>1</Player>
+			<Position x="104.67647" z="387.96708"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19865"/>
+		</Entity>
+		<Entity uid="5">
+			<Template>structures/human/area_defense_turret</Template>
+			<Player>1</Player>
+			<Position x="161.69004" z="414.88001"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11053"/>
+		</Entity>
+		<Entity uid="6">
+			<Template>structures/human/armored_infantry_factory</Template>
+			<Player>1</Player>
+			<Position x="231.25214" z="430.589"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60787"/>
+		</Entity>
+		<Entity uid="7">
+			<Template>structures/human/command_base</Template>
+			<Player>1</Player>
+			<Position x="364.0811" z="442.50245"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43158"/>
+		</Entity>
+		<Entity uid="8">
+			<Template>structures/human/land_turret</Template>
+			<Player>1</Player>
+			<Position x="77.6637" z="330.09913"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59499"/>
+		</Entity>
+		<Entity uid="9">
+			<Template>structures/human/energy_supplier</Template>
+			<Player>1</Player>
+			<Position x="160.26297" z="323.85639"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35755"/>
+		</Entity>
+		<Entity uid="10">
+			<Template>structures/human/infantry_factory</Template>
+			<Player>1</Player>
+			<Position x="237.32313" z="339.73108"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16955"/>
+		</Entity>
+		<Entity uid="11">
+			<Template>structures/human/landmine</Template>
+			<Player>1</Player>
+			<Position x="277.23469" z="341.91666"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41755"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/human/meka_elite_factory</Template>
+			<Player>1</Player>
+			<Position x="355.318" z="318.75928"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29295"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/human/palisades_gate</Template>
+			<Player>1</Player>
+			<Position x="120.57186" z="237.1702"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20239"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/human/research_center</Template>
+			<Player>1</Player>
+			<Position x="206.68104" z="242.26777"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41367"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/human/spacedock</Template>
+			<Player>1</Player>
+			<Position x="435.99988" z="262.69706"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55847"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/human/explorer</Template>
+			<Player>1</Player>
+			<Position x="279.15168" z="141.01911"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24655"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/human/spaceship_units_transporter</Template>
+			<Player>1</Player>
+			<Position x="411.77283" z="188.02845"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61482"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/human/support_healer</Template>
+			<Player>1</Player>
+			<Position x="265.89722" z="133.58768"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6768"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/human/support_tactician</Template>
+			<Player>1</Player>
+			<Position x="276.14753" z="121.80172"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56849"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/human/worker</Template>
+			<Player>1</Player>
+			<Position x="285.99271" z="133.97458"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62139"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/human/spaceship_resources_transporter</Template>
+			<Player>1</Player>
+			<Position x="380.87885" z="199.94074"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28092"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/human/armored_infantry_melee_a</Template>
+			<Player>1</Player>
+			<Position x="306.08228" z="160.72693"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11114"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/human/armored_infantry_ranged_a</Template>
+			<Player>1</Player>
+			<Position x="317.58658" z="148.98548"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62658"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/human/infantry_melee_a</Template>
+			<Player>1</Player>
+			<Position x="349.85703" z="155.76063"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33901"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/human/infantry_ranged_area_a</Template>
+			<Player>1</Player>
+			<Position x="354.27051" z="144.73905"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63169"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/human/infantry_ranged_a</Template>
+			<Player>1</Player>
+			<Position x="360.14567" z="155.54316"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6316"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/human/spaceship_hunter_a</Template>
+			<Player>1</Player>
+			<Position x="393.59403" z="162.27857"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49615"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

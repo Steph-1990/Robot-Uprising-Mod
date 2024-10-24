@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/structures/robot/meka_elite_mesh.dae</mesh>
+      <textures>
+        <texture file="units/robot/meka_elite.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="training" file="structures/robot/meka_elite_mesh_building.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

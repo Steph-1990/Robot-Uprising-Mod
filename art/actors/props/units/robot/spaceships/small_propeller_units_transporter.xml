@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/units/robot/spaceships/small_propeller_units_transporter.dae</mesh>
+      <textures>
+        <texture file="units/robot/spaceship_units_transporter.png" name="baseTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="units/robot/small_propeller_units_transporter.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

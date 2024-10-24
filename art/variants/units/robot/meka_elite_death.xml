@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="death">
+    <animations>
+        <animation file="units/robot/death/meka_elite_death.dae" name="death" speed="100"/>
+    </animations>
+</variant>
